@@ -1,0 +1,7 @@
+lightrag-hku[api]==1.5.7
+beautifulsoup4
+lxml
+markdownify
+numpy
+requests
+tiktoken

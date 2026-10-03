@@ -1,0 +1,103 @@
+"""Stage 7: graph cleanup after resolution."""
+from __future__ import annotations
+
+import random
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+
+from .resolve import SEP, load_entities, norm_key
+
+HUB_SYSTEM = """You check nodes of a knowledge graph built from research papers in one arXiv category.
+A node was formed by merging description fragments written while reading different papers.
+Decide whether the fragments describe ONE concept or SEVERAL distinct concepts that share a name.
+Different aspects, uses or results of one concept still count as one concept. Answer "several" only if
+the fragments clearly refer to different things (e.g. two different methods that happen to share an acronym)."""
+
+HUB_SCHEMA = {
+    "type": "OBJECT",
+    "properties": {
+        "verdict": {"type": "STRING", "enum": ["one", "several"]},
+        "senses": {"type": "ARRAY", "items": {"type": "STRING"}},
+        "generic": {"type": "BOOLEAN"},
+        "reason": {"type": "STRING"},
+    },
+    "required": ["verdict", "senses", "generic", "reason"],
+}
+
+
+def load_stoplist(path: Path) -> set[str]:
+    if not path.exists():
+        return set()
+    return {norm_key(l.strip()) for l in path.read_text().splitlines() if l.strip() and not l.startswith("#")}
+
+
+async def clean_graph(rag, llm, stoplist_path: Path, hubs: int = 50, summary_min_fragments: int = 8,
+                      seed: int = 0) -> dict:
+    report: dict = {}
+    g = rag.chunk_entity_relation_graph
+    stop = load_stoplist(stoplist_path)
+
+    # Generic names.
+    ents = await load_entities(rag)
+    removed = []
+    for n in list(ents):
+        if norm_key(n) in stop:
+            await rag.adelete_by_entity(n)
+            removed.append({"name": n, "degree": ents[n].degree})
+            ents.pop(n)
+    report["stoplist_removed"] = removed
+
+    # Self-loops left by merging.
+    loops = []
+    for n in list(ents):
+        if await g.has_edge(n, n):
+            await rag.adelete_by_relation(n, n)
+            loops.append(n)
+    report["self_loops_removed"] = loops
+
+    # Condense merged nodes with many description fragments.
+    from lightrag.operate import _handle_entity_relation_summary
+    cfg = rag._build_global_config()
+    condensed = []
+    for n, e in ents.items():
+        frags = e.fragments
+        if len(frags) >= summary_min_fragments:
+            summary, _ = await _handle_entity_relation_summary(
+                "Entity", n, frags, SEP, cfg, rag.llm_response_cache)
+            await rag.aedit_entity(n, {"description": summary}, allow_rename=False)
+            condensed.append({"name": n, "fragments": len(frags)})
+            e.description = summary
+    report["condensed"] = condensed
+
+    # Low evidence: one chunk, no relations. Flagged, kept.
+    ents = await load_entities(rag)
+    report["low_evidence"] = sorted(n for n, e in ents.items() if len(set(e.source_ids)) <= 1 and e.degree == 0)
+
+    # Hub review: LLM reads sampled fragments of the highest-degree nodes and only reports.
+    rng = random.Random(seed)
+    top = sorted(ents.values(), key=lambda e: -e.degree)[:hubs]
+    # Fragments are gone after condensing, so sample from relation descriptions + node description.
+    async def fragments_for(e):
+        frags = list(e.fragments)
+        edges = await g.get_node_edges(e.name) or []
+        for a, b in edges[:200]:
+            ed = await g.get_edge(a, b) or {}
+            frags += [d for d in ed.get("description", "").split(SEP) if d.strip()]
+        return frags
+
+    items = []
+    for e in top:
+        frags = await fragments_for(e)
+        rng.shuffle(frags)
+        items.append((e, frags[:12]))
+
+    def check(item):
+        e, frags = item
+        prompt = (f"Node: {e.name} (type {e.type}, degree {e.degree}, papers {e.papers})\n\nFragments:\n"
+                  + "\n".join(f"- {f[:500]}" for f in frags))
+        out = llm.json_call("hub_check", prompt, HUB_SCHEMA, HUB_SYSTEM)
+        return {"name": e.name, "type": e.type, "degree": e.degree, **out}
+
+    with ThreadPoolExecutor(8) as ex:
+        report["hubs"] = list(ex.map(check, items))
+    return report

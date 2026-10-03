@@ -1,0 +1,31 @@
+# Generic entity names removed in stage 7. Matched on the normalised key
+# (case, punctuation, spaces and a final plural ignored). Review against the
+# highest-degree nodes after each pilot.
+Model
+Models
+Method
+Approach
+Framework
+System
+Baseline
+Results
+Experiment
+Experiments
+Paper
+This Paper
+Proposed Method
+Proposed Approach
+Our Method
+Dataset
+Datasets
+Performance
+Evaluation
+Task
+Algorithm
+Table
+Figure
+Section
+Appendix
+User
+Item
+Data
