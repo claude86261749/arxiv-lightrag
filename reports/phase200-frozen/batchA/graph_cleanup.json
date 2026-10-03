@@ -1,0 +1,1792 @@
+{
+ "stoplist_removed": [
+  {
+   "name": "Table",
+   "degree": 4
+  }
+ ],
+ "self_loops_removed": [],
+ "paper_local_renamed": [],
+ "condensed": [
+  {
+   "name": "+Server-Score",
+   "fragments": 9
+  },
+  {
+   "name": "AI-Match Score",
+   "fragments": 14
+  },
+  {
+   "name": "AUC",
+   "fragments": 19
+  },
+  {
+   "name": "Adaptive Pairwise Refinement",
+   "fragments": 10
+  },
+  {
+   "name": "Adaptive Retrieval Escalation",
+   "fragments": 13
+  },
+  {
+   "name": "Adaptive-RAG",
+   "fragments": 8
+  },
+  {
+   "name": "Agent Judge",
+   "fragments": 9
+  },
+  {
+   "name": "Agent Uncertainty",
+   "fragments": 8
+  },
+  {
+   "name": "Agentic Multi-Round Retrieval",
+   "fragments": 8
+  },
+  {
+   "name": "Algorithm Performance Space",
+   "fragments": 13
+  },
+  {
+   "name": "Alignment Concentration",
+   "fragments": 10
+  },
+  {
+   "name": "Always-Rerank",
+   "fragments": 13
+  },
+  {
+   "name": "Amazon Beauty",
+   "fragments": 12
+  },
+  {
+   "name": "Amazon Reviews",
+   "fragments": 17
+  },
+  {
+   "name": "AnswerAI-ColBERT-small",
+   "fragments": 16
+  },
+  {
+   "name": "Approximate Nearest Neighbor Search",
+   "fragments": 24
+  },
+  {
+   "name": "Articulated User Rationale",
+   "fragments": 14
+  },
+  {
+   "name": "Asymmetric Multi-Epoch Training",
+   "fragments": 15
+  },
+  {
+   "name": "Attribute Group-Relative Regularization",
+   "fragments": 10
+  },
+  {
+   "name": "BGE-M3",
+   "fragments": 8
+  },
+  {
+   "name": "BGE-small",
+   "fragments": 8
+  },
+  {
+   "name": "BPR Loss",
+   "fragments": 13
+  },
+  {
+   "name": "Baidu App",
+   "fragments": 8
+  },
+  {
+   "name": "Bayesian Personalized Ranking",
+   "fragments": 12
+  },
+  {
+   "name": "Benjamini\u2013Hochberg Correction",
+   "fragments": 9
+  },
+  {
+   "name": "Best-Passage Assignment",
+   "fragments": 9
+  },
+  {
+   "name": "Best-Single",
+   "fragments": 8
+  },
+  {
+   "name": "Bi-Encoder",
+   "fragments": 17
+  },
+  {
+   "name": "Binary Cross-Entropy",
+   "fragments": 22
+  },
+  {
+   "name": "Bit Allocator",
+   "fragments": 8
+  },
+  {
+   "name": "Books",
+   "fragments": 13
+  },
+  {
+   "name": "Borderline Item",
+   "fragments": 9
+  },
+  {
+   "name": "Brand Mention",
+   "fragments": 9
+  },
+  {
+   "name": "CK-Accuracy",
+   "fragments": 11
+  },
+  {
+   "name": "CP-TransMatch",
+   "fragments": 13
+  },
+  {
+   "name": "CPU Pathway",
+   "fragments": 11
+  },
+  {
+   "name": "CTR Prediction",
+   "fragments": 9
+  },
+  {
+   "name": "CTR-AUC",
+   "fragments": 11
+  },
+  {
+   "name": "CWAR",
+   "fragments": 14
+  },
+  {
+   "name": "Cached Multiple Negatives Ranking Loss",
+   "fragments": 9
+  },
+  {
+   "name": "Candidate\u2013Job Matching",
+   "fragments": 39
+  },
+  {
+   "name": "Cascaded Recommender System",
+   "fragments": 14
+  },
+  {
+   "name": "Case Retrieval",
+   "fragments": 8
+  },
+  {
+   "name": "Causal Insight",
+   "fragments": 13
+  },
+  {
+   "name": "Causal Query-Token Interleaving",
+   "fragments": 8
+  },
+  {
+   "name": "Causal Transformer Decoder",
+   "fragments": 11
+  },
+  {
+   "name": "Chow's Rule",
+   "fragments": 9
+  },
+  {
+   "name": "Claim-Level Verification",
+   "fragments": 11
+  },
+  {
+   "name": "Classic Full",
+   "fragments": 8
+  },
+  {
+   "name": "Classifier h",
+   "fragments": 8
+  },
+  {
+   "name": "ColBERTv2",
+   "fragments": 11
+  },
+  {
+   "name": "Cold Start",
+   "fragments": 40
+  },
+  {
+   "name": "Contextual Paragraph Retrieval",
+   "fragments": 9
+  },
+  {
+   "name": "Conversion",
+   "fragments": 9
+  },
+  {
+   "name": "Conversion Rate",
+   "fragments": 14
+  },
+  {
+   "name": "Count-Only",
+   "fragments": 11
+  },
+  {
+   "name": "Cov@10",
+   "fragments": 12
+  },
+  {
+   "name": "Cross-Attention",
+   "fragments": 9
+  },
+  {
+   "name": "Cross-Encoder Reranking",
+   "fragments": 11
+  },
+  {
+   "name": "DAU",
+   "fragments": 9
+  },
+  {
+   "name": "DCN",
+   "fragments": 9
+  },
+  {
+   "name": "DPO",
+   "fragments": 14
+  },
+  {
+   "name": "DPR",
+   "fragments": 12
+  },
+  {
+   "name": "DRAG_AP",
+   "fragments": 9
+  },
+  {
+   "name": "DRIFT",
+   "fragments": 15
+  },
+  {
+   "name": "DSI",
+   "fragments": 9
+  },
+  {
+   "name": "DeepSeek-V4-Flash",
+   "fragments": 9
+  },
+  {
+   "name": "Dense-to-Dense Growth",
+   "fragments": 17
+  },
+  {
+   "name": "Dense-to-Sparse Conversion",
+   "fragments": 16
+  },
+  {
+   "name": "Diverse Convex Hull",
+   "fragments": 17
+  },
+  {
+   "name": "Diverse EffCov",
+   "fragments": 8
+  },
+  {
+   "name": "Dwell Time",
+   "fragments": 9
+  },
+  {
+   "name": "E5-Mistral-7b-Instruct",
+   "fragments": 15
+  },
+  {
+   "name": "ECE",
+   "fragments": 15
+  },
+  {
+   "name": "EEC Mode",
+   "fragments": 8
+  },
+  {
+   "name": "ESCI",
+   "fragments": 13
+  },
+  {
+   "name": "Eigen-Matching Distillation",
+   "fragments": 16
+  },
+  {
+   "name": "Embedding-Anchor Regularization",
+   "fragments": 10
+  },
+  {
+   "name": "End-to-End Response Time",
+   "fragments": 13
+  },
+  {
+   "name": "Evidence Laundering",
+   "fragments": 10
+  },
+  {
+   "name": "Exact Match",
+   "fragments": 24
+  },
+  {
+   "name": "Exponential Moving Average",
+   "fragments": 11
+  },
+  {
+   "name": "F1 Score",
+   "fragments": 27
+  },
+  {
+   "name": "False Suppression Rate",
+   "fragments": 15
+  },
+  {
+   "name": "Familiarity-Only",
+   "fragments": 11
+  },
+  {
+   "name": "Feed-Forward Network",
+   "fragments": 15
+  },
+  {
+   "name": "Full-View",
+   "fragments": 9
+  },
+  {
+   "name": "Functional-View Contrastive Learning",
+   "fragments": 12
+  },
+  {
+   "name": "Future View",
+   "fragments": 8
+  },
+  {
+   "name": "Fuxi-Linear",
+   "fragments": 8
+  },
+  {
+   "name": "GNN",
+   "fragments": 16
+  },
+  {
+   "name": "GPT-5.6-sol",
+   "fragments": 15
+  },
+  {
+   "name": "GPU Pathway",
+   "fragments": 10
+  },
+  {
+   "name": "GSPO",
+   "fragments": 14
+  },
+  {
+   "name": "GSRR",
+   "fragments": 12
+  },
+  {
+   "name": "Game",
+   "fragments": 17
+  },
+  {
+   "name": "Gemini 3.1 Pro",
+   "fragments": 19
+  },
+  {
+   "name": "Gemma-3-4B",
+   "fragments": 11
+  },
+  {
+   "name": "GenRet",
+   "fragments": 10
+  },
+  {
+   "name": "Generative Engine Optimization",
+   "fragments": 8
+  },
+  {
+   "name": "Generative Pre-training",
+   "fragments": 17
+  },
+  {
+   "name": "Generator Performance Prediction",
+   "fragments": 9
+  },
+  {
+   "name": "Gini Coefficient",
+   "fragments": 17
+  },
+  {
+   "name": "Graph Token",
+   "fragments": 14
+  },
+  {
+   "name": "Graph-Based RAG",
+   "fragments": 16
+  },
+  {
+   "name": "GraphRAG",
+   "fragments": 14
+  },
+  {
+   "name": "H1 Tian Adapted",
+   "fragments": 8
+  },
+  {
+   "name": "HR@10",
+   "fragments": 20
+  },
+  {
+   "name": "HR@50",
+   "fragments": 12
+  },
+  {
+   "name": "Hard Negative",
+   "fragments": 11
+  },
+  {
+   "name": "Hard-Negative Mining",
+   "fragments": 13
+  },
+  {
+   "name": "Heuristic Baseline",
+   "fragments": 9
+  },
+  {
+   "name": "Hierarchical Context Fusion",
+   "fragments": 11
+  },
+  {
+   "name": "Hindsight Gain",
+   "fragments": 13
+  },
+  {
+   "name": "Hit Rate",
+   "fragments": 21
+  },
+  {
+   "name": "Hit@5",
+   "fragments": 8
+  },
+  {
+   "name": "Hit@k",
+   "fragments": 21
+  },
+  {
+   "name": "Holm-Bonferroni Correction",
+   "fragments": 8
+  },
+  {
+   "name": "Hungarian Algorithm",
+   "fragments": 8
+  },
+  {
+   "name": "HyFormer",
+   "fragments": 9
+  },
+  {
+   "name": "Hybrid Retrieval",
+   "fragments": 12
+  },
+  {
+   "name": "In-Trajectory Probing",
+   "fragments": 10
+  },
+  {
+   "name": "Individual Text Corpus",
+   "fragments": 8
+  },
+  {
+   "name": "Inference Time",
+   "fragments": 8
+  },
+  {
+   "name": "Inferential Insight",
+   "fragments": 13
+  },
+  {
+   "name": "Inter-Iteration Signals",
+   "fragments": 9
+  },
+  {
+   "name": "Item-to-Item Retrieval",
+   "fragments": 17
+  },
+  {
+   "name": "Jaccard Similarity",
+   "fragments": 9
+  },
+  {
+   "name": "K-Means",
+   "fragments": 13
+  },
+  {
+   "name": "KMeans++",
+   "fragments": 15
+  },
+  {
+   "name": "Kendall's Tau",
+   "fragments": 11
+  },
+  {
+   "name": "Kindle Store",
+   "fragments": 11
+  },
+  {
+   "name": "Knowledge Distillation",
+   "fragments": 12
+  },
+  {
+   "name": "L2 Normalization",
+   "fragments": 11
+  },
+  {
+   "name": "L2-init",
+   "fragments": 13
+  },
+  {
+   "name": "LEGAL-BERT",
+   "fragments": 10
+  },
+  {
+   "name": "LFM2-MoE",
+   "fragments": 8
+  },
+  {
+   "name": "LLM",
+   "fragments": 9
+  },
+  {
+   "name": "LLM Agent",
+   "fragments": 11
+  },
+  {
+   "name": "LLM Reranker",
+   "fragments": 13
+  },
+  {
+   "name": "LLM-as-a-Judge",
+   "fragments": 24
+  },
+  {
+   "name": "LO-SFT",
+   "fragments": 13
+  },
+  {
+   "name": "LSMV",
+   "fragments": 10
+  },
+  {
+   "name": "Late Interaction",
+   "fragments": 10
+  },
+  {
+   "name": "Leaf-Step Cap",
+   "fragments": 12
+  },
+  {
+   "name": "Learning to Defer",
+   "fragments": 8
+  },
+  {
+   "name": "Learning to Rank",
+   "fragments": 9
+  },
+  {
+   "name": "Llama-3.1-8B-Instruct",
+   "fragments": 13
+  },
+  {
+   "name": "Log Loss",
+   "fragments": 11
+  },
+  {
+   "name": "Long-Sequence Compression",
+   "fragments": 13
+  },
+  {
+   "name": "MAE",
+   "fragments": 13
+  },
+  {
+   "name": "MAP",
+   "fragments": 15
+  },
+  {
+   "name": "MAP@K",
+   "fragments": 11
+  },
+  {
+   "name": "ML-100K",
+   "fragments": 15
+  },
+  {
+   "name": "MRLB",
+   "fragments": 8
+  },
+  {
+   "name": "MRR",
+   "fragments": 9
+  },
+  {
+   "name": "MS MARCO Document Ranking",
+   "fragments": 13
+  },
+  {
+   "name": "Machine Unlearning",
+   "fragments": 12
+  },
+  {
+   "name": "Matrix Factorization",
+   "fragments": 17
+  },
+  {
+   "name": "MaxScore",
+   "fragments": 21
+  },
+  {
+   "name": "Mean Nearest Neighbor Distance",
+   "fragments": 9
+  },
+  {
+   "name": "Mean Squared Error",
+   "fragments": 14
+  },
+  {
+   "name": "Microsoft Copilot",
+   "fragments": 9
+  },
+  {
+   "name": "Mistral-Nemo-Instruct-2407",
+   "fragments": 12
+  },
+  {
+   "name": "Mixture of Experts",
+   "fragments": 8
+  },
+  {
+   "name": "MovieLens",
+   "fragments": 15
+  },
+  {
+   "name": "MovieLens-1M",
+   "fragments": 21
+  },
+  {
+   "name": "Multi-Branch Multi-Horizon Compression",
+   "fragments": 9
+  },
+  {
+   "name": "Multi-Target Training",
+   "fragments": 13
+  },
+  {
+   "name": "Multi-Trajectory Reasoning Space",
+   "fragments": 8
+  },
+  {
+   "name": "Multilayer Perceptron",
+   "fragments": 14
+  },
+  {
+   "name": "Multimodal Semantic Alignment",
+   "fragments": 23
+  },
+  {
+   "name": "Multiple Negatives Ranking Loss",
+   "fragments": 22
+  },
+  {
+   "name": "Mutual Information Maximization",
+   "fragments": 11
+  },
+  {
+   "name": "NDCG",
+   "fragments": 36
+  },
+  {
+   "name": "NDCG@10",
+   "fragments": 19
+  },
+  {
+   "name": "NDCG@100",
+   "fragments": 11
+  },
+  {
+   "name": "NDCG@20",
+   "fragments": 28
+  },
+  {
+   "name": "NDCG@K",
+   "fragments": 27
+  },
+  {
+   "name": "NQC",
+   "fragments": 11
+  },
+  {
+   "name": "Naive RAG",
+   "fragments": 8
+  },
+  {
+   "name": "Natural Questions",
+   "fragments": 20
+  },
+  {
+   "name": "Non-Diverse Convex Hull",
+   "fragments": 8
+  },
+  {
+   "name": "Non-Diverse EffCov",
+   "fragments": 8
+  },
+  {
+   "name": "OLMo-MoE",
+   "fragments": 8
+  },
+  {
+   "name": "Odds-Shift Slippage",
+   "fragments": 15
+  },
+  {
+   "name": "Online A/B Testing",
+   "fragments": 13
+  },
+  {
+   "name": "Open Tabular Insight Extraction",
+   "fragments": 9
+  },
+  {
+   "name": "Open-Domain Question Answering",
+   "fragments": 13
+  },
+  {
+   "name": "PCA",
+   "fragments": 13
+  },
+  {
+   "name": "PCE-NET",
+   "fragments": 10
+  },
+  {
+   "name": "Packet Thinning",
+   "fragments": 8
+  },
+  {
+   "name": "Packet Twin",
+   "fragments": 12
+  },
+  {
+   "name": "Pearson Correlation",
+   "fragments": 10
+  },
+  {
+   "name": "Per-Label Isotonic Regression",
+   "fragments": 9
+  },
+  {
+   "name": "Personal Preference Module",
+   "fragments": 8
+  },
+  {
+   "name": "Personalized Fashion Matching",
+   "fragments": 8
+  },
+  {
+   "name": "Personalized PageRank",
+   "fragments": 13
+  },
+  {
+   "name": "Platt Scaling",
+   "fragments": 19
+  },
+  {
+   "name": "Polyvore-U-519",
+   "fragments": 9
+  },
+  {
+   "name": "Position Bias",
+   "fragments": 9
+  },
+  {
+   "name": "Pre-Ranking",
+   "fragments": 32
+  },
+  {
+   "name": "Precision@K",
+   "fragments": 26
+  },
+  {
+   "name": "Preference-Drift-Aware Subsequence Learning",
+   "fragments": 9
+  },
+  {
+   "name": "Prefix Product of Step Confidence",
+   "fragments": 19
+  },
+  {
+   "name": "Prior Optimization",
+   "fragments": 13
+  },
+  {
+   "name": "Process Supervision",
+   "fragments": 11
+  },
+  {
+   "name": "Pseudo Self-Distillation",
+   "fragments": 17
+  },
+  {
+   "name": "QCAR",
+   "fragments": 13
+  },
+  {
+   "name": "QR-DPO",
+   "fragments": 15
+  },
+  {
+   "name": "Query Performance Prediction",
+   "fragments": 24
+  },
+  {
+   "name": "Query Reformulation Selection",
+   "fragments": 15
+  },
+  {
+   "name": "Question Answering",
+   "fragments": 33
+  },
+  {
+   "name": "Qwen3-Embedding",
+   "fragments": 14
+  },
+  {
+   "name": "Qwen3-Embedding-0.6B",
+   "fragments": 11
+  },
+  {
+   "name": "Qwen3-Embedding-4B",
+   "fragments": 14
+  },
+  {
+   "name": "Qwen3-Embedding-8B",
+   "fragments": 24
+  },
+  {
+   "name": "Qwen3.8-Max",
+   "fragments": 10
+  },
+  {
+   "name": "RAG_max",
+   "fragments": 9
+  },
+  {
+   "name": "Random Selection",
+   "fragments": 9
+  },
+  {
+   "name": "Rank\u2013Score Mix",
+   "fragments": 10
+  },
+  {
+   "name": "Recall@1",
+   "fragments": 15
+  },
+  {
+   "name": "Recall@5",
+   "fragments": 16
+  },
+  {
+   "name": "Recall@K",
+   "fragments": 20
+  },
+  {
+   "name": "Recency-Aware Multi-Granularity Merge",
+   "fragments": 12
+  },
+  {
+   "name": "Reciprocal Rank",
+   "fragments": 10
+  },
+  {
+   "name": "Reciprocal Rank Fusion",
+   "fragments": 8
+  },
+  {
+   "name": "Recommender System",
+   "fragments": 11
+  },
+  {
+   "name": "Regional Index",
+   "fragments": 9
+  },
+  {
+   "name": "Reinforcement Learning",
+   "fragments": 15
+  },
+  {
+   "name": "Request-Aware Ranking",
+   "fragments": 12
+  },
+  {
+   "name": "Reranking",
+   "fragments": 11
+  },
+  {
+   "name": "Retrieval Confidence Score",
+   "fragments": 12
+  },
+  {
+   "name": "SciDocs",
+   "fragments": 12
+  },
+  {
+   "name": "Search-Query Fan-Out",
+   "fragments": 11
+  },
+  {
+   "name": "Semantic ID",
+   "fragments": 18
+  },
+  {
+   "name": "Sentence-BERT",
+   "fragments": 25
+  },
+  {
+   "name": "Signed Calibration Gap",
+   "fragments": 8
+  },
+  {
+   "name": "Single-Paragraph Retrieval",
+   "fragments": 14
+  },
+  {
+   "name": "Single-Positive Training",
+   "fragments": 9
+  },
+  {
+   "name": "Single-Token Expected-Value Scoring",
+   "fragments": 16
+  },
+  {
+   "name": "Sketch Attention",
+   "fragments": 15
+  },
+  {
+   "name": "SkillRet-Embedding-0.6B",
+   "fragments": 17
+  },
+  {
+   "name": "Small Language Model",
+   "fragments": 11
+  },
+  {
+   "name": "Sparse Key-Value Memory Layer",
+   "fragments": 14
+  },
+  {
+   "name": "Spearman Correlation",
+   "fragments": 10
+  },
+  {
+   "name": "Sports and Outdoors",
+   "fragments": 20
+  },
+  {
+   "name": "Stateless",
+   "fragments": 10
+  },
+  {
+   "name": "Static Top-k Retrieval",
+   "fragments": 8
+  },
+  {
+   "name": "Step-Level Calibration",
+   "fragments": 8
+  },
+  {
+   "name": "Student Candidate Case Encoder",
+   "fragments": 9
+  },
+  {
+   "name": "Supervised Fine-Tuning",
+   "fragments": 11
+  },
+  {
+   "name": "T5-base",
+   "fragments": 9
+  },
+  {
+   "name": "TAT-QA",
+   "fragments": 10
+  },
+  {
+   "name": "TREC DL19",
+   "fragments": 12
+  },
+  {
+   "name": "TREC DL20",
+   "fragments": 12
+  },
+  {
+   "name": "TREC-COVID",
+   "fragments": 13
+  },
+  {
+   "name": "TS-Retriever",
+   "fragments": 11
+  },
+  {
+   "name": "TTFT",
+   "fragments": 11
+  },
+  {
+   "name": "TVR",
+   "fragments": 11
+  },
+  {
+   "name": "Table Question Answering",
+   "fragments": 8
+  },
+  {
+   "name": "Teacher Retriever",
+   "fragments": 15
+  },
+  {
+   "name": "Tool Use",
+   "fragments": 15
+  },
+  {
+   "name": "Toys and Games",
+   "fragments": 19
+  },
+  {
+   "name": "Trajectory Reliability",
+   "fragments": 15
+  },
+  {
+   "name": "Two-Tower Architecture",
+   "fragments": 13
+  },
+  {
+   "name": "Universal Venue Ranker",
+   "fragments": 8
+  },
+  {
+   "name": "User-Interest Routing Module",
+   "fragments": 10
+  },
+  {
+   "name": "V-BPR",
+   "fragments": 12
+  },
+  {
+   "name": "Version-Bound Exact Replay",
+   "fragments": 8
+  },
+  {
+   "name": "VikingRAG(-E+)",
+   "fragments": 13
+  },
+  {
+   "name": "Weak-Risk Estimation",
+   "fragments": 8
+  },
+  {
+   "name": "YaMBDa",
+   "fragments": 8
+  },
+  {
+   "name": "Zero-Shot",
+   "fragments": 11
+  },
+  {
+   "name": "bge-base-en-v1.5",
+   "fragments": 9
+  },
+  {
+   "name": "bge-en-icl",
+   "fragments": 9
+  },
+  {
+   "name": "mLateOn",
+   "fragments": 9
+  },
+  {
+   "name": "pplx-embed-v1-4b",
+   "fragments": 9
+  },
+  {
+   "name": "rel_ret",
+   "fragments": 8
+  }
+ ],
+ "low_evidence": [
+  "61A-Bot",
+  "72-Cell Diagnostic",
+  "Adaptive Sample Size",
+  "Adversarially Robust Uncertainty",
+  "Aiso Infrastructure",
+  "Alias Dictionary",
+  "Answer-Reconstruction Search Density",
+  "AutoML",
+  "Automated Calibrator Selection",
+  "Average Estimation Error",
+  "BST",
+  "Base CWAR",
+  "Bender Rule",
+  "BinaryBERT",
+  "BitNet",
+  "Boundary Diagnostics",
+  "CMDBench",
+  "CONQRR",
+  "Change-Identity Failure",
+  "Character-Level Sequence Similarity",
+  "Claude Fable 5",
+  "Claude Opus 5",
+  "Clean Controller Stream",
+  "Concurrent Scoring",
+  "Confidence-Based Reranker",
+  "Contemporaneous Source Audit",
+  "Content Diversity",
+  "Content-Gated Descriptor Construction",
+  "Contextual Quantization",
+  "Corpus Normalization",
+  "Corrective Retrieval",
+  "CosyVoice3",
+  "Counterfactual Risk",
+  "DHEN",
+  "Data Audit System",
+  "Dead-Label Policy",
+  "Deep Search",
+  "Directional Feedback",
+  "Disaster Recovery",
+  "Display-Name Normalization",
+  "DualGraph",
+  "Dynamic User Preference Memory",
+  "EST",
+  "Efficient Estimation",
+  "Evaluation Completeness",
+  "Evaluator Label Mismatch",
+  "Evidence Graph",
+  "Evidence Tree Search",
+  "Exact-Text Deduplication",
+  "External Storage Memory",
+  "Facet-Level Tracing",
+  "Fact-Checking Pipeline",
+  "Feature-Fetch Overlapping",
+  "Fixed-Probe Comparison",
+  "Fixed-Probe Control",
+  "Formal-Controller Stream",
+  "Freq",
+  "GRIT",
+  "GRank",
+  "General Assistance",
+  "Google Forms",
+  "Grammarly",
+  "Group@5",
+  "Hedging-to-Verification Ratio",
+  "I-BERT",
+  "Independent Source Supported",
+  "Induction-Aware Entropy",
+  "Information Retrieval Query Processing",
+  "Intervention-Advantage Framing",
+  "Intra-Order-Preserving Map",
+  "Isolation Kernel",
+  "Jaccard Coefficient",
+  "Judgment Prediction",
+  "Katz Index",
+  "LLM Text Annotation",
+  "LLM-Only",
+  "LLM2Vec",
+  "LexGLUE",
+  "Linguistic Calibration",
+  "Listener-Calibrated Objective",
+  "Local-Score Heuristic",
+  "Long-Horizon Allocation",
+  "Long-Video QA",
+  "LongEval",
+  "Lost in the Middle",
+  "MAP@100",
+  "MAP@1000",
+  "MARAUS",
+  "MESA",
+  "MRR@3",
+  "Markov Transition Model",
+  "Medusa",
+  "Mixed-Target Composite Score",
+  "Multiple-Choice Debias",
+  "NLI Score",
+  "Naive Propagation Method",
+  "Nemotron-3-Ultra-550B",
+  "NoLiMa",
+  "OISD",
+  "One Health",
+  "OneLive",
+  "Operating-System Control",
+  "Osprey",
+  "P@10",
+  "PIVOT",
+  "Per-Session Stage Latency",
+  "PinnerFormer",
+  "Pplx-late-0.6b",
+  "Predictive-Confidence Elision",
+  "ProViz",
+  "Propensity-Scored Metric",
+  "PsyWeb",
+  "Q8BERT",
+  "QReCC",
+  "Qinghai-Tibet Plateau",
+  "Quality Constraint",
+  "Qwen3-27B",
+  "RULER",
+  "Rank-K-32B",
+  "Rank1-32B",
+  "Raw-Magnitude Heuristic",
+  "RepoCoder",
+  "Representational Drift",
+  "Response-Truncation Limit",
+  "Returned Completion",
+  "Risk Triage",
+  "Robinviz",
+  "Router-Mem",
+  "Row-Dependent Calibrator",
+  "S2G-RAG",
+  "SONA System",
+  "Scoring Availability",
+  "Semantic Data Caching",
+  "Semantic-Level Internal Reasoning Graph",
+  "Session-Based RNN",
+  "Shadow Validation",
+  "Smart Personal Protective Equipment",
+  "Source Attribution and Routing",
+  "Source of Uncertainty",
+  "Specialized Verifier Prompt",
+  "State Contract",
+  "Subgroup Parity",
+  "Supported-Relevance Share",
+  "SweRank",
+  "SymRAG",
+  "TARGET",
+  "TGSRec",
+  "Tagging",
+  "Targeted Addressing Battery",
+  "Tau-Knowledge",
+  "TernaryBERT",
+  "TransAct",
+  "Trust-Region On-Policy Distillation",
+  "Usable-Score Rate",
+  "User Outcome",
+  "Veto",
+  "WGBoost",
+  "Website Interaction",
+  "Wild-Time",
+  "test_extra"
+ ],
+ "hubs": [
+  {
+   "name": "RAG",
+   "type": "method",
+   "degree": 189,
+   "verdict": "one",
+   "senses": [
+    "Retrieval-Augmented Generation (RAG): a framework/pipeline that combines an external document retrieval mechanism with a generative language model to ground outputs."
+   ],
+   "reason": "All fragments describe Retrieval-Augmented Generation (RAG), including its pipelines, components, evaluation, and applications in knowledge-grounded language generation."
+  },
+  {
+   "name": "NDCG@10",
+   "type": "metric",
+   "degree": 162,
+   "verdict": "one",
+   "senses": [
+    "Normalized Discounted Cumulative Gain at rank 10 (NDCG@10), a widely used ranking and retrieval evaluation metric."
+   ],
+   "reason": "All fragments describe the same standard information retrieval evaluation metric, Normalized Discounted Cumulative Gain at cutoff rank 10 (NDCG@10)."
+  },
+  {
+   "name": "LLM",
+   "type": "model",
+   "degree": 155,
+   "verdict": "one",
+   "senses": [
+    "Large Language Model (LLM): a class of foundation models trained on extensive text datasets for natural language understanding, generation, and reasoning across various downstream tasks."
+   ],
+   "reason": "All fragments describe Large Language Models (LLMs), their capabilities, variants, and applications across tasks such as recommendation, evaluation, user simulation, and retrieval."
+  },
+  {
+   "name": "Semantic ID",
+   "type": "model",
+   "degree": 153,
+   "verdict": "one",
+   "senses": [
+    "A discrete item identifier or tokenization representation constructed from semantic content, commonly used in generative retrieval and recommendation systems."
+   ],
+   "reason": "All fragments describe Semantic IDs (or SIDs) as discrete semantic representations/identifiers assigned to items for generative sequential recommendation and retrieval."
+  },
+  {
+   "name": "BM25",
+   "type": "method",
+   "degree": 139,
+   "verdict": "one",
+   "senses": [
+    "A widely used lexical ranking and retrieval algorithm (Okapi BM25) based on probabilistic information retrieval"
+   ],
+   "reason": "All fragments refer to the standard BM25 lexical ranking and retrieval algorithm used as a baseline, first-stage retriever, or sparse retrieval component."
+  },
+  {
+   "name": "BEIR",
+   "type": "dataset",
+   "degree": 106,
+   "verdict": "one",
+   "senses": [
+    "A widely-used heterogeneous benchmark and dataset collection for evaluating zero-shot information retrieval models across various domains and tasks."
+   ],
+   "reason": "All fragments uniformly refer to the BEIR benchmark (Benchmarking Information Retrieval), a standard evaluation benchmark in IR containing diverse datasets such as NQ and ArguAna."
+  },
+  {
+   "name": "NDCG",
+   "type": "metric",
+   "degree": 91,
+   "verdict": "one",
+   "senses": [
+    "Normalized Discounted Cumulative Gain (NDCG), a standard evaluation metric measuring the quality of ranking in information retrieval and recommender systems."
+   ],
+   "reason": "All fragments describe the same evaluation metric, Normalized Discounted Cumulative Gain (NDCG / nDCG), used across various ranking, retrieval, and recommendation benchmarks."
+  },
+  {
+   "name": "Generative Recommendation",
+   "type": "task",
+   "degree": 88,
+   "verdict": "one",
+   "senses": [
+    "A recommender system paradigm that frames recommendation as an autoregressive generation task over item tokens or identifiers."
+   ],
+   "reason": "All fragments describe the same recommendation paradigm where recommendation is reformulated as sequence/autoregressive generation over discrete item tokens or representations."
+  },
+  {
+   "name": "MuSeR",
+   "type": "model",
+   "degree": 87,
+   "verdict": "one",
+   "senses": [
+    "MuSeR: a multi-interest, long-sequence industrial recommendation system model developed and deployed in Baidu App"
+   ],
+   "reason": "All fragments describe the same industrial recommender system model (MuSeR), its architecture (hierarchical temporal compression, multi-interest extraction, asynchronous caching), deployment details (Baidu App, Consul), and evaluation metrics."
+  },
+  {
+   "name": "Recall@10",
+   "type": "metric",
+   "degree": 85,
+   "verdict": "one",
+   "senses": [
+    "Recall@10 (or R@10), an information retrieval and recommendation evaluation metric measuring the proportion of relevant items retrieved in the top 10 positions."
+   ],
+   "reason": "All fragments refer to the standard information retrieval and recommendation metric Recall@10 (also abbreviated as R@10)."
+  },
+  {
+   "name": "Open Tabular Insight Extraction",
+   "type": "task",
+   "degree": 81,
+   "verdict": "one",
+   "senses": [
+    "A research framework and task focused on discovering and deriving analytical insights and knowledge from large-scale tabular corpora."
+   ],
+   "reason": "All fragments describe the Open Tabular Insight Extraction (OpenTI) framework and task, detailing its definitions, associated insight types, system requirements, evaluation metrics, and capabilities."
+  },
+  {
+   "name": "AUC",
+   "type": "metric",
+   "degree": 78,
+   "verdict": "one",
+   "senses": [
+    "Area Under the Curve (AUC), a standard machine learning evaluation metric measuring the discriminatory or ranking capability of classification models"
+   ],
+   "reason": "All fragments consistently refer to the AUC evaluation metric (Area Under the ROC Curve or Area Under Curve) applied across various recommendation, classification, and ranking tasks."
+  },
+  {
+   "name": "HotpotQA",
+   "type": "dataset",
+   "degree": 78,
+   "verdict": "one",
+   "senses": [
+    "HotpotQA is a multi-hop question answering and information retrieval benchmark dataset based on Wikipedia."
+   ],
+   "reason": "All fragments consistently refer to the same well-known multi-hop question answering benchmark dataset HotpotQA."
+  },
+  {
+   "name": "LLM-as-a-Judge",
+   "type": "model",
+   "degree": 78,
+   "verdict": "one",
+   "senses": [
+    "A paradigm or framework where a large language model is employed to evaluate, score, or select candidate text, outputs, or relevance judgments."
+   ],
+   "reason": "All fragments describe the same methodological paradigm of using an LLM to evaluate or judge candidate outputs, reformulations, or quality metrics across various downstream tasks."
+  },
+  {
+   "name": "FINALLY",
+   "type": "tool",
+   "degree": 77,
+   "verdict": "one",
+   "senses": [
+    "A tool and framework designed to select, inspect, and construct configurable dataset sets for offline recommender-systems evaluations using diversity measures (such as EffCov) and APS visualizations."
+   ],
+   "reason": "All fragments describe the same tool, FINALLY, which assists in dataset selection, metadata filtering, and visualization for recommender-system evaluations."
+  },
+  {
+   "name": "Reddit Answers",
+   "type": "model",
+   "degree": 77,
+   "verdict": "one",
+   "senses": [
+    "Reddit Answers is an AI-powered generative search and answer synthesis system developed by or for Reddit that retrieves and synthesizes community comments to answer user queries."
+   ],
+   "reason": "All fragments describe the exact same concept: Reddit Answers, an AI-driven question answering and comment synthesis system/feature evaluated for its retrieval, selection biases, and synthesis behavior."
+  },
+  {
+   "name": "UNIQUE",
+   "type": "model",
+   "degree": 76,
+   "verdict": "one",
+   "senses": [
+    "A unified retrieval and ranking recommendation framework using semantic code prediction and early fusion for mobile feed recommendations"
+   ],
+   "reason": "All fragments describe the same recommendation framework (UNIQUE), detailing its architecture (Unified Early-Fusion Encoder, target-aware ranking path), training objectives (feedback-aware codebook learning loss, generative cross-entropy), and evaluation results (CTR-AUC, P99 latency, A/B testing)."
+  },
+  {
+   "name": "BRIGHT",
+   "type": "dataset",
+   "degree": 75,
+   "verdict": "one",
+   "senses": [
+    "A benchmark for reasoning-intensive information retrieval containing diverse reasoning-focused subsets such as BRIGHT-Code and TheoremQA."
+   ],
+   "reason": "All fragments refer to the BRIGHT retrieval benchmark, which is used to evaluate retrieval, ranking, and RAG systems across various reasoning-intensive subsets."
+  },
+  {
+   "name": "Amazon Beauty",
+   "type": "dataset",
+   "degree": 74,
+   "verdict": "one",
+   "senses": [
+    "A standard benchmark dataset of user reviews and interactions in the beauty category on Amazon, widely used in recommender systems research."
+   ],
+   "reason": "All fragments describe evaluations of various recommendation models and algorithms on the Amazon Beauty dataset."
+  },
+  {
+   "name": "Q2D-Web",
+   "type": "dataset",
+   "degree": 74,
+   "verdict": "one",
+   "senses": [
+    "A benchmark dataset designed to evaluate first-stage retrievers in agentic retrieval-augmented generation (RAG) pipelines under realistic, production-scale web corpus conditions."
+   ],
+   "reason": "All fragments describe the same retrieval benchmark dataset, Q2D-Web, detailing its corpus construction, evaluation metrics, and role in testing retrievers for agentic RAG systems."
+  },
+  {
+   "name": "Transformer",
+   "type": "model",
+   "degree": 74,
+   "verdict": "one",
+   "senses": [
+    "A deep learning architecture based on self-attention mechanisms, widely used as an encoder, decoder, or backbone in recommendation, sequence modeling, and language tasks."
+   ],
+   "reason": "All fragments refer to the standard Transformer neural network architecture (Vaswani et al.) and its standard components/applications across sequential recommendation, generative modeling, and audio/tabular processing."
+  },
+  {
+   "name": "Dense Retrieval",
+   "type": "method",
+   "degree": 73,
+   "verdict": "one",
+   "senses": [
+    "An information retrieval paradigm where queries and documents are mapped into continuous dense vector representations to enable search via vector similarity and nearest-neighbor matching."
+   ],
+   "reason": "All fragments describe the same well-known information retrieval paradigm of dense retrieval (vector-based retrieval using neural embeddings)."
+  },
+  {
+   "name": "APCL",
+   "type": "model",
+   "degree": 72,
+   "verdict": "one",
+   "senses": [
+    "A contrastive learning-based recommendation model for personalized fashion matching and complementary recommendation"
+   ],
+   "reason": "All fragments describe the same model, APCL, which employs functional-view contrastive learning and indirect relational learning for personalized fashion and complementary item recommendation, evaluated on datasets like IQON3000."
+  },
+  {
+   "name": "Reciprocal Rank Fusion",
+   "type": "method",
+   "degree": 71,
+   "verdict": "one",
+   "senses": [
+    "A rank aggregation algorithm in information retrieval that combines multiple ranked candidate lists into a single consolidated ranking based on reciprocal rank scores."
+   ],
+   "reason": "All fragments describe the same standard information retrieval method, Reciprocal Rank Fusion (RRF), used to ensemble or merge ranking lists from different retrieval systems or models."
+  },
+  {
+   "name": "MuSiQue",
+   "type": "dataset",
+   "degree": 69,
+   "verdict": "one",
+   "senses": [
+    "MuSiQue (Multi-hop Questions via Single-hop Question Composition) is a multi-hop question answering benchmark dataset used to evaluate retrieval and QA models."
+   ],
+   "reason": "All fragments describe the same concept: MuSiQue, a standard multi-hop question answering dataset used as an evaluation benchmark for retrieval-augmented generation (RAG) and downstream QA models."
+  },
+  {
+   "name": "FedHUR",
+   "type": "model",
+   "degree": 64,
+   "verdict": "one",
+   "senses": [
+    "A federated recommendation framework/model that learns and mines hierarchical utility-guided client relations to perform collaborative aggregation."
+   ],
+   "reason": "All fragments describe the same federated recommendation model (FedHUR), including its modules, evaluation baselines/metrics, and communication compression techniques."
+  },
+  {
+   "name": "AURA",
+   "type": "model",
+   "degree": 63,
+   "verdict": "one",
+   "senses": [
+    "An automated diagnostic and code-fix pipeline/framework deployed on streaming platforms to diagnose recommendation failure modes and generate/verify fixes."
+   ],
+   "reason": "All fragments describe stages, evaluation methods, and deployment details of the same automated recommendation diagnosis and repair system (AURA)."
+  },
+  {
+   "name": "MRR",
+   "type": "metric",
+   "degree": 62,
+   "verdict": "one",
+   "senses": [
+    "Mean Reciprocal Rank (MRR), an information retrieval and ranking evaluation metric measuring the reciprocal rank of the first relevant item, often evaluated at rank cutoff k."
+   ],
+   "reason": "All fragments describe the same standard ranking metric, Mean Reciprocal Rank (MRR), including its variations at rank cutoffs (MRR@k) and applications to evaluate retrievers, LLM recommendation prominence, or job matching."
+  },
+  {
+   "name": "Cassette",
+   "type": "model",
+   "degree": 61,
+   "verdict": "one",
+   "senses": [
+    "A retrieval model/framework for legal case retrieval (LCR) that uses structural knowledge distillation from a teacher retriever to student encoders."
+   ],
+   "reason": "All fragments describe the same legal case retrieval model named Cassette, highlighting its architecture (student candidate encoders, MLP for queries, teacher distillation) and evaluation metrics."
+  },
+  {
+   "name": "Query Performance Prediction",
+   "type": "method",
+   "degree": 61,
+   "verdict": "one",
+   "senses": [
+    "A task and set of methods in information retrieval aimed at estimating or predicting the retrieval quality/effectiveness of a search query without ground-truth relevance judgments."
+   ],
+   "reason": "All fragments describe Query Performance Prediction (QPP) in information retrieval, including its methods, metrics (e.g., AUROC, ECE, Spearman correlation), and applications."
+  },
+  {
+   "name": "Qwen3-Embedding-0.6B",
+   "type": "model",
+   "degree": 60,
+   "verdict": "one",
+   "senses": [
+    "A 0.6-billion-parameter text embedding model from the Qwen family evaluated and fine-tuned for retrieval tasks and quantization."
+   ],
+   "reason": "All fragments describe the same specific model, Qwen3-Embedding-0.6B (or Qwen3-Emb-0.6B), discussing its performance, fine-tuning, and quantization behavior across retrieval benchmarks."
+  },
+  {
+   "name": "TIGER",
+   "type": "model",
+   "degree": 60,
+   "verdict": "one",
+   "senses": [
+    "A generative recommendation framework that uses semantic identifiers from RQ-VAE and an autoregressive Transformer backbone for sequential retrieval"
+   ],
+   "reason": "All fragments describe the same generative recommendation model (TIGER), which generates discrete semantic identifiers for items using a quantized autoencoder and transformer backbone."
+  },
+  {
+   "name": "Generative Retrieval",
+   "type": "task",
+   "degree": 59,
+   "verdict": "one",
+   "senses": [
+    "An information retrieval paradigm in which a model directly generates document or item identifiers (e.g., semantic IDs, URLs, or discrete codes) given a query, rather than relying on index-based dense/sparse matching or multi-stage filtering."
+   ],
+   "reason": "All fragments describe the same information retrieval paradigm ('generative retrieval') where generative models directly output identifiers of relevant items or documents."
+  },
+  {
+   "name": "SASRec",
+   "type": "model",
+   "degree": 59,
+   "verdict": "one",
+   "senses": [
+    "Self-Attentive Sequential Recommendation (SASRec), a widely used transformer-based sequential recommendation model."
+   ],
+   "reason": "All fragments describe SASRec, a well-known self-attentive sequential recommendation baseline model, used for candidate drafting, evaluation, or as a backbone model across various recommender systems tasks."
+  },
+  {
+   "name": "TimelyRAG",
+   "type": "method",
+   "degree": 59,
+   "verdict": "one",
+   "senses": [
+    "A retriever-agnostic, semantic-temporal hybrid reranking framework for retrieval-augmented generation designed for time-critical question answering."
+   ],
+   "reason": "All fragments consistently describe TimelyRAG, a temporal reranking framework for retrieval-augmented generation that combines semantic similarity with temporal compatibility."
+  },
+  {
+   "name": "Constrained Hybrid Decoding",
+   "type": "method",
+   "degree": 58,
+   "verdict": "one",
+   "senses": [
+    "A speculative retrieval-augmented generation decoding framework (CHyD) that alternates between free autoregressive generation and constrained verbatim extraction to guarantee faithful evidence retrieval."
+   ],
+   "reason": "All fragments describe the same method, Constrained Hybrid Decoding (CHyD), an approach using speculative decoding architectures to guarantee verbatim evidence extraction in retrieval-augmented generation."
+  },
+  {
+   "name": "PDMR",
+   "type": "model",
+   "degree": 58,
+   "verdict": "one",
+   "senses": [
+    "A generative retrieval model that adapts fine-grained token-level matching principles from ColBERT for identifier design, evaluated on retrieval benchmarks such as NQ320K and MS MARCO Document."
+   ],
+   "reason": "All fragments describe the same generative retrieval method, detailing its identifier design inspired by ColBERT, training with DocT5Query, and evaluation benchmarks against dense and generative baselines."
+  },
+  {
+   "name": "LoRA",
+   "type": "method",
+   "degree": 57,
+   "verdict": "one",
+   "senses": [
+    "Low-Rank Adaptation (LoRA), a parameter-efficient fine-tuning technique for neural network architectures"
+   ],
+   "reason": "All fragments describe the use, configuration, or comparison of Low-Rank Adaptation (LoRA) adapters for parameter-efficient fine-tuning of neural networks."
+  },
+  {
+   "name": "PCGNet",
+   "type": "model",
+   "degree": 57,
+   "verdict": "one",
+   "senses": [
+    "A multi-objective graph learning model for personalized fashion matching that jointly models compatibility and personal preferences."
+   ],
+   "reason": "All fragments describe the same PCGNet architecture and its evaluations on datasets like Polyvore-U-519 and IQON3000 for personalized fashion matching."
+  },
+  {
+   "name": "F1 Score",
+   "type": "metric",
+   "degree": 56,
+   "verdict": "one",
+   "senses": [
+    "A standard machine learning and natural language processing evaluation metric defined as the harmonic mean of precision and recall."
+   ],
+   "reason": "All fragments describe the same well-known evaluation metric, F1 Score, detailing its definition, applications across various benchmarks (e.g., MuSiQue, LoCoMo), and usage in decision-making and performance evaluation."
+  },
+  {
+   "name": "SURF",
+   "type": "method",
+   "degree": 56,
+   "verdict": "one",
+   "senses": [
+    "Subtractive Updates for Recommender Forgetting (SURF), a machine unlearning framework for recommender systems"
+   ],
+   "reason": "All fragments describe the same method, SURF (Subtractive Updates for Recommender Forgetting), which is an unlearning framework designed for recommender systems to efficiently remove the influence of specified data."
+  },
+  {
+   "name": "Supervised Fine-Tuning",
+   "type": "method",
+   "degree": 56,
+   "verdict": "one",
+   "senses": [
+    "A standard machine learning training phase where a pre-trained model is adapted using labeled input-output demonstration pairs."
+   ],
+   "reason": "All fragments describe Supervised Fine-Tuning (SFT), a well-established machine learning technique used for adapting pre-trained models to specific tasks or domains using labeled supervision."
+  },
+  {
+   "name": "G3RAG",
+   "type": "method",
+   "degree": 55,
+   "verdict": "one",
+   "senses": [
+    "Geometric Gain Graph RAG (G3RAG), a document-only graph retrieval-augmented generation framework designed for multi-hop retrieval and reasoning using geometric gain scores and controlled transient diffusion"
+   ],
+   "reason": "All fragments describe the same retrieval-augmented generation system, its components, evaluation metrics, and architectural mechanisms."
+  },
+  {
+   "name": "P3Rec",
+   "type": "model",
+   "degree": 55,
+   "verdict": "one",
+   "senses": [
+    "A recommender system model that distills prior and posterior preference knowledge derived from LLM reasoning into a lightweight recommendation model."
+   ],
+   "reason": "All fragments describe the same recommendation model (P3Rec), its architectural components (Interest Entropy Calibration, Prior-Posterior Preference Internalization), training objectives (preference absorption distillation loss), and experimental evaluations."
+  },
+  {
+   "name": "Recall",
+   "type": "metric",
+   "degree": 54,
+   "verdict": "one",
+   "senses": [
+    "A standard information retrieval and classification metric measuring the proportion of relevant items retrieved out of all relevant items."
+   ],
+   "reason": "All fragments describe the standard evaluation metric Recall (including variants such as Recall@K) used in information retrieval, recommendation, and classification."
+  },
+  {
+   "name": "Sequential Recommendation",
+   "type": "task",
+   "degree": 54,
+   "verdict": "one",
+   "senses": [
+    "A recommendation paradigm and task setting that models chronologically ordered sequences of past user behavioral interactions to predict upcoming or subsequent interactions."
+   ],
+   "reason": "All fragments describe the same well-known task in recommender systems, along with various models (GRU4Rec, BERT4Rec, CBiT, etc.) designed or evaluated for it."
+  },
+  {
+   "name": "VikingRAG",
+   "type": "model",
+   "degree": 54,
+   "verdict": "one",
+   "senses": [
+    "A structure-aware retrieval-augmented generation (RAG) framework and hierarchical semantic data management system engineered for structured documents."
+   ],
+   "reason": "All fragments describe the same retrieval-augmented generation system, detailing its architecture, components, evaluation metrics, and performance comparisons."
+  },
+  {
+   "name": "BGE-M3",
+   "type": "model",
+   "degree": 53,
+   "verdict": "one",
+   "senses": [
+    "A multi-lingual, multi-functionality, and multi-granularity embedding model (BAAI General Embedding M3) used for text retrieval and evaluated under various tasks and quantization settings."
+   ],
+   "reason": "All fragments describe the same embedding model, BGE-M3, focusing on its retrieval capabilities, benchmark evaluations, and sensitivity to post-training quantization."
+  },
+  {
+   "name": "EvoPilot",
+   "type": "tool",
+   "degree": 53,
+   "verdict": "one",
+   "senses": [
+    "An autonomous experiment control and research agent architecture featuring structured roles (Round Planner, Periodic Monitor, Failure Handler, Results Analyst) and memory systems for long-horizon asynchronous workflows."
+   ],
+   "reason": "All fragments describe the same software/agent framework called EvoPilot, outlining its multi-role architecture, memory systems, failure handling, and workflow execution mechanisms."
+  },
+  {
+   "name": "Information Retrieval",
+   "type": "task",
+   "degree": 53,
+   "verdict": "one",
+   "senses": [
+    "The academic field and computational task of finding and ranking relevant information, documents, or data from a collection to satisfy user queries and information needs."
+   ],
+   "reason": "All fragments uniformly refer to the standard concept and task of Information Retrieval (IR) in computer science, including its metrics, systems, components, and integration with modern language models."
+  }
+ ]
+}

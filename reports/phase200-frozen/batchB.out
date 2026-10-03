@@ -1,0 +1,2 @@
+[    2.4s] intake_clean: {"new_or_changed": 100, "tokens_before": 1949734, "tokens_after": 1085604, "flagged": ["2609.31166"]}
+Direct use of automatic function calling (AFC) in AsyncModels.generate_content is not recommended. Instead, we recommend to use AFC in AsyncChat.send_message. Similarly, direct use of AFC in AsyncModels.generate_content_stream is not recommended. Instead, we recommend to use AFC in AsyncChat.send_message_stream.

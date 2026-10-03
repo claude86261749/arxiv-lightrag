@@ -1,0 +1,134 @@
+{
+ "args": {
+  "corpus": "data/corpus/cs.IR",
+  "run": "runs/phase200",
+  "limit": 100,
+  "gleaning": 1,
+  "keep_appendix": false,
+  "embed_dim": 768,
+  "llm_model": "gemini-3.8-flash",
+  "nn_threshold": 0.85,
+  "nn_strong": 0.9,
+  "hubs": 50,
+  "stoplist": "config/stoplist.txt",
+  "stop_after": null,
+  "storage": "postgres",
+  "workspace": "phase200",
+  "max_async": 24,
+  "parallel_insert": 6,
+  "llm_workers": 24
+ },
+ "stages": {
+  "intake_clean": {
+   "new_or_changed": 1,
+   "tokens_before": 5610,
+   "tokens_after": 4606,
+   "flagged": [],
+   "elapsed_s": 0.1
+  },
+  "ingest": {
+   "failed": [],
+   "llm_calls": {
+    "summary": 8
+   },
+   "llm_tokens": {
+    "summary": {
+     "prompt": 10621,
+     "completion": 3234,
+     "thinking": 7131
+    }
+   },
+   "embed_requests": 7,
+   "embed_texts": 155,
+   "embed_chars": 86189,
+   "seconds": 22.9,
+   "elapsed_s": 23.0
+  },
+  "resolve": {
+   "entities_before": 8918,
+   "focus_names": 8918,
+   "candidate_pairs": {
+    "total": 7113,
+    "vector": 6716,
+    "key": 71,
+    "acronym": 441,
+    "acronym-def": 29
+   },
+   "code_merges": 13,
+   "code_merged_names": 14,
+   "alias_merges": 0,
+   "clusters": 2020,
+   "names_in_clusters": 7333,
+   "second_looks": 8,
+   "llm_same_groups": 662,
+   "llm_merged_names": 802,
+   "related": 2187,
+   "different_pairs": 3901,
+   "unsure_final": 2,
+   "rejected_groups": 0,
+   "entities_after": 8102,
+   "embed_texts_during_merges": 10858,
+   "llm_calls": {
+    "merge_decision": 2020,
+    "second_look": 8
+   },
+   "llm_tokens": {
+    "input": 1939919,
+    "output": 1636790
+   },
+   "elapsed_s": 1617.5
+  },
+  "graph_clean": {
+   "stoplist_removed": 1,
+   "self_loops": 0,
+   "condensed": 279,
+   "low_evidence": 160,
+   "paper_local_renamed": 0,
+   "hubs_several": 0,
+   "llm_calls": {
+    "hub_check": 50
+   },
+   "elapsed_s": 1776.1
+  },
+  "quality": {
+   "papers": 1,
+   "chunks": 6,
+   "entities_final": 8101,
+   "params": {
+    "c_chunks_per_paper": 6.0,
+    "e_entity_rows_per_chunk": 12.5,
+    "r_relation_rows_per_chunk": 12.67,
+    "u_new_names_per_entity_row": 0.493,
+    "batch_names_already_in_graph": 0.351,
+    "p_new_names_reaching_llm": 0.822,
+    "k_names_per_cluster": 3.63,
+    "q_second_look_share": 0.004,
+    "m_texts_reembedded_per_merged_name": 13.31,
+    "summary_calls_per_paper": 287.0,
+    "h_implied": 13.305
+   },
+   "elapsed_s": 1779.2
+  },
+  "export": {
+   "paper_concept_rows": 11089,
+   "names_dropped_not_in_graph": 334,
+   "full_entities_rows_holding_alias_names": 1059,
+   "entity_vectors": 8101,
+   "chunk_vectors": 1560,
+   "elapsed_s": 1782.9
+  }
+ },
+ "perf": {
+  "resolve": {
+   "graph_commit_calls": 3537,
+   "graph_writes": 15,
+   "graph_write_seconds": 16.2
+  },
+  "graph_clean": {
+   "graph_commit_calls": 280,
+   "graph_writes": 2,
+   "graph_write_seconds": 2.1
+  }
+ },
+ "elapsed_s": 1782.9
+}

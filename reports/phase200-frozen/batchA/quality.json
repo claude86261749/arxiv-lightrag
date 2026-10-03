@@ -1,0 +1,122 @@
+{
+ "papers": 1,
+ "chunks": 6,
+ "corpus_papers": 100,
+ "entities_final": 8101,
+ "type_distribution": {
+  "method": 2783,
+  "concept": 1743,
+  "model": 1265,
+  "metric": 818,
+  "task": 588,
+  "dataset": 467,
+  "tool": 339,
+  "unknown": 79,
+  "other": 19
+ },
+ "params": {
+  "c_chunks_per_paper": 6.0,
+  "e_entity_rows_per_chunk": 12.5,
+  "r_relation_rows_per_chunk": 12.67,
+  "u_new_names_per_entity_row": 0.493,
+  "batch_names_already_in_graph": 0.351,
+  "p_new_names_reaching_llm": 0.822,
+  "k_names_per_cluster": 3.63,
+  "q_second_look_share": 0.004,
+  "m_texts_reembedded_per_merged_name": 13.31,
+  "summary_calls_per_paper": 287.0,
+  "h_implied": 13.305
+ },
+ "gleaning": {
+  "extract_entity_names": 58,
+  "glean_new_entity_names": 16,
+  "glean_entity_add_rate": 0.276,
+  "extract_relation_rows": 52,
+  "glean_relation_rows": 24,
+  "glean_relation_add_rate": 0.462
+ },
+ "llm_calls_by_type": {
+  "summary": 287,
+  "merge_decision": 2020,
+  "second_look": 8,
+  "hub_check": 50
+ },
+ "llm_calls_per_paper": {
+  "summary": 287.0,
+  "merge_decision": 2020.0,
+  "second_look": 8.0,
+  "hub_check": 50.0
+ },
+ "gates": {
+  "type_coverage_other_share": 0.012,
+  "type_coverage_pass": true,
+  "cleanup_unreviewed_flags": {
+   "2609.07395": [
+    "removed 51% of tokens (> 50%)"
+   ],
+   "2609.18695": [
+    "removed 0.6% of tokens (< 2%)",
+    "no reference entries found"
+   ]
+  },
+  "hubs_flagged_several": []
+ },
+ "review_sheets": {
+  "merges": "review_merges.csv",
+  "missed_duplicates": "review_missed_duplicates.csv (100 pairs)"
+ },
+ "counters_by_stage": {
+  "ingest": {
+   "llm_calls": {
+    "summary": 8
+   },
+   "llm_tokens": {
+    "summary": {
+     "prompt": 10621,
+     "completion": 3234,
+     "thinking": 7131
+    }
+   },
+   "embed_requests": 7,
+   "embed_texts": 155,
+   "embed_chars": 86189,
+   "seconds": 22.9
+  },
+  "resolve": {
+   "llm_calls": {
+    "merge_decision": 2020,
+    "second_look": 8
+   },
+   "llm_tokens": {},
+   "embed_requests": 3591,
+   "embed_texts": 10858,
+   "embed_chars": 2932193,
+   "seconds": 1594.5,
+   "direct_llm_tokens": {
+    "input": 1939919,
+    "output": 1636790
+   }
+  },
+  "graph_clean": {
+   "llm_calls": {
+    "summary": 279,
+    "hub_check": 50
+   },
+   "llm_tokens": {
+    "summary": {
+     "prompt": 254732,
+     "completion": 62526,
+     "thinking": 196474
+    }
+   },
+   "embed_requests": 279,
+   "embed_texts": 279,
+   "embed_chars": 378129,
+   "seconds": 158.7,
+   "direct_llm_tokens": {
+    "input": 19180,
+    "output": 11562
+   }
+  }
+ }
+}

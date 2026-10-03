@@ -55,3 +55,9 @@ Run outputs (`runs/<name>/`): `report.json`, `quality.json`, `merges.json`, `ali
   vector-store write. `kgpipe/rag.py` calls `batchEmbedContents` directly.
 - **Type guidance** is passed as `addon_params["entity_types_guidance"]` (the server only
   accepts it through a YAML prompt file).
+
+## Current state
+
+The 200-paper phase is paused on the remote machine. See
+`reports/phase200-frozen/RESUME.md` for the state, the backups and the one command
+that resumes it; batch A's outputs are in `reports/phase200-frozen/batchA/`.
