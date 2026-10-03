@@ -32,7 +32,7 @@ def load_stoplist(path: Path) -> set[str]:
 
 
 async def clean_graph(rag, llm, stoplist_path: Path, hubs: int = 50, summary_min_fragments: int = 8,
-                      seed: int = 0) -> dict:
+                      seed: int = 0, workers: int = 8) -> dict:
     report: dict = {}
     g = rag.chunk_entity_relation_graph
     stop = load_stoplist(stoplist_path)
@@ -73,15 +73,21 @@ async def clean_graph(rag, llm, stoplist_path: Path, hubs: int = 50, summary_min
     # Condense merged nodes with many description fragments.
     from lightrag.operate import _handle_entity_relation_summary
     cfg = rag._build_global_config()
+    # Summaries run concurrently (bounded by LightRAG's own LLM limiter); edits are applied in order.
+    import asyncio
+    todo = [(n, e) for n, e in ents.items() if len(e.fragments) >= summary_min_fragments]
+    sem = asyncio.Semaphore(workers)
+
+    async def summarise(n, e):
+        async with sem:
+            out, _ = await _handle_entity_relation_summary("Entity", n, e.fragments, SEP, cfg, rag.llm_response_cache)
+            return out
+    summaries = await asyncio.gather(*(summarise(n, e) for n, e in todo))
     condensed = []
-    for n, e in ents.items():
-        frags = e.fragments
-        if len(frags) >= summary_min_fragments:
-            summary, _ = await _handle_entity_relation_summary(
-                "Entity", n, frags, SEP, cfg, rag.llm_response_cache)
-            await rag.aedit_entity(n, {"description": summary}, allow_rename=False)
-            condensed.append({"name": n, "fragments": len(frags)})
-            e.description = summary
+    for (n, e), summary in zip(todo, summaries):
+        await rag.aedit_entity(n, {"description": summary}, allow_rename=False)
+        condensed.append({"name": n, "fragments": len(e.fragments)})
+        e.description = summary
     report["condensed"] = condensed
 
     # Low evidence: one chunk, no relations. Flagged, kept.
@@ -113,6 +119,6 @@ async def clean_graph(rag, llm, stoplist_path: Path, hubs: int = 50, summary_min
         out = llm.json_call("hub_check", prompt, HUB_SCHEMA, HUB_SYSTEM)
         return {"name": e.name, "type": e.type, "degree": e.degree, **out}
 
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(workers) as ex:
         report["hubs"] = list(ex.map(check, items))
     return report

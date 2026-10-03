@@ -18,6 +18,7 @@ from .graph_clean import clean_graph
 from .intake import Manifest, clean_papers, intake
 from .quality import measure, merge_review_sheet, missed_duplicate_sheet
 from .rag import Counters, RagSettings, build_rag, delete_docs, doc_id_for, ingest_files, use_counters
+from .perf import DeferredGraphWrites
 from .resolve import AliasTable, resolve
 
 
@@ -87,8 +88,11 @@ async def run(args) -> dict:
         c_res = Counters()
         use_counters(c_res)
         alias = AliasTable(run_dir / "alias_table.csv")
-        rs, merges, pairs = await resolve(rag, llm, alias, run_dir / "resolve_state.json", c_res,
-                                          threshold=args.nn_threshold, strong=args.nn_strong, log_dir=run_dir)
+        async with DeferredGraphWrites(rag) as dgw:
+            rs, merges, pairs = await resolve(rag, llm, alias, run_dir / "resolve_state.json", c_res,
+                                              threshold=args.nn_threshold, strong=args.nn_strong, log_dir=run_dir,
+                                              workers=args.llm_workers)
+        perf = {"resolve": dgw.stats()}
         (run_dir / "merges.json").write_text(json.dumps(merges, indent=1))
         (run_dir / "candidate_pairs.json").write_text(json.dumps(
             [{"pair": sorted(p), "reasons": sorted(r)} for p, r in pairs.items()], indent=1))
@@ -100,7 +104,10 @@ async def run(args) -> dict:
         llm7 = Gemini(args.llm_model)
         c_gc = Counters()
         use_counters(c_gc)
-        gr = await clean_graph(rag, llm7, Path(args.stoplist), hubs=args.hubs)
+        async with DeferredGraphWrites(rag) as dgw:
+            gr = await clean_graph(rag, llm7, Path(args.stoplist), hubs=args.hubs, workers=args.llm_workers)
+        perf["graph_clean"] = dgw.stats()
+        report["perf"] = perf
         (run_dir / "graph_cleanup.json").write_text(json.dumps(gr, indent=1))
         counters_by_stage["graph_clean"] = {**c_gc.as_dict(), "llm_calls": {**c_gc.llm_calls, **llm7.calls},
                                             "direct_llm_tokens": dict(llm7.tokens)}
@@ -148,6 +155,7 @@ def main():
     ap.add_argument("--workspace", help="Postgres workspace name (default: none)")
     ap.add_argument("--max-async", type=int, default=8, help="concurrent LLM calls")
     ap.add_argument("--parallel-insert", type=int, default=4, help="documents processed at once")
+    ap.add_argument("--llm-workers", type=int, default=8, help="parallel merge-decision / hub-check / summary calls")
     args = ap.parse_args()
     asyncio.run(run(args))
 

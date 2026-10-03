@@ -406,6 +406,8 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
             merged.papers = max(merged.papers, e.papers)
         merges_log.append({"canonical": target, "aliases": others, "method": method, "cluster_id": cid,
                            "reason": reason, "types": sorted({merged.type})})
+        if len(merges_log) % 50 == 0:
+            alias.save()  # an interrupted run keeps its decisions
 
     # 0. Known aliases from earlier batches.
     for n in list(ents):
