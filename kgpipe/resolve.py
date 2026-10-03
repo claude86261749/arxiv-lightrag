@@ -59,14 +59,48 @@ def word_set(name: str) -> set[str]:
     return {singular(w) for w in re.findall(r"[a-z0-9]+", name.lower()) if len(w) > 1}
 
 
+def stem(word: str) -> str:
+    """Crude suffix stripping so Reranker/Reranking and Recommender/Recommendation compare equal."""
+    for suf in ("ations", "ation", "ings", "ing", "ers", "er", "ions", "ion", "ies", "es", "s", "e"):
+        if word.endswith(suf) and len(word) - len(suf) >= 3:
+            return word[:-len(suf)]
+    return word
+
+
+def abbreviation_keys(name: str) -> set[str]:
+    words = re.findall(r"[A-Za-z0-9]+", name)
+    keys = {initials(name, True), initials(name, False)}
+    # all-caps words kept whole: Sentence-BERT -> "sbert"
+    keys.add("".join(w.lower() if (w.isupper() and len(w) > 1) else w[0].lower() for w in words))
+    return {k for k in keys if len(k) >= 2}
+
+
 def acronym_like(a: str, b: str) -> bool:
-    """One name is all caps and its letters open the other's initials (LLM / Large Language Model)."""
+    """A one-token name with 2+ capitals spells the other's initials (LLM, NoF, SBERT)."""
     for x, y in ((a, b), (b, a)):
-        cx = re.sub(r"[^A-Za-z0-9]", "", x)
-        if 2 <= len(cx) <= 10 and cx.upper() == cx and any(
-                initials(y, d).startswith(cx.lower()[:2]) for d in (True, False)):
+        if " " in x.strip() or len(y.split()) < 2 and "-" not in y:
+            continue
+        caps = re.sub(r"[^A-Z]", "", x)
+        if len(caps) < 2:
+            continue
+        forms = {re.sub(r"[^A-Za-z0-9]", "", x).lower(), caps.lower()}
+        if forms & abbreviation_keys(y):
             return True
     return False
+
+
+def lexical_overlap(a: str, b: str) -> bool:
+    """One name's words are contained in the other's, or they share at least half their words.
+
+    The 100-paper batch showed that a single shared word ("Retrieval", "Recommendation")
+    is far too weak a signal: it added ~5,000 pairs in the 0.85-0.90 band.
+    """
+    wa, wb = {stem(w) for w in word_set(a)}, {stem(w) for w in word_set(b)}
+    if not wa or not wb:
+        return False
+    if wa <= wb or wb <= wa:
+        return True
+    return len(wa & wb) / len(wa | wb) >= 0.5
 
 
 ACRO_DEF = re.compile(r"([A-Z][\w-]*(?:\s+[\w-]+){1,7})\s+\(([A-Z][A-Za-z0-9-]{1,11})\)")
@@ -215,7 +249,7 @@ def find_candidates(ents: dict[str, Entity], vecs: np.ndarray, names: list[str],
                 # Pilot: below `strong`, only 4-8% of vector pairs were duplicates unless the
                 # names share a word or look like an acronym pair. Lexical support also lifts
                 # the same-type restriction (types are assigned per chunk and drift).
-                lexical = bool(word_set(a) & word_set(b)) or acronym_like(a, b)
+                lexical = lexical_overlap(a, b) or acronym_like(a, b)
                 same_type = ents[a].type == ents[b].type or {"other", "unknown"} & {ents[a].type, ents[b].type}
                 if (sims[r, j] >= strong and same_type) or lexical:
                     pairs[frozenset((a, b))].add(f"vector:{sims[r, j]:.3f}")
