@@ -47,6 +47,8 @@ def build(run: Path, dim: int = 768, model: str = "gemini-embedding-2") -> dict:
     names = [m["entity_name"] for m in meta]
     g = nx.read_graphml(exp / "graph.graphml")
     manifest = json.loads((run / "manifest.json").read_text())
+    if not (exp / "chunks.jsonl").exists():
+        raise SystemExit("export/chunks.jsonl missing: re-run stage 9 (export) for this run")
     titles = {k: v.get("title") for k, v in manifest.items()}
 
     idx = {n: i for i, n in enumerate(names)}
@@ -96,7 +98,10 @@ def build(run: Path, dim: int = 768, model: str = "gemini-embedding-2") -> dict:
     cvecs = cv["vectors"].astype(np.float32)
     cvecs /= np.linalg.norm(cvecs, axis=1, keepdims=True)
     cmeta = [json.loads(m) for m in cv["meta"]]
-    chunks = json.loads((run / "rag" / "kv_store_text_chunks.json").read_text())
+    chunks = {}
+    for line in (exp / "chunks.jsonl").open():
+        r = json.loads(line)
+        chunks[r["id"]] = r
     key = os.environ.get("GEMINI_API_KEY") or os.environ["AI_STUDIO_KEY"]
     qv = asyncio.run(batch_embed(PROBES, model, dim, key))
     probes = []

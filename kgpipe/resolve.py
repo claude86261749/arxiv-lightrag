@@ -90,6 +90,7 @@ class Entity:
 @dataclass
 class ResolveStats:
     entities_before: int = 0
+    focus_names: int = 0
     candidate_pairs: dict = field(default_factory=dict)
     code_merges: int = 0
     code_merged_names: int = 0
@@ -158,13 +159,9 @@ async def load_entities(rag) -> dict[str, Entity]:
 
 async def paper_concepts(rag) -> dict[str, list[str]]:
     """doc_id -> extracted entity names, from the per-document full_entities store."""
-    out = {}
-    data = await rag.full_entities.get_all() if hasattr(rag.full_entities, "get_all") else {}
-    if not data:
-        data = rag.full_entities._data  # JsonKVStorage
-    for doc_id, row in data.items():
-        out[doc_id] = list(row.get("entity_names", []))
-    return out
+    from .store import full_entity_names, processed_docs
+    docs = await processed_docs(rag)
+    return await full_entity_names(rag, list(docs))
 
 
 def paper_counts(ents: dict[str, Entity], concepts: dict[str, list[str]], canon: dict[str, str]) -> None:
@@ -388,7 +385,6 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
     state = json.loads(state_path.read_text()) if state_path.exists() else {"seen": {}}
     ents = await load_entities(rag)
     st.entities_before = len(ents)
-    chunks = rag.text_chunks._data if hasattr(rag.text_chunks, "_data") else {}
     concepts = await paper_concepts(rag)
     canon_map = alias.canonical_of()
     paper_counts(ents, concepts, canon_map)
@@ -419,6 +415,7 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
             st.alias_merges += 1
 
     focus = {n for n, e in ents.items() if state["seen"].get(n) != len(e.fragments)}
+    st.focus_names = len(focus)
     names = sorted(ents)
     vecs = await entity_vectors(rag, names)
     pairs = find_candidates(ents, vecs, names, focus, threshold, top_k, strong)
@@ -448,6 +445,9 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
     st.clusters = len(clusters)
     if log_dir:
         (log_dir / "clusters.json").write_text(json.dumps(clusters, indent=0))
+    from .store import chunk_records
+    need = sorted({cid for c in clusters for n in c for cid in ents[n].source_ids[:12]})
+    chunks = await chunk_records(rag, need)
     st.names_in_clusters = sum(len(c) for c in clusters)
 
     def decide(item):

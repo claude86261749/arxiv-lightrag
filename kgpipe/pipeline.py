@@ -52,7 +52,9 @@ async def run(args) -> dict:
           flagged=[i for i in changed if manifest.papers[i]["cleanup_flags"]])
 
     settings = RagSettings(working_dir=run_dir / "rag", max_gleaning=args.gleaning,
-                           embed_dim=args.embed_dim, llm_model=args.llm_model)
+                           embed_dim=args.embed_dim, llm_model=args.llm_model, storage=args.storage,
+                           workspace=args.workspace or "", max_async=args.max_async,
+                           max_parallel_insert=args.parallel_insert)
     counters_by_stage: dict = {}
     c_ingest = Counters()
     rag = await build_rag(settings, c_ingest)
@@ -61,6 +63,7 @@ async def run(args) -> dict:
         replace = [doc_id_for(f"{i}.md") for i in changed if manifest.papers[i].get("previous_hash")]
         if replace:
             await delete_docs(rag, replace)
+        names_before = set(await rag.chunk_entity_relation_graph.get_all_labels())
         files = [Path(manifest.papers[i]["cleaned_path"]) for i in changed]
         if files:
             await ingest_files(rag, files, settings.working_dir / "inputs", f"batch_{int(t0)}")
@@ -109,7 +112,8 @@ async def run(args) -> dict:
         # 8. Quality report and review sheets.
         merge_review_sheet(merges, run_dir / "review_merges.csv")
         missed = await missed_duplicate_sheet(rag, run_dir / "review_missed_duplicates.csv")
-        q = await measure(rag, run_dir, manifest, counters_by_stage, asdict(rs), gr)
+        q = await measure(rag, run_dir, manifest, counters_by_stage, asdict(rs), gr,
+                          batch_doc_ids=[doc_id_for(f"{i}.md") for i in changed], names_before=names_before)
         q["review_sheets"] = {"merges": "review_merges.csv", "missed_duplicates": f"review_missed_duplicates.csv ({missed} pairs)"}
         q["counters_by_stage"] = counters_by_stage
         (run_dir / "quality.json").write_text(json.dumps(q, indent=1))
@@ -140,6 +144,10 @@ def main():
     ap.add_argument("--hubs", type=int, default=50)
     ap.add_argument("--stoplist", default="config/stoplist.txt")
     ap.add_argument("--stop-after", choices=["ingest"], default=None)
+    ap.add_argument("--storage", choices=["file", "postgres"], default="file")
+    ap.add_argument("--workspace", help="Postgres workspace name (default: none)")
+    ap.add_argument("--max-async", type=int, default=8, help="concurrent LLM calls")
+    ap.add_argument("--parallel-insert", type=int, default=4, help="documents processed at once")
     args = ap.parse_args()
     asyncio.run(run(args))
 

@@ -121,6 +121,8 @@ class RagSettings:
     embedding_max_async: int = 8
     force_summary_on_merge: int = 8
     types_guidance: str = DEFAULT_TYPES_GUIDANCE
+    storage: str = "file"          # "file" (LightRAG JSON files) or "postgres"
+    workspace: str = ""            # isolates runs that share one Postgres database
 
 
 def configure_env(s: RagSettings) -> None:
@@ -169,7 +171,18 @@ async def build_rag(s: RagSettings, counters: Counters):
 
     s.working_dir.mkdir(parents=True, exist_ok=True)
     (s.working_dir / "inputs").mkdir(exist_ok=True)
+    storage_kwargs = {}
+    if s.storage == "postgres":
+        # KV, vector and doc-status stores in Postgres (pgvector); the graph stays in NetworkX.
+        for k, v in {"POSTGRES_HOST": "localhost", "POSTGRES_PORT": "5432", "POSTGRES_USER": "postgres",
+                     "POSTGRES_PASSWORD": "kgpipe", "POSTGRES_DATABASE": "lightrag"}.items():
+            os.environ.setdefault(k, v)
+        storage_kwargs = {"kv_storage": "PGKVStorage", "vector_storage": "PGVectorStorage",
+                          "doc_status_storage": "PGDocStatusStorage", "graph_storage": "NetworkXStorage"}
+    if s.workspace:
+        storage_kwargs["workspace"] = s.workspace
     rag = LightRAG(
+        **storage_kwargs,
         working_dir=str(s.working_dir),
         llm_model_func=llm_func,
         llm_model_name=s.llm_model,
