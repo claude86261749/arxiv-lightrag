@@ -36,8 +36,8 @@ def intake(corpus_dir: Path, manifest: Manifest, limit: int | None = None) -> li
         text = p.read_text()
         h = sha256(text)
         rec = manifest.papers.get(arxiv_id)
-        if rec and rec["content_hash"] == h:
-            continue
+        if rec and rec["content_hash"] == h and rec.get("status") != "failed":
+            continue  # unchanged and indexed; failed papers are retried (replaced) on the next run
         m = meta.get(arxiv_id, {})
         manifest.papers[arxiv_id] = {
             **(rec or {}),
