@@ -1,0 +1,3722 @@
+{
+ "2610.02057": {
+  "arxiv_id": "2610.02057",
+  "version": "1",
+  "title": "Optimizing Effective Training Time for Large-Scale Recommendation Systems",
+  "authors": [
+   "Mingming Ding",
+   "Ruilin Chen",
+   "Yuzhen Huang",
+   "Hang Qi",
+   "Menglu Yu",
+   "San Tan",
+   "Damian Reeves",
+   "Boris Sarana",
+   "Kevin Tang",
+   "Satendra Gera",
+   "Gagan Jain",
+   "Sahil Shah",
+   "Vishwa Karia",
+   "Fuzail Khan",
+   "Yashasvi Makin",
+   "Edward Z. Yang",
+   "Oguz Ulgen",
+   "Jia Chen Ren",
+   "Laith Sakka",
+   "Mayank Garg",
+   "Meet Vadakkanchery",
+   "Aici Lin",
+   "Wei Sun",
+   "Mengjiao Zhou",
+   "Shuai Yang",
+   "Junqing Zhou",
+   "Max Leung",
+   "Apoorv Purwar",
+   "Musharaf Sultan",
+   "John Bocharov",
+   "Zhenyu Tang",
+   "Vivek Trehan"
+  ],
+  "submitted": "2026-10-01T17:02:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.01705": {
+  "arxiv_id": "2610.01705",
+  "version": "1",
+  "title": "AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation",
+  "authors": [
+   "Haoran Qiang",
+   "Guannan Liu",
+   "Liang Zhang",
+   "Junjie Wu"
+  ],
+  "submitted": "2026-10-01T13:51:13Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.01553": {
+  "arxiv_id": "2610.01553",
+  "version": "1",
+  "title": "From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search",
+  "authors": [
+   "Nikolai Zenovkin",
+   "Sebastian Bj\u00f6rkqvist"
+  ],
+  "submitted": "2026-10-01T12:20:35Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2610.01463": {
+  "arxiv_id": "2610.01463",
+  "version": "1",
+  "title": "Learning to structure data from user-generated thematic corpora",
+  "authors": [
+   "Elishay Avram",
+   "Oren Glickman",
+   "Elad Yom-Tov"
+  ],
+  "submitted": "2026-10-01T10:56:05Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.01139": {
+  "arxiv_id": "2610.01139",
+  "version": "1",
+  "title": "Do Multilingual Encoders Produce Language-Consistent Semantic IDs?",
+  "authors": [
+   "Abhinav Bohra",
+   "Anuj Bohra"
+  ],
+  "submitted": "2026-10-01T06:18:27Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2610.00964": {
+  "arxiv_id": "2610.00964",
+  "version": "1",
+  "title": "RPTune: Learned Context Curation for LLM Catalog Search",
+  "authors": [
+   "Chuxuan Hu",
+   "Hejie Cui",
+   "Norman Huang",
+   "Shubham Kumar Bharti",
+   "Wang-Chiew Tan",
+   "Sercan \u00d6. Ar\u0131k"
+  ],
+  "submitted": "2026-10-01T02:52:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2610.00923": {
+  "arxiv_id": "2610.00923",
+  "version": "1",
+  "title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+  "authors": [
+   "Hyojeong Yun",
+   "Jueun Kim",
+   "Wook-Shin Han"
+  ],
+  "submitted": "2026-10-01T01:57:55Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.00587": {
+  "arxiv_id": "2610.00587",
+  "version": "1",
+  "title": "Comparison of Common Crawl News & GDELT",
+  "authors": [
+   "Ameir El Ouadi",
+   "David Beskow"
+  ],
+  "submitted": "2026-09-30T18:52:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.40241": {
+  "arxiv_id": "2609.40241",
+  "version": "1",
+  "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+  "authors": [
+   "Hanjia Lyu",
+   "Yinglong Xia"
+  ],
+  "submitted": "2026-09-30T17:33:43Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.39828": {
+  "arxiv_id": "2609.39828",
+  "version": "1",
+  "title": "KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation",
+  "authors": [
+   "Jiangxia Cao",
+   "Hao Peng",
+   "Wenlong Xu",
+   "Jiaxin Deng",
+   "Zhixin Ling",
+   "Xingmei Wang",
+   "Kun Shang",
+   "Can Tang",
+   "Zhihuai Cai",
+   "Jun Du",
+   "Fang Su",
+   "Xiaojuan Liu",
+   "Yiling Li",
+   "Chenglong Yu",
+   "Chongling Rao",
+   "Haixuan Gao",
+   "Haitao Xu",
+   "Jian Liang",
+   "Ruiming Tang",
+   "Chenglong Chu",
+   "Guohong Mu",
+   "Honghui Bao",
+   "Hui Wang",
+   "Jialong Chen",
+   "Jiao Ou",
+   "Muhao Wei",
+   "Peng Zhang",
+   "Renpu Liu",
+   "Ruochen Yang",
+   "Shugui Liu",
+   "Xinqi Jin",
+   "Yan Sun",
+   "Yifan Wang",
+   "Yingzhi He",
+   "Yufei Ye",
+   "Yusen Huo",
+   "Tingkuo Wang",
+   "Jihong Zhang",
+   "Lanxi Zhu",
+   "Pengyuan Liu",
+   "Zhipeng Yi",
+   "Luankang Zhang",
+   "Hang Lv",
+   "Xuyang Zhi",
+   "Tianyu Li",
+   "Bintao Wu",
+   "Chuang Ou",
+   "Siyue Su",
+   "Ziyuan Wang",
+   "Yuliang Sun",
+   "Baiyan Che",
+   "Feiyang Xu",
+   "Shiwen Zhang",
+   "Shiteng Cao",
+   "Chongcong Jiang",
+   "Yuan Fang",
+   "Xiangwu Yang",
+   "Hao Deng",
+   "Zijian Du",
+   "Pengxun Wang",
+   "Xiaoming Wang",
+   "Shun Qin",
+   "Yingqi Song",
+   "Tianyi Li",
+   "Naixiao Peng",
+   "Chenyu Zhou",
+   "Qiliang Jiang",
+   "Quan Zheng",
+   "Cheng Jin",
+   "Siying Zeng",
+   "Hongjia Xu",
+   "Junwu Hu",
+   "Teng Fu",
+   "Zhengkang Mei",
+   "Haijun Yu",
+   "Kai Li",
+   "Shengyang Zhou",
+   "Zhijia Wei",
+   "Siyi Xiong",
+   "Bo Liu",
+   "Zichun Guo",
+   "Zhubin Han",
+   "Jinpeng Fu",
+   "Bingqian Liu",
+   "Yuyi Wang",
+   "Yu Liu",
+   "Qinghai Tan",
+   "Ruijie Zhou",
+   "Zhuohang Li",
+   "Zhijia Zhong",
+   "Xiangnan He",
+   "Jirong Wen",
+   "Min Zhang",
+   "Wenwu Ou",
+   "Peng Jiang",
+   "Han Li",
+   "Kaiqiao Zhan",
+   "Yanan Niu",
+   "Lantao Hu",
+   "Kun Gai"
+  ],
+  "submitted": "2026-09-30T14:28:37Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.39696": {
+  "arxiv_id": "2609.39696",
+  "version": "1",
+  "title": "When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation",
+  "authors": [
+   "Sanjeev Suresh"
+  ],
+  "submitted": "2026-09-30T13:17:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.39327": {
+  "arxiv_id": "2609.39327",
+  "version": "1",
+  "title": "Generative End-to-end Ad Retrieval at Douyin",
+  "authors": [
+   "Shaowen Zeng",
+   "Yanhua Huang",
+   "Jiacheng Sun",
+   "Jiarui Liu",
+   "Qian Dai",
+   "Zhikai Yang",
+   "Hancheng Li",
+   "Boya Wu",
+   "Tuoyu Zhang",
+   "Yekui Chen",
+   "Xiang Sun"
+  ],
+  "submitted": "2026-09-30T09:00:47Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.39319": {
+  "arxiv_id": "2609.39319",
+  "version": "1",
+  "title": "Residual Trajectory Distillation for Generative Retrieval",
+  "authors": [
+   "Weihao Shen",
+   "Wei Chen",
+   "Fuwei Zhang",
+   "Guojun Liu",
+   "Qingsong Hua",
+   "Wei Lin",
+   "Fuzhen Zhuang"
+  ],
+  "submitted": "2026-09-30T08:59:09Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.39312": {
+  "arxiv_id": "2609.39312",
+  "version": "1",
+  "title": "Learning Multiresolution Relevance for Hierarchical Generative Retrieval",
+  "authors": [
+   "Weihao Shen",
+   "Wei Chen",
+   "Fuwei Zhang",
+   "Guojun Liu",
+   "Qingsong Hua",
+   "Wei Lin",
+   "Fuzhen Zhuang"
+  ],
+  "submitted": "2026-09-30T08:51:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.00369": {
+  "arxiv_id": "2610.00369",
+  "version": "1",
+  "title": "A Shared Taste for Model-Written Text: The Generator-by-Selector Matrices of \"AI-AI Bias\" Show No Detectable Own-Model Premium",
+  "authors": [
+   "Dmitrij \u017batuchin"
+  ],
+  "submitted": "2026-09-30T06:51:37Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL"
+  ]
+ },
+ "2609.39043": {
+  "arxiv_id": "2609.39043",
+  "version": "1",
+  "title": "Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty",
+  "authors": [
+   "Milad Sabouri",
+   "Neeraj Sharma",
+   "Sardar Hamidian",
+   "Shaghayegh Agah"
+  ],
+  "submitted": "2026-09-30T05:53:08Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.39007": {
+  "arxiv_id": "2609.39007",
+  "version": "1",
+  "title": "RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation",
+  "authors": [
+   "Junyeong Song",
+   "Jaemin Yoo"
+  ],
+  "submitted": "2026-09-30T05:18:00Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.38999": {
+  "arxiv_id": "2609.38999",
+  "version": "1",
+  "title": "When LLM-Inferred User Context Adds Value in Production Streaming Recommendation",
+  "authors": [
+   "Milad Sabouri",
+   "Neeraj Sharma",
+   "Sardar Hamidian",
+   "Shaghayegh Agah"
+  ],
+  "submitted": "2026-09-30T05:12:57Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.38949": {
+  "arxiv_id": "2609.38949",
+  "version": "1",
+  "title": "Text-Video Retrieval via Multi-Dimensional Saliency Assessment and Granularity-Aware Query Decomposition",
+  "authors": [
+   "Shuquan Wei",
+   "Xi Chen",
+   "Xu Chen",
+   "Xiangyang Jia"
+  ],
+  "submitted": "2026-09-30T04:17:49Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.38822": {
+  "arxiv_id": "2609.38822",
+  "version": "1",
+  "title": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+  "authors": [
+   "Guanqun Yang",
+   "Wenlong Zhang",
+   "Tian Shi",
+   "Ping Wang"
+  ],
+  "submitted": "2026-09-30T02:46:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.MA"
+  ]
+ },
+ "2609.38807": {
+  "arxiv_id": "2609.38807",
+  "version": "1",
+  "title": "PatchHolmes: Agentic Patch Retrieval via Listwise Selection",
+  "authors": [
+   "Guanqun Yang",
+   "Yingming Zhou",
+   "Jiangrui Zheng",
+   "Shudong Hao",
+   "Xueqing Liu"
+  ],
+  "submitted": "2026-09-30T02:38:22Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.SE"
+  ]
+ },
+ "2609.38646": {
+  "arxiv_id": "2609.38646",
+  "version": "2",
+  "title": "Exploring Forum Post Retrieval with Generative Modeling",
+  "authors": [
+   "Yang Li",
+   "Yaguang Liu",
+   "Heng Liu",
+   "Samson Komo",
+   "Jane Kou",
+   "Yulian Zhou",
+   "Gang Yang",
+   "Shubhojeet Sarkar",
+   "Gaurav Chakravorty",
+   "Yujie Liu",
+   "Haipeng Chen",
+   "Yonghuan Yang",
+   "Deepti Chheda",
+   "Yamin Wang",
+   "Mike Plumpe",
+   "Rish Tandon",
+   "Shengbo Guo"
+  ],
+  "submitted": "2026-09-29T23:04:09Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.38473": {
+  "arxiv_id": "2609.38473",
+  "version": "1",
+  "title": "Re-ranking and Late Interaction Drive Retrieval Quality: A Controlled Comparison of RAG Strategies for Scientific Question Answering",
+  "authors": [
+   "Bhagyesh Rathi",
+   "Eshan Chawla",
+   "William B. Andreopoulos"
+  ],
+  "submitted": "2026-09-29T20:04:29Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.38455": {
+  "arxiv_id": "2609.38455",
+  "version": "1",
+  "title": "AdaM-Rec: Adaptive Modality Routing for Multimodal Recommendation",
+  "authors": [
+   "Honghao Fu",
+   "Jiacheng Chen",
+   "Manxi Lin",
+   "Junjun Zheng",
+   "Xiangheng Kong",
+   "Yiwei Wang",
+   "Xin Yu",
+   "Miao Xu",
+   "Yuning Jiang",
+   "Yujun Cai"
+  ],
+  "submitted": "2026-09-29T19:46:31Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.38353": {
+  "arxiv_id": "2609.38353",
+  "version": "2",
+  "title": "TAGGRAPH: Tag-Augmented Graphs for Graph Retrieval of Agent Persistent Histories",
+  "authors": [
+   "Yu-Shu Chen",
+   "Yu-Jung Liang",
+   "Pengtao Xie"
+  ],
+  "submitted": "2026-09-29T18:15:04Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.38099": {
+  "arxiv_id": "2609.38099",
+  "version": "1",
+  "title": "Effective Dense Retrieval using Only In-Context Examples",
+  "authors": [
+   "Nour Jedidi",
+   "Abdul Basit Ali",
+   "Hang Li",
+   "Jimmy Lin"
+  ],
+  "submitted": "2026-09-29T17:44:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.37911": {
+  "arxiv_id": "2609.37911",
+  "version": "1",
+  "title": "Generated Query Expansion Still Helps Strong Sparse Retrieval: A Controlled Study with SPLADE-v3",
+  "authors": [
+   "Ryan C. Barron",
+   "Cade W. Trotter",
+   "Maksim E. Eren",
+   "Kim \u00d8. Rasmussen",
+   "Liz D. Miller",
+   "Benjamin J. Migliori"
+  ],
+  "submitted": "2026-09-29T16:07:06Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.37749": {
+  "arxiv_id": "2609.37749",
+  "version": "1",
+  "title": "Towards Semi-Automatically Comparing Keyword-Based and Semantic Search Accuracy",
+  "authors": [
+   "Mohamed Ben Salha",
+   "Fiete L\u00fcer",
+   "Maik Betka",
+   "Stefan Wagner"
+  ],
+  "submitted": "2026-09-29T15:00:22Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.37574": {
+  "arxiv_id": "2609.37574",
+  "version": "2",
+  "title": "MERGE: Multi-LLM Ensemble for Retrieval via Generative Enrichment",
+  "authors": [
+   "Tzu-I Ho",
+   "Yung-Yu Shih",
+   "Shang-Yu Su",
+   "Dongzhe Wang",
+   "Yun-Nung Chen"
+  ],
+  "submitted": "2026-09-29T13:39:54Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.36946": {
+  "arxiv_id": "2609.36946",
+  "version": "1",
+  "title": "Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval",
+  "authors": [
+   "Xuri Ge",
+   "Chunhao Wang",
+   "Junchen Fu",
+   "Haokun Wen",
+   "Zhiwei Xu",
+   "Ying Zhou",
+   "Zhumin Chen",
+   "Pengjie Ren",
+   "Zhaochun Ren",
+   "Xin Xin"
+  ],
+  "submitted": "2026-09-29T07:54:20Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.36688": {
+  "arxiv_id": "2609.36688",
+  "version": "1",
+  "title": "GRP v0.1 Technical Report",
+  "authors": [
+   "Wenfeng Zhuo",
+   "Vincent Xue",
+   "Charles Wei",
+   "Cong Ni",
+   "Ruiming Lu",
+   "Jiwen Ren",
+   "Mo Li",
+   "Peng Yang",
+   "Xufei Wang",
+   "Dongheng Li",
+   "Jiacong He",
+   "Yi Song",
+   "Yufei Fan",
+   "Mikhail Obukhov",
+   "Yiwen Chen",
+   "Yvette Liu",
+   "Yin Ye",
+   "Chengjie Wu",
+   "Mingtao Zhang",
+   "Jinchao Ye",
+   "Lili Zhang",
+   "Chunhui Zhu"
+  ],
+  "submitted": "2026-09-29T04:30:34Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35739": {
+  "arxiv_id": "2609.35739",
+  "version": "1",
+  "title": "Rubric-Calibrated Preferences: Cross-Query Calibration of LLM Judgments via Item Response Theory",
+  "authors": [
+   "Fabian David Schmidt",
+   "Donato Crisostomi",
+   "Carlos Lassance",
+   "Nils Reimers"
+  ],
+  "submitted": "2026-09-28T17:54:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35430": {
+  "arxiv_id": "2609.35430",
+  "version": "1",
+  "title": "Can Generative Retrievers Learn Semantic IDs Without Forgetting How to Speak?",
+  "authors": [
+   "Junchen Fu",
+   "Kleomenis Katevas",
+   "Vandana Rajan",
+   "Sof\u00eda Celi",
+   "Hamed Haddadi"
+  ],
+  "submitted": "2026-09-28T15:36:03Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35304": {
+  "arxiv_id": "2609.35304",
+  "version": "1",
+  "title": "Signal or Noise? Modality Contribution and Cooperation in Multimodal GraphRAG",
+  "authors": [
+   "Antonios Georgakopoulos",
+   "Paul Groth",
+   "Lise Stork"
+  ],
+  "submitted": "2026-09-28T14:44:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35069": {
+  "arxiv_id": "2609.35069",
+  "version": "1",
+  "title": "RenderRank: Learning to Rerank Text with Compressed Visual Tokens",
+  "authors": [
+   "Seongtae Hong",
+   "Youngjoon Jang",
+   "Jungseob Lee",
+   "Hyeonseok Moon",
+   "Heuiseok Lim"
+  ],
+  "submitted": "2026-09-28T12:57:13Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35041": {
+  "arxiv_id": "2609.35041",
+  "version": "1",
+  "title": "Mitigating Popularity Bias in Recommendation with Global Listwise Learning and Progressive Bi-Weighting",
+  "authors": [
+   "Tianyu Zhu",
+   "Jiandong Ding",
+   "Yansong Shi",
+   "Guoqing Chen",
+   "Jian-Yun Nie"
+  ],
+  "submitted": "2026-09-28T12:39:49Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35031": {
+  "arxiv_id": "2609.35031",
+  "version": "1",
+  "title": "PEAR: Progressive Evidence-Based AutoResearch for Industrial Search Systems",
+  "authors": [
+   "Yifan Wang",
+   "Shipeng Zhu",
+   "Fei Xiong",
+   "Yuqin Yang",
+   "Yonghui Huang",
+   "Kunyao Wu",
+   "Yue Wang",
+   "Weichao Meng",
+   "Yu Gong"
+  ],
+  "submitted": "2026-09-28T12:30:00Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.34899": {
+  "arxiv_id": "2609.34899",
+  "version": "1",
+  "title": "ColNanoVDR: Document-Free Query Distillation for Multi-Vector Visual Document Retrieval via Optimal Transport",
+  "authors": [
+   "Zhuchenyang Liu",
+   "Ziyi Wang",
+   "Yao Zhang",
+   "Yu Xiao"
+  ],
+  "submitted": "2026-09-28T11:05:45Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.CV"
+  ]
+ },
+ "2609.34802": {
+  "arxiv_id": "2609.34802",
+  "version": "1",
+  "title": "No Attention, No Problem: Rethinking Session-based Recommendation with Pure Convolution",
+  "authors": [
+   "Tao Huang",
+   "Wei Zhou"
+  ],
+  "submitted": "2026-09-28T10:07:40Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.34552": {
+  "arxiv_id": "2609.34552",
+  "version": "1",
+  "title": "EvoSkillRec: Skill-Genome Evolution for Recommender Architecture Discovery",
+  "authors": [
+   "Xiaopeng Li",
+   "Kuo Cai",
+   "Bo Chen",
+   "Wenlin Zhang",
+   "Mengyang Ma",
+   "Yingyi Zhang",
+   "Zichuan Fu",
+   "Yu Yang",
+   "Qidong Liu",
+   "Yiyu Wang",
+   "Ruiming Tang",
+   "Wenwu Ou",
+   "Jiang Wu",
+   "Zhanbo Xu",
+   "Xiangyu Zhao"
+  ],
+  "submitted": "2026-09-28T08:12:08Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.34404": {
+  "arxiv_id": "2609.34404",
+  "version": "1",
+  "title": "Eval4DiRec: A Unified and Systematic Evaluation Framework for Diffusion-based Recommender Systems",
+  "authors": [
+   "Cong Wang",
+   "Shoujin Wang",
+   "Yishuo Li",
+   "Qi Zhang",
+   "Liang Hu",
+   "Wenpeng Lu"
+  ],
+  "submitted": "2026-09-28T06:16:44Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.34393": {
+  "arxiv_id": "2609.34393",
+  "version": "1",
+  "title": "Relevance-Resolution Transfer via Scale-Decomposable Fractional Diffusion for Multi-Length Cross-Modal Hash Retrieval",
+  "authors": [
+   "Xi Chen",
+   "Xu Chen",
+   "Xiangyang Jia",
+   "Ting Gan",
+   "Xu Zhang",
+   "Shuquan Wei",
+   "Sitong Fan"
+  ],
+  "submitted": "2026-09-28T06:07:53Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.34383": {
+  "arxiv_id": "2609.34383",
+  "version": "1",
+  "title": "Correcting to Predict: Pseudo-Value Correction for Multimodal Attribute Value Extraction",
+  "authors": [
+   "Junhao Zhang",
+   "Feiran Hu",
+   "Xiao Hu",
+   "Baoliang Cui",
+   "Xiaoyi Zeng"
+  ],
+  "submitted": "2026-09-28T05:59:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.34306": {
+  "arxiv_id": "2609.34306",
+  "version": "1",
+  "title": "SPRINT: Single-Step Generative Recommendation via Average Probability Velocity",
+  "authors": [
+   "Zhuo Cai",
+   "Shoujin Wang",
+   "Peilin Zhou",
+   "Min Xu",
+   "Julian McAuley",
+   "Fang Chen"
+  ],
+  "submitted": "2026-09-28T04:47:34Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.35904": {
+  "arxiv_id": "2609.35904",
+  "version": "1",
+  "title": "Structured Interaction, Visual Localization, and Robust Execution for Complex Web Tasks: A Technical Report on the WebRetriever Challenge",
+  "authors": [
+   "Ziqi Zhang",
+   "Shaohui Li",
+   "Bing Li"
+  ],
+  "submitted": "2026-09-28T04:02:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.MM"
+  ]
+ },
+ "2609.34229": {
+  "arxiv_id": "2609.34229",
+  "version": "1",
+  "title": "Measuring and Mitigating Identity-Cue Preference Drift in LLM-based Recommender Systems",
+  "authors": [
+   "Zhuoxiong Gan",
+   "Qiang Dong"
+  ],
+  "submitted": "2026-09-28T03:35:06Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.SI"
+  ]
+ },
+ "2609.34192": {
+  "arxiv_id": "2609.34192",
+  "version": "1",
+  "title": "RidgeRank: Efficient Visual Document Reranking via Score Fusion and a Shallow Linear Readout",
+  "authors": [
+   "Shubing Yang",
+   "Dongfang Zhao"
+  ],
+  "submitted": "2026-09-28T03:05:48Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.34127": {
+  "arxiv_id": "2609.34127",
+  "version": "1",
+  "title": "STITCH-RAG: Spatio-Temporal Influence Tracing over Topic Hypergraphs for Multi-Hop Retrieval-Augmented Generation",
+  "authors": [
+   "Haodong Yang",
+   "Mengzhu Chen",
+   "Jia Cai"
+  ],
+  "submitted": "2026-09-28T02:05:31Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.33745": {
+  "arxiv_id": "2609.33745",
+  "version": "1",
+  "title": "Beyond the Beam: Constructive Repair and Candidate Completion for Generative Recommendation",
+  "authors": [
+   "Zijun Zhao",
+   "Peng Zhang",
+   "Gang Zhang",
+   "Yuanchi Ma",
+   "Hui He",
+   "Zhendong Niu"
+  ],
+  "submitted": "2026-09-27T16:46:55Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.33447": {
+  "arxiv_id": "2609.33447",
+  "version": "1",
+  "title": "From PDF to Evidence: Structure-Aware Retrieval for Clinical Practice Guidelines",
+  "authors": [
+   "Xingyu Lin",
+   "Dehui Du"
+  ],
+  "submitted": "2026-09-27T10:55:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CV"
+  ]
+ },
+ "2609.33346": {
+  "arxiv_id": "2609.33346",
+  "version": "1",
+  "title": "What Gets Measured Gets Managed: Sign-aware Recommendation Needs Sign-aware Evaluation",
+  "authors": [
+   "Minchan Kim",
+   "Jungmin Hwang",
+   "Hyunwoo Park"
+  ],
+  "submitted": "2026-09-27T08:17:30Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.33233": {
+  "arxiv_id": "2609.33233",
+  "version": "1",
+  "title": "Inspire: Benchmarking Scientific Literature Search for Open Research Problems",
+  "authors": [
+   "Jianrong Ding",
+   "Zhengyan Shi",
+   "Jianyuan Zhong",
+   "Kai Qiu",
+   "Qi Dai",
+   "Yifan Yang",
+   "Chong Luo",
+   "Qiang Xu"
+  ],
+  "submitted": "2026-09-27T05:21:51Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.33045": {
+  "arxiv_id": "2609.33045",
+  "version": "1",
+  "title": "Overview and Analysis of the RecSys Challenge 2026: Conversational Music Recommendation",
+  "authors": [
+   "Seungheon Doh",
+   "Sergio Oramas",
+   "Bruno Sguerra",
+   "Abhinav Bohra",
+   "Claudio Pomo",
+   "Francesco Barile"
+  ],
+  "submitted": "2026-09-27T00:20:31Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.MM",
+   "cs.SD"
+  ]
+ },
+ "2609.32895": {
+  "arxiv_id": "2609.32895",
+  "version": "1",
+  "title": "PILAR: A Page-Grounded Unified Evidence Representation via an Entity-Linked Assertion Graph for Open-Domain QA Agents over Multimodal Document Corpora",
+  "authors": [
+   "Joongmin Shin",
+   "Gyuho Shim",
+   "Jung-hun Lee",
+   "Jaehyung Seo"
+  ],
+  "submitted": "2026-09-26T19:31:43Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.32839": {
+  "arxiv_id": "2609.32839",
+  "version": "1",
+  "title": "Mend the Measurement Gap: Latent User Preference Modeling for Short-Form Video Recommendation",
+  "authors": [
+   "Shuo Chang",
+   "Yueqi Wang",
+   "Zihuan Diao",
+   "Ali Montazer",
+   "Jiangguo Zhang",
+   "Joyneel Misra",
+   "Dapeng Hong",
+   "Tomer Margolin",
+   "Sourabh Bansod",
+   "Ningren Han"
+  ],
+  "submitted": "2026-09-26T18:11:20Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.32699": {
+  "arxiv_id": "2609.32699",
+  "version": "1",
+  "title": "RandSlot: Learning Compact Visual Document Representations with Random Soft Tokens",
+  "authors": [
+   "Dewen Guo",
+   "Shi Yu",
+   "Lingxiao Zhang",
+   "Yang Zhang",
+   "Tao XU",
+   "Dan Wang"
+  ],
+  "submitted": "2026-09-26T15:02:29Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.32671": {
+  "arxiv_id": "2609.32671",
+  "version": "1",
+  "title": "Concepts Complement Dense Semantics: Learning Compact Sparse Spaces for Text-Image Retrieval",
+  "authors": [
+   "Yoonseo Kim",
+   "Jungwoo Choi",
+   "Cheonyoung Park",
+   "Youngwook Kim",
+   "Yongho Song",
+   "SeongKu Kang"
+  ],
+  "submitted": "2026-09-26T14:26:52Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CV"
+  ]
+ },
+ "2609.32488": {
+  "arxiv_id": "2609.32488",
+  "version": "1",
+  "title": "When Does Dense Retrieval Need Asymmetric Geometry? A Bias-Variance Theory of Shared and Dual Projections",
+  "authors": [
+   "Maojun Sun",
+   "Yancheng Yuan",
+   "Jian Huang",
+   "Ruijian Han"
+  ],
+  "submitted": "2026-09-26T11:30:34Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.37472": {
+  "arxiv_id": "2609.37472",
+  "version": "1",
+  "title": "Do Evidence-Reading Diagnostics Improve Interface Selection in Small LLM Recommenders?",
+  "authors": [
+   "Han Chen",
+   "Yingrui Li"
+  ],
+  "submitted": "2026-09-25T19:29:08Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.31927": {
+  "arxiv_id": "2609.31927",
+  "version": "1",
+  "title": "Recipe-Matching, Not Equivalence",
+  "authors": [
+   "Ali Habibullah",
+   "Mohammad Alshiekh",
+   "Yazan Alshoibi",
+   "Salman Khan",
+   "Naeemullah Khan"
+  ],
+  "submitted": "2026-09-25T19:21:36Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.31921": {
+  "arxiv_id": "2609.31921",
+  "version": "1",
+  "title": "Overview of the TREC 2025 Million Large Language Models track",
+  "authors": [
+   "Evangelos Kanoulas",
+   "Panagiotis Eustratiadis",
+   "Jamie Callan",
+   "Mark Sanderson",
+   "Yongkang Li",
+   "Jingfen Qiao",
+   "Gabrielle Poerwawinata",
+   "Vaishali Pal"
+  ],
+  "submitted": "2026-09-25T19:11:10Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.MA"
+  ]
+ },
+ "2609.31498": {
+  "arxiv_id": "2609.31498",
+  "version": "1",
+  "title": "Retail Product Search: A Practical Approach at Target",
+  "authors": [
+   "Darshan Sonagara",
+   "Qujiaheng Zhang",
+   "Ankit Singh",
+   "Alex Li"
+  ],
+  "submitted": "2026-09-25T16:36:48Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.31253": {
+  "arxiv_id": "2609.31253",
+  "version": "1",
+  "title": "Enriching Sequential Recommendation with Graph Laplacian Positional Embeddings",
+  "authors": [
+   "Ekaterina Trushkova",
+   "Artur Gimranov",
+   "Anton Lysenko"
+  ],
+  "submitted": "2026-09-25T13:27:23Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.31166": {
+  "arxiv_id": "2609.31166",
+  "version": "1",
+  "title": "AgentRecommender: LLM Agents Enable Customizable Recommender Systems on the User Side",
+  "authors": [
+   "Ryoma Sato"
+  ],
+  "submitted": "2026-09-25T11:58:23Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.DB",
+   "cs.DL"
+  ]
+ },
+ "2609.31164": {
+  "arxiv_id": "2609.31164",
+  "version": "1",
+  "title": "SPADE: Escaping the Popularity-Similarity Frontier to Measure Serendipitous Recommendations",
+  "authors": [
+   "Tobias Vente",
+   "Maarten Peirsman",
+   "Noah Dani\u00ebls",
+   "Hannu Toivonen",
+   "Bart Goethals"
+  ],
+  "submitted": "2026-09-25T11:57:53Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.31045": {
+  "arxiv_id": "2609.31045",
+  "version": "1",
+  "title": "KuaFu: Compressing Long User Behavior into Understanding at Billion Scale",
+  "authors": [
+   "Jiahao Hui",
+   "Lin Zhu",
+   "Yishen Hu",
+   "Jingdong Shu",
+   "Zetai Jiang",
+   "Xining Ran",
+   "Ben Tan",
+   "Yeshou Cai",
+   "Gong Chen",
+   "Haijie Gu",
+   "Jie Jiang"
+  ],
+  "submitted": "2026-09-25T09:39:39Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.30904": {
+  "arxiv_id": "2609.30904",
+  "version": "1",
+  "title": "QReason: Query-Focused Decoupled Chain-of-Thought for Efficient Passage Reranking",
+  "authors": [
+   "Yang Zhang",
+   "Wenhan Liu",
+   "Qiannan Zhu",
+   "Mingming Li",
+   "Yuanfei Huang"
+  ],
+  "submitted": "2026-09-25T07:13:09Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.30717": {
+  "arxiv_id": "2609.30717",
+  "version": "1",
+  "title": "RecToolBench: Benchmarking Recommendation-Specific Tool Orchestration under Fuzzy User Intent",
+  "authors": [
+   "Xiao Chen",
+   "Yicheng Zhao",
+   "Yingying Wu",
+   "Zhendong Chu",
+   "Changyi Ma",
+   "Qingsong Wen",
+   "Xuan Song"
+  ],
+  "submitted": "2026-09-25T02:44:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.30711": {
+  "arxiv_id": "2609.30711",
+  "version": "1",
+  "title": "Recommendation World Models for Future-State Control",
+  "authors": [
+   "Jinfeng Xu",
+   "Zheyu Chen",
+   "Ziyue Peng",
+   "Jianheng Tang",
+   "Zheng Lin",
+   "Jing Yang",
+   "Puzhen Wu",
+   "Zheng Xing",
+   "Victor C. M. Leung"
+  ],
+  "submitted": "2026-09-25T02:37:48Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.30656": {
+  "arxiv_id": "2609.30656",
+  "version": "1",
+  "title": "Component Benchmark: Hierarchical Model Profiling for Large-scale Recommendation Systems",
+  "authors": [
+   "Dharak Kharod",
+   "Yuzhen Huang",
+   "Zhou Wang",
+   "Jackie Xu",
+   "Fuzail Khan",
+   "Jacky Zhou",
+   "Hao Yan",
+   "Lidong Zhao",
+   "Xizhou Feng",
+   "Yvonne Liu",
+   "Karthik Jayaraman",
+   "Praveen Ramachandran",
+   "Vishwa Karia",
+   "Yashasvi Makin"
+  ],
+  "submitted": "2026-09-25T00:51:36Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.30601": {
+  "arxiv_id": "2609.30601",
+  "version": "1",
+  "title": "Embedding Subspace Partitioning for Dynamic Multi-Objective Retrieval",
+  "authors": [
+   "Shaobo Zhang",
+   "Alice Leung",
+   "Yunxiang Ren",
+   "Ping Liu",
+   "Yuchin Juan",
+   "Qianqi Shen",
+   "Benjamin Le",
+   "Jianqiang Shen",
+   "Chengming Jiang",
+   "Ko-Cheng Wang",
+   "Vidya Krishnamurthy",
+   "Caleb Johnson",
+   "Fedor Borisyuk",
+   "Luke Simon",
+   "Jingwei Wu",
+   "Wenjing Zhang"
+  ],
+  "submitted": "2026-09-24T22:30:49Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.30568": {
+  "arxiv_id": "2609.30568",
+  "version": "1",
+  "title": "Nearest but Not Dearest: Shared Curator-Feedback Infrastructure for Content-Only Search and Recommendation",
+  "authors": [
+   "Matt Sandler"
+  ],
+  "submitted": "2026-09-24T21:26:23Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.SD"
+  ]
+ },
+ "2609.29973": {
+  "arxiv_id": "2609.29973",
+  "version": "1",
+  "title": "Learning Better Reasoning for Generative Recommendation with Semantic IDs",
+  "authors": [
+   "Mengdan Zhu",
+   "Yufan Zhao",
+   "Sophie Di",
+   "Yao Zhao",
+   "Tao Di",
+   "Yulan Yan",
+   "Sridhar Iyer",
+   "Liang Zhao"
+  ],
+  "submitted": "2026-09-24T15:24:54Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.29815": {
+  "arxiv_id": "2609.29815",
+  "version": "1",
+  "title": "LSF-SR: Latent Semantic Fusion for Sequential Recommendation via Flow-based Conditional Variational Autoencoders",
+  "authors": [
+   "Shih-Hong Chen",
+   "Josh Jia-Ching Ying",
+   "Vincent S. Tseng"
+  ],
+  "submitted": "2026-09-24T13:50:12Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.29803": {
+  "arxiv_id": "2609.29803",
+  "version": "1",
+  "title": "SEEK: Skill-Routed Evaluation with Evolvable Knowledge for Industrial Search",
+  "authors": [
+   "Zhongxin Huang",
+   "Songyang Li",
+   "Renzhe Zhou",
+   "Feiran Zhu",
+   "Chenglei Dai",
+   "Zhen Xiao",
+   "Xuanping Li",
+   "Jingwei Zhuo"
+  ],
+  "submitted": "2026-09-24T13:39:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.29455": {
+  "arxiv_id": "2609.29455",
+  "version": "1",
+  "title": "A Systematic Multi-Domain Evaluation of Document Retrievers",
+  "authors": [
+   "Valentin Velev",
+   "Andreas Spitz"
+  ],
+  "submitted": "2026-09-24T12:10:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.29282": {
+  "arxiv_id": "2609.29282",
+  "version": "1",
+  "title": "Asymmetric Dynamic Routing: Balancing Reasoning Depth and Computational Efficiency in Hypergraph RAG",
+  "authors": [
+   "Qi Sun",
+   "Yijia Zhang",
+   "Xingliang Hou",
+   "Caibo Li",
+   "Qiang Li",
+   "Yu Guo"
+  ],
+  "submitted": "2026-09-24T09:17:40Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.29182": {
+  "arxiv_id": "2609.29182",
+  "version": "1",
+  "title": "ScalarLens: Numerical Embeddings with Stable Coordinates and Contextual Responses for CTR Prediction",
+  "authors": [
+   "Heng Yao",
+   "Tianying Liu",
+   "Yulou Shu",
+   "Yong He",
+   "Chuan Yuan",
+   "Kaibin Qiu",
+   "Guowei Chen",
+   "Jiayu Zhao",
+   "Siyun Hou"
+  ],
+  "submitted": "2026-09-24T07:54:15Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.29180": {
+  "arxiv_id": "2609.29180",
+  "version": "1",
+  "title": "X-Rec Technical Report",
+  "authors": [
+   "Chenglei Shen",
+   "Chenzhe Huang",
+   "Dong Jiang",
+   "Hongjie Gao",
+   "Jue Zhang",
+   "Kun X\u00fa",
+   "Lincan Cai",
+   "Nan Zhuang",
+   "Pan Zhang",
+   "Shi Chen",
+   "Shunchi Zhang",
+   "Xiaoyu Ye",
+   "Yang Jin",
+   "Yu Zhang",
+   "Zhenwei An",
+   "Zhongtao Jiang",
+   "Zhiwei Wang",
+   "Kun X\u01d4"
+  ],
+  "submitted": "2026-09-24T07:53:52Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.28980": {
+  "arxiv_id": "2609.28980",
+  "version": "1",
+  "title": "Seek: Self-Evaluative Exploration for Knowledge Retrieval",
+  "authors": [
+   "Amin Bigdeli",
+   "Radin Hamidi Rad",
+   "Negar Arabzadeh",
+   "Sajad Ebrahimi",
+   "Hai Son Le",
+   "Charles L. A. Clarke",
+   "Ebrahim Bagheri"
+  ],
+  "submitted": "2026-09-24T03:47:32Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.28972": {
+  "arxiv_id": "2609.28972",
+  "version": "1",
+  "title": "Cross-Country Code-Mixing for Generative Recommendation",
+  "authors": [
+   "Yuan Gao",
+   "Hao Deng",
+   "Haibo Xing",
+   "Yi Xu",
+   "Lingyu Mu",
+   "Jinxin Hu",
+   "Yu Zhang",
+   "Xiaoyi Zeng"
+  ],
+  "submitted": "2026-09-24T03:38:51Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2610.00253": {
+  "arxiv_id": "2610.00253",
+  "version": "1",
+  "title": "System Attribution in LLM Brand Recommendations: Single Responses Identify the System, Aggregated Brand Profiles Do Not Transfer",
+  "authors": [
+   "Dmitrij \u017batuchin"
+  ],
+  "submitted": "2026-09-23T21:57:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.28653": {
+  "arxiv_id": "2609.28653",
+  "version": "1",
+  "title": "The Fellowship of the Query: Learning Retrieval Actions",
+  "authors": [
+   "Mohammed Al-Maamari",
+   "Saber Zerhoudi",
+   "Michael Granitzer",
+   "Jelena Mitrovi\u0107"
+  ],
+  "submitted": "2026-09-23T18:01:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.28383": {
+  "arxiv_id": "2609.28383",
+  "version": "1",
+  "title": "Beyond a Scalar: Distributional Serving Interfaces for Watch-Time Prediction",
+  "authors": [
+   "Xuan Liu",
+   "Jingbin Qian",
+   "Zhanyu Liu",
+   "Hefeng Zhou"
+  ],
+  "submitted": "2026-09-23T16:57:08Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.28589": {
+  "arxiv_id": "2609.28589",
+  "version": "1",
+  "title": "OneTrans-V2: Unifying Retrieval, Pre-rank, and Fine-rank with One Transformer in Industrial Recommender",
+  "authors": [
+   "Hannan Cao",
+   "Jun Guo",
+   "Haolei Pei",
+   "Zhaoqi Zhang",
+   "Tianyu Wang",
+   "Ziyang Wang",
+   "Youchen Sun",
+   "Yue Xue",
+   "Yucheng Mao",
+   "Lintao Yan",
+   "Yufei Feng",
+   "Shaowei Liu",
+   "Rongkun Xing",
+   "Feiling Gong",
+   "Xinyu Chenli",
+   "Cong Xu",
+   "Mingge Zhang",
+   "Yunjia Zhu",
+   "Yajing Zhang",
+   "Pengfei Ren",
+   "Yue Lin"
+  ],
+  "submitted": "2026-09-23T14:57:10Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.28108": {
+  "arxiv_id": "2609.28108",
+  "version": "1",
+  "title": "Dual-Hypergraph Indexing: Bridging Knowledge Islands for Multi-Hop Reasoning in Retrieval-Augmented Generation",
+  "authors": [
+   "Qi Sun",
+   "Xingliang Hou",
+   "Caibo Li",
+   "Yijia Zhang",
+   "Qiang Li",
+   "Yu Guo"
+  ],
+  "submitted": "2026-09-23T13:39:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.27688": {
+  "arxiv_id": "2609.27688",
+  "version": "1",
+  "title": "Test-Time Adaptation with Query-Dependent Residuals for Visual Document Retrieval",
+  "authors": [
+   "Zeliang Li",
+   "Xiaofen Xing",
+   "Kailing Guo",
+   "Xiangmin Xu"
+  ],
+  "submitted": "2026-09-23T11:08:46Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.27213": {
+  "arxiv_id": "2609.27213",
+  "version": "1",
+  "title": "BoundaryMORPH: Budgeted Reranking via Active Set Selection for Diffuse Retrieval",
+  "authors": [
+   "Eylon Caplan",
+   "Shamik Roy",
+   "Shib Sankar Dasgupta",
+   "Yingfan Wang",
+   "Rashmi Gangadharaiah"
+  ],
+  "submitted": "2026-09-23T01:22:22Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.27183": {
+  "arxiv_id": "2609.27183",
+  "version": "1",
+  "title": "When LLM-Based User Profiling Adds Value in Production Streaming Recommendation",
+  "authors": [
+   "Milad Sabouri",
+   "Neeraj Sharma",
+   "Sardar Hamidian",
+   "Shaghayegh Agah"
+  ],
+  "submitted": "2026-09-23T00:42:36Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.26977": {
+  "arxiv_id": "2609.26977",
+  "version": "1",
+  "title": "Tie Handling Is Part of the Evaluation Protocol: An Order-Invariance Audit for Tie-Heavy Recommender Scores",
+  "authors": [
+   "Chengkun Guo",
+   "Han Chen",
+   "Yilin Zhu",
+   "Yingrui Li"
+  ],
+  "submitted": "2026-09-22T19:13:46Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.26975": {
+  "arxiv_id": "2609.26975",
+  "version": "1",
+  "title": "Calibrating Reproduced Claims in Recommender Systems",
+  "authors": [
+   "Alan Said"
+  ],
+  "submitted": "2026-09-22T19:10:29Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.26921": {
+  "arxiv_id": "2609.26921",
+  "version": "1",
+  "title": "Distilling Lexical Product Associations into Deep Transformers: An Extreme Multi-Label Approach for Natural Language E-Commerce Search",
+  "authors": [
+   "Sunnidhya Roy",
+   "Samarpita Bhaumik"
+  ],
+  "submitted": "2026-09-22T18:16:41Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.26658": {
+  "arxiv_id": "2609.26658",
+  "version": "1",
+  "title": "Discovery-Driven Integration of Disjoint Tables via Text",
+  "authors": [
+   "Md Ataur Rahman",
+   "Dimitris Sacharidis",
+   "Oscar Romero",
+   "Sergi Nadal"
+  ],
+  "submitted": "2026-09-22T16:22:54Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.DB",
+   "cs.LG"
+  ]
+ },
+ "2609.26856": {
+  "arxiv_id": "2609.26856",
+  "version": "1",
+  "title": "ItColBERT: An Italian-Specialised Late-Interaction Retriever",
+  "authors": [
+   "Enrico Nello"
+  ],
+  "submitted": "2026-09-22T14:36:26Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.25991": {
+  "arxiv_id": "2609.25991",
+  "version": "1",
+  "title": "Knowledge-as-Skill: A Structural Design for Autonomous Knowledge-Base Use by LLM Agents",
+  "authors": [
+   "Jiangxu Wu"
+  ],
+  "submitted": "2026-09-22T10:44:10Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.25825": {
+  "arxiv_id": "2609.25825",
+  "version": "1",
+  "title": "Robust Fusion of Semantic and Behavioural Signals for LLM Reranking in Personalised Search",
+  "authors": [
+   "Aleksandr V. Petrov",
+   "Nathan Stein",
+   "Erik Lybecker",
+   "Emma Sch\u00fcldt",
+   "Daniel Lazarovski",
+   "Hugues Bouchard",
+   "Mounia Lalmas"
+  ],
+  "submitted": "2026-09-22T07:54:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.29649": {
+  "arxiv_id": "2609.29649",
+  "version": "1",
+  "title": "OBLIQ-IR: Training a Dense Retriever for Oblique Queries",
+  "authors": [
+   "Mahmoud Abdalla",
+   "Abdelrahman Abdallah",
+   "Shaimaa Sedek",
+   "Adam Jatowt"
+  ],
+  "submitted": "2026-09-21T17:57:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.25189": {
+  "arxiv_id": "2609.25189",
+  "version": "1",
+  "title": "GroundedGEO: Auditing the Evidence Gap in Generative Search Rankings",
+  "authors": [
+   "Yihan Xia",
+   "Huiling Fan",
+   "Kangrong Zhong",
+   "Taotao Wang"
+  ],
+  "submitted": "2026-09-21T17:07:10Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.31718": {
+  "arxiv_id": "2609.31718",
+  "version": "1",
+  "title": "MM-VeriRec: Failure-Guided Fusion for Verifiable Agentic Multimodal Recommendation",
+  "authors": [
+   "Yufeng Wang"
+  ],
+  "submitted": "2026-09-21T16:32:21Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "cs.CV"
+  ]
+ },
+ "2609.24613": {
+  "arxiv_id": "2609.24613",
+  "version": "1",
+  "title": "UK-PRBENCH: A Paragraph-Level Precedent Retrieval Benchmark for United Kingdom Case Law",
+  "authors": [
+   "Damith Premasiri",
+   "Tharindu Ranasinghe"
+  ],
+  "submitted": "2026-09-21T14:01:53Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.24430": {
+  "arxiv_id": "2609.24430",
+  "version": "1",
+  "title": "What Makes a Good Semantic ID for Generative Recommendation? A Reproducibility Study",
+  "authors": [
+   "Yufei Chen",
+   "Junchen Fu",
+   "Jujia Zhao",
+   "Yukun Zhao",
+   "Zhaochun Ren"
+  ],
+  "submitted": "2026-09-21T11:26:49Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.24407": {
+  "arxiv_id": "2609.24407",
+  "version": "1",
+  "title": "Auditing Source Exposure in Baidu and Google AI Search",
+  "authors": [
+   "Yibo Li",
+   "Enci Guan",
+   "Yuedan Cai",
+   "Geng Liu",
+   "Francesco Pierri"
+  ],
+  "submitted": "2026-09-21T10:57:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.24152": {
+  "arxiv_id": "2609.24152",
+  "version": "1",
+  "title": "Graded-Relevance Composed Multimodal Retrieval for E-commerce Visual Search at Scale",
+  "authors": [
+   "Anubhav Gupta",
+   "Hrushikesh Mohapatra",
+   "Prijith Chandra",
+   "Asish Mohapatra",
+   "Anuj Garg",
+   "Arvind Maan",
+   "Sudip Datta",
+   "Venkat Bulusu",
+   "Sitesh Kumar Jalan"
+  ],
+  "submitted": "2026-09-21T06:09:52Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CV"
+  ]
+ },
+ "2609.23849": {
+  "arxiv_id": "2609.23849",
+  "version": "1",
+  "title": "A Redundancy Reduction Approach for Controllable Sequential Recommendations",
+  "authors": [
+   "Veronika Ivanova",
+   "Marina Munkhoeva",
+   "Ivan Razvorotnev",
+   "Evgeny Frolov"
+  ],
+  "submitted": "2026-09-20T20:05:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.23718": {
+  "arxiv_id": "2609.23718",
+  "version": "1",
+  "title": "UNIQUE: A Unified Retrieval and Ranking System for Large-Scale Feed Recommendation",
+  "authors": [
+   "Zhuang Liu",
+   "Yongkang Fu",
+   "Zuodong Yang",
+   "Guangxing Chen",
+   "Zonggang Wu",
+   "Yuqi Lu",
+   "Shouke Qin",
+   "Shantao Li",
+   "Maolin Wang"
+  ],
+  "submitted": "2026-09-20T15:54:06Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.23677": {
+  "arxiv_id": "2609.23677",
+  "version": "1",
+  "title": "MuSeR: Scalable Long-sequence Recommendation with Multi-interest Modeling",
+  "authors": [
+   "Yongkang Fu",
+   "Beining Bao",
+   "Yu Jiang",
+   "Xiangyu Zhao",
+   "Hongyang Wei",
+   "Guangxing Chen",
+   "Zuodong Yang",
+   "Shantao Li",
+   "Zonggang Wu",
+   "Yuqi Lu",
+   "Shouke Qin",
+   "Hanmeng Liu",
+   "Maolin Wang"
+  ],
+  "submitted": "2026-09-20T14:36:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.23646": {
+  "arxiv_id": "2609.23646",
+  "version": "1",
+  "title": "Beyond Relevance: Structured Semantic Supervision for Product Search with LLM-Augmented Annotations",
+  "authors": [
+   "Girish A. Koushik",
+   "Swapnil Bhosale",
+   "Samarth Agrawal",
+   "Hadeel Sadany",
+   "Constantin Orasan",
+   "Xiatian Zhu",
+   "Diptesh Kanojia"
+  ],
+  "submitted": "2026-09-20T13:49:02Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.23449": {
+  "arxiv_id": "2609.23449",
+  "version": "1",
+  "title": "PSD: Pseudo Self-Distillation of Memory Representation Capabilities for LLM Agents",
+  "authors": [
+   "Pirzada Suhail",
+   "Menglin Xia",
+   "Xuchao Zhang",
+   "Mayukh Das",
+   "Chetan Bansal",
+   "Saravan Rajmohan"
+  ],
+  "submitted": "2026-09-20T08:24:52Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.23354": {
+  "arxiv_id": "2609.23354",
+  "version": "3",
+  "title": "From Ranked Documents to Reliable Contexts: An Answer-Oriented Context Construct Framework for AI Search",
+  "authors": [
+   "Yunfei Zhong",
+   "Yinqiong Cai",
+   "Lixin Su",
+   "Haosheng Qian",
+   "Lixin Zou",
+   "Yixing Fan",
+   "Sheng Xu",
+   "Jiafeng Guo",
+   "Daiting Shi",
+   "Jingzhou He"
+  ],
+  "submitted": "2026-09-20T04:41:42Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.23307": {
+  "arxiv_id": "2609.23307",
+  "version": "1",
+  "title": "Semantic Candidate-Job Matching: A Comparative Evaluation of Dense Embedding Models in Hybrid Retrieval",
+  "authors": [
+   "Sai Yashwant",
+   "Siddhartha Jain",
+   "Anurag Dubey",
+   "Samaroha Chatterjee",
+   "Gantala Thulsiram"
+  ],
+  "submitted": "2026-09-20T02:50:12Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.23162": {
+  "arxiv_id": "2609.23162",
+  "version": "1",
+  "title": "From Prompt to Recommendation: A Fitted Stage Model of Brand Visibility in AI Search",
+  "authors": [
+   "Benjamin Tannenbaum"
+  ],
+  "submitted": "2026-09-19T18:20:08Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.23111": {
+  "arxiv_id": "2609.23111",
+  "version": "1",
+  "title": "Inherit4Rec: Parameter Inheritance for Efficient Scaling of Recommendation Models",
+  "authors": [
+   "Ruihao Zhang",
+   "Bo Chen",
+   "Xiao Wang",
+   "Jinlong Jiao",
+   "Tijian Hu",
+   "Qinglin Jia",
+   "Xiuqiang He",
+   "Xiangyu Zhao",
+   "Chaoyi Ma",
+   "Ruiming Tang",
+   "Wenwu Ou"
+  ],
+  "submitted": "2026-09-19T16:27:51Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.22880": {
+  "arxiv_id": "2609.22880",
+  "version": "1",
+  "title": "Per-Query Gating of LLM Rerankers for Multi-Hop Retrieval",
+  "authors": [
+   "Andre Bacellar"
+  ],
+  "submitted": "2026-09-19T08:35:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.22770": {
+  "arxiv_id": "2609.22770",
+  "version": "2",
+  "title": "Parameterized Dense-Sparse Fusion for Hybrid Retrieval: Tuning a Rank-Score Mix on BEIR SciFact with Qdrant",
+  "authors": [
+   "Satyanarayan Pati",
+   "Srikanth Patil"
+  ],
+  "submitted": "2026-09-19T05:05:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.22747": {
+  "arxiv_id": "2609.22747",
+  "version": "1",
+  "title": "Beyond Raw Engagement: A Counterfactual Observability Framework for Recommender Systems at Netflix",
+  "authors": [
+   "Chaoran Guo",
+   "Ding Tong",
+   "Ting-Po Lee",
+   "Scarlet Chen"
+  ],
+  "submitted": "2026-09-19T04:11:56Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.22655": {
+  "arxiv_id": "2609.22655",
+  "version": "1",
+  "title": "Scoring With the Engine: Retrieval Exposure, Cross-Engine Divergence, and the Limits of Engine-Agnostic GEO Scores",
+  "authors": [
+   "Benjamin Tannenbaum"
+  ],
+  "submitted": "2026-09-19T00:05:25Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.22056": {
+  "arxiv_id": "2609.22056",
+  "version": "1",
+  "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
+  "authors": [
+   "Andre Bacellar"
+  ],
+  "submitted": "2026-09-18T17:48:15Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ]
+ },
+ "2609.31696": {
+  "arxiv_id": "2609.31696",
+  "version": "1",
+  "title": "Data Processing for Offline Evaluation in Recommender Systems: a Survey",
+  "authors": [
+   "Alberto Carlo Maria Mancino",
+   "Angela Di Fazio",
+   "Danilo Danese",
+   "Matteo Attimonelli",
+   "Daniele Malitesta",
+   "Antonio Ferrara",
+   "Claudio Pomo",
+   "Tommaso Di Noia"
+  ],
+  "submitted": "2026-09-18T16:36:57Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.21475": {
+  "arxiv_id": "2609.21475",
+  "version": "1",
+  "title": "Adaptive Preference Modeling via Explicit Indirect Relational Learning for Personalized Fashion Matching",
+  "authors": [
+   "Shuiying Liao",
+   "Li Li",
+   "P. Y. Mok"
+  ],
+  "submitted": "2026-09-18T08:23:55Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.21308": {
+  "arxiv_id": "2609.21308",
+  "version": "1",
+  "title": "Auto-Bidding with Disentangled Advertiser Profiles and Train-Free Adaptation",
+  "authors": [
+   "Songyue Cai",
+   "Shan Gu",
+   "Wei Chen",
+   "Ziru Xu",
+   "Lianyu Wang",
+   "Jian Xu",
+   "Xiaofeng Zhu"
+  ],
+  "submitted": "2026-09-18T04:35:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.21281": {
+  "arxiv_id": "2609.21281",
+  "version": "1",
+  "title": "Hybrid GPU-CPU Retrieval for Personalized Search at Ultra-Large Scale",
+  "authors": [
+   "Hao Fu",
+   "Jichao Sun",
+   "Baiting Zhu",
+   "Qiaoling Liu",
+   "Yan Shi",
+   "Cheng Lu",
+   "Liu Liu",
+   "Yubo Wang",
+   "Xin Yao",
+   "Xiangyu Niu",
+   "Xu Dong",
+   "Wenhan Lyu",
+   "Chiyao Shen",
+   "Yinjie Huang",
+   "Minglei Chen",
+   "Shuai Ding",
+   "Li Fan",
+   "Xiao Kong"
+  ],
+  "submitted": "2026-09-18T03:47:18Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.DC",
+   "cs.LG",
+   "cs.PF"
+  ]
+ },
+ "2609.21257": {
+  "arxiv_id": "2609.21257",
+  "version": "1",
+  "title": "Verify, Don't Trust: Agentic Model Development for Video Discovery Retrieval at Scale",
+  "authors": [
+   "Hao Fu",
+   "Baiting Zhu",
+   "Minglei Chen",
+   "Yinjie Huang",
+   "Shuai Ding"
+  ],
+  "submitted": "2026-09-18T03:04:28Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.20563": {
+  "arxiv_id": "2609.20563",
+  "version": "1",
+  "title": "Reasoning Quality Matters: Combating Reasoning Collapse in LLM-based Embedding Learning",
+  "authors": [
+   "Zihan Gong",
+   "Xiaohan Ye",
+   "Jiangchao Yao",
+   "Jinsong Lan",
+   "Xiaoyong Zhu",
+   "Xu Chen"
+  ],
+  "submitted": "2026-09-17T15:27:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.20131": {
+  "arxiv_id": "2609.20131",
+  "version": "1",
+  "title": "Think Thrice Before Reranking: Multi-perspective Evidence and Reasoning Integration for Text Reranking",
+  "authors": [
+   "Lijun Liu",
+   "Zhengzong Chen",
+   "Wenyan Li",
+   "Yuanyuan Zhao",
+   "Fei Huang"
+  ],
+  "submitted": "2026-09-17T12:24:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.20050": {
+  "arxiv_id": "2609.20050",
+  "version": "2",
+  "title": "The Missing Complement: State-Conditioned Minimal Sufficient Evidence for Coding Agents",
+  "authors": [
+   "Zhexi Feng",
+   "Ruiyi Zhang",
+   "Yongbo Yang",
+   "Pengtao Xie"
+  ],
+  "submitted": "2026-09-17T10:56:47Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL"
+  ]
+ },
+ "2609.19831": {
+  "arxiv_id": "2609.19831",
+  "version": "1",
+  "title": "Reproducing Transparent and Scrutable Recommendations: Exploring Open-Weight Models via Natural-Language User Profiles",
+  "authors": [
+   "Noah Mami\u00e9",
+   "Laurin van den Bergh"
+  ],
+  "submitted": "2026-09-17T07:36:34Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.19787": {
+  "arxiv_id": "2609.19787",
+  "version": "1",
+  "title": "Dense Feature Representation over Sequence Modeling: A Solution to the KDD Cup 2026 UniRec Challenge",
+  "authors": [
+   "Yi Zhang",
+   "Weiliang Ji"
+  ],
+  "submitted": "2026-09-17T06:52:52Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.19656": {
+  "arxiv_id": "2609.19656",
+  "version": "1",
+  "title": "Self-Evolving Search Index",
+  "authors": [
+   "Sangam Lee",
+   "Wonjae Lee",
+   "Sunghwan Kim",
+   "Deogyong Kim",
+   "Jaehoon Kim",
+   "Daye Nam",
+   "SeongKu Kang",
+   "Dongha Lee"
+  ],
+  "submitted": "2026-09-17T03:56:03Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.19622": {
+  "arxiv_id": "2609.19622",
+  "version": "1",
+  "title": "Beyond Similarity through Zero-Token Geometric Graphs for Multi-Hop RAG",
+  "authors": [
+   "Zeliang Li",
+   "Xiaofen Xing",
+   "Kailing Guo",
+   "Xiangmin Xu"
+  ],
+  "submitted": "2026-09-17T03:14:30Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.18695": {
+  "arxiv_id": "2609.18695",
+  "version": "1",
+  "title": "SURF: Subtractive Updates for Recommender Forgetting",
+  "authors": [
+   "Filippo Betello",
+   "Antonio Purificato",
+   "Nicola Tonellotto",
+   "Fabrizio Silvestri"
+  ],
+  "submitted": "2026-09-16T14:08:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.18437": {
+  "arxiv_id": "2609.18437",
+  "version": "1",
+  "title": "Exploring LLMs and RAG for Plausible and Explainable Material Prediction of Vehicle Components",
+  "authors": [
+   "Frederik Wagner",
+   "Annerose Eichel",
+   "Sabine Schulte im Walde"
+  ],
+  "submitted": "2026-09-16T10:28:28Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.18296": {
+  "arxiv_id": "2609.18296",
+  "version": "1",
+  "title": "One-Step Retrieval Framework for Real-Time Sponsored Search Ads Using Hierarchical Text Representations",
+  "authors": [
+   "Tongtong Liu",
+   "Renyu Zhang",
+   "Jiayu Ding",
+   "Hongchao Guo",
+   "Xintao Yang",
+   "He Wei",
+   "Zhaoyu Li",
+   "Haiyang Wu"
+  ],
+  "submitted": "2026-09-16T08:18:50Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.18248": {
+  "arxiv_id": "2609.18248",
+  "version": "1",
+  "title": "Quanta: A Self-Contained Python Library for Hybrid Retrieval over Quantised Embeddings, Lexical Indexes, and Knowledge Graphs",
+  "authors": [
+   "Ioannis E. Livieris"
+  ],
+  "submitted": "2026-09-16T07:27:19Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.18188": {
+  "arxiv_id": "2609.18188",
+  "version": "1",
+  "title": "Single-Token Expected-Value Scoring for Cold-Start Candidate Ranking",
+  "authors": [
+   "Qihang Wang",
+   "Jinwei Tan",
+   "Mengyuan Shi",
+   "Mayank Sharma",
+   "Shuai Zhao",
+   "Fuxian Li",
+   "Ryan Yan",
+   "Alexander P. Kreuzer",
+   "Mohit Jain",
+   "Dheeraj Toshniwal",
+   "Manoj Seethamsetty"
+  ],
+  "submitted": "2026-09-16T06:25:57Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.18154": {
+  "arxiv_id": "2609.18154",
+  "version": "1",
+  "title": "PageRecall: Measuring Page Selection in Literature-Grounded Question Answering",
+  "authors": [
+   "Aaditya Chauhan"
+  ],
+  "submitted": "2026-09-16T05:33:20Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.18042": {
+  "arxiv_id": "2609.18042",
+  "version": "1",
+  "title": "DUPAR: Dual-Path Conversational Retrieval via Speech Retriever with Cross-Turn Evidence Caching",
+  "authors": [
+   "Yuanjun Li",
+   "Yiwen Liu",
+   "Dapeng Li",
+   "Zhiwei Xu",
+   "Bin Zhang",
+   "Shengtao Zhang",
+   "Rong Shen"
+  ],
+  "submitted": "2026-09-16T02:42:28Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2610.00170": {
+  "arxiv_id": "2610.00170",
+  "version": "1",
+  "title": "On-Device Commercial Intent Retrieval Under Size, Latency, and Privacy Constraints: A 3 MiB Retrieval System with Typed Egress Boundaries",
+  "authors": [
+   "Hyojung Han"
+  ],
+  "submitted": "2026-09-16T00:34:01Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.17709": {
+  "arxiv_id": "2609.17709",
+  "version": "1",
+  "title": "One Size Does Not Fit All! Dynamic Retriever and Generator Selection for RAG",
+  "authors": [
+   "Neeraj Anand",
+   "Payel Santra",
+   "Partha Basuchowdhuri",
+   "Debasis Ganguly",
+   "Sumit Bhatia"
+  ],
+  "submitted": "2026-09-15T18:20:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.17639": {
+  "arxiv_id": "2609.17639",
+  "version": "2",
+  "title": "Scaling Articulated Rationales for MLLM-based Recommendation",
+  "authors": [
+   "Haoke Xiao",
+   "Yueyang Liu",
+   "Yuhui Zhang",
+   "Xiang Chen",
+   "Yufei Liu",
+   "Jia Xu",
+   "Yalong Guan",
+   "Xiaolan Zhu",
+   "Xiaoyu Zhang",
+   "Shijun Wang",
+   "Shuang Yang",
+   "Zijie Meng",
+   "Zejian Zhang",
+   "Ruochen Yang",
+   "Xiangyu Wu",
+   "Tingting Gao",
+   "Han Li",
+   "Lantao Hu",
+   "Cheng Luo",
+   "Kun Gai"
+  ],
+  "submitted": "2026-09-15T13:39:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.16850": {
+  "arxiv_id": "2609.16850",
+  "version": "1",
+  "title": "Efficient Swing Computation for Retrieval in Large-Scale Recommender Systems",
+  "authors": [
+   "Runhao Jiang",
+   "Renchi Yang"
+  ],
+  "submitted": "2026-09-15T08:42:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.16625": {
+  "arxiv_id": "2609.16625",
+  "version": "1",
+  "title": "AURA: Agentic Diagnosis and Refinement for Production Recommender Systems at Scale",
+  "authors": [
+   "SungGeun Kim",
+   "Abhinav Narain",
+   "Daniel Nemirovsky"
+  ],
+  "submitted": "2026-09-15T04:38:06Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.16607": {
+  "arxiv_id": "2609.16607",
+  "version": "2",
+  "title": "Measuring Decision-Scale Use in Tool-Augmented LLMs: A Contrastive Urban Benchmark",
+  "authors": [
+   "Ray Chen",
+   "Vivian Wong",
+   "Christan Grant"
+  ],
+  "submitted": "2026-09-15T04:06:47Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.16560": {
+  "arxiv_id": "2609.16560",
+  "version": "1",
+  "title": "ReliGRec: Reliability-Oriented LLM-Based Generative Recommendation via User-Risk-Aware Prompt Routing",
+  "authors": [
+   "Haoran Yang",
+   "Fei Chen",
+   "Yutian Xiao",
+   "Jiahao Liang"
+  ],
+  "submitted": "2026-09-15T02:56:30Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.16453": {
+  "arxiv_id": "2609.16453",
+  "version": "1",
+  "title": "Predicting Partial Answer Quality and Utility in Agentic Retrieval-Augmented Generation",
+  "authors": [
+   "Fangzheng Tian",
+   "Debasis Ganguly",
+   "Craig Macdonald"
+  ],
+  "submitted": "2026-09-15T00:17:50Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.16452": {
+  "arxiv_id": "2609.16452",
+  "version": "1",
+  "title": "PCap: Personalized Retrieval-Stage Diversity Capping in Facebook Marketplace",
+  "authors": [
+   "Guangchao Yuan",
+   "Janis Fuh",
+   "Christopher Choate",
+   "Xun Tang",
+   "Wenqi Zhu",
+   "Chengyi Zhang",
+   "Pavan Kumar Paalya Chandrashekar",
+   "Jiang Han",
+   "Jiangyuan Li",
+   "Hongyan Wang",
+   "Shuting Wang"
+  ],
+  "submitted": "2026-09-15T00:16:43Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.16407": {
+  "arxiv_id": "2609.16407",
+  "version": "1",
+  "title": "Balancing Trial and Reorder: A Hybrid Sequential Transformer-GBDT Ranker for On-Demand Delivery",
+  "authors": [
+   "Marcel Kurovski",
+   "Attila Nagy",
+   "Steffen Klempau",
+   "Aleksandr Fedintsev"
+  ],
+  "submitted": "2026-09-14T22:25:22Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.16391": {
+  "arxiv_id": "2609.16391",
+  "version": "1",
+  "title": "Where Post-Training Quantization Breaks Text Embedders: A Measured Map Across Four Embedder Families",
+  "authors": [
+   "Hyojung Han"
+  ],
+  "submitted": "2026-09-14T21:57:47Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.16304": {
+  "arxiv_id": "2609.16304",
+  "version": "1",
+  "title": "Evaluating Brand Retrieval and Ranking in Large Language Model Recommendations",
+  "authors": [
+   "Edward Malthouse",
+   "Kun-Yu Lee",
+   "Jing Yang",
+   "Sanchary Pal",
+   "Xueyan Feng"
+  ],
+  "submitted": "2026-09-14T20:09:12Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.15618": {
+  "arxiv_id": "2609.15618",
+  "version": "2",
+  "title": "IROH: Insightful Ranking Of Humor using Multi-Stage Hybrid Retrieval with Rationale-Distilled LLM Judges for JOKER 2026 Track Task 1 English",
+  "authors": [
+   "Ana-Maria Luisa Mocanu",
+   "Sebastian Mocanu",
+   "Ciprian-Octavian Truica",
+   "Elena-Simona Apostol"
+  ],
+  "submitted": "2026-09-14T14:12:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.15598": {
+  "arxiv_id": "2609.15598",
+  "version": "1",
+  "title": "Self-Evolving Memory for Generative Recommendation",
+  "authors": [
+   "Xinyu Lin",
+   "Zhuosong Jiang",
+   "Zixiao Suo",
+   "Siqin Wang",
+   "Hanqing Zeng",
+   "Hanchao Yu",
+   "Yinglong Xia",
+   "Jiang Zhang",
+   "Aashu Singh",
+   "Fei Liu",
+   "Wenjie Wang",
+   "Fuli Feng",
+   "Yang Song",
+   "Qifan Wang",
+   "Tat-Seng Chua"
+  ],
+  "submitted": "2026-09-14T14:00:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.15578": {
+  "arxiv_id": "2609.15578",
+  "version": "1",
+  "title": "The Magnitude Mirage: Rethinking Confidence for Reasoning-Intensive Retrieval",
+  "authors": [
+   "Jamie Holdcroft",
+   "Abdelrahman Abdallah",
+   "Adam Jatowt"
+  ],
+  "submitted": "2026-09-14T13:49:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.15434": {
+  "arxiv_id": "2609.15434",
+  "version": "1",
+  "title": "Benchmarking Embedding Models for ESG Data",
+  "authors": [
+   "Motaz Saad",
+   "Veronica Cret\u00ec",
+   "Ivan Gentile",
+   "Kianna Kazemi",
+   "Antonella Longo"
+  ],
+  "submitted": "2026-09-14T11:59:58Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.15319": {
+  "arxiv_id": "2609.15319",
+  "version": "1",
+  "title": "Clean Scores, Buried Evidence, and Confident Wrong: A Receipt-Based Audit of Frontier Agentic QA",
+  "authors": [
+   "Luis M. S\u00e1nchez"
+  ],
+  "submitted": "2026-09-14T10:11:58Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "q-fin.GN"
+  ]
+ },
+ "2609.15236": {
+  "arxiv_id": "2609.15236",
+  "version": "1",
+  "title": "ProLiVis 2.0: Literature-Centric Visualization of Protein--Protein Interaction Networks, with a Citation-Trust Model for Interaction Evidence",
+  "authors": [
+   "Melih S\u00f6zdinler",
+   "Yal\u00e7\u0131n Doksanbir",
+   "G\u00f6khan Akp\u0131nar",
+   "Ege Aktan"
+  ],
+  "submitted": "2026-09-14T08:56:06Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.SI",
+   "q-bio.MN"
+  ]
+ },
+ "2609.15143": {
+  "arxiv_id": "2609.15143",
+  "version": "1",
+  "title": "Top-K Is Not a Budget for Hybrid Retrieval",
+  "authors": [
+   "Chunran Zhang"
+  ],
+  "submitted": "2026-09-14T07:18:40Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.15094": {
+  "arxiv_id": "2609.15094",
+  "version": "1",
+  "title": "Generate to Explore, Select to Exploit: Aligning LLM-based Headline Generation with Personalized Recommendation",
+  "authors": [
+   "Yi Chen",
+   "Rufeng Cheng",
+   "Qiang Xie",
+   "Tao Li"
+  ],
+  "submitted": "2026-09-14T06:14:38Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.14978": {
+  "arxiv_id": "2609.14978",
+  "version": "1",
+  "title": "LazFormer: Scaling Transformers for Industrial Recommendation via Transferable Generative Pre-training",
+  "authors": [
+   "Xiaodong Li",
+   "Alin Fan",
+   "Mingyang Li",
+   "Yan Xiao",
+   "Shichao Nie",
+   "Junfeng Zhang",
+   "Shaochuan Lin",
+   "Zhanming Ou",
+   "Tao Luo",
+   "Xiaoyi Zeng"
+  ],
+  "submitted": "2026-09-14T03:31:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.14885": {
+  "arxiv_id": "2609.14885",
+  "version": "1",
+  "title": "Route Me If You Can: A Benchmark for Query Reformulation Selection",
+  "authors": [
+   "Hai Son Le",
+   "Negar Arabzadeh",
+   "Amin Bigdeli",
+   "Radin Hamidi Rad",
+   "Sajad Ebrahimi",
+   "Charles L. A. Clarke",
+   "Ebrahim Bagheri"
+  ],
+  "submitted": "2026-09-14T01:06:41Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.14875": {
+  "arxiv_id": "2609.14875",
+  "version": "1",
+  "title": "EviQE: Evidence Selection for LLM-Based Query Expansion",
+  "authors": [
+   "Hai Son Le",
+   "Amin Bigdeli",
+   "Shirin Seyedsalehi",
+   "Morteza Zihayat",
+   "Ebrahim Bagheri"
+  ],
+  "submitted": "2026-09-14T00:52:45Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.14579": {
+  "arxiv_id": "2609.14579",
+  "version": "1",
+  "title": "Beyond Benchmark Scores: How Synthetic and Authentic Query Distributions Diverge in RAG Evaluation",
+  "authors": [
+   "Filip J. Kucia",
+   "Barbara M. Gawlik"
+  ],
+  "submitted": "2026-09-13T15:05:01Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.14575": {
+  "arxiv_id": "2609.14575",
+  "version": "1",
+  "title": "The Wisdom of the Loudest: A Large-Scale Audit of Generative Search on Reddit",
+  "authors": [
+   "Agam Goyal",
+   "Wang Claire",
+   "Eshwar Chandrasekharan"
+  ],
+  "submitted": "2026-09-13T15:00:18Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.14493": {
+  "arxiv_id": "2609.14493",
+  "version": "1",
+  "title": "VARG: Value-Aware and Ranking-Aligned Generative Retrieval for Dynamic E-commerce Search",
+  "authors": [
+   "Xiaopeng Chu",
+   "Jianbo Zhu",
+   "Mingmin Jin",
+   "Jing Wang",
+   "Xing Fang",
+   "Wenyi Zhang"
+  ],
+  "submitted": "2026-09-13T12:59:04Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13993": {
+  "arxiv_id": "2609.13993",
+  "version": "3",
+  "title": "P$^3$Rec: Distilling Prior--Posterior Preference Reasoning for LLM-based Recommendation",
+  "authors": [
+   "Jinfei Chen",
+   "Weihai Lu",
+   "Jiawei Cheng"
+  ],
+  "submitted": "2026-09-12T15:10:02Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13810": {
+  "arxiv_id": "2609.13810",
+  "version": "1",
+  "title": "Odds-Shift Slippage in One-vs-Rest Rankers: Diagnosing and Repairing Reweighting-Induced Top-K Errors",
+  "authors": [
+   "Akifumi Goto"
+  ],
+  "submitted": "2026-09-12T08:45:57Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.13678": {
+  "arxiv_id": "2609.13678",
+  "version": "1",
+  "title": "Addressing Cross-Stage Decoupling of Semantic and Collaborative Signals in Generative Recommendation",
+  "authors": [
+   "Jiayi Dan"
+  ],
+  "submitted": "2026-09-12T03:10:03Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13489": {
+  "arxiv_id": "2609.13489",
+  "version": "2",
+  "title": "Pre-retrieval Query Clustering for Adaptive Top-k Document Retrieval in RAG Systems",
+  "authors": [
+   "Ye Xia",
+   "Emre Yamangil",
+   "Haixun Wang"
+  ],
+  "submitted": "2026-09-11T19:57:12Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13486": {
+  "arxiv_id": "2609.13486",
+  "version": "1",
+  "title": "Mixture-of-Experts Language Models Can Be Strong and Efficient Retrievers",
+  "authors": [
+   "Anubhav Shrestha",
+   "Safal Shrestha",
+   "Minwu Kim",
+   "Torsten Suel",
+   "Keith Ross"
+  ],
+  "submitted": "2026-09-11T19:55:03Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.12842": {
+  "arxiv_id": "2609.12842",
+  "version": "1",
+  "title": "MIMA: Multi-Interest Recommendation via Multi-Positive Exclusive Assignment",
+  "authors": [
+   "Xingyuan Mao",
+   "Alin Fan",
+   "Shichao Nie",
+   "Junfeng Zhang",
+   "Yan Xiao",
+   "Tao Luo",
+   "Xiaoyi Zeng"
+  ],
+  "submitted": "2026-09-11T13:36:25Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.12766": {
+  "arxiv_id": "2609.12766",
+  "version": "1",
+  "title": "A Historical Corpus Is Not a Historical System: Auditing Hindsight Leakage in Stateful Data Discovery",
+  "authors": [
+   "Yixi Zhou",
+   "Fan Zhang",
+   "Sikun Wang",
+   "Yingfan Xu",
+   "Haipeng Zhang"
+  ],
+  "submitted": "2026-09-11T12:18:17Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.12754": {
+  "arxiv_id": "2609.12754",
+  "version": "1",
+  "title": "Learning the Lake: Reliable Experience for Adaptive Data Product Discovery",
+  "authors": [
+   "Yixi Zhou",
+   "Fan Zhang",
+   "Sikun Wang",
+   "Yingfan Xu",
+   "Haipeng Zhang"
+  ],
+  "submitted": "2026-09-11T12:05:33Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13339": {
+  "arxiv_id": "2609.13339",
+  "version": "1",
+  "title": "PCGNet: Unifying Shared and Specific Information for Fashion Matching Recommendations",
+  "authors": [
+   "Shuiying Liao",
+   "P. Y. Mok"
+  ],
+  "submitted": "2026-09-11T11:38:29Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.IT"
+  ]
+ },
+ "2609.12679": {
+  "arxiv_id": "2609.12679",
+  "version": "2",
+  "title": "Personalized and Trust-Aware Health Recommendation Policies for a Construction Workplace",
+  "authors": [
+   "Atefeh Mollabagher",
+   "Yogesh Gautam",
+   "Houtan Jebelli",
+   "Parinaz Naghizadeh"
+  ],
+  "submitted": "2026-09-11T10:24:56Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "eess.SY"
+  ]
+ },
+ "2609.12556": {
+  "arxiv_id": "2609.12556",
+  "version": "1",
+  "title": "Preference-Drift-Aware Subsequence Learning and Hierarchical Context Fusion for Long-Sequence Generative Recommendation",
+  "authors": [
+   "Fei Li",
+   "Qingyun Gao",
+   "Jianzhe Zhao",
+   "Guibing Guo",
+   "Beibei Kong",
+   "Lei Cheng",
+   "Chengxiang Zhuo",
+   "Zang Li"
+  ],
+  "submitted": "2026-09-11T08:01:29Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.12375": {
+  "arxiv_id": "2609.12375",
+  "version": "1",
+  "title": "ChronicleRec: Pre-training Temporally Anchored Tokens for Lifelong User Modeling",
+  "authors": [
+   "Chengkai Huang",
+   "Yubin Sheng",
+   "Liang Guo",
+   "Haoxi Liu",
+   "Junwei Pan",
+   "Shangyu Zhang",
+   "Zhixiang Feng",
+   "Chao Zhou",
+   "Chengguo Yin",
+   "Lina Yao",
+   "Haijie Gu",
+   "Jie Jiang"
+  ],
+  "submitted": "2026-09-11T02:47:55Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.13324": {
+  "arxiv_id": "2609.13324",
+  "version": "1",
+  "title": "Decoupling Error Attribution in Cloud-Native Graph-RAG: A Data Integrity Diagnostic Framework",
+  "authors": [
+   "Shuai Yan",
+   "Yuhang Wu",
+   "Xiaodong Huang",
+   "Ke Wang"
+  ],
+  "submitted": "2026-09-10T22:56:26Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.12270": {
+  "arxiv_id": "2609.12270",
+  "version": "1",
+  "title": "Recommendation Retrievers Need Verifiers: Universal Generative Reranking for Sequential Recommendations",
+  "authors": [
+   "Benyu Zhang",
+   "Qiang Zhang",
+   "Rui Li",
+   "Qunshu Zhang",
+   "Devansh Tandon",
+   "Neeraj Bhatia"
+  ],
+  "submitted": "2026-09-10T22:56:09Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.11808": {
+  "arxiv_id": "2609.11808",
+  "version": "1",
+  "title": "Generative Late-Interaction Embeddings For Visual Document Retrieval",
+  "authors": [
+   "Mohamed Eltahir",
+   "Talal Aloushan",
+   "Rose Khairoalsendi",
+   "Jana Shata",
+   "Mohammed Alhassan",
+   "Leen Alrehaili",
+   "Tanveer Hussain",
+   "Naeemullah Khan"
+  ],
+  "submitted": "2026-09-10T16:58:39Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.11646": {
+  "arxiv_id": "2609.11646",
+  "version": "1",
+  "title": "Your Retriever Already Knows: Distribution-Shape QPP for RAG Retrieval Sufficiency",
+  "authors": [
+   "Maty\u00e1\u0161 Vesel\u00fd",
+   "Michal Pr\u016f\u0161ek",
+   "Ji\u0159\u00ed Franc"
+  ],
+  "submitted": "2026-09-10T14:52:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.11632": {
+  "arxiv_id": "2609.11632",
+  "version": "1",
+  "title": "FedHUR: Learning Hierarchical Utility-Guided Client Relations for Personalized Federated Recommendation",
+  "authors": [
+   "Mingzhe Han",
+   "Jiahao Liu",
+   "Dongsheng Li",
+   "Jiankui Zhou",
+   "Hansu Gu",
+   "Peng Zhang",
+   "Ning Gu",
+   "Tun Lu"
+  ],
+  "submitted": "2026-09-10T14:42:24Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.11572": {
+  "arxiv_id": "2609.11572",
+  "version": "1",
+  "title": "TimelyRAG: Semantic-Temporal Hybrid Retrieval for Time-Critical Question Answering in Overlapping-Evolving Documents",
+  "authors": [
+   "Youngeun Nam",
+   "Joeun Kim",
+   "Hwanjun Song",
+   "Susik Yoon",
+   "Jae-Gil Lee",
+   "Byung Suk Lee"
+  ],
+  "submitted": "2026-09-10T14:07:20Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.11390": {
+  "arxiv_id": "2609.11390",
+  "version": "1",
+  "title": "VikingRAG: Accurate and Token-efficient Retrieval-augmented Generation over Structured Documents",
+  "authors": [
+   "Peiyuan Gao",
+   "Gaoyuan Zhang",
+   "Haojie Qin",
+   "Yahui Sun",
+   "Qianyi Zhang",
+   "Yunhao Zhang",
+   "Zeyu Wang",
+   "Wei Lu"
+  ],
+  "submitted": "2026-09-10T11:25:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "cs.DB",
+   "cs.LG"
+  ]
+ },
+ "2609.11052": {
+  "arxiv_id": "2609.11052",
+  "version": "2",
+  "title": "UniRec: Cross-stage Multi-Task Fusion with Preference Alignment for Cascaded Recommender Systems",
+  "authors": [
+   "Lingyuan Kong",
+   "Jiaqi Cui",
+   "Fanjiao Zeng",
+   "Congqi Wang",
+   "Yu Li",
+   "Yuan Cheng",
+   "Jingxin Liu",
+   "Xiaoshuang Chen",
+   "Kaiqiao Zhan"
+  ],
+  "submitted": "2026-09-10T03:54:17Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.10750": {
+  "arxiv_id": "2609.10750",
+  "version": "1",
+  "title": "When Synthetic Data Hurts: On Catastrophic Forgetting in Skill Retrieval for LLM Agents",
+  "authors": [
+   "Syed Shariyar Murtaza",
+   "Yifan Nie",
+   "Utkarsh Soni",
+   "Eugene Wen",
+   "Arvid Frydenlund"
+  ],
+  "submitted": "2026-09-09T18:48:36Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.LG"
+  ]
+ },
+ "2609.10239": {
+  "arxiv_id": "2609.10239",
+  "version": "1",
+  "title": "LiteRAG: Cost-Efficient Graph-Based Retrieval-Augmented Generation",
+  "authors": [
+   "Daniel Alejandro Coll Tejeda",
+   "Pedro Garc\u00eda L\u00f3pez",
+   "Daniel Barcelona-Pons"
+  ],
+  "submitted": "2026-09-09T14:32:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL"
+  ]
+ },
+ "2609.10046": {
+  "arxiv_id": "2609.10046",
+  "version": "2",
+  "title": "Guaranteeing Faithful Evidence Extraction in Speculative Retrieval-Augmented Generation",
+  "authors": [
+   "Quentin Sign\u00e9",
+   "Mohand Boughanem",
+   "Jose Moreno",
+   "Thiziri Belkacem"
+  ],
+  "submitted": "2026-09-09T11:21:07Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.09878": {
+  "arxiv_id": "2609.09878",
+  "version": "1",
+  "title": "Purchase Advice and Observable Buyer Responses in Real AI Conversations",
+  "authors": [
+   "Benjamin Tannenbaum"
+  ],
+  "submitted": "2026-09-09T08:31:30Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.09703": {
+  "arxiv_id": "2609.09703",
+  "version": "1",
+  "title": "Should I Be Polite to My LLM Relevance Judge? Tone as a Severity Operating-Point Shift",
+  "authors": [
+   "Tian Zhang",
+   "Meng Li"
+  ],
+  "submitted": "2026-09-09T04:40:14Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.09381": {
+  "arxiv_id": "2609.09381",
+  "version": "1",
+  "title": "Extracting Semantics from Cattle Reporting Categories for Data Interoperability and Findability",
+  "authors": [
+   "Kassy Raymond",
+   "Andrew Hamilton-Wright",
+   "Deborah Stacey"
+  ],
+  "submitted": "2026-09-08T19:27:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.08941": {
+  "arxiv_id": "2609.08941",
+  "version": "1",
+  "title": "FINALLY: A Dataset Recommender System for Recommender-Systems Research",
+  "authors": [
+   "Louis Owie"
+  ],
+  "submitted": "2026-09-08T16:02:41Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.08887": {
+  "arxiv_id": "2609.08887",
+  "version": "2",
+  "title": "Q2D-Web: A Large-Scale Benchmark for Retrieval in Agentic RAG Systems",
+  "authors": [
+   "Maximilian Schall",
+   "Sedigheh Eslami",
+   "Markus Krimmel",
+   "Antoine Chaffin",
+   "Louis Milliken",
+   "Bo Wang",
+   "Denis Bykov"
+  ],
+  "submitted": "2026-09-08T15:26:05Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ]
+ },
+ "2609.08860": {
+  "arxiv_id": "2609.08860",
+  "version": "1",
+  "title": "REDSI: Addressing the Reproducibility and Evaluation Consistency of Differentiable Search Indexing for Document Retrieval",
+  "authors": [
+   "Vivien Nicolas",
+   "Hicham Randrianarivo",
+   "Pascale S\u00e9billot",
+   "Caio Corro"
+  ],
+  "submitted": "2026-09-08T15:07:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.08762": {
+  "arxiv_id": "2609.08762",
+  "version": "1",
+  "title": "PDMR: Passage-Driven Multi-ID Document Retrieval",
+  "authors": [
+   "Smail Oussaidene",
+   "Mohand Boughanem"
+  ],
+  "submitted": "2026-09-08T13:58:59Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.08532": {
+  "arxiv_id": "2609.08532",
+  "version": "1",
+  "title": "Individual Text Corpora Predict User-Specific Knowledge: Benchmarks of Individualized Knowledge Simulation",
+  "authors": [
+   "Christoph Wigbels",
+   "Ali Abusaleh",
+   "Markus T. Jansen",
+   "Alexander Mehler",
+   "Manuel Schaaf",
+   "Markus J. Hofmann"
+  ],
+  "submitted": "2026-09-08T10:19:28Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.08443": {
+  "arxiv_id": "2609.08443",
+  "version": "1",
+  "title": "SequenceO1: End-to-End Ultra-Long (100K) Sequence Modeling in Recommendation with Low-Rank Caching",
+  "authors": [
+   "Lin Guan",
+   "Jia-Qi Yang",
+   "Zhishan Zhao",
+   "Jiaqi Huang",
+   "Hangyu Wang",
+   "Longbin Li",
+   "Beichuan Zhang",
+   "Haonan Jiang",
+   "Jinan Ni",
+   "Xiangyu Fan",
+   "Xiaowen Li",
+   "Ziyao Ren",
+   "Yuhang Qi",
+   "Xiaolong Zhu",
+   "Xuanyuan Luo",
+   "Qiwei Chen",
+   "Yi Cheng",
+   "Lele Yu"
+  ],
+  "submitted": "2026-09-08T08:49:44Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.08310": {
+  "arxiv_id": "2609.08310",
+  "version": "1",
+  "title": "Exploring Bottom-Up Clustering for Creating Semantic IDs",
+  "authors": [
+   "Leah Woldemariam",
+   "Sudhanshu Garg",
+   "Taha Belkhouja",
+   "Charles Kim-Yip",
+   "Ali Sahami"
+  ],
+  "submitted": "2026-09-08T06:32:57Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI"
+  ]
+ },
+ "2609.08185": {
+  "arxiv_id": "2609.08185",
+  "version": "1",
+  "title": "Cassette: Case-to-Case Structural Distillation for Efficient Legal Case Retrieval",
+  "authors": [
+   "Yanran Tang",
+   "Ruihong Qiu",
+   "Hongzhi Yin",
+   "Xue Li",
+   "Zi Huang"
+  ],
+  "submitted": "2026-09-08T03:16:20Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ },
+ "2609.07663": {
+  "arxiv_id": "2609.07663",
+  "version": "1",
+  "title": "No\u0113sis: Deterministic-First Retrieval with Two-Tier Context Hydration for Factuality-Critical Queries on Small Local Models",
+  "authors": [
+   "Nicola Cogotti"
+  ],
+  "submitted": "2026-09-07T15:49:16Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL"
+  ]
+ },
+ "2609.07629": {
+  "arxiv_id": "2609.07629",
+  "version": "1",
+  "title": "Open Tabular Insight Extraction: Where Do We Stand, and Where Should We Go?",
+  "authors": [
+   "Daniel Gomm",
+   "Maarten de Rijke",
+   "Madelon Hulsebos"
+  ],
+  "submitted": "2026-09-07T15:27:58Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL",
+   "cs.DB"
+  ]
+ },
+ "2609.07561": {
+  "arxiv_id": "2609.07561",
+  "version": "1",
+  "title": "EigenLI: Spectral Approximations to Late Interaction",
+  "authors": [
+   "Archish S",
+   "Sabyasachi Basu",
+   "Ankit Garg",
+   "Ravishankar Krishnaswamy",
+   "Kirankumar Shiragur"
+  ],
+  "submitted": "2026-09-07T14:41:46Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ]
+ },
+ "2609.07395": {
+  "arxiv_id": "2609.07395",
+  "version": "1",
+  "title": "Uncertainty Quantification for LLM Agents: A Taxonomy, an Evaluation Protocol, and an Empirical Study",
+  "authors": [
+   "Moule Lin",
+   "Qizhen Lan",
+   "Shuhao Guan",
+   "Weipeng Jing",
+   "Jiexin Fan",
+   "David Gregg",
+   "Goetz Botterweck"
+  ],
+  "submitted": "2026-09-07T12:06:49Z",
+  "primary_category": "cs.IR",
+  "categories": [
+   "cs.IR"
+  ]
+ }
+}

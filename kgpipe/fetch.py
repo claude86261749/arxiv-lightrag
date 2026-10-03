@@ -161,3 +161,39 @@ def reconvert(out_dir: Path) -> None:
     for h in sorted((out_dir / "_html").glob("*.html")):
         _, md = html_to_markdown(h.read_text())
         (out_dir / f"{h.stem}.md").write_text(md)
+
+
+def fetch_ids(meta: dict[str, dict], out_dir: Path, sleep: float = 3.0) -> list[str]:
+    """Download a fixed list of papers (arXiv ID -> metadata, as in _metadata.json).
+
+    Reproduces a corpus chosen earlier: fetch_corpus picks the newest papers, which changes
+    from day to day.
+    """
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "_html").mkdir(exist_ok=True)
+    have = json.loads((out_dir / "_metadata.json").read_text()) if (out_dir / "_metadata.json").exists() else {}
+    failed = []
+    for arxiv_id, p in sorted(meta.items()):
+        if arxiv_id in have and (out_dir / f"{arxiv_id}.md").exists():
+            continue
+        time.sleep(sleep)
+        r = requests.get(f"https://arxiv.org/html/{arxiv_id}v{p.get('version', '1')}", headers=UA, timeout=60)
+        if r.status_code != 200 or "ltx_document" not in r.text:
+            failed.append((arxiv_id, r.status_code))
+            continue
+        (out_dir / "_html" / f"{arxiv_id}.html").write_text(r.text)
+        _, md = html_to_markdown(r.text)
+        (out_dir / f"{arxiv_id}.md").write_text(md)
+        have[arxiv_id] = p
+        (out_dir / "_metadata.json").write_text(json.dumps(have, indent=1))
+        print(f"fetched {arxiv_id} ({len(md.split())} words)", flush=True)
+    for f in failed:
+        print("failed", *f)
+    return [i for i, _ in failed]
+
+
+if __name__ == "__main__":
+    import sys
+    # python -m kgpipe.fetch ids <metadata.json> <out_dir>
+    if sys.argv[1] == "ids":
+        fetch_ids(json.loads(Path(sys.argv[2]).read_text()), Path(sys.argv[3]))
