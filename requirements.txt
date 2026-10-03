@@ -5,3 +5,4 @@ markdownify
 numpy
 requests
 tiktoken
+scikit-learn
