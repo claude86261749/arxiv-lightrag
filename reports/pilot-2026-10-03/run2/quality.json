@@ -1,0 +1,126 @@
+{
+ "papers": 20,
+ "chunks": 222,
+ "entities_final": 1345,
+ "type_distribution": {
+  "method": 473,
+  "model": 270,
+  "concept": 221,
+  "metric": 146,
+  "task": 86,
+  "dataset": 84,
+  "tool": 52,
+  "unknown": 11,
+  "benchmark": 1,
+  "other": 1
+ },
+ "params": {
+  "c_chunks_per_paper": 11.1,
+  "e_entity_rows_per_chunk": 12.54,
+  "r_relation_rows_per_chunk": 14.56,
+  "u_new_names_per_entity_row": 0.532,
+  "p_new_names_reaching_llm": 0.571,
+  "k_names_per_cluster": 3.18,
+  "q_second_look_share": 0.0,
+  "m_texts_reembedded_per_merged_name": 10.18,
+  "summary_calls_per_paper": 3.9,
+  "h_implied": 0.091
+ },
+ "gleaning": {
+  "extract_entity_names": 2270,
+  "glean_new_entity_names": 501,
+  "glean_entity_add_rate": 0.221,
+  "extract_relation_rows": 2207,
+  "glean_relation_rows": 1026,
+  "glean_relation_add_rate": 0.465
+ },
+ "llm_calls_by_type": {
+  "extract": 222,
+  "glean": 222,
+  "summary": 78,
+  "merge_decision": 266,
+  "hub_check": 50
+ },
+ "llm_calls_per_paper": {
+  "extract": 11.1,
+  "glean": 11.1,
+  "summary": 3.9,
+  "merge_decision": 13.3,
+  "hub_check": 2.5
+ },
+ "gates": {
+  "type_coverage_other_share": 0.009,
+  "type_coverage_pass": true,
+  "cleanup_unreviewed_flags": {},
+  "hubs_flagged_several": []
+ },
+ "review_sheets": {
+  "merges": "review_merges.csv",
+  "missed_duplicates": "review_missed_duplicates.csv (100 pairs)"
+ },
+ "counters_by_stage": {
+  "ingest": {
+   "llm_calls": {
+    "extract": 222,
+    "glean": 222,
+    "summary": 47
+   },
+   "llm_tokens": {
+    "extract": {
+     "prompt": 656250,
+     "completion": 195671,
+     "thinking": 171838
+    },
+    "glean": {
+     "prompt": 945612,
+     "completion": 70622,
+     "thinking": 165163
+    },
+    "summary": {
+     "prompt": 33666,
+     "completion": 9953,
+     "thinking": 42857
+    }
+   },
+   "embed_requests": 174,
+   "embed_texts": 4560,
+   "embed_chars": 1630623,
+   "seconds": 342.2
+  },
+  "resolve": {
+   "llm_calls": {
+    "merge_decision": 266
+   },
+   "llm_tokens": {},
+   "embed_requests": 515,
+   "embed_texts": 1395,
+   "embed_chars": 364861,
+   "seconds": 414.2,
+   "direct_llm_tokens": {
+    "input": 232392,
+    "output": 183748
+   }
+  },
+  "graph_clean": {
+   "llm_calls": {
+    "summary": 31,
+    "hub_check": 50
+   },
+   "llm_tokens": {
+    "summary": {
+     "prompt": 24379,
+     "completion": 5813,
+     "thinking": 18390
+    }
+   },
+   "embed_requests": 31,
+   "embed_texts": 31,
+   "embed_chars": 34697,
+   "seconds": 154.0,
+   "direct_llm_tokens": {
+    "input": 19087,
+    "output": 11428
+   }
+  }
+ }
+}

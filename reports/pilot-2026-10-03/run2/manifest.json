@@ -1,0 +1,786 @@
+{
+ "2609.38822": {
+  "arxiv_id": "2609.38822",
+  "authors": [
+   "Guanqun Yang",
+   "Wenlong Zhang",
+   "Tian Shi",
+   "Ping Wang"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.MA"
+  ],
+  "chunks": 13,
+  "cleaned_hash": "454acc6fbd9799b10efac8e5af9729e7a2be2d2317e572cde694f633864a0ebd",
+  "cleaned_path": "runs/pilot2/cleaned/2609.38822.md",
+  "cleanup_flags": [],
+  "content_hash": "7f568c74e86504a18870719328867a92a80d3ced9cd6a6e8dd74b21bc4b83c82",
+  "doc_id": "doc-5df51850ac4eab5c901d23445d8af2b3",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 17,
+  "references_path": "runs/pilot2/references/2609.38822.json",
+  "removed": {
+   "appendix": 241,
+   "appendix_tokens": 5433,
+   "references": 20
+  },
+  "source_path": "data/corpus/cs.IR/2609.38822.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T02:46:59Z",
+  "title": "SkillSeek: Revisiting Agent Skill Retrieval at Marketplace Scale",
+  "tokens_after": 10145,
+  "tokens_before": 17267
+ },
+ "2609.38949": {
+  "arxiv_id": "2609.38949",
+  "authors": [
+   "Shuquan Wei",
+   "Xi Chen",
+   "Xu Chen",
+   "Xiangyang Jia"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 13,
+  "cleaned_hash": "533bb23d9854bb1add94a865e25b0c9116f24f1d8d6e7337f175608d8602d97e",
+  "cleaned_path": "runs/pilot2/cleaned/2609.38949.md",
+  "cleanup_flags": [],
+  "content_hash": "760a4159d09c061df434cd9731a1e31c3309f8e0f8e6bf98c4055dc43df379c3",
+  "doc_id": "doc-51052b20ec096768cfcf94a1d8ae5866",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 39,
+  "references_path": "runs/pilot2/references/2609.38949.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 42
+  },
+  "source_path": "data/corpus/cs.IR/2609.38949.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T04:17:49Z",
+  "title": "Text-Video Retrieval via Multi-Dimensional Saliency Assessment and Granularity-Aware Query Decomposition",
+  "tokens_after": 10183,
+  "tokens_before": 13682
+ },
+ "2609.38999": {
+  "arxiv_id": "2609.38999",
+  "authors": [
+   "Milad Sabouri",
+   "Neeraj Sharma",
+   "Sardar Hamidian",
+   "Shaghayegh Agah"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 10,
+  "cleaned_hash": "ffc346020c86d96e714408ac218409c211d87c343baf2343a9551e6a363253b6",
+  "cleaned_path": "runs/pilot2/cleaned/2609.38999.md",
+  "cleanup_flags": [],
+  "content_hash": "933e6931d8038fb3f04943fd332f33c416d97e8c73ef5712bb5b8e2463b69bfd",
+  "doc_id": "doc-bc400db42efdf9e93b3ff5f18f33394e",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 29,
+  "references_path": "runs/pilot2/references/2609.38999.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 32
+  },
+  "source_path": "data/corpus/cs.IR/2609.38999.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T05:12:57Z",
+  "title": "When LLM-Inferred User Context Adds Value in Production Streaming Recommendation",
+  "tokens_after": 7623,
+  "tokens_before": 10006
+ },
+ "2609.39007": {
+  "arxiv_id": "2609.39007",
+  "authors": [
+   "Junyeong Song",
+   "Jaemin Yoo"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.LG"
+  ],
+  "chunks": 12,
+  "cleaned_hash": "611ec5281000d999285da9aa5c53278d8d4a666b2dbe05f2f283360a3f391a9d",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39007.md",
+  "cleanup_flags": [],
+  "content_hash": "7320d96ebdde9bf245b1d3005e055271bda359cf4a36f779205fa7ad8d2cf76b",
+  "doc_id": "doc-5010762b413bdfc62a223d94d53bae8b",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 40,
+  "references_path": "runs/pilot2/references/2609.39007.json",
+  "removed": {
+   "acknowledgements": 4,
+   "appendix": 122,
+   "appendix_tokens": 3078,
+   "references": 43
+  },
+  "source_path": "data/corpus/cs.IR/2609.39007.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T05:18:00Z",
+  "title": "RouteRec: Behavior-Guided Sparse Routing for Sequential Recommendation",
+  "tokens_after": 10416,
+  "tokens_before": 18281
+ },
+ "2609.39043": {
+  "arxiv_id": "2609.39043",
+  "authors": [
+   "Milad Sabouri",
+   "Neeraj Sharma",
+   "Sardar Hamidian",
+   "Shaghayegh Agah"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 6,
+  "cleaned_hash": "e6dc36daee97d2bde36a9afc8f4404a0344a0d86e8dc89d63bc2df6c2ab8e9cb",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39043.md",
+  "cleanup_flags": [],
+  "content_hash": "918887765b661db4293ccedc1a7399a65d8bfc4ba66a7da8ca91046b49e0beb0",
+  "doc_id": "doc-b948656a4af1673d08617b0a08c4c9bc",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 13,
+  "references_path": "runs/pilot2/references/2609.39043.json",
+  "removed": {
+   "appendix": 54,
+   "appendix_tokens": 1068,
+   "references": 16
+  },
+  "source_path": "data/corpus/cs.IR/2609.39043.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T05:53:08Z",
+  "title": "Routing Between Generative and Collaborative User Profiles: A Serving-Time Gate for Controllable Novelty",
+  "tokens_after": 4379,
+  "tokens_before": 6423
+ },
+ "2609.39312": {
+  "arxiv_id": "2609.39312",
+  "authors": [
+   "Weihao Shen",
+   "Wei Chen",
+   "Fuwei Zhang",
+   "Guojun Liu",
+   "Qingsong Hua",
+   "Wei Lin",
+   "Fuzhen Zhuang"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 15,
+  "cleaned_hash": "b38298670b6b6f362c5aacec8302a1efb8fe0f228cddc20926ae613e6e3a1ea6",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39312.md",
+  "cleanup_flags": [],
+  "content_hash": "c0259a01bc8618470d3b31497ab16318622163de52ff083aab1f5dcd2ace77c3",
+  "doc_id": "doc-c8bba810d9aaa7fa50386b51029448f4",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 38,
+  "references_path": "runs/pilot2/references/2609.39312.json",
+  "removed": {
+   "appendix": 995,
+   "appendix_tokens": 16918,
+   "references": 41
+  },
+  "source_path": "data/corpus/cs.IR/2609.39312.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T08:51:38Z",
+  "title": "Learning Multiresolution Relevance for Hierarchical Generative Retrieval",
+  "tokens_after": 11226,
+  "tokens_before": 30957
+ },
+ "2609.39319": {
+  "arxiv_id": "2609.39319",
+  "authors": [
+   "Weihao Shen",
+   "Wei Chen",
+   "Fuwei Zhang",
+   "Guojun Liu",
+   "Qingsong Hua",
+   "Wei Lin",
+   "Fuzhen Zhuang"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 17,
+  "cleaned_hash": "32ae6c71f38d5ba512c5866675b44dcd40c7f4181b1b1c5360e31bc3b9d1f1e8",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39319.md",
+  "cleanup_flags": [],
+  "content_hash": "023a2ee3f377cbfeabf6920a2d2d9594e78a13cf4b553df6350474d8953d3964",
+  "doc_id": "doc-a78530f65b1f56284047f4db40c9d779",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 41,
+  "references_path": "runs/pilot2/references/2609.39319.json",
+  "removed": {
+   "appendix": 1199,
+   "appendix_tokens": 20451,
+   "references": 51
+  },
+  "source_path": "data/corpus/cs.IR/2609.39319.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T08:59:09Z",
+  "title": "Residual Trajectory Distillation for Generative Retrieval",
+  "tokens_after": 12826,
+  "tokens_before": 36223
+ },
+ "2609.39327": {
+  "arxiv_id": "2609.39327",
+  "authors": [
+   "Shaowen Zeng",
+   "Yanhua Huang",
+   "Jiacheng Sun",
+   "Jiarui Liu",
+   "Qian Dai",
+   "Zhikai Yang",
+   "Hancheng Li",
+   "Boya Wu",
+   "Tuoyu Zhang",
+   "Yekui Chen",
+   "Xiang Sun"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 11,
+  "cleaned_hash": "83f06ec67c78e68f21c013a336c995ce6039b3f34ea4a47cfc1ad2e8c36a1cf5",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39327.md",
+  "cleanup_flags": [],
+  "content_hash": "5eed3cfb360cf1601960ea5ddc18a02b275621314b5c8fd3389d7b56e0207e0b",
+  "doc_id": "doc-806133e15cafd54ad5c19d64f580d6cf",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 29,
+  "references_path": "runs/pilot2/references/2609.39327.json",
+  "removed": {
+   "appendix": 73,
+   "appendix_tokens": 1938,
+   "references": 32
+  },
+  "source_path": "data/corpus/cs.IR/2609.39327.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T09:00:47Z",
+  "title": "Generative End-to-end Ad Retrieval at Douyin",
+  "tokens_after": 8622,
+  "tokens_before": 13229
+ },
+ "2609.39696": {
+  "arxiv_id": "2609.39696",
+  "authors": [
+   "Sanjeev Suresh"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 7,
+  "cleaned_hash": "3906434521727eeefa39b12694d45ed029e34c340ea894dac72367b909889ec4",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39696.md",
+  "cleanup_flags": [],
+  "content_hash": "3a12a1abf2326990da5df675a49eb5c27baaa13fa76c4aa8016c68f5e284453a",
+  "doc_id": "doc-d7aa9c572c2a3bab15ec000b9eb8eef0",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 36,
+  "references_path": "runs/pilot2/references/2609.39696.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 39
+  },
+  "source_path": "data/corpus/cs.IR/2609.39696.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T13:17:59Z",
+  "title": "When the Label Ignores the Request: Auditing Policy-Selected Targets in Synthetic Conversational Music Recommendation",
+  "tokens_after": 5968,
+  "tokens_before": 9750
+ },
+ "2609.39828": {
+  "arxiv_id": "2609.39828",
+  "authors": [
+   "Jiangxia Cao",
+   "Hao Peng",
+   "Wenlong Xu",
+   "Jiaxin Deng",
+   "Zhixin Ling",
+   "Xingmei Wang",
+   "Kun Shang",
+   "Can Tang",
+   "Zhihuai Cai",
+   "Jun Du",
+   "Fang Su",
+   "Xiaojuan Liu",
+   "Yiling Li",
+   "Chenglong Yu",
+   "Chongling Rao",
+   "Haixuan Gao",
+   "Haitao Xu",
+   "Jian Liang",
+   "Ruiming Tang",
+   "Chenglong Chu",
+   "Guohong Mu",
+   "Honghui Bao",
+   "Hui Wang",
+   "Jialong Chen",
+   "Jiao Ou",
+   "Muhao Wei",
+   "Peng Zhang",
+   "Renpu Liu",
+   "Ruochen Yang",
+   "Shugui Liu",
+   "Xinqi Jin",
+   "Yan Sun",
+   "Yifan Wang",
+   "Yingzhi He",
+   "Yufei Ye",
+   "Yusen Huo",
+   "Tingkuo Wang",
+   "Jihong Zhang",
+   "Lanxi Zhu",
+   "Pengyuan Liu",
+   "Zhipeng Yi",
+   "Luankang Zhang",
+   "Hang Lv",
+   "Xuyang Zhi",
+   "Tianyu Li",
+   "Bintao Wu",
+   "Chuang Ou",
+   "Siyue Su",
+   "Ziyuan Wang",
+   "Yuliang Sun",
+   "Baiyan Che",
+   "Feiyang Xu",
+   "Shiwen Zhang",
+   "Shiteng Cao",
+   "Chongcong Jiang",
+   "Yuan Fang",
+   "Xiangwu Yang",
+   "Hao Deng",
+   "Zijian Du",
+   "Pengxun Wang",
+   "Xiaoming Wang",
+   "Shun Qin",
+   "Yingqi Song",
+   "Tianyi Li",
+   "Naixiao Peng",
+   "Chenyu Zhou",
+   "Qiliang Jiang",
+   "Quan Zheng",
+   "Cheng Jin",
+   "Siying Zeng",
+   "Hongjia Xu",
+   "Junwu Hu",
+   "Teng Fu",
+   "Zhengkang Mei",
+   "Haijun Yu",
+   "Kai Li",
+   "Shengyang Zhou",
+   "Zhijia Wei",
+   "Siyi Xiong",
+   "Bo Liu",
+   "Zichun Guo",
+   "Zhubin Han",
+   "Jinpeng Fu",
+   "Bingqian Liu",
+   "Yuyi Wang",
+   "Yu Liu",
+   "Qinghai Tan",
+   "Ruijie Zhou",
+   "Zhuohang Li",
+   "Zhijia Zhong",
+   "Xiangnan He",
+   "Jirong Wen",
+   "Min Zhang",
+   "Wenwu Ou",
+   "Peng Jiang",
+   "Han Li",
+   "Kaiqiao Zhan",
+   "Yanan Niu",
+   "Lantao Hu",
+   "Kun Gai"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 14,
+  "cleaned_hash": "3c2c0130ba83e3a274c33a0b12517a4b93603402cd14022b748b240ad4687cf7",
+  "cleaned_path": "runs/pilot2/cleaned/2609.39828.md",
+  "cleanup_flags": [],
+  "content_hash": "d24de2a310e8f55730e7f314fea385d28099e9d50145594332f043c5382bcda9",
+  "doc_id": "doc-7a437d4320f86e5b10fea366b45150e7",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 28,
+  "references_path": "runs/pilot2/references/2609.39828.json",
+  "removed": {
+   "appendix": 108,
+   "appendix_tokens": 501,
+   "references": 31
+  },
+  "source_path": "data/corpus/cs.IR/2609.39828.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T14:28:37Z",
+  "title": "KUAISHOU Explorer LLM-Rec Challenge 2026: Reasoning Generative Recommendation",
+  "tokens_after": 10708,
+  "tokens_before": 13716
+ },
+ "2609.40241": {
+  "arxiv_id": "2609.40241",
+  "authors": [
+   "Hanjia Lyu",
+   "Yinglong Xia"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ],
+  "chunks": 10,
+  "cleaned_hash": "2922164513f32ea6a06a8c8a24060390fc53901e48c1463f29b64f2c6c95e672",
+  "cleaned_path": "runs/pilot2/cleaned/2609.40241.md",
+  "cleanup_flags": [],
+  "content_hash": "73f4f27ff4f580d519f7707480f69420fcabeab0a8a40fbd782e537060865892",
+  "doc_id": "doc-70ce20aadf0d46d64da10f7099635afd",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 19,
+  "references_path": "runs/pilot2/references/2609.40241.json",
+  "removed": {
+   "appendix": 181,
+   "appendix_tokens": 4008,
+   "references": 22
+  },
+  "source_path": "data/corpus/cs.IR/2609.40241.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T17:33:43Z",
+  "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+  "tokens_after": 8069,
+  "tokens_before": 14194
+ },
+ "2610.00369": {
+  "arxiv_id": "2610.00369",
+  "authors": [
+   "Dmitrij \u017batuchin"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.AI",
+   "cs.CL"
+  ],
+  "chunks": 10,
+  "cleaned_hash": "6176a0ead622434b7ac219cc80e0560188e9b5e8bba48618638fe33f2e3417cd",
+  "cleaned_path": "runs/pilot2/cleaned/2610.00369.md",
+  "cleanup_flags": [],
+  "content_hash": "66326b566bb2e6ace64b408ea9f8223c8654df406cc98d2d7bafecc50397313e",
+  "doc_id": "doc-7d26c774e1f68bb7aa7b2493aff7a373",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 24,
+  "references_path": "runs/pilot2/references/2610.00369.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 33
+  },
+  "source_path": "data/corpus/cs.IR/2610.00369.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T06:51:37Z",
+  "title": "A Shared Taste for Model-Written Text: The Generator-by-Selector Matrices of \"AI-AI Bias\" Show No Detectable Own-Model Premium",
+  "tokens_after": 8264,
+  "tokens_before": 10376
+ },
+ "2610.00587": {
+  "arxiv_id": "2610.00587",
+  "authors": [
+   "Ameir El Ouadi",
+   "David Beskow"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 4,
+  "cleaned_hash": "0bb89b0915b2d5355786f7badc6a550d6c76427a099ad2a5fe89e3e73133bd00",
+  "cleaned_path": "runs/pilot2/cleaned/2610.00587.md",
+  "cleanup_flags": [],
+  "content_hash": "0eb756439b26170424cb65e2a44360318a516cd0762de44ccbff5186dc16b8b6",
+  "doc_id": "doc-32c936ea7036501564ea6e0c7ef099eb",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 16,
+  "references_path": "runs/pilot2/references/2610.00587.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 19
+  },
+  "source_path": "data/corpus/cs.IR/2610.00587.md",
+  "status": "indexed",
+  "submitted": "2026-09-30T18:52:19Z",
+  "title": "Comparison of Common Crawl News & GDELT",
+  "tokens_after": 3090,
+  "tokens_before": 4201
+ },
+ "2610.00923": {
+  "arxiv_id": "2610.00923",
+  "authors": [
+   "Hyojeong Yun",
+   "Jueun Kim",
+   "Wook-Shin Han"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 12,
+  "cleaned_hash": "79bf5fea562f63b44635206a26b213f70b84c508269adf506b242b2a0620f482",
+  "cleaned_path": "runs/pilot2/cleaned/2610.00923.md",
+  "cleanup_flags": [],
+  "content_hash": "964610aef404ad2701491f3cd8b54069aa12c1df98c467ff9a894603f1f9bf6e",
+  "doc_id": "doc-c0ec9cf32acc21c84d0ff87f3018ea53",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 34,
+  "references_path": "runs/pilot2/references/2610.00923.json",
+  "removed": {
+   "appendix": 482,
+   "appendix_tokens": 12824,
+   "references": 37
+  },
+  "source_path": "data/corpus/cs.IR/2610.00923.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T01:57:55Z",
+  "title": "CANOPY: Adaptive-Granularity Evidence Compression for Multimodal RAG",
+  "tokens_after": 10151,
+  "tokens_before": 26130
+ },
+ "2610.00964": {
+  "arxiv_id": "2610.00964",
+  "authors": [
+   "Chuxuan Hu",
+   "Hejie Cui",
+   "Norman Huang",
+   "Shubham Kumar Bharti",
+   "Wang-Chiew Tan",
+   "Sercan \u00d6. Ar\u0131k"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.CL",
+   "cs.LG"
+  ],
+  "chunks": 14,
+  "cleaned_hash": "fd57f475c322fd772b48e5ba6f20cf8ed49a44721858ffbfb5af9140a703b55a",
+  "cleaned_path": "runs/pilot2/cleaned/2610.00964.md",
+  "cleanup_flags": [],
+  "content_hash": "40ae566fb9186d4c9fb5d373ddddf3c2faa638c9362e2d7c78715b4d4dea3041",
+  "doc_id": "doc-4f42eff0a30c27d527d06483b1e930fe",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 29,
+  "references_path": "runs/pilot2/references/2610.00964.json",
+  "removed": {
+   "appendix": 592,
+   "appendix_tokens": 12303,
+   "references": 32
+  },
+  "source_path": "data/corpus/cs.IR/2610.00964.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T02:52:24Z",
+  "title": "RPTune: Learned Context Curation for LLM Catalog Search",
+  "tokens_after": 10355,
+  "tokens_before": 24705
+ },
+ "2610.01139": {
+  "arxiv_id": "2610.01139",
+  "authors": [
+   "Abhinav Bohra",
+   "Anuj Bohra"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ],
+  "chunks": 7,
+  "cleaned_hash": "54888ac81108688ff9850f59c15996cbba0e23c3b22b24de7ed49652cc447c42",
+  "cleaned_path": "runs/pilot2/cleaned/2610.01139.md",
+  "cleanup_flags": [],
+  "content_hash": "5eecb6325b84c562b15a673b1461962e4d55385348dc4b2b0671a51b812042b9",
+  "doc_id": "doc-1dc8940200b5f31e3902dd5d378d3748",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 16,
+  "references_path": "runs/pilot2/references/2610.01139.json",
+  "removed": {
+   "appendix": 115,
+   "appendix_tokens": 1520,
+   "references": 19
+  },
+  "source_path": "data/corpus/cs.IR/2610.01139.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T06:18:27Z",
+  "title": "Do Multilingual Encoders Produce Language-Consistent Semantic IDs?",
+  "tokens_after": 4237,
+  "tokens_before": 7036
+ },
+ "2610.01463": {
+  "arxiv_id": "2610.01463",
+  "authors": [
+   "Elishay Avram",
+   "Oren Glickman",
+   "Elad Yom-Tov"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 10,
+  "cleaned_hash": "b16db60036840c2e796657c3826e75939b0a697969c7631d4c2fac13eae20831",
+  "cleaned_path": "runs/pilot2/cleaned/2610.01463.md",
+  "cleanup_flags": [],
+  "content_hash": "6f066d8f37129134d7a6586105eaa79b2d6f868f2ee892cea6065bd4ca425f23",
+  "doc_id": "doc-2c6a3171a1eaf75675063ee983326e2a",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 25,
+  "references_path": "runs/pilot2/references/2610.01463.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 28
+  },
+  "source_path": "data/corpus/cs.IR/2610.01463.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T10:56:05Z",
+  "title": "Learning to structure data from user-generated thematic corpora",
+  "tokens_after": 8483,
+  "tokens_before": 10796
+ },
+ "2610.01553": {
+  "arxiv_id": "2610.01553",
+  "authors": [
+   "Nikolai Zenovkin",
+   "Sebastian Bj\u00f6rkqvist"
+  ],
+  "categories": [
+   "cs.IR",
+   "cs.CL"
+  ],
+  "chunks": 10,
+  "cleaned_hash": "b73ea4cd8484f1425da48c7e1e828069c03e0d11194f2d76a0f8ce8ca01f90a2",
+  "cleaned_path": "runs/pilot2/cleaned/2610.01553.md",
+  "cleanup_flags": [],
+  "content_hash": "72d223ab5886d477cc5e658987a1b21dbaabec7c5cd414fdf5646ff9552c0448",
+  "doc_id": "doc-ea6647013df96023c3650defe436e07a",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 22,
+  "references_path": "runs/pilot2/references/2610.01553.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 25
+  },
+  "source_path": "data/corpus/cs.IR/2610.01553.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T12:20:35Z",
+  "title": "From Rules to Neural Graphs: Scalable Structured Prediction for Patent Prior Art Search",
+  "tokens_after": 6684,
+  "tokens_before": 8436
+ },
+ "2610.01705": {
+  "arxiv_id": "2610.01705",
+  "authors": [
+   "Haoran Qiang",
+   "Guannan Liu",
+   "Liang Zhang",
+   "Junjie Wu"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 15,
+  "cleaned_hash": "72219d45a70e173a33a41696ef30007e8ac2d6ecb2a1af1271bc07e2c59aaada",
+  "cleaned_path": "runs/pilot2/cleaned/2610.01705.md",
+  "cleanup_flags": [],
+  "content_hash": "48038b12c904965b7c622a3c7150d2d1e6b4cc5a788a93f6f0b456267e352832",
+  "doc_id": "doc-7f652eb889ccaeb9dc982724e0433962",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 47,
+  "references_path": "runs/pilot2/references/2610.01705.json",
+  "removed": {
+   "appendix": 277,
+   "appendix_tokens": 1787,
+   "references": 50
+  },
+  "source_path": "data/corpus/cs.IR/2610.01705.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T13:51:13Z",
+  "title": "AgentWebRec: Compact Evidence Fusion over the Agent Web for Personalized Recommendation",
+  "tokens_after": 11751,
+  "tokens_before": 17912
+ },
+ "2610.02057": {
+  "arxiv_id": "2610.02057",
+  "authors": [
+   "Mingming Ding",
+   "Ruilin Chen",
+   "Yuzhen Huang",
+   "Hang Qi",
+   "Menglu Yu",
+   "San Tan",
+   "Damian Reeves",
+   "Boris Sarana",
+   "Kevin Tang",
+   "Satendra Gera",
+   "Gagan Jain",
+   "Sahil Shah",
+   "Vishwa Karia",
+   "Fuzail Khan",
+   "Yashasvi Makin",
+   "Edward Z. Yang",
+   "Oguz Ulgen",
+   "Jia Chen Ren",
+   "Laith Sakka",
+   "Mayank Garg",
+   "Meet Vadakkanchery",
+   "Aici Lin",
+   "Wei Sun",
+   "Mengjiao Zhou",
+   "Shuai Yang",
+   "Junqing Zhou",
+   "Max Leung",
+   "Apoorv Purwar",
+   "Musharaf Sultan",
+   "John Bocharov",
+   "Zhenyu Tang",
+   "Vivek Trehan"
+  ],
+  "categories": [
+   "cs.IR"
+  ],
+  "chunks": 12,
+  "cleaned_hash": "7c675ae4c6b0bce105dc42549b1d4ea7b7cac8757018496df0079f6bb8c37dab",
+  "cleaned_path": "runs/pilot2/cleaned/2610.02057.md",
+  "cleanup_flags": [],
+  "content_hash": "8c3c850b520f62bdd14f29d9df7aa701aa229b029d329c5c366274d08c347364",
+  "doc_id": "doc-c74d104e64abbf22ad8fb9dc9be708be",
+  "drop_appendix": true,
+  "previous_hash": null,
+  "reference_entries": 19,
+  "references_path": "runs/pilot2/references/2610.02057.json",
+  "removed": {
+   "appendix_tokens": 0,
+   "references": 22
+  },
+  "source_path": "data/corpus/cs.IR/2610.02057.md",
+  "status": "indexed",
+  "submitted": "2026-10-01T17:02:16Z",
+  "title": "Optimizing Effective Training Time for Large-Scale Recommendation Systems",
+  "tokens_after": 8970,
+  "tokens_before": 10549
+ }
+}

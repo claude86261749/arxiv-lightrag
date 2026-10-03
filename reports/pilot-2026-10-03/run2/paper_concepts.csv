@@ -1,0 +1,1650 @@
+arxiv_id,concept,type,extracted_name
+2609.38822,34K Marketplace Pool,dataset,34K Marketplace Pool
+2609.38822,Agent Pass-Rate,metric,Agent Pass Rate
+2609.38822,Agent Pass-Rate,metric,Agent Pass-Rate
+2609.38822,Agent Skills,concept,Agent Skills
+2609.38822,Agent Skills,concept,AgentSkills
+2609.38822,Agent-Skill Retrieval,task,Agent Skill Retrieval
+2609.38822,Agent-Skill Retrieval,task,Agent-Skill Retrieval
+2609.38822,Agentic-Hybrid Retrieval,method,Agentic-Hybrid Retrieval
+2609.38822,BGE-Base,model,BGE-Base
+2609.38822,BGE-Base,model,BGE-base
+2609.38822,BM25,method,BM25
+2609.38822,Bge-Reranker-V2-M3,model,BGE-Reranker-V2-M3
+2609.38822,Bge-Reranker-V2-M3,model,BGE-Reranker-v2-m3
+2609.38822,Bge-Reranker-V2-M3,model,Bge-Reranker-V2-M3
+2609.38822,Bge-Reranker-V2-M3,model,Bge-reranker-v2-m3
+2609.38822,Bge-Reranker-V2-M3,model,bge-reranker-v2-m3
+2609.38822,Bi-Encoder,model,Bi-Encoder
+2609.38822,Claude Code,tool,Claude Code
+2609.38822,Claude Opus 4.6,model,Claude Opus 4.6
+2609.38822,CodeArena,metric,CodeArena
+2609.38822,Codex CLI,tool,Codex CLI
+2609.38822,Cosine Similarity,metric,Cosine Similarity
+2609.38822,Cross-Encoder,model,Cross-Encoder
+2609.38822,Deterministic Recipe,method,Deterministic Recipe
+2609.38822,F1 Score,metric,F1
+2609.38822,First-Stage Recall,metric,First-Stage Recall
+2609.38822,First-Stage Recall,metric,Stage-1 Recall
+2609.38822,Gemini CLI,tool,Gemini CLI
+2609.38822,Guidance-Injection Attack,concept,Guidance-Injection Attack
+2609.38822,Helpfulness Gap,metric,Helpfulness Gap
+2609.38822,Helpfulness-Gap Diagnostic,method,Helpfulness-Gap Diagnostic
+2609.38822,Hit@1,metric,Hit@1
+2609.38822,Hybrid Retrieval,method,Hybrid Retrieval
+2609.38822,Kimi-K2.5,model,Kimi-K2.5
+2609.38822,LLM-Mediated Retrieval,method,LLM-Mediated Retrieval
+2609.38822,LLM-Mediated Retrieval Loop,method,LLM-Mediated Retrieval Loop
+2609.38822,LM-Based Reranker,model,LM-Based Reranker
+2609.38822,Liu_hybrid,method,Liu_hybrid
+2609.38822,Liu_refined,method,Liu_Refined
+2609.38822,Liu_refined,method,Liu_refined
+2609.38822,MCP,tool,MCP
+2609.38822,MRR,metric,MRR
+2609.38822,MiniMax,model,MiniMax
+2609.38822,MiniMax-M2.7,model,MiniMax-M2.7
+2609.38822,MonoT5,model,MonoT5
+2609.38822,NDCG@10,metric,NDCG@10
+2609.38822,OpenHands,tool,OpenHands
+2609.38822,OpenHands,tool,OpenHands SDK
+2609.38822,OpenRouter,tool,OpenRouter
+2609.38822,Pass Rate,metric,Pass Rate
+2609.38822,Per-Trial Spend,metric,Per-Trial Spend
+2609.38822,Pre-Load Risk Scoring,method,Pre-Load Risk Scoring
+2609.38822,Pytest,tool,Pytest
+2609.38822,Query Expansion,method,Query Expansion
+2609.38822,Query-Specific Refinement,method,Query-Specific Refinement
+2609.38822,Qwen3-Embedding-4B,model,Qwen3-Embedding-4B
+2609.38822,Qwen3-Reranker,model,Qwen3-Reranker
+2609.38822,Qwen3-Reranker-0.6B,model,Qwen3-Reranker-0.6B
+2609.38822,Qwen3-Reranker-4B,model,Qwen3-Reranker-4B
+2609.38822,Qwen3-Reranker-8B,model,Qwen3-Reranker-8B
+2609.38822,Qwen3.5,model,Qwen3.5
+2609.38822,Qwen3.5-397B-A17B,model,Qwen3.5-397B-A17B
+2609.38822,RAG,method,RAG
+2609.38822,Recall,metric,Recall
+2609.38822,Recall@5,metric,R@5
+2609.38822,Recall@5,metric,Top-5 Recall
+2609.38822,Reciprocal-Rank Fusion,method,Reciprocal-Rank Fusion
+2609.38822,Routing Accuracy,metric,Routing Accuracy
+2609.38822,SKILL.md,other,SKILL.md
+2609.38822,SWE Skill,concept,SWE Skill
+2609.38822,Skill Retrieval,task,Skill Retrieval
+2609.38822,SkillRet,dataset,SkillRet
+2609.38822,SkillSeek,method,SkillSeek
+2609.38822,Skill_List,tool,Skill_List
+2609.38822,Skill_Load,tool,Skill_Load
+2609.38822,SkillsBench,dataset,SkillsBench
+2609.38822,Terminal-Bench 2.0,dataset,Terminal-Bench 2.0
+2609.38822,Terminus-2,tool,Terminus-2
+2609.38822,Tool-REX v3,method,Tool-REX V3
+2609.38822,Tool-REX v3,method,Tool-REX v3
+2609.38822,Two-Stage Retriever,method,Two-Stage Retriever
+2609.38822,Voyage Rerank-2.5,model,Voyage Rerank-2.5
+2609.38822,Voyage Rerank-2.5-Lite,model,Voyage Rerank-2.5-Lite
+2609.38822,skill_lookup,tool,Skill_Lookup
+2609.38822,skill_lookup,tool,skill_lookup
+2609.38949,AMD-Net,model,AMD-Net
+2609.38949,ActivityNet,dataset,ActivityNet
+2609.38949,ActivityNet Captions,dataset,ActivityNet Captions
+2609.38949,Adam,method,Adam
+2609.38949,Anchor Frame,concept,Anchor Frame
+2609.38949,Anchor Patch,concept,Anchor Patch
+2609.38949,Anchor-Prior Distribution,concept,Anchor-Prior Distribution
+2609.38949,Bidirectional Contrastive Learning,method,Bidirectional Contrastive Learning
+2609.38949,Bidirectional Contrastive Loss,method,Bidirectional Contrastive Loss
+2609.38949,Bima,model,Bima
+2609.38949,CLIP,model,CLIP
+2609.38949,CLIP Visual Encoder,model,CLIP Visual Encoder
+2609.38949,CLIP4Clip,model,CLIP4Clip
+2609.38949,Cap4Video,model,Cap4Video
+2609.38949,Chunk-Wise Computation Strategy,method,Chunk-Wise Computation Strategy
+2609.38949,Confidence-Modulated Attention Mechanism,method,Confidence-Modulated Attention Mechanism
+2609.38949,Consistency Loss,method,Consistency Loss
+2609.38949,Consistency Regularization,method,Consistency Regularization
+2609.38949,Cosine Annealing,method,Cosine Annealing
+2609.38949,Cross-Modal Alignment,task,Cross-Modal Alignment
+2609.38949,Cross-Modal Misalignment,concept,Cross-Modal Misalignment
+2609.38949,DGL,method,DGL
+2609.38949,DITS,model,DITS
+2609.38949,DiCoSA,model,DiCoSA
+2609.38949,DiDeMo,dataset,DiDeMo
+2609.38949,DiffusionRet,model,DiffusionRet
+2609.38949,Dynamic Gating Mechanism,method,Dynamic Gating Mechanism
+2609.38949,EERCF,model,EERCF
+2609.38949,Energy Variance,concept,Energy Variance
+2609.38949,HBI,model,HBI
+2609.38949,Hard TopK Selection,method,Hard TopK Selection
+2609.38949,Image-Text Retrieval,task,Image-Text Retrieval
+2609.38949,InfoNCE,method,InfoNCE
+2609.38949,InfoNCE,method,InfoNCE Loss
+2609.38949,Inter-Frame Redundancy,concept,Inter-Frame Redundancy
+2609.38949,Intra-Frame Redundancy,concept,Intra-Frame Redundancy
+2609.38949,KL Consistency Loss,method,KL Consistency Loss
+2609.38949,KL Divergence,metric,KL Divergence
+2609.38949,KL Divergence,metric,Kullback-Leibler Divergence
+2609.38949,Key Feature Selection,method,KFS
+2609.38949,Key Feature Selection,method,Key Feature Selection
+2609.38949,Key Frame Feature,concept,Key Frame Feature
+2609.38949,Key Patch Feature,concept,Key Patch Feature
+2609.38949,Learnable Importance Score,method,Learnable Importance Score
+2609.38949,MMTI,model,MMTI
+2609.38949,MPT,model,MPT
+2609.38949,MSIA,method,MSIA
+2609.38949,MSR-VTT,dataset,MSR-VTT
+2609.38949,MSVD,dataset,MSVD
+2609.38949,Multi-Dimensional Saliency,concept,Multi-Dimensional Saliency
+2609.38949,Multi-Grained Alignment,concept,Multi-Grained Alignment
+2609.38949,Multi-Grained Consistency Regularization,method,Multi-Grained Consistency Regularization
+2609.38949,Multi-grained Cross-modal Interaction,method,Multi-grained Cross-modal Interaction
+2609.38949,NVIDIA A100,tool,NVIDIA A100
+2609.38949,NarVid,model,NarVid
+2609.38949,Novelty,metric,Novelty
+2609.38949,Patch-level Selection,method,Patch-level Selection
+2609.38949,ProTA,model,ProTA
+2609.38949,PyTorch,tool,PyTorch
+2609.38949,R@1,metric,R@1
+2609.38949,Recall@10,metric,R@10
+2609.38949,Recall@5,metric,R@5
+2609.38949,Recall@K,metric,Recall at K
+2609.38949,Rsum,metric,Rsum
+2609.38949,SFP,method,SFP
+2609.38949,SFP,method,"Sentence, Frame, and Patch Queries"
+2609.38949,Semantic Distinctiveness,concept,Semantic Distinctiveness
+2609.38949,Soft Assignment Fusion,method,Soft Assignment Fusion
+2609.38949,Soft Assignment Matrix,concept,Soft Assignment Matrix
+2609.38949,Soft Assignment Mechanism,method,Soft Assignment Mechanism
+2609.38949,T-MASS,model,T-MASS
+2609.38949,TS2-Net,model,TS2-Net
+2609.38949,TeachCLIP,model,TeachCLIP
+2609.38949,TempMe,method,TempMe
+2609.38949,Text Query Decomposition,method,Text Query Decomposition
+2609.38949,Text-Video Interaction Module,method,Multi-Grained Text-Video Interaction Module
+2609.38949,Text-Video Interaction Module,method,TVIM
+2609.38949,Text-Video Interaction Module,method,Text-Video Interaction Module
+2609.38949,Text-to-Video Retrieval,task,Text-Video Retrieval
+2609.38949,Text-to-Video Retrieval,task,Text-to-Video Retrieval
+2609.38949,TextProxy,model,TextProxy
+2609.38949,UATVR,model,UATVR
+2609.38949,V-Sparse,method,V-Sparse
+2609.38949,VTC,model,VTC
+2609.38949,ViT-B/32,model,ViT-B/32
+2609.38949,Visual Redundancy,concept,Visual Redundancy
+2609.38949,X-CLIP,model,X-CLIP
+2609.38949,X-Pool,model,X-Pool
+2609.38999,Adam,method,Adam
+2609.38999,Aggregate Profile,method,Aggregate Profile
+2609.38999,All,concept,All
+2609.38999,Attention,method,Attention
+2609.38999,Attention-Fused Context,method,Attention-Fused Context
+2609.38999,BERT4Rec,model,BERT4Rec
+2609.38999,Binary Cross-Entropy,method,Binary Cross-Entropy
+2609.38999,Catalog Coverage,metric,Catalog Coverage
+2609.38999,Catalog Footprint,concept,Catalog Footprint
+2609.38999,Centroid,method,Centroid
+2609.38999,Consumption Regime,concept,Consumption Regime
+2609.38999,Content-Based Recommendation,task,Content-Based Recommendation
+2609.38999,Context-Adaptive Strategy Selection,method,Context-Adaptive Strategy Selection
+2609.38999,Context-Aware Recommendation,task,Context-Aware Recommendation
+2609.38999,Contextual Scope,concept,Contextual Scope
+2609.38999,Coverage,metric,Coverage
+2609.38999,Coverage@K,metric,Coverage@K
+2609.38999,Diversity,metric,Diversity
+2609.38999,Diversity@K,metric,Diversity@K
+2609.38999,Explainable Recommendation,task,Explainable Recommendation
+2609.38999,Exploratory Regime,concept,Exploratory Consumption
+2609.38999,Exploratory Regime,concept,Exploratory Regime
+2609.38999,Exploratory User,concept,Exploratory User
+2609.38999,Explorer,concept,Explorer
+2609.38999,Geo-Temporal Context Enrichment,method,Geo-Temporal Context Enrichment
+2609.38999,Habitual Consumption,concept,Habitual Consumption
+2609.38999,Habitual Consumption,concept,Habitual Regime
+2609.38999,Habitual User,concept,Habitual User
+2609.38999,History Size,metric,History Size
+2609.38999,Hit Rate,metric,HR
+2609.38999,Hit Rate,metric,HitRate
+2609.38999,HitRate@K,metric,HitRate@K
+2609.38999,Holistic History,method,Holistic History
+2609.38999,LLM,model,LLM
+2609.38999,LLM,model,Large Language Model
+2609.38999,LLM-Generated User Profile,method,LLM-Generated Profile
+2609.38999,MLP,model,Multi-Layer Perceptron
+2609.38999,NDCG,metric,NDCG
+2609.38999,NDCG@10,metric,NDCG@10
+2609.38999,NDCG@100,metric,NDCG@100
+2609.38999,NDCG@K,metric,NDCG@K
+2609.38999,Narrative,method,Narrative
+2609.38999,Next-Item Prediction,task,Next-Item Prediction
+2609.38999,Non-Explorer,concept,Non-Explorer
+2609.38999,Novelty,metric,Novelty
+2609.38999,Novelty@K,metric,Novelty@K
+2609.38999,PCT,concept,PCT
+2609.38999,Point-Biserial Correlation,metric,Point-Biserial Correlation
+2609.38999,Popularity Bias,concept,Popularity Bias
+2609.38999,Popularity-Attractor Effect,concept,Popularity Attractor
+2609.38999,Popularity-Attractor Effect,concept,Popularity-Attractor Effect
+2609.38999,Popularity-Attractor Effect,concept,Popularity-Attractor Pattern
+2609.38999,ReLU MLP,model,ReLU MLP
+2609.38999,Recall,metric,Recall
+2609.38999,Recall@10,metric,Recall@10
+2609.38999,Recall@100,metric,Recall@100
+2609.38999,Recall@K,metric,Recall@K
+2609.38999,Recommender System,task,Recommender System
+2609.38999,SASRec,model,SASRec
+2609.38999,SBERT,model,SBERT
+2609.38999,Semantic User Profiling,task,Semantic User Profiling
+2609.38999,Sentence Encoder,model,Sentence Encoder
+2609.38999,Sequence Model,model,Sequence Model
+2609.38999,Sequential Recommendation,task,Sequential Recommendation
+2609.38999,Temporal Leakage,concept,Temporal Leakage
+2609.38999,TemporalCentroid,method,TemporalCentroid
+2609.38999,TemporalNarrative,method,TemporalNarrative
+2609.38999,Training-Period Feature,concept,Training-Period Feature
+2609.38999,Uniform Negative Sampling,method,Uniform Negative Sampling
+2609.38999,Wilcoxon Signed-Rank Test,method,Wilcoxon Signed-Rank Test
+2609.38999,Within-History Content Diversity,metric,Within-History Content Diversity
+2609.38999,Within-List Diversity,metric,Within-List Diversity
+2609.39007,Average Rank,metric,Average Rank
+2609.39007,Average Rank,metric,Avg. Rank
+2609.39007,BSARec,model,BSARec
+2609.39007,Backbone State,concept,Backbone State
+2609.39007,Beauty,dataset,Beauty
+2609.39007,Behavior-Guided Routing,method,Behavior-Guided Routing
+2609.39007,Behavior-Guided Sparse Routing,method,Behavior-Guided Sparse Routing
+2609.39007,Behavioral Cue,concept,Behavioral Cue
+2609.39007,Conditional Computation,concept,Conditional Computation
+2609.39007,Contrastive Learning,method,Contrastive Learning
+2609.39007,Cross-Entropy,method,Cross-Entropy
+2609.39007,Cross-Entropy,method,Cross-Entropy Objective
+2609.39007,Cue Aggregation Function,method,Cue Aggregation Function
+2609.39007,Cue Family,concept,Cue Family
+2609.39007,Cue Only,method,Cue Only
+2609.39007,Cue Perturbation,method,Cue Perturbation
+2609.39007,Cue Vector,concept,Cue Vector
+2609.39007,DIF-SR,model,DIF-SR
+2609.39007,Dataset-Aware MoE,model,Dataset-Aware MoE
+2609.39007,Dense Feed-Forward Baseline,model,Dense Feed-Forward Baseline
+2609.39007,DuoRec,model,DuoRec
+2609.39007,FAME,model,FAME
+2609.39007,FDSA,model,FDSA
+2609.39007,FEARec,model,FEARec
+2609.39007,Factored Group and Within-Group Router,method,Factored Group and Within-Group Router
+2609.39007,FamouSRec,model,FamouSRec
+2609.39007,Flat Dense Routing,method,Flat Dense Routing
+2609.39007,Flat Sparse Routing,method,Flat Sparse Routing
+2609.39007,Focus,concept,Focus
+2609.39007,Foursquare,dataset,Foursquare
+2609.39007,GRU4Rec,model,GRU4Rec
+2609.39007,Global Permute,method,Global Permute
+2609.39007,HM2Rec,model,HM2Rec
+2609.39007,HM4SR,model,HM4SR
+2609.39007,HR@10,metric,HR@10
+2609.39007,Hidden MoE,model,Hidden MoE
+2609.39007,Hidden Only,method,Hidden Only
+2609.39007,Hierarchical Dense Routing,method,Hierarchical Dense Routing
+2609.39007,Hierarchical Sparse Expert Allocation,method,Hierarchical Sparse Expert Allocation
+2609.39007,Hierarchical Sparse Router,method,Hierarchical Sparse Router
+2609.39007,Jensen-Shannon Divergence,metric,Jensen-Shannon Divergence
+2609.39007,KuaiRec,dataset,KuaiRec
+2609.39007,Language-Aware MoE,model,Language-Aware MoE
+2609.39007,LastFM,dataset,LastFM
+2609.39007,Layer Normalization,method,Layer Normalization
+2609.39007,Load Balancing,method,Load Balancing
+2609.39007,M3SRec,model,M3SRec
+2609.39007,ML-1M,dataset,ML-1M
+2609.39007,MRR@10,metric,MRR@10
+2609.39007,Macro Cue,concept,Macro Cue
+2609.39007,Macro Routing,method,Macro Routing
+2609.39007,Macro Scope,concept,Macro Scope
+2609.39007,Mamba,model,Mamba
+2609.39007,Memory,concept,Memory
+2609.39007,Micro Cue,concept,Micro Cue
+2609.39007,Micro Routing,method,Micro Routing
+2609.39007,Micro Scope,concept,Micro Scope
+2609.39007,Mid Cue,concept,Mid Cue
+2609.39007,Mid Scope,concept,Mid Scope
+2609.39007,Mixture of Experts,method,Mixture of Experts
+2609.39007,Mixture of Experts,method,MoE
+2609.39007,Multi-Scope Routing,method,Multi-Scope Routing
+2609.39007,NDCG@10,metric,NDCG@10
+2609.39007,Next-Item Prediction,task,Next-Item Prediction
+2609.39007,Next-Item Prediction Loss,method,Next-Item Prediction Loss
+2609.39007,Popularity,concept,Popularity
+2609.39007,Popularity Bias,concept,Popularity Bias
+2609.39007,Retail Rocket,dataset,Retail Rocket
+2609.39007,Role Swap,method,Role Swap
+2609.39007,Route Consistency Loss,method,Route Consistency
+2609.39007,Route Consistency Loss,method,Route Consistency Loss
+2609.39007,RouteRec,model,RouteRec
+2609.39007,Router,method,Router
+2609.39007,Routing Profile,method,Routing Profile
+2609.39007,Routing Scope,concept,Routing Scope
+2609.39007,SASRec,model,SASRec
+2609.39007,SASRec-wide,model,SASRec-wide
+2609.39007,Self-Attention,method,Self-Attention
+2609.39007,Sequential Recommendation,task,Sequential Recommendation
+2609.39007,Session-Aware Next-Item Prediction,task,Session-Aware Next-Item Prediction
+2609.39007,Session-Aware Recommendation,task,Session-Aware Recommendation
+2609.39007,Session-Based Recommendation,task,Session-Based Recommendation
+2609.39007,Shuffle Cues,method,Shuffle Cues
+2609.39007,Sparse Mixture-of-Experts,method,Sparse Mixture-of-Experts
+2609.39007,Sparse Routing,method,Sparse Routing
+2609.39007,Tempo,concept,Tempo
+2609.39007,TiSASRec,model,TiSASRec
+2609.39007,TopKSoftmax,method,TopKSoftmax
+2609.39007,Train Shuffle,method,Train Shuffle
+2609.39007,Train Zero,method,Train Zero
+2609.39007,Z-Loss,method,Z-Loss
+2609.39007,Zero Cues,method,Zero Cues
+2609.39043,Bootstrap Confidence Interval,method,Bootstrap Confidence Interval
+2609.39043,Centroid,method,Centroid
+2609.39043,Centroid,method,Centroid Profile
+2609.39043,Collaborative Model,model,Collaborative Model
+2609.39043,Collaborative Sequential Recommendation Model,model,Collaborative Sequential Model
+2609.39043,Collaborative Sequential Recommendation Model,model,Collaborative Sequential Recommendation Model
+2609.39043,Diversity,metric,Diversity
+2609.39043,Five-Fold Out-Of-Fold Evaluation,method,Five-Fold Out-Of-Fold Evaluation
+2609.39043,Generative Recommendation Model,model,Generative Recommendation Model
+2609.39043,Generative User Profile,concept,Generative User Profile
+2609.39043,Gradient Boosting,model,Gradient Boosting
+2609.39043,Heuristic Routing,method,Heuristic Routing
+2609.39043,LLM,model,LLM
+2609.39043,LLM-Generated User Profile,method,LLM-Generated User Profile
+2609.39043,Learned Gate,model,Learned Gate
+2609.39043,Learned Gating,method,Learned Gating
+2609.39043,Model Cascade,method,Model Cascade
+2609.39043,Multi-Task Learning,method,Multi-Task Learning
+2609.39043,NDCG,metric,NDCG
+2609.39043,NDCG@10,metric,NDCG@10
+2609.39043,Narrative,method,Narrative
+2609.39043,Niche-Based Routing,method,Niche Heuristic
+2609.39043,Niche-Based Routing,method,Niche-Based Routing
+2609.39043,Novelty,metric,Novelty
+2609.39043,Novelty-Relevance Trade-off,concept,Novelty-Relevance Trade-Off
+2609.39043,Novelty-Relevance Trade-off,concept,Novelty-Relevance Trade-off
+2609.39043,Novelty-Relevance Trade-off,concept,Novelty–Relevance Trade-Off
+2609.39043,Novelty@10,metric,Novelty@10
+2609.39043,Popularity Bias,concept,Popularity Bias
+2609.39043,ROC-AUC,metric,ROC-AUC
+2609.39043,Random Routing,method,Random Routing
+2609.39043,Random Routing,method,Uniform Random Routing
+2609.39043,Recommendation,task,Recommendation
+2609.39043,Routing Threshold,concept,Routing Threshold
+2609.39043,SBERT,model,Sentence-BERT
+2609.39043,Score-Level Fusion,method,Score-Level Fusion
+2609.39043,Selective Routing,method,Selective Routing
+2609.39043,Self-Information,concept,Self-Information
+2609.39043,Semantic Item Encoder,model,Semantic Item Encoder
+2609.39043,Sequential Recommendation,task,Sequential Recommendation
+2609.39043,Serving-Time Routing Gate,method,Serving-Time Gate
+2609.39043,Serving-Time Routing Gate,method,Serving-Time Routing Gate
+2609.39043,Short-History Routing,method,Short-History Heuristic
+2609.39043,Short-History Routing,method,Short-History Routing
+2609.39043,TemporalNarrative,method,TemporalNarrative
+2609.39043,Unified Ranker,model,Unified Ranker
+2609.39043,Wilcoxon Signed-Rank Test,method,Paired Wilcoxon Signed-Rank Test
+2609.39043,Wilcoxon Signed-Rank Test,method,Paired Wilcoxon Test
+2609.39312,AR Only,method,AR Only
+2609.39312,AR-Decoder Soft Targets,method,AR-Decoder Soft Targets
+2609.39312,AR-Only Retrieval,method,AR-Only Retrieval
+2609.39312,AR-Only Scoring,method,AR-Only Scoring
+2609.39312,AdamW,method,AdamW
+2609.39312,All-Level Retrieval,method,All Levels
+2609.39312,All-Level Retrieval,method,All-Level Retrieval
+2609.39312,All-Level Retrieval,method,All-Level Retrieval Rule
+2609.39312,All-Level Scoring,method,All-Level Scoring
+2609.39312,Autoregressive Decoder,model,Autoregressive Decoder
+2609.39312,Autoregressive Decoding,method,Autoregressive Decoding
+2609.39312,Autoregressive Retrieval,method,Autoregressive Retrieval
+2609.39312,Autoregressive Score,method,Autoregressive Score
+2609.39312,BGE-M3,model,BGE-M3
+2609.39312,BM25,method,BM25
+2609.39312,Base,model,Base
+2609.39312,CAT-ID2,model,CAT-ID 2
+2609.39312,CAT-ID2,model,CAT-ID2
+2609.39312,CaLIR,model,CaLIR
+2609.39312,Candidate Set,concept,Candidate Set
+2609.39312,Compatibility Scoring,method,Compatibility Scoring
+2609.39312,Compatibility-Augmented Scoring,method,Compatibility-Augmented Scoring
+2609.39312,Compatibility-Based Decoding,method,Compatibility-Based Decoding
+2609.39312,Confidence Calibration,concept,Confidence Calibration
+2609.39312,DPR,model,DPR
+2609.39312,DSI Naive,model,DSI Naive
+2609.39312,DSI Naive,model,DSInaive
+2609.39312,DSI Semantic,model,DSI Semantic
+2609.39312,DSI Semantic,model,DSIsemantic
+2609.39312,Decoder Soft-Target,method,Decoder Soft-Target
+2609.39312,Decoder Soft-Target,method,Decoder Soft-Target Supervision
+2609.39312,Dense Retrieval,method,Dense Retrieval
+2609.39312,Distributional Supervision,method,Distributional Supervision
+2609.39312,ESCI,dataset,ESCI
+2609.39312,ESCI-ES,dataset,ESCI-ES
+2609.39312,ESCI-JP,dataset,ESCI-JP
+2609.39312,ESCI-US,dataset,ESCI-US
+2609.39312,Evidence Fidelity,concept,Evidence Fidelity
+2609.39312,Exact-Only Supervision,method,Exact-Only Supervision
+2609.39312,FORGE,model,FORGE
+2609.39312,Full-SID Decoder,model,Full-SID Decoder
+2609.39312,Full-SID Supervision,method,Full-SID Supervision
+2609.39312,GR2,method,GR2
+2609.39312,Generative Retrieval,task,Generative Retrieval
+2609.39312,Gini Impurity,metric,Gini Impurity
+2609.39312,GitHub,tool,GitHub
+2609.39312,Grouped Soft Targets,method,Grouped Soft Targets
+2609.39312,Grouped Soft Targets,method,Grouped Soft-Target
+2609.39312,Grouped Soft Targets,method,Grouped Soft-Target Supervision
+2609.39312,HGRec,model,HGRec
+2609.39312,Hi-Gen,model,Hi-Gen
+2609.39312,Hierarchical Classification,method,Hierarchical Classification
+2609.39312,Hierarchical Predictor,model,Hierarchical Predictor
+2609.39312,Hierarchical Supervision,method,Hierarchical Supervision
+2609.39312,Hierarchical k-Means,method,Hierarchical k-Means
+2609.39312,Holm Correction,method,Holm Correction
+2609.39312,Jensen-Shannon Divergence,metric,Jensen–Shannon Divergence
+2609.39312,KL Divergence,metric,Kullback-Leibler Divergence
+2609.39312,LTRGR,model,LTRGR
+2609.39312,LaSER,model,LaSER
+2609.39312,Label Tree,concept,Label Tree
+2609.39312,Learned Tokenization,method,Learned Tokenization
+2609.39312,ListMLE,method,ListMLE
+2609.39312,ListNet,method,ListNet
+2609.39312,Listwise Ranking,method,Listwise Ranking
+2609.39312,Local Predictive Distribution,method,Local Predictive Distribution
+2609.39312,MERGE,model,MERGE
+2609.39312,MPNet,model,MPNet
+2609.39312,Matched Base,method,Matched Base
+2609.39312,Multi-Positive Objective,method,Multi-Positive Objective
+2609.39312,Multilingual ESCI,dataset,Multilingual ESCI
+2609.39312,Multiresolution Relevance,concept,Multiresolution Relevance
+2609.39312,Multiresolution Relevance Supervision,concept,Multiresolution Relevance Supervision
+2609.39312,Multiresolution Scoring,method,Multiresolution Scoring
+2609.39312,NCI,model,NCI
+2609.39312,NDCG,metric,NDCG
+2609.39312,NDCG@10,metric,NDCG@10
+2609.39312,NDCG@100,metric,NDCG@100
+2609.39312,NDCG@K,metric,NDCG@K
+2609.39312,NQ320K,dataset,NQ320K
+2609.39312,Normalized Document-Level Relevance Measure,metric,Normalized Document-Level Relevance Measure
+2609.39312,Parent-Mass Weighting,method,Parent-Mass Weighting
+2609.39312,Prefix Coverage,metric,Prefix Coverage
+2609.39312,Prefix Embedding,method,Prefix Embedding
+2609.39312,Prefix-Aware Decoding,method,Prefix-Aware Decoding
+2609.39312,Prefix-Conditioned Predictor,model,Prefix-Conditioned Predictor
+2609.39312,Product Search,task,Product Search
+2609.39312,Query Encoder,model,Query Encoder
+2609.39312,Query-Level Hierarchical Prediction,method,Query-Level Hierarchical Prediction
+2609.39312,Query–Catalog Compatibility,method,Query–Catalog Compatibility
+2609.39312,RARS,method,RARS
+2609.39312,RIPOR,model,RIPOR
+2609.39312,RQ-VAE,model,RQ-VAE
+2609.39312,Rank Distillation,method,Rank Distillation
+2609.39312,Recall,metric,Recall
+2609.39312,Recall@10,metric,Recall@10
+2609.39312,Recall@100,metric,Recall@100
+2609.39312,Recall@5,metric,Recall@5
+2609.39312,Recall@K,metric,Recall@K
+2609.39312,Refinement Ambiguity,metric,Refinement Ambiguity
+2609.39312,Refinement-Entropy Profile,concept,Refinement-Entropy Profile
+2609.39312,Relevance Feedback,method,Relevance Feedback
+2609.39312,Residual Quantization,method,Residual Quantization
+2609.39312,Resolution-Preserving Objective,method,Resolution-Preserving Objective
+2609.39312,Retriever,model,Retriever
+2609.39312,SEAL,model,SEAL
+2609.39312,Sampled Tree,method,Sampled Tree
+2609.39312,Sampled-Tree Supervision,method,Sampled-Tree Supervision
+2609.39312,Selective Hierarchical Classification,method,Selective Hierarchical Classification
+2609.39312,Semantic ID,concept,SID
+2609.39312,Semantic ID,concept,Semantic ID
+2609.39312,Semantic ID,concept,Semantic Identifier
+2609.39312,Semantic Tree,concept,Semantic Tree
+2609.39312,Sentence-T5,model,Sentence-T5
+2609.39312,Sentence-mT5,model,Sentence-mT5
+2609.39312,Shannon Entropy,metric,Shannon Entropy
+2609.39312,Sparse Retrieval,task,Sparse Retrieval
+2609.39312,Structured Identifier,concept,Structured Identifier
+2609.39312,Subtree Compatibility,method,Subtree Compatibility
+2609.39312,Supervision–Resolution Mismatch,concept,Supervision–Resolution Mismatch
+2609.39312,T5-base,model,T5-base
+2609.39312,TIGER,model,TIGER
+2609.39312,Target Sampling,method,Target Sampling
+2609.39312,Tree Loss,method,Tree Loss
+2609.39312,Trie Constraint,method,Trie Constraint
+2609.39312,Trie-Constrained Beam Search,method,Trie-Constrained Beam Search
+2609.39312,Trie-Constrained Decoding,method,Trie-Constrained Decoding
+2609.39312,Wikipedia,dataset,Wikipedia
+2609.39312,mT5-base,model,mT5-base
+2609.39319,B-Shop,dataset,B-Shop
+2609.39319,BGE-M3,model,BGE-M3
+2609.39319,BM25,method,BM25
+2609.39319,Base-FT,method,Base-FT
+2609.39319,Beauty,dataset,Beauty
+2609.39319,BigRec,model,BigRec
+2609.39319,CAT-ID2,model,CAT-ID 2
+2609.39319,CAT-ID2,model,CAT-ID2
+2609.39319,CaLIR,model,CaLIR
+2609.39319,Code-Conditioned Mean,method,Code-Conditioned Mean
+2609.39319,Code-Conditioned Residual Distribution,method,Code-Conditioned Residual Distribution
+2609.39319,Codebook-Only Target,method,Codebook-Only
+2609.39319,Codebook-Only Target,method,Codebook-Only Target
+2609.39319,Collision Resolution,method,Collision Resolution
+2609.39319,Collision-Aware Correction,method,Collision-Aware Correction
+2609.39319,Collision-Aware Teacher,method,Collision-Aware Teacher
+2609.39319,Collision-Aware Teacher Construction,method,Collision-Aware Teacher Construction
+2609.39319,Continuation Training,method,Continuation Training
+2609.39319,DPR,model,DPR
+2609.39319,DSI,model,DSI
+2609.39319,DSI Naive,model,DSI Naive
+2609.39319,DSI Semantic,model,DSI Semantic
+2609.39319,Dense Retrieval,method,Dense Retrieval
+2609.39319,ESCI,dataset,ESCI
+2609.39319,ESCI-ES,dataset,ESCI-ES
+2609.39319,ESCI-JP,dataset,ESCI-JP
+2609.39319,ESCI-US,dataset,ESCI-US
+2609.39319,ETEGRec,model,ETEGRec
+2609.39319,FORGE,model,FORGE
+2609.39319,Full-output KD,method,Full-Output KD
+2609.39319,Full-output KD,method,Full-output KD
+2609.39319,Future Hard SID,method,Future Hard SID
+2609.39319,Future Supervision,method,Future Supervision
+2609.39319,Future-State Matching,method,Future-State Matching
+2609.39319,GenRet,model,GenRet
+2609.39319,Generative Recommendation,task,Generative Recommendation
+2609.39319,Generative Retrieval,task,Generative Retrieval
+2609.39319,Generative Retriever,model,Generative Retriever
+2609.39319,HGRec,model,HGRec
+2609.39319,Hard SID Supervision,method,Hard SID Supervision
+2609.39319,Hard SID targets,method,Hard SID targets
+2609.39319,Hi-Gen,model,Hi-Gen
+2609.39319,I-Shop,dataset,I-Shop
+2609.39319,Instruments,dataset,Instruments
+2609.39319,Jensen-Shannon Divergence,metric,JS Divergence
+2609.39319,KL Divergence,metric,KL Divergence
+2609.39319,KL Divergence,metric,Kullback-Leibler Divergence
+2609.39319,Knowledge Distillation,method,Knowledge Distillation
+2609.39319,LETTER,model,LETTER
+2609.39319,LTRGR,model,LTRGR
+2609.39319,LaSER,model,LaSER
+2609.39319,Latent-Reasoning Objective,method,Latent-Reasoning Objective
+2609.39319,MERGE,model,MERGE
+2609.39319,MPNet,model,MPNet
+2609.39319,Multi-Horizon Distillation Objective,method,Multi-Horizon Distillation Objective
+2609.39319,Multi-Token Prediction,method,Multi-Token Prediction
+2609.39319,Multilingual E-Commerce Retrieval,task,Multilingual E-Commerce Retrieval
+2609.39319,NDCG,metric,NDCG
+2609.39319,NDCG@10,metric,N@10
+2609.39319,NDCG@10,metric,NDCG@10
+2609.39319,NDCG@100,metric,N@100
+2609.39319,Non-Target Permutation,method,Non-Target Permutation
+2609.39319,Non-target output alignment,method,Non-target output alignment
+2609.39319,P5-CID,model,P5-CID
+2609.39319,P5-SID,model,P5-SID
+2609.39319,PAG,method,PAG
+2609.39319,PRO,method,PRO
+2609.39319,Probe KL Reduction,metric,Probe KL Reduction
+2609.39319,ProphetNet,model,ProphetNet
+2609.39319,RBD + future hard SID,method,RBD + Future Hard SID
+2609.39319,RBD + future hard SID,method,RBD + future hard SID
+2609.39319,RIPOR,model,RIPOR
+2609.39319,RQ Indexer,model,RQ Indexer
+2609.39319,RQ Tokenizer,method,RQ Tokenizer
+2609.39319,RQ-Transformer,model,RQ-Transformer
+2609.39319,Recall,metric,Recall
+2609.39319,Recall@10,metric,R@10
+2609.39319,Recall@10,metric,Recall@10
+2609.39319,Recall@100,metric,R@100
+2609.39319,Recall@100,metric,Recall@100
+2609.39319,Representation Probe,method,Representation Probe
+2609.39319,ResTD,method,ResTD
+2609.39319,Residual Behavioral Distillation,method,RBD
+2609.39319,Residual Behavioral Distillation,method,Residual Behavioral Distillation
+2609.39319,Residual Quantization,method,Residual Quantization
+2609.39319,Residual Teacher,model,Residual Teacher
+2609.39319,Residual Trajectory,concept,Residual Trajectory
+2609.39319,Residual Trajectory Distillation,method,Residual Trajectory Distillation
+2609.39319,Residual-Distance Distribution,concept,Residual-Distance Distribution
+2609.39319,SASRec,model,SASRec
+2609.39319,SID-Generation Objective,method,SID-Generation Objective
+2609.39319,Same-Code + Entropy-Bin Shuffle,method,Same-Code + Entropy-Bin Shuffle
+2609.39319,Semantic ID,concept,SID
+2609.39319,Semantic ID,concept,Semantic ID
+2609.39319,Sentence-T5,model,Sentence-T5
+2609.39319,Sentence-mT5,model,Sentence-mT5
+2609.39319,Shape-Matched Teacher,method,Shape-Matched Teacher
+2609.39319,Shape-Matched Teacher Swap,method,Shape-Matched Teacher Swap
+2609.39319,Shuffled ResTD,method,Shuffled ResTD
+2609.39319,Shuffled Teacher,method,Shuffled Teacher
+2609.39319,SmartGR,model,SmartGR
+2609.39319,Sparse Retrieval,task,Sparse Retrieval
+2609.39319,T5-base,model,T5-base
+2609.39319,TARQ,model,TARQ
+2609.39319,TIGER,model,TIGER
+2609.39319,Teacher Forcing,method,Teacher Forcing
+2609.39319,Triangular Supervision,concept,Triangular Supervision
+2609.39319,Trie-Constrained Autoregressive Search,method,Trie-Constrained Autoregressive Search
+2609.39319,Trie-Constrained Beam Search,method,Trie-Constrained Beam Search
+2609.39319,Twin Networks,model,Twin Networks
+2609.39319,Yelp,dataset,Yelp
+2609.39319,mT5-base,model,mT5-base
+2609.39327,A/B Testing,method,A/B Testing
+2609.39327,ADSS,metric,ADSS
+2609.39327,ADVV,metric,ADVV
+2609.39327,Autoregressive Generator,model,Autoregressive Generator
+2609.39327,BasisRQ,method,BasisRQ
+2609.39327,BasisVQ,method,BasisVQ
+2609.39327,Beam Search,method,Beam Search
+2609.39327,COBRA,model,COBRA
+2609.39327,Causal Masking,method,Causal Masking
+2609.39327,Causal Self-Attention,method,Causal Self-Attention
+2609.39327,Codebook,concept,Codebook
+2609.39327,Codebook Loss,method,Codebook Loss
+2609.39327,Codebook Utilization,metric,Codebook Utilization
+2609.39327,Cold Start,concept,Cold Start
+2609.39327,Cold-start Activation Rate,metric,Cold-start Activation Rate
+2609.39327,Commitment Loss,method,Commitment Loss
+2609.39327,Compressed Sparse Row,concept,Compressed Sparse Row
+2609.39327,Cross-Attention,method,Cross-Attention
+2609.39327,Dense Retrieval,method,Dense Retrieval
+2609.39327,Douyin Ads,tool,Douyin Ads
+2609.39327,Element-Wise Affine Transformation,method,Element-Wise Affine Transformation
+2609.39327,Exponential Moving Average,method,EMA
+2609.39327,Exponential Moving Average,method,Exponential Moving Average
+2609.39327,Fast Distance Computation Algorithm,method,Fast Distance Computation Algorithm
+2609.39327,GEAR,model,GEAR
+2609.39327,GEAR Generator,model,GEAR Generator
+2609.39327,GEAR Reranker,model,GEAR Reranker
+2609.39327,GPR,model,GPR
+2609.39327,GR4AD,model,GR4AD
+2609.39327,GRIT-VQ,method,GRIT-VQ
+2609.39327,Gated FFN,method,Gated FFN
+2609.39327,Generative Retrieval,task,Generative Retrieval
+2609.39327,Generator,model,Generator
+2609.39327,Generator-Reranker,model,Generator-Reranker
+2609.39327,Gradient Sharing via Orthogonal Bases,method,Gradient Sharing via Orthogonal Bases
+2609.39327,Gryphon,model,Gryphon
+2609.39327,Instance Watcher,tool,Instance Watcher
+2609.39327,Item Collision,concept,Item Collision
+2609.39327,Item Collision Rate,metric,Item Collision Rate
+2609.39327,Item Tokenizer,model,Item Tokenizer
+2609.39327,Item Tower,model,Item Tower
+2609.39327,Item-ID Embedding,concept,Item-ID Embedding
+2609.39327,Joint Reranking Head,method,Joint Reranking Head
+2609.39327,KV-Cached Beam Search,method,KV-Cached Beam Search
+2609.39327,LIGER,model,LIGER
+2609.39327,LambdaLoss,method,LambdaLoss
+2609.39327,Learning-to-Rank,method,Learning-to-Rank
+2609.39327,MLP,model,MLP
+2609.39327,MTGRec,model,MTGRec
+2609.39327,NDCG,metric,NDCG
+2609.39327,NEZHA,model,NEZHA
+2609.39327,Nearline Index Builder,tool,Nearline Index Builder
+2609.39327,Newton-Schulz Iteration,method,Newton-Schulz Iteration
+2609.39327,OneRec,model,OneRec
+2609.39327,Online A/B Testing,method,Online A/B Testing
+2609.39327,PIT,method,PIT
+2609.39327,PSRQ,method,PSRQ
+2609.39327,Parameter Server,tool,Parameter Server
+2609.39327,Prefix-Aware Residual Quantization,method,Prefix-Aware Residual Quantization
+2609.39327,Prefix-aware BasisRQ,method,Prefix-Aware BasisRQ
+2609.39327,Prefix-aware BasisRQ,method,Prefix-aware BasisRQ
+2609.39327,Progressive Warm-Up Schedule,method,Progressive Warm-Up Schedule
+2609.39327,QINCO,method,QINCO
+2609.39327,QINCO,method,QINCo
+2609.39327,Quantization Error,metric,Quantization Error
+2609.39327,Quantization Module,model,Quantization Module
+2609.39327,RMSNorm,method,RMSNorm
+2609.39327,RQ-KMeans,method,RQ-KMeans
+2609.39327,RQ-VAE,model,RQ-VAE
+2609.39327,Representation Collapse,concept,Representation Collapse
+2609.39327,Reranker,model,Reranker
+2609.39327,Reranking Head,model,Reranking Head
+2609.39327,Residual Quantization,method,RQ
+2609.39327,Residual Quantization,method,Residual Quantization
+2609.39327,Sample-Aware Codebook,concept,Sample-Aware Codebook
+2609.39327,Secpm,metric,Secpm
+2609.39327,Secpm Reweighting,method,Secpm Reweighting
+2609.39327,Secpm Reweighting,method,secpm Reweighting
+2609.39327,Semantic ID,concept,Semantic ID
+2609.39327,SiLU,method,SiLU
+2609.39327,Signed Packed-INT4,concept,Signed Packed-INT4
+2609.39327,SimVQ,method,SimVQ
+2609.39327,TIGER,model,TIGER
+2609.39327,Teacher Forcing,method,Teacher Forcing
+2609.39327,Tokenizer,model,Tokenizer
+2609.39327,Transformer,model,Transformer
+2609.39327,Two-Tower Model,model,Two-Tower Architecture
+2609.39327,Two-Tower Model,model,Two-Tower Model
+2609.39327,Vanilla RQ,method,Vanilla RQ
+2609.39327,Vanilla VQ,method,Vanilla VQ
+2609.39327,Vector Quantization,method,VQ
+2609.39327,Vector Quantization,method,Vector Quantization
+2609.39696,Album And Year Constraint Family,concept,Album And Year Constraint Family
+2609.39696,Amazon Alexa,tool,Amazon Alexa
+2609.39696,Artist Detector,tool,Artist Detector
+2609.39696,Audited Directives,dataset,Audited Directives
+2609.39696,BM25,method,BM25
+2609.39696,Base Reranker,model,Base Reranker
+2609.39696,Behavioral Testing,method,Behavioral Testing
+2609.39696,Bi-Encoder,model,Bi-Encoder
+2609.39696,Broad Semantic Request Family,concept,Broad Semantic Request Family
+2609.39696,CheckList,method,CheckList
+2609.39696,Composite Score,metric,Composite Score
+2609.39696,Conflict Slice,dataset,Conflict Slice
+2609.39696,Conversational Music Recommendation,task,Conversational Music Recommendation
+2609.39696,Conversational Recommender System,task,Conversational Recommendation System
+2609.39696,Conversational Recommender System,task,Conversational Recommender System
+2609.39696,Counterfactual Learning,method,Counterfactual Learning
+2609.39696,Denoising Method,method,Denoising Method
+2609.39696,Dense Retrieval,method,Dense Retrieval
+2609.39696,Deterministic Request Detector,method,Deterministic Request Detector
+2609.39696,Dialogue Gate,method,Dialogue Gate
+2609.39696,Engineered Label-Dialogue Consistency,method,Engineered Label-Dialogue Consistency
+2609.39696,Evaluation Slice,dataset,Evaluation Slice
+2609.39696,Exact-Item Intent,concept,Exact-Item Intent
+2609.39696,Exact-Song Request,concept,Exact-Song Request
+2609.39696,Exact/Version Conflict Slice,dataset,Exact/Version Conflict Slice
+2609.39696,Exact/Version Detector,tool,Exact/Version Detector
+2609.39696,Exact/Version Request Family,concept,Exact/Version Family
+2609.39696,Exact/Version Request Family,concept,Exact/Version Request Family
+2609.39696,Exposure Bias,concept,Exposure Bias
+2609.39696,Fashion-AlterEval,dataset,Fashion-AlterEval
+2609.39696,Focused Query,concept,Focused Query
+2609.39696,GPT-5.5,model,GPT-5.5
+2609.39696,Gate,method,Gate
+2609.39696,Guarded Training Supplement,method,Guarded Training Supplement
+2609.39696,Hard Artist Constraint Family,concept,Hard Artist Constraint Family
+2609.39696,Instruction Following,task,Instruction Following
+2609.39696,Known-Item Search,task,Known-Item Search
+2609.39696,Label-Request Conflict,concept,Label-Request Conflict
+2609.39696,Listener LLM,model,Listener LLM
+2609.39696,Matched-Control Reranker,model,Matched Control Model
+2609.39696,Matched-Control Reranker,model,Matched Official-Label Control
+2609.39696,Matched-Control Reranker,model,Matched-Control Reranker
+2609.39696,MultiWOZ,dataset,MultiWOZ
+2609.39696,Music Search,task,Music Search
+2609.39696,NDCG@20,metric,NDCG@20
+2609.39696,NDCG@20,metric,nDCG@20
+2609.39696,Natural Language Processing,task,Natural Language Processing
+2609.39696,No-Repeat Constraint,concept,No-Repeat Constraint
+2609.39696,Non-Focused Query,concept,Non-Focused Query
+2609.39696,Official nDCG@20,metric,Official nDCG@20
+2609.39696,Organizer Development Set,dataset,Organizer Development Set
+2609.39696,Paired Bootstrap,method,Paired Bootstrap
+2609.39696,Policy-Selected Label,concept,Policy-Selected Label
+2609.39696,Pool Depletion,concept,Pool Depletion
+2609.39696,Preservation Margin,concept,Preservation Margin
+2609.39696,Pseudo-Relevance Feedback,method,Pseudo-Relevance Feedback
+2609.39696,Rank-1 Override,method,Rank-1 Override
+2609.39696,ReDial,dataset,ReDial
+2609.39696,RecList,method,RecList
+2609.39696,RecSys Challenge 2026 TalkPlay Benchmark,dataset,RecSys Challenge 2026 TalkPlay Benchmark
+2609.39696,Recommender System,task,Recommender System
+2609.39696,Recsys LLM,model,Recsys LLM
+2609.39696,Rejection And Switch-Away Family,concept,Rejection And Switch-Away Family
+2609.39696,Request-Satisfying nDCG@20,metric,Request-Satisfying nDCG@20
+2609.39696,Round-Trip Consistency Filtering,method,Round-Trip Consistency Filtering
+2609.39696,Score Diffusion,method,Score Diffusion
+2609.39696,Specialist,model,Specialist
+2609.39696,Specialist Reranker,model,Specialist Model
+2609.39696,Specialist Reranker,model,Specialist Reranker
+2609.39696,TalkPlayData 2,method,TalkPlayData 2
+2609.39696,Target-Remap Script,tool,Target-Remap Script
+2609.39696,User Simulator,model,User Simulator
+2609.39696,Voice Assistant,tool,Voice Assistant
+2609.39696,XGBoost LambdaRank,model,XGBoost LambdaRank
+2609.39828,Accuracy,metric,Accuracy
+2609.39828,Action-Alignment Score,metric,Action-Alignment Score
+2609.39828,Action–Logic Score,metric,Action–Logic Score
+2609.39828,Advertising Domain,concept,Advertising Domain
+2609.39828,Autoregressive Next-Item Prediction,method,Autoregressive Next-Item Prediction
+2609.39828,BERTScore F1,metric,BERTScore F1
+2609.39828,Behavior-Selection F1,metric,Behavior-Selection F1
+2609.39828,Bert-Base-Chinese,model,Bert-Base-Chinese
+2609.39828,Bridge,unknown,Bridge
+2609.39828,Bridge-GRPO,unknown,Bridge-GRPO
+2609.39828,Candidate Complementarity,concept,Candidate Complementarity
+2609.39828,Category Label,concept,Category Label
+2609.39828,Chain Score,metric,Chain Score
+2609.39828,Chain-of-Thought,method,Chain of Thought
+2609.39828,Chain-of-Thought,method,Chain-of-Thought
+2609.39828,Cross-Domain Recommendation,task,Cross-Domain Recommendation
+2609.39828,DPO,method,Direct Preference Optimization
+2609.39828,Data Leakage,concept,Data Leakage
+2609.39828,Doubly Weighted F1,metric,Doubly Weighted F1
+2609.39828,E-Commerce Domain,concept,E-Commerce Domain
+2609.39828,Event Alignment,method,Event Alignment
+2609.39828,F1 Score,metric,F1
+2609.39828,GRPO,method,Group Relative Policy Optimization
+2609.39828,General Knowledge,task,General Knowledge
+2609.39828,General Knowledge,task,General-Knowledge Task
+2609.39828,General Knowledge Question Answering,task,General Knowledge Question Answering
+2609.39828,Generative Recommendation,task,Generative Recommendation
+2609.39828,Graded Rewards,method,Graded Rewards
+2609.39828,Hierarchical Credit Assignment,unknown,Hierarchical Credit Assignment
+2609.39828,Hierarchical Recommendation,method,Hierarchical Recommendation
+2609.39828,Information-Point Extraction,method,Information-Point Extraction
+2609.39828,Interest Reasoning,task,Interest Reasoning
+2609.39828,Interest-Evolution Chain,concept,Interest-Evolution Chain
+2609.39828,Interest-Evolution Chain Generation,task,Interest-Evolution Chain Generation
+2609.39828,Item Caption,concept,Item Caption
+2609.39828,Item Description Generation,task,Item Description Generation
+2609.39828,Item Semantics Alignment Data,dataset,Item Semantics Alignment Data
+2609.39828,Item Tokenizer,model,Item Tokenizer
+2609.39828,Item Understanding,task,Item Understanding
+2609.39828,Item Understanding,task,Item Understanding Task
+2609.39828,Item-Description Rewriting,method,Item-Description Rewriting
+2609.39828,Item-Level Pretraining,method,Item-Level Pretraining
+2609.39828,Jaccard Similarity,metric,Jaccard Similarity
+2609.39828,KUAISHOU Explorer LLM-Rec Challenge 2026,dataset,KUAISHOU Explorer LLM-Rec Challenge 2026
+2609.39828,Knowledge Question Answering,task,Knowledge Question Answering
+2609.39828,LLM,model,Large Language Model
+2609.39828,LLM Judge,method,LLM Judge
+2609.39828,Language Decoder,model,Language Decoder
+2609.39828,Leaderboard,tool,Leaderboard
+2609.39828,Live Streaming Domain,concept,Live Streaming Domain
+2609.39828,Logic-Alignment Score,metric,Logic-Alignment Score
+2609.39828,Longest Common Subsequence,method,Longest Common Subsequence
+2609.39828,MD5,method,MD5
+2609.39828,Multi-Granularity Semantic Alignment Pretraining,method,Multi-Granularity Semantic Alignment Pretraining
+2609.39828,Multi-Task Learning,method,Multi-Task Learning
+2609.39828,Multimodal Encoder,model,Multimodal Encoder
+2609.39828,Nothink Mode,method,Nothink Mode
+2609.39828,OneReason,model,OneReason
+2609.39828,OneReason-0.8B-pretrain,model,OneReason-0.8B-pretrain
+2609.39828,OneReason-8B-pretrain,model,OneReason-8B-pretrain
+2609.39828,OneRec,model,OneRec
+2609.39828,OneRec-Think,model,OneRec-Think
+2609.39828,OneRec-V2,model,OneRec-V2
+2609.39828,OpenOneRec,model,OpenOneRec
+2609.39828,OpenOneRec-GRPO,unknown,OpenOneRec-GRPO
+2609.39828,PID,concept,PID
+2609.39828,PIDPass,metric,PIDPass
+2609.39828,Pack-Level Cross-Entropy,unknown,Pack-Level Cross-Entropy
+2609.39828,Pass@32,metric,Pass@32
+2609.39828,Precision,metric,Precision
+2609.39828,Preference Optimization,method,Preference Optimization
+2609.39828,Prefix Guidance,unknown,Prefix Guidance
+2609.39828,Product Identifier,concept,Product Identifier
+2609.39828,Qwen-3,model,Qwen-3
+2609.39828,ROUGE-L F1,metric,ROUGE-L F1
+2609.39828,RQ-KMeans,method,RQ-KMeans
+2609.39828,Reasoning Generative Recommendation,task,Reasoning Generative Recommendation
+2609.39828,Reasoning Supervision,method,Reasoning Supervision
+2609.39828,Recall,metric,Recall
+2609.39828,Recommendation,task,Recommendation
+2609.39828,Recommendation Foundation Model,concept,Recommendation Foundation Model
+2609.39828,Recommendation Task,task,Recommendation Task
+2609.39828,Recommender System,task,Recommender System
+2609.39828,Reinforcement Learning,method,Reinforcement Learning
+2609.39828,Rejection Fine-Tuning,method,Rejection Fine-Tuning
+2609.39828,Relation-Level Pretraining,method,Relation-Level Pretraining
+2609.39828,Relevant-Behavior Selection,task,Relevant-Behavior Selection
+2609.39828,SHA-256,method,SHA-256
+2609.39828,Self-Sampling,method,Self-Sampling
+2609.39828,Semantic Alignment,method,Semantic Alignment
+2609.39828,Semantic Alignment Pretraining,method,Semantic Alignment Pretraining
+2609.39828,Semantic ID,concept,SID
+2609.39828,Semantic ID,concept,Semantic ID
+2609.39828,Semantic Matching,method,Semantic Matching
+2609.39828,Short Video Domain,concept,Short Video Domain
+2609.39828,Supervised Fine-Tuning,method,Supervised Fine-Tuning
+2609.39828,Supervised Fine-Tuning Data,dataset,Supervised Fine-Tuning Data
+2609.39828,TAAC 2025,dataset,TAAC 2025
+2609.39828,TAAC x KDD Cup 2026,dataset,TAAC x KDD Cup 2026
+2609.39828,Target-SID-Masked RFT,method,Target-SID-Masked RFT
+2609.39828,Teacher Model,model,Teacher Model
+2609.39828,Think Mode,method,Think Mode
+2609.39828,Token F1,metric,Token F1
+2609.39828,Token-Level Pretraining,method,Token-Level Pretraining
+2609.39828,User Interaction Data,dataset,User Interaction Data
+2609.39828,User Interest Chain,concept,User Interest Chain
+2609.39828,User Understanding,task,User Understanding
+2609.39828,User Understanding,task,User Understanding Task
+2609.39828,User-Level Pretraining,method,User-Level Pretraining
+2609.39828,User-Understanding Reinforcement Learning,unknown,User-Understanding Reinforcement Learning
+2609.39828,Vanchin,tool,Vanchin
+2609.39828,Weighted Aggregation,method,Weighted Aggregation
+2609.39828,World Understanding,task,World Understanding
+2609.40241,Amazon Books,dataset,Amazon Books
+2609.40241,Amazon Movies and TV,dataset,Amazon Movies and TV
+2609.40241,Amazon Movies and TV,dataset,Movies and TV
+2609.40241,Amazon Reviews,dataset,Amazon Reviews
+2609.40241,Amazon Reviews 2023,dataset,Amazon Reviews 2023
+2609.40241,Amazon Video Games,dataset,Amazon Video Games
+2609.40241,Amazon Video Games,dataset,Video Games
+2609.40241,BERT4Rec,model,BERT4Rec
+2609.40241,Books,dataset,Books
+2609.40241,Candidate Reranking,task,Candidate Reranking
+2609.40241,Candidate Retrieval,task,Candidate Retrieval
+2609.40241,Candidate-Set Size,concept,Candidate-Set Size
+2609.40241,Controlled Hard Candidate Reranking,unknown,Controlled Hard Candidate Reranking
+2609.40241,DCNv2,model,DCNv2
+2609.40241,Decision Transformer,model,Decision Transformer
+2609.40241,Decision-Oriented Model,concept,Decision-Oriented Model
+2609.40241,Decision-Oriented Reranking,method,Decision-Oriented Reranking
+2609.40241,End-to-End Latency,metric,End-to-End Latency
+2609.40241,GPU,tool,GPU
+2609.40241,Gato,model,Gato
+2609.40241,HR@10,metric,Hit Rate@10
+2609.40241,Hard Candidate Construction,method,Hard Candidate Construction
+2609.40241,Hard-Candidate Reranking,task,Hard-Candidate Reranking
+2609.40241,Jev,model,Jev
+2609.40241,LLM,model,Large Language Model
+2609.40241,LLM-Based Recommendation,method,LLM-Based Recommendation
+2609.40241,Latency,metric,Latency
+2609.40241,Leave-Last-Out,method,Leave-Last-Out
+2609.40241,Listwise LLM Reranking,method,Listwise LLM Reranking
+2609.40241,Listwise Qwen,model,Listwise Qwen
+2609.40241,Listwise Qwen Reranking,method,Listwise Qwen Reranking
+2609.40241,Listwise Ranking,method,Listwise Ranking
+2609.40241,Listwise Reranking,method,Listwise Reranking
+2609.40241,MRR,metric,MRR
+2609.40241,NDCG@10,metric,NDCG@10
+2609.40241,NVIDIA A800-SXM4-80GB GPU,tool,NVIDIA A800-SXM4-80GB GPU
+2609.40241,Neural Ranking,method,Neural Ranking
+2609.40241,Observed Serving Latency,metric,Observed Serving Latency
+2609.40241,Pairwise Ranking,method,Pairwise Ranking
+2609.40241,Pairwise Reranking,method,Pairwise Reranking
+2609.40241,Pointwise LLM Reranking,method,Pointwise LLM Reranking
+2609.40241,Pointwise Qwen Reranking,method,Pointwise Qwen Reranking
+2609.40241,Pointwise Qwen2.5 7B Instruct,model,Pointwise Qwen2.5 7B Instruct
+2609.40241,Pointwise Ranking,method,Pointwise Ranking
+2609.40241,Pointwise Reranking,method,Pointwise Reranking
+2609.40241,Qwen,model,Qwen
+2609.40241,Qwen2.5-7B-Instruct,model,Qwen2.5 7B Instruct
+2609.40241,RT-2,model,RT-2
+2609.40241,Random Negative Sampling,unknown,Random Negative Sampling
+2609.40241,Ranking Effectiveness,metric,Ranking Effectiveness
+2609.40241,RecFormer,model,RecFormer
+2609.40241,RecRanker,model,RecRanker
+2609.40241,Recommendation Quality,metric,Recommendation Quality
+2609.40241,Recommendation Reranking,task,Recommendation Reranking
+2609.40241,Reinforcement Learning,method,Reinforcement Learning
+2609.40241,Reranking,task,Reranking
+2609.40241,Retrieval Failure,unknown,Retrieval Failure
+2609.40241,SASRec,model,SASRec
+2609.40241,Sequential Recommendation,task,Sequential Recommendation
+2609.40241,Serving Latency,metric,Serving Latency
+2609.40241,Structured Decision Making,task,Structured Decision Making
+2609.40241,Two-Stage Recommendation,unknown,Two-Stage Recommendation
+2609.40241,TypeSafe Hosted API,tool,TypeSafe Hosted API
+2609.40241,UniSRec,model,UniSRec
+2610.00369,AI–AI Bias,concept,AI–AI Bias
+2610.00369,Answer Retention,concept,Answer Retention
+2610.00369,Binomial Logistic Regression,method,Binomial Logistic Regression
+2610.00369,Binomial Regression,method,Binomial Regression
+2610.00369,Cell-Level Noise,concept,Cell-Level Noise
+2610.00369,Claude,tool,Claude
+2610.00369,Exact Test,method,Exact Test
+2610.00369,Familiarity,concept,Familiarity
+2610.00369,Family Effect,concept,Family Effect
+2610.00369,First-Choice Rate,metric,First-Choice Rate
+2610.00369,Fisher Exact Test,method,Fisher Exact Test
+2610.00369,GPT,model,GPT
+2610.00369,GPT-3.5,model,GPT-3.5
+2610.00369,GPT-3.5-Turbo-0125,model,GPT-3.5-Turbo-0125
+2610.00369,GPT-3.5-Turbo-1106,model,GPT-3.5-Turbo-1106
+2610.00369,GPT-3.5-turbo,model,GPT-3.5-turbo
+2610.00369,GPT-4,model,GPT-4
+2610.00369,GPT-4-1106-preview,model,GPT-4-1106-preview
+2610.00369,Gamma,metric,Gamma
+2610.00369,Gemini,model,Gemini
+2610.00369,Gemma,model,Gemma
+2610.00369,Generator Effect,concept,Generator Effect
+2610.00369,Generator-by-Selector Matrix,concept,Generator-by-Selector Matrix
+2610.00369,Interaction Noise,concept,Interaction Noise
+2610.00369,LLM-Win Share,metric,LLM-Win Share
+2610.00369,Laurito Matrix,dataset,Laurito Matrix
+2610.00369,Llama 2 13B,model,Llama 2 13B
+2610.00369,Llama 2 7B,model,Llama 2 7B
+2610.00369,Llama 3.1 70B,model,Llama 3.1 70B
+2610.00369,Minimum Detectable Effect,metric,Minimum Detectable Effect
+2610.00369,Mixtral 8x22B,model,Mixtral 8x22B
+2610.00369,NQ-AIR,dataset,NQ-AIR
+2610.00369,Own-Model Premium,concept,Own-Model Premium
+2610.00369,Parametric Belief,concept,Parametric Belief
+2610.00369,Pearson Dispersion,metric,Pearson Dispersion
+2610.00369,Permutation Test,method,Permutation Test
+2610.00369,Perplexity,metric,Perplexity
+2610.00369,Position Bias,concept,Position Bias
+2610.00369,Qwen2.5 72B,model,Qwen2.5 72B
+2610.00369,RAG,method,RAG
+2610.00369,Same-Vendor Effect,concept,Same-Vendor Effect
+2610.00369,Same-Vendor Effect,concept,Same-Vendor Premium
+2610.00369,Self Coefficient,metric,Self Coefficient
+2610.00369,Self-Preference,concept,Self Effect
+2610.00369,Self-Preference,concept,Self-Preference
+2610.00369,Self-Recognition,concept,Self-Recognition
+2610.00369,Shared Effect,concept,Shared Effect
+2610.00369,Shared Taste,concept,Shared Taste
+2610.00369,Statistical Power,metric,Statistical Power
+2610.00369,Summarisation,task,Summarisation
+2610.00369,Two-Way Fixed-Effects Model,method,Two-Way Fixed-Effects Model
+2610.00587,Ad-hoc Retrieval,task,Ad-hoc Retrieval
+2610.00587,Amazon S3,tool,Amazon S3
+2610.00587,CAMEO,method,CAMEO
+2610.00587,CC-News,dataset,CC-News
+2610.00587,CCBot,tool,CC-Bot
+2610.00587,CCBot,tool,CCBot
+2610.00587,COPDAB,dataset,COPDAB
+2610.00587,Common Crawl,dataset,Common Crawl
+2610.00587,Computational Journalism,concept,Computational Journalism
+2610.00587,Domain Name Analysis,method,Domain Name Analysis
+2610.00587,Event Data,concept,Event Data
+2610.00587,EventRegistry,dataset,EventRegistry
+2610.00587,GDELT,dataset,GDELT
+2610.00587,GPT-3,model,GPT-3
+2610.00587,Global Event Prediction,task,Global Event Prediction
+2610.00587,Google Cloud,tool,Google Cloud
+2610.00587,ICEWS,dataset,ICEWS
+2610.00587,KEDS,tool,KEDS
+2610.00587,Knowledge Graph,concept,Knowledge Graph
+2610.00587,LLM,model,Large Language Model
+2610.00587,Language Analysis,method,Language Analysis
+2610.00587,Natural Language Processing,task,Natural Language Processing
+2610.00587,Nutch,tool,Nutch
+2610.00587,Social Unrest Prediction,task,Social Unrest Prediction
+2610.00587,TREC,dataset,TREC
+2610.00587,Temporal Analysis,method,Temporal Analysis
+2610.00587,Topic Classification,task,Topic Classification
+2610.00587,URL Analysis,method,URL Analysis
+2610.00587,WARC,concept,WARC
+2610.00587,WEIS,dataset,WEIS
+2610.00587,Web Archiving,concept,Web Archiving
+2610.00587,Web Crawling,method,Web Crawling
+2610.00923,#Tok,metric,#Tok
+2610.00923,AKS,method,AKS
+2610.00923,Accuracy,metric,Accuracy
+2610.00923,Aggregate Question,concept,Aggregate Question
+2610.00923,Answer Accuracy,metric,Answer Accuracy
+2610.00923,Any-Level Flat Selection,method,Any-Level Flat Selection
+2610.00923,Branching Factor,concept,Branching Factor
+2610.00923,Canopy,method,CANOPY
+2610.00923,Canopy,method,Canopy
+2610.00923,Critic,method,Critic
+2610.00923,Critic-Guided Additional Retrieval,method,Critic-Guided Additional Retrieval
+2610.00923,Embedding Similarity,method,Embedding Similarity
+2610.00923,Evidence Compression,task,Evidence Compression
+2610.00923,Evidence Forest,concept,Evidence Forest
+2610.00923,Evidence Hierarchy,concept,Evidence Hierarchy
+2610.00923,Evidence Token,metric,Evidence Token
+2610.00923,Exact Match,metric,Exact Match
+2610.00923,F1 Score,metric,F1
+2610.00923,F1 Score,metric,F1 Score
+2610.00923,Gold Item,method,Gold Item
+2610.00923,Gold Span,method,Gold Span
+2610.00923,Hierarchical Selection,method,Hierarchical Selection
+2610.00923,Hierarchy Construction,method,Hierarchy Construction
+2610.00923,HotpotQA,dataset,HotpotQA
+2610.00923,IRCoT,method,IRCoT
+2610.00923,InternVL3.5-8B,model,InternVL3.5-8B
+2610.00923,Iterative Retrieval,method,Iterative Retrieval
+2610.00923,LLM Call,metric,LLM Call
+2610.00923,LLM Call,metric,LLM Calls
+2610.00923,LLM Critic,model,LLM Critic
+2610.00923,LVBench,dataset,LVBench
+2610.00923,Latency,metric,Latency
+2610.00923,Leaf-Level Flat Selection,method,Leaf-Level Flat Selection
+2610.00923,LoRA,method,LoRA
+2610.00923,LongLLMLingua,method,LongLLMLingua
+2610.00923,Lookup Question,concept,Lookup Question
+2610.00923,MMQA,dataset,MMQA
+2610.00923,Mix-of-Granularity,method,Mix-of-Granularity
+2610.00923,Modality Routing,method,Modality Routing
+2610.00923,MuRAG,model,MuRAG
+2610.00923,Multi-Hop QA,task,Multi-Hop QA
+2610.00923,Multimodal RAG,task,Multimodal RAG
+2610.00923,MultimodalQA,dataset,MultimodalQA
+2610.00923,Natural Questions,dataset,NQ
+2610.00923,Natural Questions,dataset,Natural Questions
+2610.00923,No Retrieval,method,No Retrieval
+2610.00923,Node Encoder,model,Encoder $f_{\theta}$
+2610.00923,Node Encoder,model,Node Encoder
+2610.00923,Node-Encoder Fine-Tuning,method,Node-Encoder Fine-Tuning
+2610.00923,OTT-QA,dataset,OTT-QA
+2610.00923,Pairwise Ranking Loss,method,Pairwise Ranking Loss
+2610.00923,Parent-Child Refinement,method,Parent-Child Refinement
+2610.00923,Parent-Relative Refinement,method,Parent-Relative Refinement
+2610.00923,Parent-Relative Scorer f_theta,model,Parent-Relative Scorer f_theta
+2610.00923,Parent–Child Embedding Similarity Rule,method,Parent–Child Embedding Similarity Rule
+2610.00923,Post-Retrieval Evidence Compression,task,Post-Retrieval Evidence Compression
+2610.00923,Pretrained Query Encoder,model,Pretrained Query Encoder
+2610.00923,Pretrained Query Encoder,model,Query Encoder $f_{0}$
+2610.00923,Projection,method,Projection
+2610.00923,Qwen3-VL-8B-Instruct,model,Qwen3-VL-8B-Instruct
+2610.00923,Qwen3-VL-Embedding-2B,model,Qwen3-VL-Embedding-2B
+2610.00923,RAG,method,Retrieval-Augmented Generation
+2610.00923,RAPTOR,method,RAPTOR
+2610.00923,RECOMP,method,RECOMP
+2610.00923,Reader,model,Reader
+2610.00923,Retrieval Encoder f0,model,Retrieval Encoder f0
+2610.00923,Retrieval Size,concept,Retrieval Size
+2610.00923,Retriever,model,Retriever
+2610.00923,Routing,method,Routing
+2610.00923,S2G-RAG,method,S2G-RAG
+2610.00923,Self-RAG,model,Self-RAG
+2610.00923,TableRAG,method,TableRAG
+2610.00923,UniversalRAG,model,UniversalRAG
+2610.00923,Vanilla RAG,method,Vanilla RAG
+2610.00923,VideoRAG,method,VideoRAG
+2610.00923,VisRAG,model,VisRAG
+2610.00964,Beauty Bakerie,dataset,BB
+2610.00964,Beauty Bakerie,dataset,Beauty Bakerie
+2610.00964,Catalog Curator,method,Catalog Curator
+2610.00964,Catalog Metadata,concept,Catalog Metadata
+2610.00964,Catalog Search,task,Catalog Search
+2610.00964,Catalog-Grounded Supervision,method,Catalog-Grounded Supervision
+2610.00964,Catalog-Wide Relevance Scoring,method,Catalog-Wide Relevance Scoring
+2610.00964,Claude-Opus-5,model,Claude-Opus-5
+2610.00964,Claude-Sonnet-5,model,Claude-Sonnet-5
+2610.00964,Context Curation,method,Context Curation
+2610.00964,Context Ordering,concept,Context Ordering
+2610.00964,Context Pruning,method,Context Pruning
+2610.00964,Context Recall,metric,Context Recall
+2610.00964,Context Reordering,method,Context Reordering
+2610.00964,Context Window,concept,Context Window
+2610.00964,Context-Priority Score,concept,Context-Priority Score
+2610.00964,Context-Relative Reward,method,Context-Relative Reward
+2610.00964,Continuous Reward,method,Continuous Reward
+2610.00964,DPO,method,DPO
+2610.00964,Dense Encoder,method,Dense Encoder
+2610.00964,Dense Retrieval,method,Dense Retrieval
+2610.00964,Downstream LLM,model,Downstream LLM
+2610.00964,EmbeddingGemma 300M,model,EmbeddingGemma 300M
+2610.00964,Encoder,model,Encoder
+2610.00964,Encoder–Reorganizer,model,Encoder–Reorganizer
+2610.00964,End-to-End Latency,metric,End-to-End Latency
+2610.00964,Exact Match,metric,EM
+2610.00964,Exact Match,metric,Exact Match
+2610.00964,Exact Match,metric,Exact-Match Accuracy
+2610.00964,Exact Variant Match,metric,Exact Variant Match
+2610.00964,FF,dataset,FF
+2610.00964,Feature Reward,metric,FR
+2610.00964,Feature Reward,metric,Feature Reward
+2610.00964,Full-Catalog Prompting,method,Full-Catalog Prompting
+2610.00964,GLM-5.2,model,GLM-5.2
+2610.00964,GRPO,method,GRPO
+2610.00964,Gemini Embedding 2,model,Gemini Embedding 2
+2610.00964,Gemini-3.1-pro,model,Gemini-3.1-Pro
+2610.00964,Gemini-3.1-pro,model,Gemini-3.1-pro
+2610.00964,Gemini-3.7-Flash,model,Gemini-3.7-Flash
+2610.00964,Gemma,model,Gemma
+2610.00964,Gemma-4-E4B-it,model,Gemma-4-E4B-It
+2610.00964,Gemma-4-E4B-it,model,Gemma-4-E4B-it
+2610.00964,Global Top-1 Reward,method,Global Top-1 Reward
+2610.00964,Grok-4.1-Fast-Non-Reasoning,model,Grok-4.1-Fast-Non-Reasoning
+2610.00964,Grok-4.1-Fast-Reasoning,model,Grok-4.1-Fast-Reasoning
+2610.00964,HK,dataset,HK
+2610.00964,Hallucination,concept,Hallucination
+2610.00964,IRPO,method,IRPO
+2610.00964,In-Context Product Search,task,In-Context Catalog Search
+2610.00964,In-Context Product Search,task,In-Context Product Search
+2610.00964,Jaccard Similarity,metric,Jaccard Similarity
+2610.00964,Jina Reranker 3.5,model,Jina Reranker 3.5
+2610.00964,Kimi-K2-Thinking,model,Kimi-K2-Thinking
+2610.00964,LLM,model,LLM
+2610.00964,LLM Post-Training,method,LLM Post-Training
+2610.00964,LLM-in-the-Loop Reinforcement Learning,method,LLM-in-the-Loop RL
+2610.00964,LLM-in-the-Loop Reinforcement Learning,method,LLM-in-the-Loop Reinforcement Learning
+2610.00964,LLM-in-the-Loop Reorganizer,method,LLM-in-the-Loop Reorganizer
+2610.00964,Latency,metric,Latency
+2610.00964,Lexical Method,method,Lexical Method
+2610.00964,Listwise Cross-Entropy,method,Listwise Cross-Entropy
+2610.00964,Listwise Ranking,method,Listwise Ranking
+2610.00964,LongLLMLingua,method,LongLLMLingua
+2610.00964,MLP,model,Multilayer Perceptron
+2610.00964,Multi-Query Retrieval,method,Multi-Query Retrieval
+2610.00964,Multi-Stage Retrieval,method,Multi-Stage Retrieval
+2610.00964,Multiple Negatives Ranking Loss,method,Multiple Negatives Ranking Loss
+2610.00964,OON,dataset,OON
+2610.00964,PF,dataset,PF
+2610.00964,Post-Training,method,Post-Training
+2610.00964,Product Selection,task,Product Selection
+2610.00964,Pruning Budget,concept,Pruning Budget
+2610.00964,Pruning Rate,concept,Pruning Rate
+2610.00964,Query-Aware Compression,method,Query-Aware Compression
+2610.00964,Query-Product Pair Generation,method,Query-Product Pair Generation
+2610.00964,RAG,method,RAG
+2610.00964,RAG,method,Retrieval-Augmented Generation
+2610.00964,RAG-Fusion,method,RAG-Fusion
+2610.00964,RPTune,method,RPTune
+2610.00964,Rank Fusion,method,Rank Fusion
+2610.00964,Ranker,method,Ranker
+2610.00964,Reinforcement Learning,method,Reinforcement Learning
+2610.00964,Reorganizer,model,Reorganizer
+2610.00964,Retrieval-Based Search,task,Retrieval-Based Search
+2610.00964,SMB,concept,SMB
+2610.00964,Search Accuracy,metric,Search Accuracy
+2610.00964,Self-Consistency Filtering,method,Self-Consistency Filtering
+2610.00964,Synthetic Supervision,method,Synthetic Supervision
+2610.00964,TourRank,method,TourRank
+2610.00964,Tournament-Based Ranking,method,Tournament-Based Ranking
+2610.00964,WB,dataset,WB
+2610.00964,WCP,dataset,WCP
+2610.00964,Zero-Shot Generalization,concept,Zero-Shot Generalization
+2610.01139,Code Overlap,metric,Code Overlap
+2610.01139,Codebook Capacity,metric,Codebook Capacity
+2610.01139,Cosine Distance,metric,Cosine Distance
+2610.01139,Cross-Lingual Prefix Agreement,metric,Cross-Lingual Prefix Agreement
+2610.01139,Cross-Lingual SID Inconsistency,concept,Cross-Lingual SID Inconsistency
+2610.01139,DRQ,method,DRQ
+2610.01139,Dead-Code Recycling,method,Dead-Code Recycling
+2610.01139,Distance-Matched Control,method,Distance-Matched Control
+2610.01139,E5,model,E5
+2610.01139,E5-large,model,E5-large
+2610.01139,EN-Trunc,dataset,EN-Trunc
+2610.01139,ESCI,dataset,Amazon ESCI
+2610.01139,ESCI,dataset,ESCI
+2610.01139,Effective Capacity,metric,Effective Capacity
+2610.01139,Exact-Prefix Lookup,method,Exact-Prefix Lookup
+2610.01139,Full SID Mismatch,metric,Full SID Mismatch
+2610.01139,Generative Retrieval,task,Generative Retrieval
+2610.01139,Isotropic Control,method,Isotropic Control
+2610.01139,Jaccard@10,metric,Jaccard@10
+2610.01139,LaBSE,model,LaBSE
+2610.01139,Language Probe,method,Language Probe
+2610.01139,Language Separation,concept,Language Separation
+2610.01139,Language-Probe Accuracy,metric,Language-Probe Accuracy
+2610.01139,Light Paraphrase,method,Light Paraphrase
+2610.01139,MGR-CSC,method,MGR-CSC
+2610.01139,Machine Translation,method,Machine Translation
+2610.01139,Multilingual E5,model,Multilingual E5
+2610.01139,Multilingual Encoder,model,Multilingual Encoder
+2610.01139,Multilingual Recommendation,task,Multilingual Recommendation
+2610.01139,Multilingual Retrieval,task,Multilingual Retrieval
+2610.01139,Multilingual-E5-Large,model,Multilingual-E5-Large
+2610.01139,NLLB,model,NLLB
+2610.01139,NLLB-200-distilled-1.3B,model,NLLB-200-distilled-1.3B
+2610.01139,Paired Cosine Distance,metric,Paired Cosine Distance
+2610.01139,Parallel Tokenizer,method,Parallel Tokenizer
+2610.01139,Prefix Consistency,metric,Prefix Consistency
+2610.01139,Prefix Failure,concept,Prefix Failure
+2610.01139,Prefix Lookup,method,Prefix Lookup
+2610.01139,Prefix@1,metric,Prefix@1
+2610.01139,Product Search,task,Product Search
+2610.01139,Product-Directed Control,method,Product-Directed Control
+2610.01139,Quantizer,method,Quantizer
+2610.01139,Qwen,model,Qwen
+2610.01139,Qwen2.5-3B-Instruct,model,Qwen2.5-3B-Instruct
+2610.01139,RQ-VAE,model,RQ-VAE
+2610.01139,Random-Pair Cosine,metric,Random-Pair Cosine
+2610.01139,Residual Quantization,method,Residual Quantization
+2610.01139,Semantic ID,concept,Semantic ID
+2610.01139,Shared-Offset Proxy,metric,Shared-Offset Proxy
+2610.01139,TIGER,model,TIGER
+2610.01463,Accuracy,metric,Accuracy
+2610.01463,Agreement,metric,Agreement
+2610.01463,Attribute Aggregation and Ranking,method,Attribute Aggregation and Ranking
+2610.01463,Attribute Discovery,task,Attribute Discovery
+2610.01463,Attribute Type Assignment,method,Attribute Type Assignment
+2610.01463,Attribute Type Assignment,method,Structural Type Assignment
+2610.01463,Attribute-Value Pair,concept,Attribute-Value Pair
+2610.01463,BiLSTM-CRF,model,BiLSTM-CRF
+2610.01463,Bottom-Up Merging,method,Bottom-Up Merging
+2610.01463,CRF,model,CRF
+2610.01463,ChatGPT-4o,model,ChatGPT-4o
+2610.01463,Clustering,method,Clustering
+2610.01463,Cost-Aware Model Selection,method,Cost-Aware Model Selection
+2610.01463,Diabetes Corpus,dataset,Diabetes Corpus
+2610.01463,Electronic Health Record,concept,Electronic Health Record
+2610.01463,Evidence-Augmented Prompt,method,Evidence-Augmented Prompt
+2610.01463,Exact Value,concept,Exact Value
+2610.01463,F1 Score,metric,F1 Score
+2610.01463,Few-Shot Prompting,method,Few-Shot Prompting
+2610.01463,Free Text,concept,Free Text
+2610.01463,GPT,model,GPT
+2610.01463,GPT-4o,model,GPT-4o
+2610.01463,Global Grouping,method,Global Grouping
+2610.01463,HMM,model,HMM
+2610.01463,Hierarchical Agglomerative Clustering,method,Hierarchical Agglomerative Clustering
+2610.01463,Human Annotation,method,Human Annotation
+2610.01463,Hypertension Corpus,dataset,Hypertension Corpus
+2610.01463,Incremental Consolidation,method,Incremental Consolidation
+2610.01463,Information Extraction,task,Information Extraction
+2610.01463,Information and Attribute Extraction,method,Information and Attribute Extraction
+2610.01463,Inter-Annotator Agreement,metric,Inter-Annotator Agreement
+2610.01463,Iterative Attribute Discovery,method,Iterative Attribute Discovery
+2610.01463,Iterative Attribute Discovery and Extraction,method,Iterative Attribute Discovery and Extraction
+2610.01463,Knowledge Base,concept,Knowledge Base
+2610.01463,LLM,model,LLM
+2610.01463,LLM,model,Large Language Model
+2610.01463,Large-Scale Extraction,task,Large-Scale Extraction
+2610.01463,List Attribute,concept,List
+2610.01463,List Attribute,concept,List Attribute
+2610.01463,Llama,model,Llama
+2610.01463,Mistral,model,Mistral
+2610.01463,Model Scale,concept,Model Scale
+2610.01463,Named Entity Recognition,task,Named Entity Recognition
+2610.01463,Ontology,concept,Ontology
+2610.01463,Pairwise Comparison,method,Pairwise Comparison
+2610.01463,Precision,metric,Precision
+2610.01463,Predefined Schema,concept,Predefined Schema
+2610.01463,Qwen,model,Qwen
+2610.01463,R/LoseIt,dataset,LoseIt Corpus
+2610.01463,R/LoseIt,dataset,R/LoseIt
+2610.01463,Rank Regression,method,Rank Regression
+2610.01463,Recall,metric,Recall
+2610.01463,Reddit,tool,Reddit
+2610.01463,Reddit Corpus,dataset,Reddit Corpus
+2610.01463,Regression Model,method,Regression Model
+2610.01463,Regular Expression,method,Regular Expression
+2610.01463,Relation Extraction,task,Relation Extraction
+2610.01463,Representation Learning,method,Representation Learning
+2610.01463,Schema Induction,task,Schema Induction
+2610.01463,Semantic Consolidation,method,Semantic Attribute Consolidation
+2610.01463,Semantic Consolidation,method,Semantic Consolidation
+2610.01463,Semantic Merging,method,Semantic Merging
+2610.01463,Semantic Similarity,metric,Semantic Similarity
+2610.01463,Semantic-Correlation Graph,concept,Semantic-Correlation Graph
+2610.01463,Steroids Corpus,dataset,R/Steroids
+2610.01463,Steroids Corpus,dataset,Steroids Corpus
+2610.01463,Steroids Corpus,dataset,r/Steroids
+2610.01463,Structural Type,concept,Structural Type
+2610.01463,TTC Corpus,dataset,TTC Corpus
+2610.01463,Tabular Representation,concept,Tabular Representation
+2610.01463,Text-to-Table,task,Text-to-Table
+2610.01463,Thematic Corpus,concept,Thematic Corpus
+2610.01463,Transformer,model,Transformer
+2610.01463,Value Extraction,task,Value Extraction
+2610.01463,Zero-Shot Setting,concept,Zero-Shot Setting
+2610.01463,r/AskDocs,dataset,AskDocs Corpus
+2610.01463,r/AskDocs,dataset,R/AskDocs
+2610.01463,r/AskDocs,dataset,r/AskDocs
+2610.01463,r/Diabetes,dataset,R/Diabetes
+2610.01463,r/Diabetes,dataset,r/Diabetes
+2610.01463,r/Hypertension,dataset,R/Hypertension
+2610.01463,r/Hypertension,dataset,r/Hypertension
+2610.01463,r/TryingToConceive,dataset,R/TryingToConceive
+2610.01463,r/TryingToConceive,dataset,r/TryingToConceive
+2610.01553,AdamW,method,AdamW
+2610.01553,Adaptive Strategy,method,Adaptive Strategy
+2610.01553,All-Claims Query,method,All-Claims Query
+2610.01553,Bfloat16 Mixed Precision,method,Bfloat16 Mixed Precision
+2610.01553,Biaffine Attention,method,Biaffine Attention
+2610.01553,Biaffine Dependency Parser,model,Biaffine Dependency Parser
+2610.01553,Biaffine Model,model,Biaffine Model
+2610.01553,Biaffine Structured Prediction,method,Biaffine Structured Prediction
+2610.01553,BigBird,model,BigBird
+2610.01553,Boolean Keyword Search,method,Boolean Keyword Search
+2610.01553,CPC Classification,concept,CPC Classification
+2610.01553,Citation Recall,metric,Citation Recall
+2610.01553,Claude,tool,Claude
+2610.01553,Corpus Indexing,task,Corpus Indexing
+2610.01553,Coverage,metric,Coverage
+2610.01553,Cross-Entropy,method,Cross-Entropy
+2610.01553,Dense Retrieval,method,Dense Retrieval
+2610.01553,Dependency Parsing,task,Dependency Parsing
+2610.01553,DocBAN,model,DocBAN
+2610.01553,Document Length Filtering,method,Document Length Filtering
+2610.01553,Feature Coverage,metric,Feature Coverage
+2610.01553,Feature Head,model,Feature Head
+2610.01553,Feature Hierarchy,concept,Feature Hierarchy
+2610.01553,Functional Relation,concept,Functional Relation
+2610.01553,GTE-ModernBERT,model,GTE-ModernBERT
+2610.01553,Global Attention,method,Global Attention
+2610.01553,Gradient Clipping,method,Gradient Clipping
+2610.01553,Graph Depth,metric,Graph Depth
+2610.01553,Graph Transformer,model,Graph Transformer
+2610.01553,Graph Transformer Retrieval System,model,Graph Transformer Retrieval System
+2610.01553,Inference Cost,metric,Inference Cost
+2610.01553,Intel Xeon Scalable Processor,tool,Intel Xeon Scalable Processor
+2610.01553,Invention Graph,concept,Invention Graph
+2610.01553,Invention Graph Induction,task,Invention Graph Induction
+2610.01553,IoU,metric,IoU
+2610.01553,IoU@90,metric,IoU@90
+2610.01553,IoU@k,metric,IoU@k
+2610.01553,Joint Training,method,Joint Training
+2610.01553,Knowledge Distillation,method,Knowledge Distillation
+2610.01553,Latency,metric,Latency
+2610.01553,Learned Scalar Mix,method,Learned Scalar Mix
+2610.01553,Local Attention,method,Local Attention
+2610.01553,Local Biaffine Attention,method,Local Biaffine Attention
+2610.01553,LongEmbed,benchmark,LongEmbed
+2610.01553,Longformer,model,Longformer
+2610.01553,Loss Tuning,method,Loss Tuning
+2610.01553,Markush Structure,concept,Markush Structure
+2610.01553,McNemar's Paired Test,method,McNemar's Paired Test
+2610.01553,Mean Pooling,method,Mean Pooling
+2610.01553,NVIDIA L4,tool,NVIDIA L4
+2610.01553,NVIDIA L4 GPU,tool,NVIDIA L4 GPU
+2610.01553,Named Entity Recognition,task,Named Entity Recognition
+2610.01553,Nearest Neighbor Search,method,Nearest Neighbor Search
+2610.01553,Neural Parser,model,Neural Parser
+2610.01553,Open Relation Extraction,task,Open Relation Extraction
+2610.01553,PaECTER,model,PaECTER
+2610.01553,Patent Family ID,concept,Patent Family ID
+2610.01553,Patent Graph Extraction,task,Patent Graph Extraction
+2610.01553,Patent Prior Art Search,task,Patent Prior Art Retrieval
+2610.01553,Patent Prior Art Search,task,Patent Prior Art Search
+2610.01553,Patent Search,task,Patent Search
+2610.01553,Position Embedding Tiling,method,Position Embedding Tiling
+2610.01553,Precision,metric,Precision
+2610.01553,Pseudo-Node,concept,Pseudo-Node
+2610.01553,Query Parsing,task,Query Parsing
+2610.01553,Ray,tool,Ray
+2610.01553,Ray Data,tool,Ray Data
+2610.01553,Recall,metric,Recall
+2610.01553,Recall@3,metric,Recall@3
+2610.01553,Recall@K,metric,Recall@k
+2610.01553,Regex Post-Filter,method,Regex Post-Filter
+2610.01553,Relation Coverage,metric,Relation Coverage
+2610.01553,Relation Extraction,task,Relation Extraction
+2610.01553,Relation Head,model,Relation Head
+2610.01553,Root Penalization,method,Root Penalization
+2610.01553,Rule-Based Parser,model,Rule-Based Parser
+2610.01553,Rule-Based Teacher,model,Rule-Based Teacher
+2610.01553,Semantic Edge,concept,Semantic Edge
+2610.01553,Sliding Window,concept,Sliding Window
+2610.01553,SpaCy,tool,SpaCy
+2610.01553,Sparse Attention,method,Sparse Attention
+2610.01553,Stella,model,Stella
+2610.01553,Structured Prediction,task,Structured Prediction
+2610.01553,Syntactic Edge,concept,Syntactic Edge
+2610.01553,Throughput,metric,Throughput
+2610.01553,Transformer,model,Transformer
+2610.01553,Tree-LSTM,model,Tree-LSTM
+2610.01553,U-Net,model,U-Net
+2610.01553,Weighted Cross-Entropy,method,Weighted Cross-Entropy
+2610.01553,Whole Graph IoU,metric,Whole Graph IoU
+2610.01553,Word Coverage,metric,Word Coverage
+2610.01553,X Citation,concept,X Citation
+2610.01553,XLM-RoBERTa-Longformer,model,XLM-RoBERTa-Longformer
+2610.01553,Y Citation,concept,Y Citation
+2610.01553,bfloat16,concept,bfloat16
+2610.01705,A2A,method,A2A
+2610.01705,AFL,model,AFL
+2610.01705,AbstractLLM,method,AbstractLLM
+2610.01705,Agent Web,concept,Agent Web
+2610.01705,Agent-Based Recommendation,method,Agent-Based Recommendation
+2610.01705,Agent-Native Community,concept,Agent-Native Community
+2610.01705,AgentCF,model,AgentCF
+2610.01705,AgentCF++,model,AgentCF++
+2610.01705,AgentWebRec,model,AgentWebRec
+2610.01705,Agentic Web,concept,Agentic Web
+2610.01705,Alexa+,model,Alexa+
+2610.01705,All-MiniLM-L6-v2,model,All-MiniLM-L6-v2
+2610.01705,Books,dataset,Books
+2610.01705,Candidate-Conditioned Retrieval,method,Candidate-Conditioned Retrieval
+2610.01705,Collaboration Budget,concept,Collaboration Budget
+2610.01705,Collaborative Filtering,method,Collaborative Filtering
+2610.01705,Confidence Threshold,concept,Confidence Threshold
+2610.01705,Confidence-Gated Collaboration,method,Confidence-Gated Collaboration
+2610.01705,Cosine Similarity,metric,Cosine Similarity
+2610.01705,Enhanced Item Semantics,concept,Enhanced Item Semantics
+2610.01705,Evidence Fusion,method,Evidence Fusion
+2610.01705,Functional Agent,concept,Functional Agent
+2610.01705,Generative Recommendation,task,Generative Recommendation
+2610.01705,Goodreads,dataset,Goodreads
+2610.01705,H@3,metric,H@3
+2610.01705,H@5,metric,H@5
+2610.01705,Hit Rate,metric,Hit Rate
+2610.01705,Hit@1,metric,H@1
+2610.01705,Information Acquisition,method,Information Acquisition
+2610.01705,InstructRec,dataset,InstructRec
+2610.01705,Interactive Recommendation,task,Interactive Recommendation
+2610.01705,Internet of Agents,concept,Internet of Agents
+2610.01705,Item Co-occurrence,method,Item Co-occurrence
+2610.01705,Item Semantic Enhancement,method,Item Semantic Enhancement
+2610.01705,LLM,model,LLM
+2610.01705,LLM-Based Personal Agent,model,LLM-Based Personal Agent
+2610.01705,LLM-Based Recommendation,method,LLM-Based Recommendation
+2610.01705,LLM-Powered Agent,concept,LLM-Powered Agent
+2610.01705,LLM-based User Agent,concept,LLM-based User Agent
+2610.01705,LLMRank,model,LLMRank
+2610.01705,LightGCN,model,LightGCN
+2610.01705,Local Decision,concept,Local Decision
+2610.01705,MatchLLM,method,MatchLLM
+2610.01705,Matrix Factorization,method,Matrix Factorization
+2610.01705,MemRec,model,MemRec
+2610.01705,Memory-Oriented Agent System,concept,Memory-Oriented Agent System
+2610.01705,MovieTV,dataset,MovieTV
+2610.01705,N@3,metric,N@3
+2610.01705,N@5,metric,N@5
+2610.01705,NDCG,metric,NDCG
+2610.01705,Neighboring User Agent,model,Neighboring User Agent
+2610.01705,Neural Collaborative Filtering,method,Neural Collaborative Filtering
+2610.01705,Pairwise Ranking,method,Pairwise Ranking
+2610.01705,PatternLLM,model,PatternLLM
+2610.01705,Persona Embedding,concept,Persona Embedding
+2610.01705,Persona-similarity,method,Persona-similarity
+2610.01705,Personalization,task,Personalization
+2610.01705,Personalized Recommendation,task,Personalized Recommendation
+2610.01705,Platform Agent,model,Platform Agent
+2610.01705,Platform-Centric Recommendation,concept,Platform-Centric Recommendation
+2610.01705,Platform-Local Item-Support Budget,concept,Platform-Local Item-Support Budget
+2610.01705,Preference Homophily,concept,Preference Homophily
+2610.01705,Preference State,concept,Preference State
+2610.01705,Private Memory,concept,Private Memory
+2610.01705,Private-Memory Retrieval,method,Private-Memory Retrieval
+2610.01705,ProjectLLM,method,ProjectLLM
+2610.01705,QueryLLM,model,QueryLLM
+2610.01705,Qwen,model,Qwen
+2610.01705,Qwen2.5-7B-Instruct,model,Qwen2.5-7B-Instruct
+2610.01705,Random Rewiring,method,Random Rewiring
+2610.01705,Raw-Preserving Enhancement Principle,concept,Raw-Preserving Enhancement Principle
+2610.01705,Recommendation,task,Recommendation
+2610.01705,RefineLLM,model,RefineLLM
+2610.01705,SASRec,model,SASRec
+2610.01705,Semantic Drift,concept,Semantic Drift
+2610.01705,Semantic Encoder,model,Semantic Encoder
+2610.01705,Semantic Memory,concept,Semantic Memory
+2610.01705,Semantic Neighbor,concept,Semantic Neighbor
+2610.01705,Sequential Recommendation,task,Sequential Recommendation
+2610.01705,Target User Agent,model,Target User Agent
+2610.01705,Target-User Memory Budget,concept,Target-User Memory Budget
+2610.01705,Task-Oriented Information Acquisition,method,Task-Oriented Information Acquisition
+2610.01705,Task-Specific Preference State,concept,Task-Specific Preference State
+2610.01705,Task-Time Evidence Acquisition and Fusion,method,Task-Time Evidence Acquisition and Fusion
+2610.01705,Task-time Collaboration,concept,Task-time Collaboration
+2610.01705,Temporal Preference State,concept,Temporal Preference State
+2610.01705,User Agent,concept,User Agent
+2610.01705,User Persona,concept,User Persona
+2610.01705,User–Agent Web–Platform Paradigm,concept,User–Agent Web–Platform
+2610.01705,User–Agent Web–Platform Paradigm,concept,User–Agent Web–Platform Paradigm
+2610.01705,User–Agent Web–Platform Paradigm,concept,User–Agent Web–Platform Setting
+2610.01705,User–Platform Paradigm,concept,User–Platform Paradigm
+2610.01705,Yelp,dataset,Yelp
+2610.02057,AOTAutograd,tool,AOTAutograd
+2610.02057,All_Gather,method,All_Gather
+2610.02057,Anchor Checkpoint,concept,Anchor Checkpoint
+2610.02057,Application Failure,concept,Application Failure
+2610.02057,Asynchronous Checkpointing,method,Asynchronous Checkpointing
+2610.02057,Autotune Configuration Pruning,method,Autotune Configuration Pruning
+2610.02057,Autotune Configuration Pruning,method,Autotuning Pruning
+2610.02057,Broadcast Plan,concept,Broadcast Plan
+2610.02057,Checkpoint,concept,Checkpoint
+2610.02057,Checkpoint Optimization,method,Checkpoint Optimization
+2610.02057,Checkpoint Save Blocking Time,metric,Checkpoint Save Blocking Time
+2610.02057,Checkpoint Save Interval,concept,Checkpoint Save Interval
+2610.02057,Checkpointing,method,Checkpointing
+2610.02057,Cold Start,concept,Cold Start
+2610.02057,Communication Elimination,method,Communication Elimination
+2610.02057,Compilation,method,Compilation
+2610.02057,Compilation Cache,concept,Compilation Cache
+2610.02057,Crash-Loop Avoidance,method,Crash-Loop Avoidance
+2610.02057,DCP AsyncStager,tool,DCP AsyncStager
+2610.02057,DPP Warm-Up,concept,DPP Warm-Up
+2610.02057,Data Pipeline Warm-Up,method,Data Pipeline Warm-Up
+2610.02057,Data Preprocessing Pipeline,method,Data Preprocessing Pipeline
+2610.02057,Data Preprocessing Warm-Up,concept,Data Preprocessing Warm-Up
+2610.02057,Dynamic Tensor Shape,concept,Dynamic Tensor Shape
+2610.02057,Dynamic-Shape Handling,method,Dynamic-Shape Handling
+2610.02057,Dynamic-Shape Marking,method,Dynamic-Shape Marking
+2610.02057,Effective Training Time,metric,ETT
+2610.02057,Effective Training Time,metric,ETT%
+2610.02057,Effective Training Time,metric,Effective Training Time
+2610.02057,Embedding Table,concept,Embedding Table
+2610.02057,End-to-End Wall Time,metric,End-to-End Wall Time
+2610.02057,Fast Recovery,method,Fast Recovery
+2610.02057,Fast-Batch,method,Fast-Batch
+2610.02057,Feature-Interaction Module,concept,Feature-Interaction Module
+2610.02057,GPU Idle Time,metric,GPU Idle Time
+2610.02057,GPU-Held Shutdown Time,metric,GPU-Held Shutdown Time
+2610.02057,Goodput,metric,Goodput
+2610.02057,In-Trainer Publishing,method,In-Trainer Publishing
+2610.02057,Inductor,tool,Inductor
+2610.02057,Internal ETT% Dashboard,tool,Internal ETT% Dashboard
+2610.02057,Job Scheduling,method,Job Scheduling
+2610.02057,LLM Training,task,LLM Training
+2610.02057,Lifecycle Efficiency Gap,concept,Lifecycle Efficiency Gap
+2610.02057,Lifecycle Overhead,concept,Lifecycle Overhead
+2610.02057,ML Productivity Goodput,metric,ML Productivity Goodput
+2610.02057,MLP,model,Multi-Layer Perceptron
+2610.02057,Mega-Cache,tool,Mega-Cache
+2610.02057,Model FLOPs Utilization,metric,MFU
+2610.02057,Model FLOPs Utilization,metric,Model FLOPs Utilization
+2610.02057,Model Instantiation,method,Model Instantiation
+2610.02057,Model Publishing,method,Model Publishing
+2610.02057,Multi-Head Attention,method,Multi-Head Attention
+2610.02057,NVIDIA H100,tool,NVIDIA H100
+2610.02057,NVIDIA H100,tool,NVIDIA H100 GPU
+2610.02057,Number of Checkpoint Save Attempts,metric,Number of Checkpoint Save Attempts
+2610.02057,Number of Failures,metric,NoF
+2610.02057,Number of Failures,metric,Number of Failures
+2610.02057,Offline Training,task,Offline Training
+2610.02057,PT2,tool,PT2
+2610.02057,PT2 Compilation,method,PT2 Compilation
+2610.02057,PT2 Compilation Time,metric,PT2 Compilation Time
+2610.02057,Parallel Component Initialization,method,Parallel Component Initialization
+2610.02057,Pipeline Overlap,method,Pipeline Overlap
+2610.02057,Preemption,concept,Preemption
+2610.02057,Process Group Creation,method,Process Group Creation
+2610.02057,Productive Training,concept,Productive Training
+2610.02057,Profile-Guided Optimization,method,Profile-Guided Optimization
+2610.02057,PyTorch,tool,PyTorch
+2610.02057,PyTorch 2.0,tool,PyTorch 2
+2610.02057,PyTorch 2.0,tool,PyTorch 2.0
+2610.02057,PyTorch 2.0 Compilation Time Reduction,method,PyTorch 2.0 Compilation Time Reduction
+2610.02057,Queue Wait,concept,Queue Wait
+2610.02057,Recommendation Model Training,task,Recommendation Model Training
+2610.02057,Recommendation System,task,Recommendation System
+2610.02057,Recommendation and Ranking,task,Recommendation and Ranking
+2610.02057,Recovery Cost Reduction,method,Recovery Cost Reduction
+2610.02057,Restart Effect,concept,Restart Effect
+2610.02057,Restart Multiplier,metric,Restart Multiplier
+2610.02057,Scheduling Time,metric,Scheduling Time
+2610.02057,Shutdown,concept,Shutdown
+2610.02057,Shutdown Time,metric,Shutdown Time
+2610.02057,Shutdown and Scheduling Optimization,method,Shutdown and Scheduling Optimization
+2610.02057,Skipping Built-in Module Tracing,method,Skipping Built-in Module Tracing
+2610.02057,Stage-Aware Preemption,method,Stage-Aware Preemption
+2610.02057,Standalone Model Publishing,method,Standalone Model Publishing
+2610.02057,Standalone Publishing,method,Standalone Publishing
+2610.02057,Static Dataset,concept,Static Dataset
+2610.02057,Symbolic Hash Fix,method,Symbolic Hash Fix
+2610.02057,TTR,metric,TTR
+2610.02057,TTR,metric,Time To Recovery
+2610.02057,TTR,metric,Time to Recover
+2610.02057,Tenant Scheduling Knobs,method,Tenant Scheduling Knobs
+2610.02057,Time to Start,metric,TTS
+2610.02057,Time to Start,metric,Time To Start
+2610.02057,Time to Start,metric,Time to Start
+2610.02057,TorchDynamo,tool,TorchDynamo
+2610.02057,Torchrec,tool,Torchrec
+2610.02057,Trainer Initialization,method,Trainer Initialization
+2610.02057,Trainer Initialization Optimization,method,Trainer Initialization Optimization
+2610.02057,Trainer Initialization Time,metric,Trainer Initialization Time
+2610.02057,Triton,tool,Triton
+2610.02057,Unsaved Training Time,concept,Unsaved Training Time
+2610.02057,Warm Compilation Cache,concept,Warm Compilation Cache
+2610.02057,Warm Restart,method,Warm Restart
+2610.02057,Wasted Training Time,metric,Wasted Training Time

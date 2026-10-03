@@ -1,0 +1,124 @@
+{
+ "args": {
+  "corpus": "data/corpus/cs.IR",
+  "run": "runs/pilot2",
+  "limit": 20,
+  "gleaning": 1,
+  "keep_appendix": false,
+  "embed_dim": 768,
+  "llm_model": "gemini-3.8-flash",
+  "nn_threshold": 0.85,
+  "nn_strong": 0.9,
+  "hubs": 50,
+  "stoplist": "config/stoplist.txt",
+  "stop_after": null
+ },
+ "stages": {
+  "intake_clean": {
+   "new_or_changed": 20,
+   "tokens_before": 303869,
+   "tokens_after": 172150,
+   "flagged": [],
+   "elapsed_s": 0.3
+  },
+  "ingest": {
+   "failed": [],
+   "llm_calls": {
+    "extract": 222,
+    "glean": 222,
+    "summary": 47
+   },
+   "llm_tokens": {
+    "extract": {
+     "prompt": 656250,
+     "completion": 195671,
+     "thinking": 171838
+    },
+    "glean": {
+     "prompt": 945612,
+     "completion": 70622,
+     "thinking": 165163
+    },
+    "summary": {
+     "prompt": 33666,
+     "completion": 9953,
+     "thinking": 42857
+    }
+   },
+   "embed_requests": 174,
+   "embed_texts": 4560,
+   "embed_chars": 1630623,
+   "seconds": 342.2,
+   "elapsed_s": 342.4
+  },
+  "resolve": {
+   "entities_before": 1482,
+   "candidate_pairs": {
+    "total": 819,
+    "key": 47,
+    "vector": 793,
+    "acronym": 33,
+    "acronym-def": 3
+   },
+   "code_merges": 35,
+   "code_merged_names": 39,
+   "alias_merges": 0,
+   "clusters": 266,
+   "names_in_clusters": 846,
+   "second_looks": 0,
+   "llm_same_groups": 86,
+   "llm_merged_names": 98,
+   "related": 268,
+   "different_pairs": 352,
+   "unsure_final": 0,
+   "rejected_groups": 0,
+   "entities_after": 1345,
+   "embed_texts_during_merges": 1395,
+   "llm_calls": {
+    "merge_decision": 266
+   },
+   "llm_tokens": {
+    "input": 232392,
+    "output": 183748
+   },
+   "elapsed_s": 756.6
+  },
+  "graph_clean": {
+   "stoplist_removed": 0,
+   "self_loops": 0,
+   "condensed": 31,
+   "low_evidence": 20,
+   "paper_local_renamed": 0,
+   "hubs_several": 0,
+   "llm_calls": {
+    "hub_check": 50
+   },
+   "elapsed_s": 910.6
+  },
+  "quality": {
+   "papers": 20,
+   "chunks": 222,
+   "entities_final": 1345,
+   "params": {
+    "c_chunks_per_paper": 11.1,
+    "e_entity_rows_per_chunk": 12.54,
+    "r_relation_rows_per_chunk": 14.56,
+    "u_new_names_per_entity_row": 0.532,
+    "p_new_names_reaching_llm": 0.571,
+    "k_names_per_cluster": 3.18,
+    "q_second_look_share": 0.0,
+    "m_texts_reembedded_per_merged_name": 10.18,
+    "summary_calls_per_paper": 3.9,
+    "h_implied": 0.091
+   },
+   "elapsed_s": 910.9
+  },
+  "export": {
+   "paper_concept_rows": 1649,
+   "names_dropped_not_in_graph": 0,
+   "full_entities_rows_holding_alias_names": 152,
+   "elapsed_s": 911.9
+  }
+ },
+ "elapsed_s": 912.0
+}

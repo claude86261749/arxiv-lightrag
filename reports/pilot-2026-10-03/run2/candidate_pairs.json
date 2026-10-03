@@ -1,0 +1,6716 @@
+[
+ {
+  "pair": [
+   "Jensen-Shannon Divergence",
+   "Jensen\u2013Shannon Divergence"
+  ],
+  "reasons": [
+   "key",
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "A/B Testing",
+   "Online A/B Testing"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "ADSS",
+   "ADVV"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "AFL",
+   "MemRec"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "AMD-Net",
+   "NarVid"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "Accuracy",
+   "Answer Accuracy"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Action-Alignment Score",
+   "Action\u2013Logic Score"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Action\u2013Logic Score",
+   "Logic-Alignment Score"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Pass-Rate",
+   "Pass Rate"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Skills",
+   "SKILL.md"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Web",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Web",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Web",
+   "User Agent"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Agent Web",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Based Recommendation",
+   "Interactive Recommendation"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Based Recommendation",
+   "LLM-Powered Agent"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Based Recommendation",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Based Recommendation",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Based Recommendation",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Native Community",
+   "Internet of Agents"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Skill Retrieval",
+   "Skill Retrieval"
+  ],
+  "reasons": [
+   "vector:0.943"
+  ]
+ },
+ {
+  "pair": [
+   "Agent-Skill Retrieval",
+   "LLM-Mediated Retrieval"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "AgentCF",
+   "AgentCF++"
+  ],
+  "reasons": [
+   "vector:0.940"
+  ]
+ },
+ {
+  "pair": [
+   "Agentic Web",
+   "Internet of Agents"
+  ],
+  "reasons": [
+   "vector:0.915"
+  ]
+ },
+ {
+  "pair": [
+   "Agentic-Hybrid Retrieval",
+   "Hybrid Retrieval"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Aggregate Profile",
+   "LLM-Generated Profile"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Aggregate Profile",
+   "LLM-Generated User Profile"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Agreement",
+   "Inter-Annotator Agreement"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "All Levels",
+   "All-Level Retrieval Rule"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "All Levels",
+   "All-Level Retrieval"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "All-Level Retrieval",
+   "All-Level Scoring"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "All-Level Retrieval",
+   "All-Level Retrieval Rule"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "All-Level Scoring",
+   "Compatibility Scoring"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Books",
+   "Amazon Movies and TV"
+  ],
+  "reasons": [
+   "vector:0.923"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Books",
+   "Amazon Video Games"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Books",
+   "Amazon Reviews 2023"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Books",
+   "Amazon Reviews"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Books",
+   "Books"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon ESCI",
+   "ESCI"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon ESCI",
+   "Multilingual ESCI"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Movies and TV",
+   "Amazon Video Games"
+  ],
+  "reasons": [
+   "vector:0.915"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Movies and TV",
+   "Amazon Reviews 2023"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Movies and TV",
+   "Movies and TV"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Movies and TV",
+   "Amazon Reviews"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Reviews",
+   "Amazon Reviews 2023"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Reviews",
+   "Amazon Video Games"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Reviews 2023",
+   "Amazon Video Games"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Amazon Video Games",
+   "Video Games"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Anchor Frame",
+   "Anchor Patch"
+  ],
+  "reasons": [
+   "vector:0.926"
+  ]
+ },
+ {
+  "pair": [
+   "Anchor Frame",
+   "Key Frame Feature"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Anchor Patch",
+   "Patch-level Selection"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Any-Level Flat Selection",
+   "Leaf-Level Flat Selection"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "Hypertension Corpus"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "Steroids Corpus"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "Diabetes Corpus"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "r/AskDocs"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "TTC Corpus"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "AskDocs Corpus",
+   "LoseIt Corpus"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "Attention",
+   "Self-Attention"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Attribute Discovery",
+   "Iterative Attribute Discovery"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Attribute Type Assignment",
+   "Structural Type Assignment"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Autoregressive Decoder",
+   "Full-SID Decoder"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Autoregressive Decoding",
+   "Autoregressive Retrieval"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Autoregressive Decoding",
+   "Trie-Constrained Autoregressive Search"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Autoregressive Next-Item Prediction",
+   "Next-Item Prediction"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Autoregressive Retrieval",
+   "Trie-Constrained Autoregressive Search"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Autotune Configuration Pruning",
+   "Autotuning Pruning"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "Average Rank",
+   "Avg. Rank"
+  ],
+  "reasons": [
+   "vector:0.891"
+  ]
+ },
+ {
+  "pair": [
+   "B-Shop",
+   "I-Shop"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "BGE-Base",
+   "Bge-Reranker-V2-M3"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "BGE-M3",
+   "Sentence-mT5"
+  ],
+  "reasons": [
+   "vector:0.921"
+  ]
+ },
+ {
+  "pair": [
+   "BGE-M3",
+   "MPNet"
+  ],
+  "reasons": [
+   "vector:0.920"
+  ]
+ },
+ {
+  "pair": [
+   "BGE-M3",
+   "LaSER"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "BSARec",
+   "FEARec"
+  ],
+  "reasons": [
+   "vector:0.934"
+  ]
+ },
+ {
+  "pair": [
+   "BSARec",
+   "TiSASRec"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "BasisRQ",
+   "Prefix-aware BasisRQ"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "Beam Search",
+   "KV-Cached Beam Search"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Behavior-Guided Routing",
+   "Routing Profile"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Behavior-Guided Sparse Routing",
+   "Serving-Time Routing Gate"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Behavior-Selection F1",
+   "User-Understanding Reinforcement Learning"
+  ],
+  "reasons": [
+   "vector:0.933"
+  ]
+ },
+ {
+  "pair": [
+   "Bfloat16 Mixed Precision",
+   "bfloat16"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Bge-Reranker-V2-M3",
+   "Qwen3-Reranker"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "Bge-Reranker-V2-M3",
+   "Qwen3-Reranker-0.6B"
+  ],
+  "reasons": [
+   "vector:0.890"
+  ]
+ },
+ {
+  "pair": [
+   "Bi-Encoder",
+   "Cross-Encoder"
+  ],
+  "reasons": [
+   "vector:0.891"
+  ]
+ },
+ {
+  "pair": [
+   "BiLSTM-CRF",
+   "CRF"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Biaffine Attention",
+   "Local Biaffine Attention"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Biaffine Dependency Parser",
+   "Biaffine Structured Prediction"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Bidirectional Contrastive Learning",
+   "Bidirectional Contrastive Loss"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Bidirectional Contrastive Loss",
+   "InfoNCE"
+  ],
+  "reasons": [
+   "vector:0.934"
+  ]
+ },
+ {
+  "pair": [
+   "Bidirectional Contrastive Loss",
+   "InfoNCE Loss"
+  ],
+  "reasons": [
+   "vector:0.921"
+  ]
+ },
+ {
+  "pair": [
+   "Binomial Logistic Regression",
+   "Binomial Regression"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Books",
+   "Goodreads"
+  ],
+  "reasons": [
+   "vector:0.912"
+  ]
+ },
+ {
+  "pair": [
+   "Bottom-Up Merging",
+   "Global Grouping"
+  ],
+  "reasons": [
+   "vector:0.915"
+  ]
+ },
+ {
+  "pair": [
+   "Bottom-Up Merging",
+   "Pairwise Comparison"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Bridge",
+   "Bridge-GRPO"
+  ],
+  "reasons": [
+   "vector:0.981"
+  ]
+ },
+ {
+  "pair": [
+   "CAT-ID2",
+   "MERGE"
+  ],
+  "reasons": [
+   "vector:0.922"
+  ]
+ },
+ {
+  "pair": [
+   "CLIP",
+   "CLIP Visual Encoder"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "CLIP4Clip",
+   "X-Pool"
+  ],
+  "reasons": [
+   "vector:0.909"
+  ]
+ },
+ {
+  "pair": [
+   "COBRA",
+   "LIGER"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "Candidate Reranking",
+   "Reranking"
+  ],
+  "reasons": [
+   "vector:0.937"
+  ]
+ },
+ {
+  "pair": [
+   "Candidate Reranking",
+   "Recommendation Reranking"
+  ],
+  "reasons": [
+   "vector:0.937"
+  ]
+ },
+ {
+  "pair": [
+   "Candidate Reranking",
+   "Decision-Oriented Reranking"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Candidate Retrieval",
+   "Multi-Stage Retrieval"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Candidate-Conditioned Retrieval",
+   "Private-Memory Retrieval"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Coverage",
+   "Coverage@K"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Coverage",
+   "Catalog Footprint"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Search",
+   "Product Search"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Search",
+   "In-Context Catalog Search"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Search",
+   "In-Context Product Search"
+  ],
+  "reasons": [
+   "vector:0.899"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog Search",
+   "Catalog-Wide Relevance Scoring"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Catalog-Grounded Supervision",
+   "Catalog-Wide Relevance Scoring"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Cell-Level Noise",
+   "Interaction Noise"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "Centroid",
+   "TemporalCentroid"
+  ],
+  "reasons": [
+   "vector:0.909"
+  ]
+ },
+ {
+  "pair": [
+   "Centroid",
+   "Narrative"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Centroid",
+   "Centroid Profile"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Chain Score",
+   "Logic-Alignment Score"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Citation Recall",
+   "Recall@3"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Citation Recall",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Claude-Opus-5",
+   "Claude-Sonnet-5"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Code-Conditioned Residual Distribution",
+   "Residual-Distance Distribution"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Codebook Capacity",
+   "Effective Capacity"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Codebook Loss",
+   "Commitment Loss"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Codebook-Only",
+   "Codebook-Only Target"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Collaborative Model",
+   "Collaborative Sequential Model"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Collaborative Sequential Model",
+   "Collaborative Sequential Recommendation Model"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Collaborative Sequential Recommendation Model",
+   "Sequential Recommendation"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Collaborative Sequential Recommendation Model",
+   "Sequence Model"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Collision-Aware Teacher",
+   "Collision-Aware Teacher Construction"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Compatibility Scoring",
+   "Multiresolution Scoring"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Compilation Cache",
+   "Warm Compilation Cache"
+  ],
+  "reasons": [
+   "vector:0.915"
+  ]
+ },
+ {
+  "pair": [
+   "Conflict Slice",
+   "Label-Request Conflict"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Consistency Loss",
+   "Consistency Regularization"
+  ],
+  "reasons": [
+   "vector:0.916"
+  ]
+ },
+ {
+  "pair": [
+   "Consistency Loss",
+   "KL Consistency Loss"
+  ],
+  "reasons": [
+   "vector:0.906"
+  ]
+ },
+ {
+  "pair": [
+   "Consistency Regularization",
+   "KL Consistency Loss"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "Consumption Regime",
+   "Habitual Consumption"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Consumption Regime",
+   "Exploratory Consumption"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "Consumption Regime",
+   "Habitual Regime"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Consumption Regime",
+   "Exploratory Regime"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Content-Based Recommendation",
+   "Context-Aware Recommendation"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Content-Based Recommendation",
+   "LLM-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Context Curation",
+   "Context Ordering"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Context Curation",
+   "In-Context Product Search"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Context Ordering",
+   "Context Reordering"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Context Pruning",
+   "Context Reordering"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Context-Aware Recommendation",
+   "Session-Aware Recommendation"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Conversational Music Recommendation",
+   "Conversational Recommender System"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Conversational Music Recommendation",
+   "Conversational Recommendation System"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Conversational Recommendation System",
+   "Conversational Recommender System"
+  ],
+  "reasons": [
+   "vector:0.932"
+  ]
+ },
+ {
+  "pair": [
+   "Conversational Recommendation System",
+   "Interactive Recommendation"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Conversational Recommendation System",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Critic",
+   "Critic-Guided Additional Retrieval"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Critic",
+   "LLM Critic"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Critic-Guided Additional Retrieval",
+   "Iterative Retrieval"
+  ],
+  "reasons": [
+   "vector:0.899"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Domain Recommendation",
+   "Recommendation Task"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Domain Recommendation",
+   "Recommendation"
+  ],
+  "reasons": [
+   "vector:0.879"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Entropy",
+   "Cross-Entropy Objective"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Entropy Objective",
+   "Next-Item Prediction Loss"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Entropy Objective",
+   "Listwise Cross-Entropy"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Lingual Prefix Agreement",
+   "Prefix@1"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Lingual Prefix Agreement",
+   "Prefix Consistency"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Modal Alignment",
+   "Multi-Grained Alignment"
+  ],
+  "reasons": [
+   "vector:0.926"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Modal Alignment",
+   "Cross-Modal Misalignment"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Cross-Modal Alignment",
+   "Multi-grained Cross-modal Interaction"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Cue Only",
+   "Hidden Only"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "DIF-SR",
+   "FDSA"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "DPO",
+   "IRPO"
+  ],
+  "reasons": [
+   "vector:0.916"
+  ]
+ },
+ {
+  "pair": [
+   "DSI",
+   "DSI Semantic"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "DSI",
+   "DSI Naive"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "DSI Naive",
+   "DSI Semantic"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "Data Leakage",
+   "Temporal Leakage"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Dataset-Aware MoE",
+   "Language-Aware MoE"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Decision Transformer",
+   "Structured Decision Making"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Decision-Oriented Model",
+   "Decision-Oriented Reranking"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Decision-Oriented Reranking",
+   "Reranking"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Decision-Oriented Reranking",
+   "Recommendation Reranking"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Decision-Oriented Reranking",
+   "Pairwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Decoder Soft-Target",
+   "Decoder Soft-Target Supervision"
+  ],
+  "reasons": [
+   "vector:0.959"
+  ]
+ },
+ {
+  "pair": [
+   "Decoder Soft-Target",
+   "Grouped Soft-Target Supervision"
+  ],
+  "reasons": [
+   "vector:0.906"
+  ]
+ },
+ {
+  "pair": [
+   "Decoder Soft-Target Supervision",
+   "Grouped Soft-Target Supervision"
+  ],
+  "reasons": [
+   "vector:0.954"
+  ]
+ },
+ {
+  "pair": [
+   "Decoder Soft-Target Supervision",
+   "Sampled-Tree Supervision"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Dense Encoder",
+   "Dense Retrieval"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Dense Feed-Forward Baseline",
+   "Flat Dense Routing"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Diabetes Corpus",
+   "TTC Corpus"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Diabetes Corpus",
+   "Hypertension Corpus"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Diabetes Corpus",
+   "Steroids Corpus"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Distance-Matched Control",
+   "Isotropic Control"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Diversity",
+   "Within-List Diversity"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Diversity@K",
+   "Within-List Diversity"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Domain Name Analysis",
+   "URL Analysis"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "Dynamic Tensor Shape",
+   "Dynamic-Shape Handling"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Dynamic-Shape Handling",
+   "Dynamic-Shape Marking"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "E5",
+   "Multilingual E5"
+  ],
+  "reasons": [
+   "vector:0.924"
+  ]
+ },
+ {
+  "pair": [
+   "E5",
+   "E5-large"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "E5",
+   "Multilingual-E5-Large"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "E5-large",
+   "Multilingual-E5-Large"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "E5-large",
+   "Multilingual E5"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "EERCF",
+   "TeachCLIP"
+  ],
+  "reasons": [
+   "vector:0.909"
+  ]
+ },
+ {
+  "pair": [
+   "EM",
+   "Exact Match"
+  ],
+  "reasons": [
+   "acronym",
+   "acronym-def",
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "EMA",
+   "Exponential Moving Average"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.898"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI",
+   "ESCI-US"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI",
+   "ESCI-ES"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI",
+   "ESCI-JP"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI",
+   "Multilingual ESCI"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI-ES",
+   "ESCI-JP"
+  ],
+  "reasons": [
+   "vector:0.915"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI-ES",
+   "ESCI-US"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI-ES",
+   "Multilingual ESCI"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI-JP",
+   "ESCI-US"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "ESCI-US",
+   "Multilingual ESCI"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "ETT",
+   "Effective Training Time"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "ETT",
+   "ETT%"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "ETT%",
+   "Effective Training Time"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.933"
+  ]
+ },
+ {
+  "pair": [
+   "Effective Training Time",
+   "Time to Start"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Effective Training Time",
+   "Time to Recover"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Embedding Similarity",
+   "Parent\u2013Child Embedding Similarity Rule"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "EmbeddingGemma 300M",
+   "Gemini Embedding 2"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Encoder",
+   "Encoder\u2013Reorganizer"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Encoder $f_{\\theta}$",
+   "Node Encoder"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Encoder\u2013Reorganizer",
+   "Reorganizer"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Encoder\u2013Reorganizer",
+   "LLM-in-the-Loop Reorganizer"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Engineered Label-Dialogue Consistency",
+   "Round-Trip Consistency Filtering"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Evidence Compression",
+   "Post-Retrieval Evidence Compression"
+  ],
+  "reasons": [
+   "vector:0.938"
+  ]
+ },
+ {
+  "pair": [
+   "Evidence Hierarchy",
+   "Hierarchy Construction"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "Exact Match",
+   "Exact Variant Match"
+  ],
+  "reasons": [
+   "vector:0.882"
+  ]
+ },
+ {
+  "pair": [
+   "Exact Test",
+   "Permutation Test"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Exact Variant Match",
+   "Exact-Match Accuracy"
+  ],
+  "reasons": [
+   "vector:0.932"
+  ]
+ },
+ {
+  "pair": [
+   "Exact-Prefix Lookup",
+   "Prefix Lookup"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Exact-Song Request",
+   "Exact/Version Request Family"
+  ],
+  "reasons": [
+   "vector:0.938"
+  ]
+ },
+ {
+  "pair": [
+   "Exact-Song Request",
+   "Exact/Version Conflict Slice"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Exact/Version Conflict Slice",
+   "Exact/Version Request Family"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "Exact/Version Family",
+   "Exact/Version Request Family"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Explainable Recommendation",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory Consumption",
+   "Exploratory User"
+  ],
+  "reasons": [
+   "vector:0.962"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory Consumption",
+   "Exploratory Regime"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory Consumption",
+   "Habitual Consumption"
+  ],
+  "reasons": [
+   "vector:0.882"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory Regime",
+   "Exploratory User"
+  ],
+  "reasons": [
+   "vector:0.920"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory User",
+   "LLM-Generated User Profile"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory User",
+   "Generative User Profile"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Exploratory User",
+   "Habitual User"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Explorer",
+   "Non-Explorer"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "F1",
+   "F1 Score"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "FF",
+   "PF"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "FORGE",
+   "HGRec"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Factored Group and Within-Group Router",
+   "Router"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Family Effect",
+   "Same-Vendor Effect"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "Family Effect",
+   "Self Effect"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Fast Recovery",
+   "Recovery Cost Reduction"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Feature Coverage",
+   "Relation Coverage"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Feature Coverage",
+   "Word Coverage"
+  ],
+  "reasons": [
+   "vector:0.898"
+  ]
+ },
+ {
+  "pair": [
+   "Feature Head",
+   "Relation Head"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "First-Stage Recall",
+   "Stage-1 Recall"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Dense Routing",
+   "Flat Sparse Routing"
+  ],
+  "reasons": [
+   "vector:0.933"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Dense Routing",
+   "Hierarchical Dense Routing"
+  ],
+  "reasons": [
+   "vector:0.888"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Sparse Routing",
+   "Hierarchical Sparse Router"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Sparse Routing",
+   "Hierarchical Sparse Expert Allocation"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Sparse Routing",
+   "Hierarchical Dense Routing"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Sparse Routing",
+   "Sparse Mixture-of-Experts"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Flat Sparse Routing",
+   "Sparse Routing"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Full-Catalog Prompting",
+   "In-Context Catalog Search"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Full-SID Supervision",
+   "Hard SID Supervision"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Full-SID Supervision",
+   "SID-Generation Objective"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Future Hard SID",
+   "RBD + future hard SID"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "GEAR",
+   "GEAR Reranker"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "GEAR Generator",
+   "Generator-Reranker"
+  ],
+  "reasons": [
+   "vector:0.890"
+  ]
+ },
+ {
+  "pair": [
+   "GEAR Reranker",
+   "Generator-Reranker"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "GEAR Reranker",
+   "Reranking Head"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "GEAR Reranker",
+   "Reranker"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "GPR",
+   "GR4AD"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "GPT-3.5",
+   "GPT-4"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "GPT-3.5-Turbo-0125",
+   "GPT-3.5-Turbo-1106"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "GPU",
+   "NVIDIA A800-SXM4-80GB GPU"
+  ],
+  "reasons": [
+   "vector:0.898"
+  ]
+ },
+ {
+  "pair": [
+   "GPU-Held Shutdown Time",
+   "Shutdown Time"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "GRIT-VQ",
+   "VQ"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Gemini Embedding 2",
+   "Gemini-3.7-Flash"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Gemma",
+   "Gemma-4-E4B-it"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "General Knowledge",
+   "Knowledge Question Answering"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "General Knowledge",
+   "General Knowledge Question Answering"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "General Knowledge Question Answering",
+   "Knowledge Question Answering"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "General-Knowledge Task",
+   "Knowledge Question Answering"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Recommendation",
+   "Generative Retrieval"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Recommendation",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Recommendation",
+   "Recommendation Task"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Recommendation Model",
+   "Generative User Profile"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Recommendation Model",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Generative Retrieval",
+   "Generative Retriever"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Generative User Profile",
+   "LLM-Generated User Profile"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "Generative User Profile",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Generative User Profile",
+   "Semantic User Profiling"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Generative User Profile",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Global Attention",
+   "Local Attention"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Global Event Prediction",
+   "Social Unrest Prediction"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Global Grouping",
+   "Pairwise Comparison"
+  ],
+  "reasons": [
+   "vector:0.912"
+  ]
+ },
+ {
+  "pair": [
+   "Goodput",
+   "ML Productivity Goodput"
+  ],
+  "reasons": [
+   "vector:0.939"
+  ]
+ },
+ {
+  "pair": [
+   "Goodreads",
+   "InstructRec"
+  ],
+  "reasons": [
+   "vector:0.906"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer",
+   "Graph Transformer Retrieval System"
+  ],
+  "reasons": [
+   "vector:0.925"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer",
+   "Invention Graph"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer",
+   "Patent Graph Extraction"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer",
+   "Invention Graph Induction"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer Retrieval System",
+   "Invention Graph Induction"
+  ],
+  "reasons": [
+   "vector:0.890"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer Retrieval System",
+   "Patent Prior Art Retrieval"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Graph Transformer Retrieval System",
+   "Patent Graph Extraction"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Grok-4.1-Fast-Non-Reasoning",
+   "Grok-4.1-Fast-Reasoning"
+  ],
+  "reasons": [
+   "vector:0.935"
+  ]
+ },
+ {
+  "pair": [
+   "Grouped Soft Targets",
+   "Grouped Soft-Target Supervision"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Grouped Soft-Target Supervision",
+   "Sampled-Tree Supervision"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "Grouped Soft-Target Supervision",
+   "Hierarchical Supervision"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "H@1",
+   "H@3"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "H@1",
+   "H@5"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "H@1",
+   "HR@10"
+  ],
+  "reasons": [
+   "vector:0.890"
+  ]
+ },
+ {
+  "pair": [
+   "H@1",
+   "Hit@1"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "H@3",
+   "H@5"
+  ],
+  "reasons": [
+   "vector:0.929"
+  ]
+ },
+ {
+  "pair": [
+   "HM2Rec",
+   "HM4SR"
+  ],
+  "reasons": [
+   "vector:0.922"
+  ]
+ },
+ {
+  "pair": [
+   "HM2Rec",
+   "M3SRec"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "HM4SR",
+   "M3SRec"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Hit Rate"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Hit Rate@10"
+  ],
+  "reasons": [
+   "vector:0.882"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "HR@10"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "Hit Rate@10"
+  ],
+  "reasons": [
+   "vector:0.928"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "MRR@10"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.882"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "R@10"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "Novelty@10"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "Hit Rate"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Habitual Consumption",
+   "Habitual User"
+  ],
+  "reasons": [
+   "vector:0.949"
+  ]
+ },
+ {
+  "pair": [
+   "Habitual Consumption",
+   "Habitual Regime"
+  ],
+  "reasons": [
+   "vector:0.935"
+  ]
+ },
+ {
+  "pair": [
+   "Habitual Regime",
+   "Habitual User"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "Hard SID targets",
+   "RBD + future hard SID"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "Hi-Gen",
+   "MERGE"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Hidden MoE",
+   "Hidden Only"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Classification",
+   "Selective Hierarchical Classification"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Dense Routing",
+   "Hierarchical Sparse Router"
+  ],
+  "reasons": [
+   "vector:0.899"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Predictor",
+   "Prefix-Conditioned Predictor"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Sparse Expert Allocation",
+   "Hierarchical Sparse Router"
+  ],
+  "reasons": [
+   "vector:0.888"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Sparse Router",
+   "Sparse Mixture-of-Experts"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Hierarchical Supervision",
+   "Multiresolution Relevance Supervision"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "History Size",
+   "Within-History Content Diversity"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate",
+   "HitRate@K"
+  ],
+  "reasons": [
+   "vector:0.934"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate",
+   "Hit Rate@10"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate@10",
+   "MRR@10"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate@10",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "HotpotQA",
+   "OTT-QA"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "HotpotQA",
+   "NQ"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "Hypertension Corpus",
+   "Steroids Corpus"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "Hypertension Corpus",
+   "r/Hypertension"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Hypertension Corpus",
+   "LoseIt Corpus"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Hypertension Corpus",
+   "TTC Corpus"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Image-Text Retrieval",
+   "Text-to-Video Retrieval"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Image-Text Retrieval",
+   "Text-Video Retrieval"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "In-Context Catalog Search",
+   "In-Context Product Search"
+  ],
+  "reasons": [
+   "vector:0.929"
+  ]
+ },
+ {
+  "pair": [
+   "In-Context Catalog Search",
+   "Product Search"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "In-Context Product Search",
+   "Product Search"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "In-Context Product Search",
+   "Product Selection"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Incremental Consolidation",
+   "Semantic Consolidation"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "InfoNCE",
+   "InfoNCE Loss"
+  ],
+  "reasons": [
+   "vector:0.938"
+  ]
+ },
+ {
+  "pair": [
+   "Information Extraction",
+   "Value Extraction"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Information and Attribute Extraction",
+   "Iterative Attribute Discovery and Extraction"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Information and Attribute Extraction",
+   "Large-Scale Extraction"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Inter-Frame Redundancy",
+   "Intra-Frame Redundancy"
+  ],
+  "reasons": [
+   "vector:0.939"
+  ]
+ },
+ {
+  "pair": [
+   "Interactive Recommendation",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.920"
+  ]
+ },
+ {
+  "pair": [
+   "Interactive Recommendation",
+   "LLM-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Interest-Evolution Chain",
+   "Interest-Evolution Chain Generation"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Interest-Evolution Chain",
+   "User Interest Chain"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Interest-Evolution Chain Generation",
+   "User Understanding"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "InternVL3.5-8B",
+   "Qwen3-VL-8B-Instruct"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Invention Graph",
+   "Invention Graph Induction"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "Invention Graph",
+   "Patent Graph Extraction"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Invention Graph Induction",
+   "Patent Graph Extraction"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "IoU",
+   "Whole Graph IoU"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "Isotropic Control",
+   "Product-Directed Control"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "Item Description Generation",
+   "Item Understanding"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Item Description Generation",
+   "Item Understanding Task"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Item Semantics Alignment Data",
+   "Item Understanding Task"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Item Tokenizer",
+   "Tokenizer"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Item Tokenizer",
+   "Item Tower"
+  ],
+  "reasons": [
+   "vector:0.879"
+  ]
+ },
+ {
+  "pair": [
+   "Item Tower",
+   "Two-Tower Model"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Item Understanding",
+   "Item Understanding Task"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Item-Level Pretraining",
+   "Token-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Item-Level Pretraining",
+   "Relation-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Item-Level Pretraining",
+   "Semantic Alignment Pretraining"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Item-Level Pretraining",
+   "Multi-Granularity Semantic Alignment Pretraining"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Item-Level Pretraining",
+   "User-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "JS Divergence",
+   "Jensen\u2013Shannon Divergence"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Jaccard Similarity",
+   "Jaccard@10"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Joint Reranking Head",
+   "Reranking Head"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "KFS",
+   "Key Feature Selection"
+  ],
+  "reasons": [
+   "acronym",
+   "acronym-def",
+   "vector:0.938"
+  ]
+ },
+ {
+  "pair": [
+   "KFS",
+   "Soft Assignment Fusion"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "KL Consistency Loss",
+   "Multi-Grained Consistency Regularization"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "KL Consistency Loss",
+   "KL Divergence"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "KL Divergence",
+   "Kullback-Leibler Divergence"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Key Frame Feature",
+   "Key Patch Feature"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "Kimi-K2-Thinking",
+   "Kimi-K2.5"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Known-Item Search",
+   "Music Search"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "LLM",
+   "LLM-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "LLM",
+   "LLM-Generated User Profile"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "LLM",
+   "Large Language Model"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Personal Agent",
+   "LLM-Powered Agent"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Personal Agent",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.887"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Personal Agent",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Personal Agent",
+   "Memory-Oriented Agent System"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Recommendation",
+   "Reasoning Generative Recommendation"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Based Recommendation",
+   "Recommendation Foundation Model"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Generated Profile",
+   "LLM-Generated User Profile"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Generated User Profile",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Generated User Profile",
+   "Semantic User Profiling"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Mediated Retrieval",
+   "LLM-Mediated Retrieval Loop"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Mediated Retrieval",
+   "Skill Retrieval"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Powered Agent",
+   "LLM-based User Agent"
+  ],
+  "reasons": [
+   "vector:0.887"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Powered Agent",
+   "Memory-Oriented Agent System"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-Powered Agent",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-based User Agent",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-based User Agent",
+   "User Agent"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-based User Agent",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-in-the-Loop RL",
+   "LLM-in-the-Loop Reinforcement Learning"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-in-the-Loop RL",
+   "LLM-in-the-Loop Reorganizer"
+  ],
+  "reasons": [
+   "vector:0.891"
+  ]
+ },
+ {
+  "pair": [
+   "LLM-in-the-Loop Reinforcement Learning",
+   "LLM-in-the-Loop Reorganizer"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "LaSER",
+   "Sentence-T5"
+  ],
+  "reasons": [
+   "vector:0.906"
+  ]
+ },
+ {
+  "pair": [
+   "LaSER",
+   "MPNet"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Language Probe",
+   "Language-Probe Accuracy"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Latency",
+   "Serving Latency"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "Latent-Reasoning Objective",
+   "SID-Generation Objective"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Learned Gate",
+   "Serving-Time Gate"
+  ],
+  "reasons": [
+   "vector:0.926"
+  ]
+ },
+ {
+  "pair": [
+   "Learned Gate",
+   "Serving-Time Routing Gate"
+  ],
+  "reasons": [
+   "vector:0.924"
+  ]
+ },
+ {
+  "pair": [
+   "Learned Gate",
+   "Learned Gating"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "Lifecycle Efficiency Gap",
+   "Lifecycle Overhead"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "List",
+   "List Attribute"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Listener LLM",
+   "Recsys LLM"
+  ],
+  "reasons": [
+   "vector:0.898"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Pointwise LLM Reranking"
+  ],
+  "reasons": [
+   "vector:0.942"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Listwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Listwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.896"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Pointwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Listwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise LLM Reranking",
+   "Pairwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen",
+   "Listwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.893"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen",
+   "Pointwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Listwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.927"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Pointwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.919"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Listwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Pairwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Qwen Reranking",
+   "Pointwise LLM Reranking"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Ranking",
+   "Listwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Ranking",
+   "Pairwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Ranking",
+   "Pointwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Reranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Reranking",
+   "Pointwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Reranking",
+   "Pairwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Listwise Reranking",
+   "Pointwise LLM Reranking"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Liu_hybrid",
+   "Liu_refined"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "Live Streaming Domain",
+   "Short Video Domain"
+  ],
+  "reasons": [
+   "vector:0.905"
+  ]
+ },
+ {
+  "pair": [
+   "Llama 2 13B",
+   "Llama 2 7B"
+  ],
+  "reasons": [
+   "vector:0.944"
+  ]
+ },
+ {
+  "pair": [
+   "Llama 2 7B",
+   "Llama 3.1 70B"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Local Attention",
+   "Local Biaffine Attention"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "LoseIt Corpus",
+   "R/LoseIt"
+  ],
+  "reasons": [
+   "vector:0.940"
+  ]
+ },
+ {
+  "pair": [
+   "LoseIt Corpus",
+   "Steroids Corpus"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "MFU",
+   "Model FLOPs Utilization"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.932"
+  ]
+ },
+ {
+  "pair": [
+   "MLP",
+   "ReLU MLP"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "MMQA",
+   "NQ"
+  ],
+  "reasons": [
+   "vector:0.927"
+  ]
+ },
+ {
+  "pair": [
+   "MMQA",
+   "OTT-QA"
+  ],
+  "reasons": [
+   "vector:0.912"
+  ]
+ },
+ {
+  "pair": [
+   "MPNet",
+   "Sentence-mT5"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "MRR",
+   "MRR@10"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "MRR@10",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "MRR@10",
+   "Novelty@10"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "MRR@10",
+   "R@10"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Cue",
+   "Mid Cue"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Cue",
+   "Micro Cue"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Cue",
+   "Macro Routing"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Routing",
+   "Micro Routing"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Routing",
+   "Macro Scope"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Scope",
+   "Routing Scope"
+  ],
+  "reasons": [
+   "vector:0.888"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Scope",
+   "Mid Scope"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Macro Scope",
+   "Micro Scope"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Matched Control Model",
+   "Matched-Control Reranker"
+  ],
+  "reasons": [
+   "vector:0.922"
+  ]
+ },
+ {
+  "pair": [
+   "Matched Control Model",
+   "Matched Official-Label Control"
+  ],
+  "reasons": [
+   "vector:0.888"
+  ]
+ },
+ {
+  "pair": [
+   "Matched Official-Label Control",
+   "Matched-Control Reranker"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Micro Cue",
+   "Micro Routing"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Micro Scope",
+   "Mid Scope"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Micro Scope",
+   "Routing Scope"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Mid Scope",
+   "Routing Scope"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "MiniMax",
+   "MiniMax-M2.7"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "Mixture of Experts",
+   "Sparse Mixture-of-Experts"
+  ],
+  "reasons": [
+   "vector:0.939"
+  ]
+ },
+ {
+  "pair": [
+   "Mixture of Experts",
+   "MoE"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "Movies and TV",
+   "Video Games"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "MuRAG",
+   "VisRAG"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Grained Alignment",
+   "Multi-grained Cross-modal Interaction"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Grained Alignment",
+   "Multi-Grained Text-Video Interaction Module"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Grained Text-Video Interaction Module",
+   "Multi-grained Cross-modal Interaction"
+  ],
+  "reasons": [
+   "vector:0.933"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Grained Text-Video Interaction Module",
+   "Text-Video Interaction Module"
+  ],
+  "reasons": [
+   "vector:0.932"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Grained Text-Video Interaction Module",
+   "Text Query Decomposition"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Granularity Semantic Alignment Pretraining",
+   "Semantic Alignment Pretraining"
+  ],
+  "reasons": [
+   "vector:0.934"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Granularity Semantic Alignment Pretraining",
+   "Relation-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-Granularity Semantic Alignment Pretraining",
+   "Semantic Alignment"
+  ],
+  "reasons": [
+   "vector:0.870"
+  ]
+ },
+ {
+  "pair": [
+   "Multi-grained Cross-modal Interaction",
+   "Text-Video Interaction Module"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual E-Commerce Retrieval",
+   "Multilingual Retrieval"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual E5",
+   "Multilingual Encoder"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual ESCI",
+   "Multilingual Retrieval"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual Encoder",
+   "Multilingual-E5-Large"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual Encoder",
+   "Sentence Encoder"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Multilingual Recommendation",
+   "Multilingual Retrieval"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "Multimodal RAG",
+   "Vanilla RAG"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Multiresolution Relevance",
+   "Multiresolution Relevance Supervision"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Multiresolution Relevance Supervision",
+   "Supervision\u2013Resolution Mismatch"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "N@100"
+  ],
+  "reasons": [
+   "vector:0.947"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "NDCG@K"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "NDCG"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "NDCG@100"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "NDCG@10"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "N@10",
+   "R@10"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate@10",
+   "N@10"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "HR@10",
+   "N@10"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "N@100",
+   "NDCG@100"
+  ],
+  "reasons": [
+   "vector:0.946"
+  ]
+ },
+ {
+  "pair": [
+   "N@100",
+   "NDCG@K"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "N@100",
+   "R@100"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "N@100",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "N@3",
+   "N@5"
+  ],
+  "reasons": [
+   "vector:0.937"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG",
+   "NDCG@10"
+  ],
+  "reasons": [
+   "vector:0.926"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG",
+   "NDCG@K"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG",
+   "NDCG@100"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@10",
+   "NDCG@K"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@10",
+   "NDCG@100"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@100",
+   "NDCG@K"
+  ],
+  "reasons": [
+   "vector:0.912"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@100",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.891"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@100",
+   "R@100"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "NDCG@K",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "NQ",
+   "OTT-QA"
+  ],
+  "reasons": [
+   "vector:0.930"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A100",
+   "NVIDIA H100"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A100",
+   "NVIDIA L4"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A100",
+   "NVIDIA A800-SXM4-80GB GPU"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A100",
+   "NVIDIA H100 GPU"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A800-SXM4-80GB GPU",
+   "NVIDIA H100"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA A800-SXM4-80GB GPU",
+   "NVIDIA L4"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA H100",
+   "NVIDIA H100 GPU"
+  ],
+  "reasons": [
+   "vector:0.891"
+  ]
+ },
+ {
+  "pair": [
+   "NVIDIA H100",
+   "NVIDIA L4"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Narrative",
+   "TemporalNarrative"
+  ],
+  "reasons": [
+   "vector:0.925"
+  ]
+ },
+ {
+  "pair": [
+   "Nearest Neighbor Search",
+   "Patent Search"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Neural Parser",
+   "Rule-Based Parser"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Next-Item Prediction",
+   "Session-Aware Next-Item Prediction"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Niche Heuristic",
+   "Niche-Based Routing"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Niche-Based Routing",
+   "Short-History Routing"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "NoF",
+   "Number of Failures"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "Nothink Mode",
+   "Think Mode"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "Novelty",
+   "Novelty@10"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Novelty",
+   "Novelty@K"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Novelty@10",
+   "Novelty@K"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Novelty@10",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate@10",
+   "Novelty@10"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Observed Serving Latency",
+   "Serving Latency"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Official nDCG@20",
+   "Request-Satisfying nDCG@20"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "OneReason-0.8B-pretrain",
+   "OneReason-8B-pretrain"
+  ],
+  "reasons": [
+   "vector:0.968"
+  ]
+ },
+ {
+  "pair": [
+   "OneRec",
+   "OneRec-V2"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "OneRec",
+   "OneRec-Think"
+  ],
+  "reasons": [
+   "vector:0.887"
+  ]
+ },
+ {
+  "pair": [
+   "OneRec-Think",
+   "OpenOneRec"
+  ],
+  "reasons": [
+   "vector:0.935"
+  ]
+ },
+ {
+  "pair": [
+   "OneRec-Think",
+   "OneRec-V2"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "OneRec-V2",
+   "OpenOneRec"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Open Relation Extraction",
+   "Relation Extraction"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Open Relation Extraction",
+   "Patent Graph Extraction"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "OpenHands",
+   "OpenHands SDK"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "P5-CID",
+   "P5-SID"
+  ],
+  "reasons": [
+   "vector:0.959"
+  ]
+ },
+ {
+  "pair": [
+   "PT2",
+   "PT2 Compilation"
+  ],
+  "reasons": [
+   "vector:0.879"
+  ]
+ },
+ {
+  "pair": [
+   "Paired Wilcoxon Signed-Rank Test",
+   "Paired Wilcoxon Test"
+  ],
+  "reasons": [
+   "vector:0.923"
+  ]
+ },
+ {
+  "pair": [
+   "Paired Wilcoxon Signed-Rank Test",
+   "Wilcoxon Signed-Rank Test"
+  ],
+  "reasons": [
+   "vector:0.892"
+  ]
+ },
+ {
+  "pair": [
+   "Paired Wilcoxon Test",
+   "Wilcoxon Signed-Rank Test"
+  ],
+  "reasons": [
+   "vector:0.853"
+  ]
+ },
+ {
+  "pair": [
+   "Pairwise Ranking",
+   "Pairwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.916"
+  ]
+ },
+ {
+  "pair": [
+   "Pairwise Ranking",
+   "Pointwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "Parallel Component Initialization",
+   "Trainer Initialization Optimization"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Parent-Child Refinement",
+   "Parent-Relative Refinement"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Patent Graph Extraction",
+   "Relation Extraction"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Patent Prior Art Retrieval",
+   "Patent Prior Art Search"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "Patent Prior Art Retrieval",
+   "Patent Search"
+  ],
+  "reasons": [
+   "vector:0.904"
+  ]
+ },
+ {
+  "pair": [
+   "Patent Prior Art Search",
+   "Patent Search"
+  ],
+  "reasons": [
+   "vector:0.921"
+  ]
+ },
+ {
+  "pair": [
+   "Persona Embedding",
+   "Persona-similarity"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Personalized Recommendation",
+   "Recommendation"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Platform-Centric Recommendation",
+   "User\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.941"
+  ]
+ },
+ {
+  "pair": [
+   "Platform-Centric Recommendation",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "Platform-Centric Recommendation",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise LLM Reranking",
+   "Pointwise Qwen Reranking"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise LLM Reranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise LLM Reranking",
+   "Pointwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise LLM Reranking",
+   "Pointwise Qwen2.5 7B Instruct"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise Qwen Reranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.916"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise Qwen Reranking",
+   "Pointwise Qwen2.5 7B Instruct"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise Qwen Reranking",
+   "Pointwise Ranking"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise Qwen2.5 7B Instruct",
+   "Qwen2.5-7B-Instruct"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Pointwise Ranking",
+   "Pointwise Reranking"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Popularity Attractor",
+   "Popularity-Attractor Effect"
+  ],
+  "reasons": [
+   "vector:0.947"
+  ]
+ },
+ {
+  "pair": [
+   "Popularity Attractor",
+   "Popularity-Attractor Pattern"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "Popularity Attractor",
+   "Popularity Bias"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "Popularity Bias",
+   "Popularity-Attractor Pattern"
+  ],
+  "reasons": [
+   "vector:0.850"
+  ]
+ },
+ {
+  "pair": [
+   "Popularity-Attractor Effect",
+   "Popularity-Attractor Pattern"
+  ],
+  "reasons": [
+   "vector:0.944"
+  ]
+ },
+ {
+  "pair": [
+   "Preference State",
+   "Task-Specific Preference State"
+  ],
+  "reasons": [
+   "vector:0.875"
+  ]
+ },
+ {
+  "pair": [
+   "Preference State",
+   "Temporal Preference State"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Prefix Consistency",
+   "Prefix@1"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Prefix Consistency",
+   "Prefix Coverage"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Prefix Coverage",
+   "Prefix@1"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "Prefix-Aware Decoding",
+   "Trie-Constrained Decoding"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Pretrained Query Encoder",
+   "Query Encoder $f_{0}$"
+  ],
+  "reasons": [
+   "vector:0.910"
+  ]
+ },
+ {
+  "pair": [
+   "Private Memory",
+   "Private-Memory Retrieval"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Product Search",
+   "Product Selection"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Pruning Budget",
+   "Pruning Rate"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "PyTorch 2",
+   "PyTorch 2.0"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "PyTorch 2",
+   "PyTorch 2.0 Compilation Time Reduction"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "PyTorch 2.0",
+   "PyTorch 2.0 Compilation Time Reduction"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Embedding-4B",
+   "Qwen3.5"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Embedding-4B",
+   "Qwen3.5-397B-A17B"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker",
+   "Qwen3-Reranker-0.6B"
+  ],
+  "reasons": [
+   "vector:0.936"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker",
+   "Qwen3-Reranker-8B"
+  ],
+  "reasons": [
+   "vector:0.916"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker",
+   "Qwen3-Reranker-4B"
+  ],
+  "reasons": [
+   "vector:0.879"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker-0.6B",
+   "Qwen3-Reranker-8B"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker-0.6B",
+   "Qwen3-Reranker-4B"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3-Reranker-4B",
+   "Qwen3-Reranker-8B"
+  ],
+  "reasons": [
+   "vector:0.923"
+  ]
+ },
+ {
+  "pair": [
+   "Qwen3.5",
+   "Qwen3.5-397B-A17B"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "R@1",
+   "R@10"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "R@1",
+   "R@100"
+  ],
+  "reasons": [
+   "vector:0.887"
+  ]
+ },
+ {
+  "pair": [
+   "R@1",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "R@1",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "R@10",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.911"
+  ]
+ },
+ {
+  "pair": [
+   "R@10",
+   "R@100"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "Hit Rate@10",
+   "R@10"
+  ],
+  "reasons": [
+   "vector:0.863"
+  ]
+ },
+ {
+  "pair": [
+   "R@10",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "R@100",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "R@100",
+   "Recall@10"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "R@5",
+   "Recall@5"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "RAG",
+   "Retrieval-Augmented Generation"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "RAG",
+   "Vanilla RAG"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "RAG",
+   "RAG-Fusion"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "RAG-Fusion",
+   "Vanilla RAG"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "ROUGE-L F1",
+   "Token F1"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "RQ-KMeans"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "Residual Quantization"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "RQ Tokenizer"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "RQ-Transformer"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "RQ-VAE"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "RQ Tokenizer",
+   "RQ-Transformer"
+  ],
+  "reasons": [
+   "vector:0.893"
+  ]
+ },
+ {
+  "pair": [
+   "RQ Tokenizer",
+   "Vanilla RQ"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Random Routing",
+   "Uniform Random Routing"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Rank Fusion",
+   "Reciprocal-Rank Fusion"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Rank Regression",
+   "Regression Model"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Ray",
+   "Ray Data"
+  ],
+  "reasons": [
+   "vector:0.859"
+  ]
+ },
+ {
+  "pair": [
+   "RecFormer",
+   "UniSRec"
+  ],
+  "reasons": [
+   "vector:0.908"
+  ]
+ },
+ {
+  "pair": [
+   "Recall",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "Recall",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Recall at K",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Recall at K",
+   "Recall@5"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@10",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.895"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@10",
+   "Recall@100"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@10",
+   "Recall@3"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@100",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.898"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@3",
+   "Recall@K"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Recall@5",
+   "Top-5 Recall"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Reasoning Generative Recommendation",
+   "Recommendation Foundation Model"
+  ],
+  "reasons": [
+   "vector:0.860"
+  ]
+ },
+ {
+  "pair": [
+   "Recommendation Model Training",
+   "Recommendation System"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Recommendation Reranking",
+   "Reranking"
+  ],
+  "reasons": [
+   "vector:0.946"
+  ]
+ },
+ {
+  "pair": [
+   "Reddit",
+   "Reddit Corpus"
+  ],
+  "reasons": [
+   "vector:0.867"
+  ]
+ },
+ {
+  "pair": [
+   "Refinement Ambiguity",
+   "Refinement-Entropy Profile"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Relation Coverage",
+   "Word Coverage"
+  ],
+  "reasons": [
+   "vector:0.903"
+  ]
+ },
+ {
+  "pair": [
+   "Relation-Level Pretraining",
+   "Semantic Alignment Pretraining"
+  ],
+  "reasons": [
+   "vector:0.871"
+  ]
+ },
+ {
+  "pair": [
+   "Relation-Level Pretraining",
+   "Token-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Relation-Level Pretraining",
+   "User-Level Pretraining"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Relevant-Behavior Selection",
+   "User Understanding"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "Residual Quantization",
+   "Residual Trajectory"
+  ],
+  "reasons": [
+   "vector:0.855"
+  ]
+ },
+ {
+  "pair": [
+   "Route Consistency",
+   "Route Consistency Loss"
+  ],
+  "reasons": [
+   "vector:0.901"
+  ]
+ },
+ {
+  "pair": [
+   "Routing Threshold",
+   "Serving-Time Routing Gate"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "SBERT",
+   "Sentence-BERT"
+  ],
+  "reasons": [
+   "vector:0.900"
+  ]
+ },
+ {
+  "pair": [
+   "SFP",
+   "Sentence, Frame, and Patch Queries"
+  ],
+  "reasons": [
+   "vector:0.929"
+  ]
+ },
+ {
+  "pair": [
+   "SID",
+   "Semantic ID"
+  ],
+  "reasons": [
+   "vector:0.933"
+  ]
+ },
+ {
+  "pair": [
+   "SID",
+   "Semantic Identifier"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Same-Vendor Effect",
+   "Same-Vendor Premium"
+  ],
+  "reasons": [
+   "vector:0.932"
+  ]
+ },
+ {
+  "pair": [
+   "Selective Routing",
+   "Serving-Time Routing Gate"
+  ],
+  "reasons": [
+   "vector:0.884"
+  ]
+ },
+ {
+  "pair": [
+   "Self Effect",
+   "Self-Preference"
+  ],
+  "reasons": [
+   "vector:0.885"
+  ]
+ },
+ {
+  "pair": [
+   "Self Effect",
+   "Self-Recognition"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Self Effect",
+   "Shared Effect"
+  ],
+  "reasons": [
+   "vector:0.854"
+  ]
+ },
+ {
+  "pair": [
+   "Semantic Alignment",
+   "Semantic Alignment Pretraining"
+  ],
+  "reasons": [
+   "vector:0.865"
+  ]
+ },
+ {
+  "pair": [
+   "Semantic Attribute Consolidation",
+   "Semantic Consolidation"
+  ],
+  "reasons": [
+   "vector:0.878"
+  ]
+ },
+ {
+  "pair": [
+   "Semantic Attribute Consolidation",
+   "Semantic Merging"
+  ],
+  "reasons": [
+   "vector:0.874"
+  ]
+ },
+ {
+  "pair": [
+   "Semantic Edge",
+   "Syntactic Edge"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "Semantic ID",
+   "Semantic Identifier"
+  ],
+  "reasons": [
+   "vector:0.889"
+  ]
+ },
+ {
+  "pair": [
+   "Sentence Encoder",
+   "Sentence-BERT"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Sentence, Frame, and Patch Queries",
+   "Text Query Decomposition"
+  ],
+  "reasons": [
+   "vector:0.913"
+  ]
+ },
+ {
+  "pair": [
+   "Sentence-T5",
+   "Sentence-mT5"
+  ],
+  "reasons": [
+   "vector:0.952"
+  ]
+ },
+ {
+  "pair": [
+   "Sentence-mT5",
+   "mT5-base"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "Sequential Recommendation",
+   "Session-Aware Recommendation"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Sequential Recommendation",
+   "Session-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Serving-Time Gate",
+   "Serving-Time Routing Gate"
+  ],
+  "reasons": [
+   "vector:0.966"
+  ]
+ },
+ {
+  "pair": [
+   "Session-Aware Next-Item Prediction",
+   "Session-Aware Recommendation"
+  ],
+  "reasons": [
+   "vector:0.894"
+  ]
+ },
+ {
+  "pair": [
+   "Session-Aware Next-Item Prediction",
+   "Session-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.883"
+  ]
+ },
+ {
+  "pair": [
+   "Session-Aware Recommendation",
+   "Session-Based Recommendation"
+  ],
+  "reasons": [
+   "vector:0.880"
+  ]
+ },
+ {
+  "pair": [
+   "Shared Effect",
+   "Shared Taste"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "Short-History Heuristic",
+   "Short-History Routing"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "Shuffle Cues",
+   "Train Shuffle"
+  ],
+  "reasons": [
+   "vector:0.856"
+  ]
+ },
+ {
+  "pair": [
+   "Shutdown",
+   "Shutdown Time"
+  ],
+  "reasons": [
+   "vector:0.857"
+  ]
+ },
+ {
+  "pair": [
+   "Soft Assignment Matrix",
+   "Soft Assignment Mechanism"
+  ],
+  "reasons": [
+   "vector:0.919"
+  ]
+ },
+ {
+  "pair": [
+   "Specialist Model",
+   "Specialist Reranker"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "Stage-1 Recall",
+   "Top-5 Recall"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "Steroids Corpus",
+   "r/Steroids"
+  ],
+  "reasons": [
+   "vector:0.862"
+  ]
+ },
+ {
+  "pair": [
+   "Steroids Corpus",
+   "TTC Corpus"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "Structural Type",
+   "Structural Type Assignment"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "T5-base",
+   "mT5-base"
+  ],
+  "reasons": [
+   "vector:0.941"
+  ]
+ },
+ {
+  "pair": [
+   "TAAC 2025",
+   "TAAC x KDD Cup 2026"
+  ],
+  "reasons": [
+   "vector:0.926"
+  ]
+ },
+ {
+  "pair": [
+   "TTR",
+   "Time to Recover"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.947"
+  ]
+ },
+ {
+  "pair": [
+   "TTR",
+   "Time To Recovery"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.919"
+  ]
+ },
+ {
+  "pair": [
+   "TTS",
+   "Time to Start"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.947"
+  ]
+ },
+ {
+  "pair": [
+   "TTS",
+   "Time to Recover"
+  ],
+  "reasons": [
+   "vector:0.866"
+  ]
+ },
+ {
+  "pair": [
+   "Task-Specific Preference State",
+   "Temporal Preference State"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "TemporalCentroid",
+   "TemporalNarrative"
+  ],
+  "reasons": [
+   "vector:0.917"
+  ]
+ },
+ {
+  "pair": [
+   "Text Query Decomposition",
+   "Text-Video Interaction Module"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "Text-Video Retrieval",
+   "Text-to-Video Retrieval"
+  ],
+  "reasons": [
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Time To Recovery",
+   "Time to Recover"
+  ],
+  "reasons": [
+   "vector:0.897"
+  ]
+ },
+ {
+  "pair": [
+   "Time to Recover",
+   "Time to Start"
+  ],
+  "reasons": [
+   "vector:0.887"
+  ]
+ },
+ {
+  "pair": [
+   "Train Shuffle",
+   "Train Zero"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Trie-Constrained Autoregressive Search",
+   "Trie-Constrained Decoding"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "Trie-Constrained Autoregressive Search",
+   "Trie-Constrained Beam Search"
+  ],
+  "reasons": [
+   "vector:0.861"
+  ]
+ },
+ {
+  "pair": [
+   "Trie-Constrained Beam Search",
+   "Trie-Constrained Decoding"
+  ],
+  "reasons": [
+   "vector:0.864"
+  ]
+ },
+ {
+  "pair": [
+   "Two-Stage Recommendation",
+   "Two-Stage Retriever"
+  ],
+  "reasons": [
+   "vector:0.873"
+  ]
+ },
+ {
+  "pair": [
+   "Two-Stage Retriever",
+   "Two-Tower Architecture"
+  ],
+  "reasons": [
+   "vector:0.851"
+  ]
+ },
+ {
+  "pair": [
+   "Two-Tower Architecture",
+   "Two-Tower Model"
+  ],
+  "reasons": [
+   "vector:0.872"
+  ]
+ },
+ {
+  "pair": [
+   "Unsaved Training Time",
+   "Wasted Training Time"
+  ],
+  "reasons": [
+   "vector:0.852"
+  ]
+ },
+ {
+  "pair": [
+   "User Agent",
+   "User Persona"
+  ],
+  "reasons": [
+   "vector:0.876"
+  ]
+ },
+ {
+  "pair": [
+   "User Agent",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.869"
+  ]
+ },
+ {
+  "pair": [
+   "User Agent",
+   "User\u2013Agent Web\u2013Platform"
+  ],
+  "reasons": [
+   "vector:0.858"
+  ]
+ },
+ {
+  "pair": [
+   "User Understanding",
+   "User Understanding Task"
+  ],
+  "reasons": [
+   "vector:0.868"
+  ]
+ },
+ {
+  "pair": [
+   "User\u2013Agent Web\u2013Platform",
+   "User\u2013Agent Web\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.918"
+  ]
+ },
+ {
+  "pair": [
+   "User\u2013Agent Web\u2013Platform",
+   "User\u2013Agent Web\u2013Platform Setting"
+  ],
+  "reasons": [
+   "vector:0.886"
+  ]
+ },
+ {
+  "pair": [
+   "User\u2013Agent Web\u2013Platform Paradigm",
+   "User\u2013Platform Paradigm"
+  ],
+  "reasons": [
+   "vector:0.914"
+  ]
+ },
+ {
+  "pair": [
+   "User\u2013Agent Web\u2013Platform Paradigm",
+   "User\u2013Agent Web\u2013Platform Setting"
+  ],
+  "reasons": [
+   "vector:0.881"
+  ]
+ },
+ {
+  "pair": [
+   "VQ",
+   "Vector Quantization"
+  ],
+  "reasons": [
+   "acronym",
+   "vector:0.902"
+  ]
+ },
+ {
+  "pair": [
+   "Voyage Rerank-2.5",
+   "Voyage Rerank-2.5-Lite"
+  ],
+  "reasons": [
+   "vector:0.912"
+  ]
+ },
+ {
+  "pair": [
+   "X Citation",
+   "Y Citation"
+  ],
+  "reasons": [
+   "vector:0.877"
+  ]
+ },
+ {
+  "pair": [
+   "X-CLIP",
+   "X-Pool"
+  ],
+  "reasons": [
+   "vector:0.907"
+  ]
+ },
+ {
+  "pair": [
+   "BB",
+   "Beauty Bakerie"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "DPO",
+   "Direct Preference Optimization"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "EMA",
+   "Exact-Match Accuracy"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "FR",
+   "Functional Relation"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "FR",
+   "Fast Recovery"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "FR",
+   "Feature Reward"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "GRPO",
+   "Group Relative Policy Optimization"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Habitual Regime"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Hybrid Retrieval"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Hierarchical Recommendation"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "HR",
+   "Heuristic Routing"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "MLP",
+   "Multi-Layer Perceptron"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "NQ",
+   "Natural Questions"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "PCT",
+   "PT2 Compilation Time"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "PF",
+   "Prefix Failure"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "RBD",
+   "Residual Behavioral Distillation"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "RQ",
+   "Recommendation Quality"
+  ],
+  "reasons": [
+   "acronym"
+  ]
+ },
+ {
+  "pair": [
+   "TVIM",
+   "Text-Video Interaction Module"
+  ],
+  "reasons": [
+   "acronym",
+   "acronym-def"
+  ]
+ }
+]

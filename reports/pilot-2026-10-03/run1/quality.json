@@ -1,0 +1,136 @@
+{
+ "papers": 20,
+ "chunks": 222,
+ "entities_final": 1410,
+ "type_distribution": {
+  "method": 469,
+  "model": 295,
+  "concept": 244,
+  "metric": 148,
+  "task": 100,
+  "dataset": 89,
+  "tool": 52,
+  "unknown": 11,
+  "other": 2
+ },
+ "params": {
+  "c_chunks_per_paper": 11.1,
+  "e_entity_rows_per_chunk": 12.59,
+  "r_relation_rows_per_chunk": 14.96,
+  "u_new_names_per_entity_row": 0.549,
+  "p_new_names_reaching_llm": 0.552,
+  "k_names_per_cluster": 3.53,
+  "q_second_look_share": 0.013,
+  "m_texts_reembedded_per_merged_name": 10.88,
+  "summary_calls_per_paper": 3.65,
+  "h_implied": 0.084
+ },
+ "gleaning": {
+  "extract_entity_names": 2264,
+  "glean_new_entity_names": 527,
+  "glean_entity_add_rate": 0.233,
+  "extract_relation_rows": 2199,
+  "glean_relation_rows": 1122,
+  "glean_relation_add_rate": 0.51
+ },
+ "llm_calls_by_type": {
+  "extract": 222,
+  "glean": 222,
+  "summary": 73,
+  "merge_decision": 240,
+  "second_look": 3,
+  "hub_check": 50
+ },
+ "llm_calls_per_paper": {
+  "extract": 11.1,
+  "glean": 11.1,
+  "summary": 3.65,
+  "merge_decision": 12.0,
+  "second_look": 0.15,
+  "hub_check": 2.5
+ },
+ "gates": {
+  "type_coverage_other_share": 0.001,
+  "type_coverage_pass": true,
+  "cleanup_unreviewed_flags": {},
+  "hubs_flagged_several": [],
+  "hubs_flagged_generic": [
+   "NDCG@10",
+   "Text-Video Retrieval",
+   "LLM",
+   "Neural Parser",
+   "Recommendation",
+   "Information Extraction",
+   "Pass Rate",
+   "Recall",
+   "Dense Retrieval",
+   "Recommendation Reranking"
+  ]
+ },
+ "review_sheets": {
+  "merges": "review_merges.csv",
+  "missed_duplicates": "review_missed_duplicates.csv (100 pairs)"
+ },
+ "counters_by_stage": {
+  "ingest": {
+   "llm_calls": {
+    "extract": 222,
+    "glean": 222,
+    "summary": 46
+   },
+   "llm_tokens": {
+    "extract": {
+     "prompt": 644928,
+     "completion": 195718
+    },
+    "glean": {
+     "prompt": 934340,
+     "completion": 75730
+    },
+    "summary": {
+     "prompt": 32200,
+     "completion": 9253
+    }
+   },
+   "embed_requests": 176,
+   "embed_texts": 4763,
+   "embed_chars": 1649551,
+   "seconds": 355.2
+  },
+  "resolve": {
+   "llm_calls": {
+    "merge_decision": 240,
+    "second_look": 3
+   },
+   "llm_tokens": {},
+   "embed_requests": 471,
+   "embed_texts": 1360,
+   "embed_chars": 339520,
+   "seconds": 407.3,
+   "direct_llm_tokens": {
+    "input": 218393,
+    "output": 179920
+   }
+  },
+  "graph_clean": {
+   "llm_calls": {
+    "summary": 27,
+    "hub_check": 50
+   },
+   "llm_tokens": {
+    "summary": {
+     "prompt": 21148,
+     "completion": 5056
+    }
+   },
+   "embed_requests": 27,
+   "embed_texts": 27,
+   "embed_chars": 30468,
+   "seconds": 141.1,
+   "direct_llm_tokens": {
+    "input": 19019,
+    "output": 12537
+   }
+  }
+ }
+}

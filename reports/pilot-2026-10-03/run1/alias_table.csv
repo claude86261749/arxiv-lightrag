@@ -1,0 +1,1138 @@
+alias,canonical,verdict,date,cluster_id,method,reason
+AgentCF++,AgentCF,same,2026-10-03,key:agentcf,code,identical normalised key and type
+AgentSkills,Agent Skills,same,2026-10-03,key:agentskill,code,identical normalised key and type
+Agent-Skill Retrieval,Agent Skill Retrieval,same,2026-10-03,key:agentskillretrieval,code,identical normalised key and type
+AI-AI Bias,AI–AI Bias,same,2026-10-03,key:aiaibia,code,identical normalised key and type
+BGE-Base,BGE-base,same,2026-10-03,key:bgebase,code,identical normalised key and type
+BGE-Reranker-v2-m3,Bge-reranker-v2-m3,same,2026-10-03,key:bgererankerv2m3,code,identical normalised key and type
+Bge-Reranker-V2-M3,Bge-reranker-v2-m3,same,2026-10-03,key:bgererankerv2m3,code,identical normalised key and type
+Bge-Reranker-v2-m3,Bge-reranker-v2-m3,same,2026-10-03,key:bgererankerv2m3,code,identical normalised key and type
+bge-reranker-v2-m3,Bge-reranker-v2-m3,same,2026-10-03,key:bgererankerv2m3,code,identical normalised key and type
+CANOPY,Canopy,same,2026-10-03,key:canopy,code,identical normalised key and type
+CAT-ID 2,CAT-ID2,same,2026-10-03,key:catid2,code,identical normalised key and type
+CC-Bot,CCBot,same,2026-10-03,key:ccbot,code,identical normalised key and type
+Chain-of-Thought,Chain of Thought,same,2026-10-03,key:chainofthought,code,identical normalised key and type
+DSInaive,DSI Naive,same,2026-10-03,key:dsinaive,code,identical normalised key and type
+DSIsemantic,DSI Semantic,same,2026-10-03,key:dsisemantic,code,identical normalised key and type
+ETT,ETT%,same,2026-10-03,key:ett,code,identical normalised key and type
+Full-output KD,Full-Output KD,same,2026-10-03,key:fulloutputkd,code,identical normalised key and type
+Gemini 3.1 Pro,Gemini-3.1-pro,same,2026-10-03,key:gemini31pro,code,identical normalised key and type
+Gemini-3.1-Pro,Gemini-3.1-pro,same,2026-10-03,key:gemini31pro,code,identical normalised key and type
+Gemini 3.7 Flash,Gemini-3.7-Flash,same,2026-10-03,key:gemini37flash,code,identical normalised key and type
+Gemma-4-E4B-It,Gemma-4-E4B-it,same,2026-10-03,key:gemma4e4bit,code,identical normalised key and type
+gemma-4-E4B-it,Gemma-4-E4B-it,same,2026-10-03,key:gemma4e4bit,code,identical normalised key and type
+Grok-4.1-Fast-Non-Reasoning,grok-4.1-fast-non-reasoning,same,2026-10-03,key:grok41fastnonreasoning,code,identical normalised key and type
+Grok-4.1-Fast-Reasoning,grok-4.1-fast-reasoning,same,2026-10-03,key:grok41fastreasoning,code,identical normalised key and type
+Grouped Soft-Target,Grouped Soft Target,same,2026-10-03,key:groupedsofttarget,code,identical normalised key and type
+Hit Rate,HitRate,same,2026-10-03,key:hitrate,code,identical normalised key and type
+In-Context Catalog Search,In-context Catalog Search,same,2026-10-03,key:incontextcatalogsearch,code,identical normalised key and type
+Mixture Of Experts,Mixture of Experts,same,2026-10-03,key:mixtureofexpert,code,identical normalised key and type
+Mixture-of-Experts,Mixture of Experts,same,2026-10-03,key:mixtureofexpert,code,identical normalised key and type
+Multilayer Perceptron,Multi-Layer Perceptron,same,2026-10-03,key:multilayerperceptron,code,identical normalised key and type
+Non-target Permutation,Non-Target Permutation,same,2026-10-03,key:nontargetpermutation,code,identical normalised key and type
+Novelty-Relevance Trade-Off,Novelty–Relevance Trade-Off,same,2026-10-03,key:noveltyrelevancetradeoff,code,identical normalised key and type
+Nvidia H100 GPU,NVIDIA H100 GPU,same,2026-10-03,key:nvidiah100gpu,code,identical normalised key and type
+OneReason-0.8B-Pretrain,OneReason-0.8B-pretrain,same,2026-10-03,key:onereason08bpretrain,code,identical normalised key and type
+OneReason-8B-Pretrain,OneReason-8B-pretrain,same,2026-10-03,key:onereason8bpretrain,code,identical normalised key and type
+Pass-Rate,Pass Rate,same,2026-10-03,key:passrate,code,identical normalised key and type
+Prefix-aware BasisRQ,Prefix-Aware BasisRQ,same,2026-10-03,key:prefixawarebasisrq,code,identical normalised key and type
+Qwen2.5-7B-Instruct,Qwen2.5 7B Instruct,same,2026-10-03,key:qwen257binstruct,code,identical normalised key and type
+Recall@k,Recall@K,same,2026-10-03,key:recallk,code,identical normalised key and type
+"Sentence, Frame, And Patch Queries","Sentence, Frame, and Patch Queries",same,2026-10-03,key:sentenceframeandpatchquery,code,identical normalised key and type
+Voyage rerank-2.5,Voyage Rerank-2.5,same,2026-10-03,key:voyagererank25,code,identical normalised key and type
+QINCO,QINCo,same,2026-10-03,c-0000,llm,Case variants referring to the residual quantization method proposed by Huijben et al. (2024).
+Prefix-Aware Residual Quantization,Prefix Awareness,related,2026-10-03,c-0000,llm,technique based on the concept
+PSRQ,QINCo,different,2026-10-03,c-0000,llm,
+Prefix Awareness,QINCo,different,2026-10-03,c-0000,llm,
+Prefix-Aware Residual Quantization,PSRQ,unsure,2026-10-03,c-0000,llm,
+Prefix-Aware Residual Quantization,Prefix Awareness,unsure,2026-10-03,c-0000,llm,
+Prefix-Aware Residual Quantization,QINCO,unsure,2026-10-03,c-0000,llm,
+Prefix-Aware Residual Quantization,QINCo,unsure,2026-10-03,c-0000,llm,
+PSRQ,Prefix Awareness,unsure,2026-10-03,c-0000,llm,
+PSRQ,Prefix-Aware Residual Quantization,unsure,2026-10-03,c-0000,llm,
+PSRQ,QINCO,unsure,2026-10-03,c-0000,llm,
+PSRQ,QINCo,unsure,2026-10-03,c-0000,llm,
+VQ,Vector Quantization,same,2026-10-03,c-0001,llm,VQ is the standard acronym for Vector Quantization.
+BasisRQ,BasisVQ,related,2026-10-03,c-0001,llm,BasisRQ is an extension of BasisVQ to residual quantization across multiple codebook layers.
+BasisVQ,Vector Quantization,related,2026-10-03,c-0001,llm,BasisVQ is a specific vector quantization method re-parameterizing codebooks via orthogonal bases.
+GRIT-VQ,Vector Quantization,related,2026-10-03,c-0001,llm,GRIT-VQ is a specific vector quantization method applying a learnable linear transformation with a generalized radius surrogate.
+SimVQ,Vector Quantization,related,2026-10-03,c-0001,llm,SimVQ is a specific vector quantization method applying an unconstrained learnable linear transformation.
+BasisRQ,GRIT-VQ,different,2026-10-03,c-0001,llm,
+BasisRQ,SimVQ,different,2026-10-03,c-0001,llm,
+BasisVQ,GRIT-VQ,different,2026-10-03,c-0001,llm,
+BasisVQ,SimVQ,different,2026-10-03,c-0001,llm,
+GRIT-VQ,SimVQ,different,2026-10-03,c-0001,llm,
+RQ,Residual Quantization,same,2026-10-03,c-0002,llm,RQ is the standard abbreviation for Residual Quantization.
+RQ-KMeans,Residual Quantization,related,2026-10-03,c-0002,llm,RQ-KMeans is a k-means based variant/implementation of residual quantization.
+ResTD,RQ-KMeans,different,2026-10-03,c-0002,llm,
+ResTD,Residual Quantization,different,2026-10-03,c-0002,llm,
+Prefix-Aware BasisRQ,Vanilla RQ,related,2026-10-03,c-0003,llm,Prefix-Aware BasisRQ is an advanced residual quantization scheme designed to replace and improve upon vanilla RQ
+RQ Tokenizer,Vanilla RQ,related,2026-10-03,c-0003,llm,RQ Tokenizer is a tokenizer implementation based on residual quantization
+RQ-kmeans,Vanilla RQ,related,2026-10-03,c-0003,llm,RQ-kmeans is a k-means-based variant of residual quantization
+Recommendation Quality,Prefix-Aware BasisRQ,different,2026-10-03,c-0003,llm,
+Recommendation Quality,RQ Tokenizer,different,2026-10-03,c-0003,llm,
+Recommendation Quality,RQ-kmeans,different,2026-10-03,c-0003,llm,
+Recommendation Quality,Vanilla RQ,different,2026-10-03,c-0003,llm,
+Prefix-Aware BasisRQ,RQ-kmeans,different,2026-10-03,c-0003,llm,
+34K Pool,34K Marketplace Pool,same,2026-10-03,c-0004,llm,34K Pool is a shortened reference to the 34K Marketplace Pool dataset used for skill retrieval evaluation.
+ADSS,ADVV,different,2026-10-03,c-0005,llm,
+BERT4Rec,BSARec,different,2026-10-03,c-0006,llm,
+BERT4Rec,DIF-SR,different,2026-10-03,c-0006,llm,
+BERT4Rec,DuoRec,different,2026-10-03,c-0006,llm,
+BERT4Rec,FDSA,different,2026-10-03,c-0006,llm,
+BERT4Rec,FEARec,different,2026-10-03,c-0006,llm,
+BERT4Rec,GRU4Rec,different,2026-10-03,c-0006,llm,
+BERT4Rec,TiSASRec,different,2026-10-03,c-0006,llm,
+BSARec,DIF-SR,different,2026-10-03,c-0006,llm,
+BSARec,DuoRec,different,2026-10-03,c-0006,llm,
+BSARec,FDSA,different,2026-10-03,c-0006,llm,
+BSARec,FEARec,different,2026-10-03,c-0006,llm,
+BSARec,GRU4Rec,different,2026-10-03,c-0006,llm,
+BSARec,TiSASRec,different,2026-10-03,c-0006,llm,
+DIF-SR,DuoRec,different,2026-10-03,c-0006,llm,
+DIF-SR,FDSA,different,2026-10-03,c-0006,llm,
+DIF-SR,FEARec,different,2026-10-03,c-0006,llm,
+DIF-SR,GRU4Rec,different,2026-10-03,c-0006,llm,
+DIF-SR,TiSASRec,different,2026-10-03,c-0006,llm,
+DuoRec,FDSA,different,2026-10-03,c-0006,llm,
+DuoRec,FEARec,different,2026-10-03,c-0006,llm,
+DuoRec,GRU4Rec,different,2026-10-03,c-0006,llm,
+DuoRec,TiSASRec,different,2026-10-03,c-0006,llm,
+FDSA,FEARec,different,2026-10-03,c-0006,llm,
+FDSA,GRU4Rec,different,2026-10-03,c-0006,llm,
+FDSA,TiSASRec,different,2026-10-03,c-0006,llm,
+FEARec,GRU4Rec,different,2026-10-03,c-0006,llm,
+FEARec,TiSASRec,different,2026-10-03,c-0006,llm,
+GRU4Rec,TiSASRec,different,2026-10-03,c-0006,llm,
+OneRec-V2,OneRec,related,2026-10-03,c-0007,llm,version of OneRec
+OneRec-Think,OneRec,related,2026-10-03,c-0007,llm,variant/extension of OneRec exploring chain-of-thought reasoning
+OpenOneRec,OneRec,related,2026-10-03,c-0007,llm,variant/extension of OneRec bridging Semantic IDs and natural language
+MTGRec,OneRec,different,2026-10-03,c-0007,llm,
+MTGRec,P5-CID,different,2026-10-03,c-0007,llm,
+MTGRec,RecRanker,different,2026-10-03,c-0007,llm,
+MTGRec,UniSRec,different,2026-10-03,c-0007,llm,
+OneRec,P5-CID,different,2026-10-03,c-0007,llm,
+OneRec,RecRanker,different,2026-10-03,c-0007,llm,
+OneRec,UniSRec,different,2026-10-03,c-0007,llm,
+P5-CID,RecRanker,different,2026-10-03,c-0007,llm,
+P5-CID,UniSRec,different,2026-10-03,c-0007,llm,
+RecRanker,UniSRec,different,2026-10-03,c-0007,llm,
+OneRec-Think,OneRec-V2,different,2026-10-03,c-0007,llm,
+OneRec-Think,OpenOneRec,different,2026-10-03,c-0007,llm,
+OneRec-V2,OpenOneRec,different,2026-10-03,c-0007,llm,
+BGE-M3,FORGE,different,2026-10-03,c-0008,llm,
+BGE-M3,HGRec,different,2026-10-03,c-0008,llm,
+BGE-M3,Hi-Gen,different,2026-10-03,c-0008,llm,
+BGE-M3,LTRGR,different,2026-10-03,c-0008,llm,
+BGE-M3,LaSER,different,2026-10-03,c-0008,llm,
+BGE-M3,MERGE,different,2026-10-03,c-0008,llm,
+BGE-M3,RIPOR,different,2026-10-03,c-0008,llm,
+FORGE,HGRec,different,2026-10-03,c-0008,llm,
+FORGE,Hi-Gen,different,2026-10-03,c-0008,llm,
+FORGE,LTRGR,different,2026-10-03,c-0008,llm,
+FORGE,LaSER,different,2026-10-03,c-0008,llm,
+FORGE,MERGE,different,2026-10-03,c-0008,llm,
+FORGE,RIPOR,different,2026-10-03,c-0008,llm,
+HGRec,Hi-Gen,different,2026-10-03,c-0008,llm,
+HGRec,LTRGR,different,2026-10-03,c-0008,llm,
+HGRec,LaSER,different,2026-10-03,c-0008,llm,
+HGRec,MERGE,different,2026-10-03,c-0008,llm,
+HGRec,RIPOR,different,2026-10-03,c-0008,llm,
+Hi-Gen,LTRGR,different,2026-10-03,c-0008,llm,
+Hi-Gen,LaSER,different,2026-10-03,c-0008,llm,
+Hi-Gen,MERGE,different,2026-10-03,c-0008,llm,
+Hi-Gen,RIPOR,different,2026-10-03,c-0008,llm,
+LTRGR,LaSER,different,2026-10-03,c-0008,llm,
+LTRGR,MERGE,different,2026-10-03,c-0008,llm,
+LTRGR,RIPOR,different,2026-10-03,c-0008,llm,
+LaSER,MERGE,different,2026-10-03,c-0008,llm,
+LaSER,RIPOR,different,2026-10-03,c-0008,llm,
+MERGE,RIPOR,different,2026-10-03,c-0008,llm,
+Sentence-mT5,Sentence-T5,related,2026-10-03,c-0009,llm,multilingual variant
+DPR,Gemini Embedding 2,different,2026-10-03,c-0009,llm,
+DPR,MPNet,different,2026-10-03,c-0009,llm,
+DPR,Sentence-T5,different,2026-10-03,c-0009,llm,
+DPR,Sentence-mT5,different,2026-10-03,c-0009,llm,
+DPR,T5-base,different,2026-10-03,c-0009,llm,
+Gemini Embedding 2,MPNet,different,2026-10-03,c-0009,llm,
+Gemini Embedding 2,Sentence-T5,different,2026-10-03,c-0009,llm,
+Gemini Embedding 2,Sentence-mT5,different,2026-10-03,c-0009,llm,
+Gemini Embedding 2,T5-base,different,2026-10-03,c-0009,llm,
+MPNet,Sentence-T5,different,2026-10-03,c-0009,llm,
+MPNet,Sentence-mT5,different,2026-10-03,c-0009,llm,
+MPNet,T5-base,different,2026-10-03,c-0009,llm,
+Sentence-T5,T5-base,different,2026-10-03,c-0009,llm,
+Sentence-mT5,T5-base,different,2026-10-03,c-0009,llm,
+HM2Rec,Mamba,related,2026-10-03,c-0010,llm,adapts Mamba by replacing feed-forward layers with Mixture of Experts modules
+FamouSRec,HM2Rec,different,2026-10-03,c-0010,llm,
+FamouSRec,HM4SR,different,2026-10-03,c-0010,llm,
+FamouSRec,M3SRec,different,2026-10-03,c-0010,llm,
+FamouSRec,Mamba,different,2026-10-03,c-0010,llm,
+FamouSRec,RecFormer,different,2026-10-03,c-0010,llm,
+HM2Rec,HM4SR,different,2026-10-03,c-0010,llm,
+HM2Rec,M3SRec,different,2026-10-03,c-0010,llm,
+HM2Rec,RecFormer,different,2026-10-03,c-0010,llm,
+HM4SR,M3SRec,different,2026-10-03,c-0010,llm,
+HM4SR,Mamba,different,2026-10-03,c-0010,llm,
+HM4SR,RecFormer,different,2026-10-03,c-0010,llm,
+M3SRec,Mamba,different,2026-10-03,c-0010,llm,
+M3SRec,RecFormer,different,2026-10-03,c-0010,llm,
+Mamba,RecFormer,different,2026-10-03,c-0010,llm,
+UniversalRAG,Vanilla RAG,related,2026-10-03,c-0011,llm,UniversalRAG is an advanced multimodal RAG method compared against Vanilla RAG
+Base,No Retrieval,different,2026-10-03,c-0011,llm,
+Base,UniversalRAG,different,2026-10-03,c-0011,llm,
+Base,Vanilla RAG,different,2026-10-03,c-0011,llm,
+No Retrieval,UniversalRAG,different,2026-10-03,c-0011,llm,
+No Retrieval,Vanilla RAG,different,2026-10-03,c-0011,llm,
+OneReason-0.8B-pretrain,OneReason,related,2026-10-03,c-0012,llm,subtype
+OneReason-8B-pretrain,OneReason,related,2026-10-03,c-0012,llm,subtype
+OneReason-0.8B-pretrain,OneReason-8B-pretrain,different,2026-10-03,c-0012,llm,
+OneReason,Qwen-3,different,2026-10-03,c-0012,llm,
+OneReason-0.8B-pretrain,Qwen-3,different,2026-10-03,c-0012,llm,
+OneReason-8B-pretrain,Qwen-3,different,2026-10-03,c-0012,llm,
+COBRA,Gryphon,different,2026-10-03,c-0013,llm,
+COBRA,LETTER,different,2026-10-03,c-0013,llm,
+COBRA,LIGER,different,2026-10-03,c-0013,llm,
+Gryphon,LETTER,different,2026-10-03,c-0013,llm,
+Gryphon,LIGER,different,2026-10-03,c-0013,llm,
+LETTER,LIGER,different,2026-10-03,c-0013,llm,
+AFL,LLM,different,2026-10-03,c-0014,llm,
+AFL,LLMRank,different,2026-10-03,c-0014,llm,
+AFL,MemRec,different,2026-10-03,c-0014,llm,
+LLM,LLMRank,different,2026-10-03,c-0014,llm,
+LLM,MemRec,different,2026-10-03,c-0014,llm,
+LLMRank,MemRec,different,2026-10-03,c-0014,llm,
+Bidirectional-Transformer Recommender,Self-Attentive Recommender,related,2026-10-03,c-0015,llm,variant
+Bidirectional-Transformer Recommender,Recurrent Recommender,different,2026-10-03,c-0015,llm,
+Recurrent Recommender,Self-Attentive Recommender,different,2026-10-03,c-0015,llm,
+GenRet,PAG,different,2026-10-03,c-0016,llm,
+GenRet,PRO,different,2026-10-03,c-0016,llm,
+PAG,PRO,different,2026-10-03,c-0016,llm,
+Gemma-4-E4B-it,Gemma,related,2026-10-03,c-0017,llm,specific variant within the Gemma model family
+Gemini-3.7-Flash,Gemma,different,2026-10-03,c-0017,llm,
+Gemini-3.7-Flash,Gemma-4-E4B-it,different,2026-10-03,c-0017,llm,
+DSI Naive,DSI,related,2026-10-03,c-0018,llm,variant of DSI using naive document identifiers
+DSI Semantic,DSI,related,2026-10-03,c-0018,llm,variant of DSI using semantic document identifiers
+DSI Naive,DSI Semantic,different,2026-10-03,c-0018,llm,
+ETEGRec,TIGER,different,2026-10-03,c-0019,llm,
+RouteRec,SASRec,different,2026-10-03,c-0020,llm,
+CAT-ID2,Collaborative Sequential Model,different,2026-10-03,c-0021,llm,
+CAT-ID2,EmbeddingGemma 300M,different,2026-10-03,c-0021,llm,
+CAT-ID2,FAME,different,2026-10-03,c-0021,llm,
+CAT-ID2,Jina Reranker 3.5,different,2026-10-03,c-0021,llm,
+CAT-ID2,Large Language Model,different,2026-10-03,c-0021,llm,
+CAT-ID2,P5-SID,different,2026-10-03,c-0021,llm,
+CAT-ID2,SEAL,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,EmbeddingGemma 300M,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,FAME,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,Jina Reranker 3.5,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,Large Language Model,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,P5-SID,different,2026-10-03,c-0021,llm,
+Collaborative Sequential Model,SEAL,different,2026-10-03,c-0021,llm,
+EmbeddingGemma 300M,FAME,different,2026-10-03,c-0021,llm,
+EmbeddingGemma 300M,Jina Reranker 3.5,different,2026-10-03,c-0021,llm,
+EmbeddingGemma 300M,Large Language Model,different,2026-10-03,c-0021,llm,
+EmbeddingGemma 300M,P5-SID,different,2026-10-03,c-0021,llm,
+EmbeddingGemma 300M,SEAL,different,2026-10-03,c-0021,llm,
+FAME,Jina Reranker 3.5,different,2026-10-03,c-0021,llm,
+FAME,Large Language Model,different,2026-10-03,c-0021,llm,
+FAME,P5-SID,different,2026-10-03,c-0021,llm,
+FAME,SEAL,different,2026-10-03,c-0021,llm,
+Jina Reranker 3.5,Large Language Model,different,2026-10-03,c-0021,llm,
+Jina Reranker 3.5,P5-SID,different,2026-10-03,c-0021,llm,
+Jina Reranker 3.5,SEAL,different,2026-10-03,c-0021,llm,
+Large Language Model,P5-SID,different,2026-10-03,c-0021,llm,
+Large Language Model,SEAL,different,2026-10-03,c-0021,llm,
+P5-SID,SEAL,different,2026-10-03,c-0021,llm,
+Own-Model Premium,Self-Preference,related,2026-10-03,c-0022,llm,quantifies
+Self Effect,Self-Preference,related,2026-10-03,c-0022,llm,statistical effect capturing
+Self Effect,Own-Model Premium,related,2026-10-03,c-0022,llm,variant term in family-effect model
+Same-Vendor Effect,Own-Model Premium,related,2026-10-03,c-0022,llm,companion effect separated from
+Shared Taste,AI–AI Bias,related,2026-10-03,c-0022,llm,reinterpretation of
+AI–AI Bias,Self-Preference,different,2026-10-03,c-0022,llm,
+AI–AI Bias,Own-Model Premium,different,2026-10-03,c-0022,llm,
+Shared Taste,Self-Preference,different,2026-10-03,c-0022,llm,
+Same-Vendor Effect,Self-Preference,different,2026-10-03,c-0022,llm,
+Diagonal Effect,Family Effect,related,2026-10-03,c-0023,llm,"Both are evaluation bias phenomena in LLM-as-a-judge settings: the diagonal effect captures self-preference on the diagonal, while the family effect captures preference for models of the same lineage."
+Family Effect,Same-Vendor Premium,related,2026-10-03,c-0023,llm,"Family effect captures preference for models within the same model family, closely related to preference for models from the same vendor."
+Vendor Term,Same-Vendor Premium,related,2026-10-03,c-0023,llm,Vendor term is the model parameter used to estimate the same-vendor premium.
+Diagonal Effect,Same-Vendor Premium,different,2026-10-03,c-0023,llm,
+Diagonal Effect,Vendor Term,different,2026-10-03,c-0023,llm,
+Family Effect,Vendor Term,different,2026-10-03,c-0023,llm,
+AMD-Net,Bima,different,2026-10-03,c-0024,llm,
+AMD-Net,DiCoSA,different,2026-10-03,c-0024,llm,
+AMD-Net,DiffusionRet,different,2026-10-03,c-0024,llm,
+AMD-Net,EERCF,different,2026-10-03,c-0024,llm,
+AMD-Net,NarVid,different,2026-10-03,c-0024,llm,
+AMD-Net,TeachCLIP,different,2026-10-03,c-0024,llm,
+AMD-Net,UATVR,different,2026-10-03,c-0024,llm,
+Bima,DiCoSA,different,2026-10-03,c-0024,llm,
+Bima,DiffusionRet,different,2026-10-03,c-0024,llm,
+Bima,EERCF,different,2026-10-03,c-0024,llm,
+Bima,NarVid,different,2026-10-03,c-0024,llm,
+Bima,TeachCLIP,different,2026-10-03,c-0024,llm,
+Bima,UATVR,different,2026-10-03,c-0024,llm,
+DiCoSA,DiffusionRet,different,2026-10-03,c-0024,llm,
+DiCoSA,EERCF,different,2026-10-03,c-0024,llm,
+DiCoSA,NarVid,different,2026-10-03,c-0024,llm,
+DiCoSA,TeachCLIP,different,2026-10-03,c-0024,llm,
+DiCoSA,UATVR,different,2026-10-03,c-0024,llm,
+DiffusionRet,EERCF,different,2026-10-03,c-0024,llm,
+DiffusionRet,NarVid,different,2026-10-03,c-0024,llm,
+DiffusionRet,TeachCLIP,different,2026-10-03,c-0024,llm,
+DiffusionRet,UATVR,different,2026-10-03,c-0024,llm,
+EERCF,NarVid,different,2026-10-03,c-0024,llm,
+EERCF,TeachCLIP,different,2026-10-03,c-0024,llm,
+EERCF,UATVR,different,2026-10-03,c-0024,llm,
+NarVid,TeachCLIP,different,2026-10-03,c-0024,llm,
+NarVid,UATVR,different,2026-10-03,c-0024,llm,
+TeachCLIP,UATVR,different,2026-10-03,c-0024,llm,
+ProTA,T-MASS,different,2026-10-03,c-0025,llm,
+ProTA,TempMe,different,2026-10-03,c-0025,llm,
+ProTA,TextProxy,different,2026-10-03,c-0025,llm,
+ProTA,V-Sparse,different,2026-10-03,c-0025,llm,
+ProTA,VTC,different,2026-10-03,c-0025,llm,
+ProTA,X-CLIP,different,2026-10-03,c-0025,llm,
+ProTA,X-Pool,different,2026-10-03,c-0025,llm,
+T-MASS,TempMe,different,2026-10-03,c-0025,llm,
+T-MASS,TextProxy,different,2026-10-03,c-0025,llm,
+T-MASS,V-Sparse,different,2026-10-03,c-0025,llm,
+T-MASS,VTC,different,2026-10-03,c-0025,llm,
+T-MASS,X-CLIP,different,2026-10-03,c-0025,llm,
+T-MASS,X-Pool,different,2026-10-03,c-0025,llm,
+TempMe,TextProxy,different,2026-10-03,c-0025,llm,
+TempMe,V-Sparse,different,2026-10-03,c-0025,llm,
+TempMe,VTC,different,2026-10-03,c-0025,llm,
+TempMe,X-CLIP,different,2026-10-03,c-0025,llm,
+TempMe,X-Pool,different,2026-10-03,c-0025,llm,
+TextProxy,V-Sparse,different,2026-10-03,c-0025,llm,
+TextProxy,VTC,different,2026-10-03,c-0025,llm,
+TextProxy,X-CLIP,different,2026-10-03,c-0025,llm,
+TextProxy,X-Pool,different,2026-10-03,c-0025,llm,
+V-Sparse,VTC,different,2026-10-03,c-0025,llm,
+V-Sparse,X-CLIP,different,2026-10-03,c-0025,llm,
+V-Sparse,X-Pool,different,2026-10-03,c-0025,llm,
+VTC,X-CLIP,different,2026-10-03,c-0025,llm,
+VTC,X-Pool,different,2026-10-03,c-0025,llm,
+X-CLIP,X-Pool,different,2026-10-03,c-0025,llm,
+MSIA,MuRAG,different,2026-10-03,c-0026,llm,
+MSIA,VideoRAG,different,2026-10-03,c-0026,llm,
+MSIA,VisRAG,different,2026-10-03,c-0026,llm,
+MuRAG,VideoRAG,different,2026-10-03,c-0026,llm,
+MuRAG,VisRAG,different,2026-10-03,c-0026,llm,
+VideoRAG,VisRAG,different,2026-10-03,c-0026,llm,
+CLIP4Clip,CLIP,related,2026-10-03,c-0027,llm,CLIP4Clip is an adaptation of CLIP for video-text retrieval
+ViT-B/32,CLIP,related,2026-10-03,c-0027,llm,ViT-B/32 is a Vision Transformer architecture variant used as a backbone in CLIP
+CLIP,MMTI,different,2026-10-03,c-0027,llm,
+CLIP,DGL,different,2026-10-03,c-0027,llm,
+CLIP,TS2-Net,different,2026-10-03,c-0027,llm,
+CLIP4Clip,DGL,different,2026-10-03,c-0027,llm,
+CLIP4Clip,MMTI,different,2026-10-03,c-0027,llm,
+CLIP4Clip,TS2-Net,different,2026-10-03,c-0027,llm,
+CLIP4Clip,ViT-B/32,different,2026-10-03,c-0027,llm,
+DGL,MMTI,different,2026-10-03,c-0027,llm,
+DGL,TS2-Net,different,2026-10-03,c-0027,llm,
+DGL,ViT-B/32,different,2026-10-03,c-0027,llm,
+MMTI,TS2-Net,different,2026-10-03,c-0027,llm,
+MMTI,ViT-B/32,different,2026-10-03,c-0027,llm,
+TS2-Net,ViT-B/32,different,2026-10-03,c-0027,llm,
+AR Only,AR-Only Scoring,same,2026-10-03,c-0028,llm,"Both terms refer to the same autoregressive-only scoring/retrieval rule, with 'Scoring' acting as a generic suffix."
+All-Level Retrieval,Compatibility-Augmented Scoring,related,2026-10-03,c-0029,llm,subtype
+AR-Only Retrieval,All-Level Retrieval,related,2026-10-03,c-0029,llm,variant
+AR-Only Retrieval,Compatibility-Augmented Scoring,different,2026-10-03,c-0029,llm,
+Action-Alignment Score,Chain Score,related,2026-10-03,c-0030,llm,component of
+Logic-Alignment Score,Chain Score,related,2026-10-03,c-0030,llm,component of
+Action-Logic Score,Chain Score,related,2026-10-03,c-0030,llm,related evaluation metric
+Action-Alignment Score,Action-Logic Score,different,2026-10-03,c-0030,llm,
+Action-Alignment Score,Logic-Alignment Score,different,2026-10-03,c-0030,llm,
+Action-Logic Score,Logic-Alignment Score,different,2026-10-03,c-0030,llm,
+ActivityNet Captions,ActivityNet,related,2026-10-03,c-0031,llm,dense video captioning benchmark extension built on the ActivityNet dataset
+ActivityNet,DiDeMo,different,2026-10-03,c-0031,llm,
+ActivityNet,LVBench,different,2026-10-03,c-0031,llm,
+ActivityNet,MSR-VTT,different,2026-10-03,c-0031,llm,
+ActivityNet,MSVD,different,2026-10-03,c-0031,llm,
+ActivityNet Captions,DiDeMo,different,2026-10-03,c-0031,llm,
+ActivityNet Captions,LVBench,different,2026-10-03,c-0031,llm,
+ActivityNet Captions,MSR-VTT,different,2026-10-03,c-0031,llm,
+ActivityNet Captions,MSVD,different,2026-10-03,c-0031,llm,
+DiDeMo,LVBench,different,2026-10-03,c-0031,llm,
+DiDeMo,MSR-VTT,different,2026-10-03,c-0031,llm,
+DiDeMo,MSVD,different,2026-10-03,c-0031,llm,
+LVBench,MSR-VTT,different,2026-10-03,c-0031,llm,
+LVBench,MSVD,different,2026-10-03,c-0031,llm,
+MSR-VTT,MSVD,different,2026-10-03,c-0031,llm,
+NQ,Natural Questions,same,2026-10-03,c-0032,llm,NQ is the standard abbreviation and acronym for Natural Questions.
+HotpotQA,MMQA,different,2026-10-03,c-0032,llm,
+HotpotQA,Natural Questions,different,2026-10-03,c-0032,llm,
+HotpotQA,OTT-QA,different,2026-10-03,c-0032,llm,
+MMQA,Natural Questions,different,2026-10-03,c-0032,llm,
+MMQA,OTT-QA,different,2026-10-03,c-0032,llm,
+Natural Questions,OTT-QA,different,2026-10-03,c-0032,llm,
+AdamW,Adam,related,2026-10-03,c-0033,llm,variant of Adam with decoupled weight decay
+Agent Pass Rate,Pass Rate,related,2026-10-03,c-0034,llm,subtype
+Agent Skill Retrieval,Skill Retrieval,related,2026-10-03,c-0035,llm,specialization of
+N@10,NDCG@10,same,2026-10-03,c-0036,llm,N@10 is an abbreviated notation for Normalized Discounted Cumulative Gain at rank 10 (NDCG@10).
+NDCG@K,NDCG,related,2026-10-03,c-0036,llm,parameterized cutoff variant of NDCG
+NDCG@10,NDCG,related,2026-10-03,c-0036,llm,NDCG evaluated at rank cutoff 10
+N@100,NDCG,related,2026-10-03,c-0036,llm,NDCG evaluated at rank cutoff 100
+N@5,NDCG,related,2026-10-03,c-0036,llm,NDCG evaluated at rank cutoff 5
+N@3,NDCG,related,2026-10-03,c-0036,llm,NDCG evaluated at rank cutoff 3
+NDCG@10,N@3,different,2026-10-03,c-0036,llm,
+NDCG@10,N@5,different,2026-10-03,c-0036,llm,
+NDCG@10,N@100,different,2026-10-03,c-0036,llm,
+N@3,N@5,different,2026-10-03,c-0036,llm,
+N@3,N@100,different,2026-10-03,c-0036,llm,
+N@5,N@100,different,2026-10-03,c-0036,llm,
+NDCG@10,R@10,different,2026-10-03,c-0036,llm,
+NDCG,R@10,different,2026-10-03,c-0036,llm,
+Hit Rate@10,HR@10,same,2026-10-03,c-0037,llm,Hit Rate@10 is the fully written form of the abbreviated metric HR@10.
+HitRate@K,Hit Ratio,related,2026-10-03,c-0037,llm,HitRate@K is the top-K parameterized formulation of the Hit Ratio metric.
+HR@10,HitRate@K,related,2026-10-03,c-0037,llm,HR@10 is HitRate@K evaluated at cutoff K=10.
+H@1,Hit Ratio,related,2026-10-03,c-0037,llm,H@1 is Hit Ratio evaluated at cutoff rank 1.
+H@3,Hit Ratio,related,2026-10-03,c-0037,llm,H@3 is Hit Ratio evaluated at cutoff rank 3.
+H@5,Hit Ratio,related,2026-10-03,c-0037,llm,H@5 is Hit Ratio evaluated at cutoff rank 5.
+H@1,H@3,different,2026-10-03,c-0037,llm,
+H@1,H@5,different,2026-10-03,c-0037,llm,
+H@3,H@5,different,2026-10-03,c-0037,llm,
+H@5,HR@10,different,2026-10-03,c-0037,llm,
+HR@10,Recall@10,different,2026-10-03,c-0037,llm,
+User–Agent Web–Platform,User–Agent Web–Platform Paradigm,same,2026-10-03,c-0038,llm,"They are naming variations with or without generic head words (paradigm, setting) referring to the same interaction paradigm introduced in the paper."
+User–Agent Web–Platform Setting,User–Agent Web–Platform Paradigm,same,2026-10-03,c-0038,llm,"They are naming variations with or without generic head words (paradigm, setting) referring to the same interaction paradigm introduced in the paper."
+User–Agent Web–Platform Paradigm,Agent Web,related,2026-10-03,c-0038,llm,The User–Agent Web–Platform paradigm is built upon the Agent Web architecture.
+User–Agent Web–Platform Paradigm,User–Platform Paradigm,related,2026-10-03,c-0038,llm,The User–Agent Web–Platform paradigm is an evolution/transformation of the conventional User–Platform paradigm.
+Platform-Centric Recommendation,User–Platform Paradigm,related,2026-10-03,c-0038,llm,Platform-centric recommendation operates under the conventional User–Platform paradigm.
+Functional Agent,Agent Web,related,2026-10-03,c-0038,llm,Functional agents represent platforms as participating nodes within the Agent Web.
+Personal Agent,Agent Web,related,2026-10-03,c-0038,llm,Personal agents represent users as participating nodes within the Agent Web.
+Functional Agent,Personal Agent,different,2026-10-03,c-0038,llm,
+Platform-Centric Recommendation,Agent Web,different,2026-10-03,c-0038,llm,
+Hierarchical Sparse Expert Allocation,Hierarchical Sparse Routing,same,2026-10-03,c-0039,llm,Hierarchical Sparse Expert Allocation is the section heading and descriptive term for RouteRec's hierarchical sparse routing mechanism.
+Hierarchical Sparse Routing,Behavior-Guided Routing,related,2026-10-03,c-0039,llm,subtype
+Factored Group and Within-Group Router,Hierarchical Sparse Routing,related,2026-10-03,c-0039,llm,component
+Coarse-to-Fine Multi-Scope Routing,Hierarchical Sparse Routing,related,2026-10-03,c-0039,llm,component
+Hierarchical Dense Routing,Hierarchical Sparse Routing,related,2026-10-03,c-0039,llm,variant
+Flat Sparse Routing,Hierarchical Sparse Routing,related,2026-10-03,c-0039,llm,variant
+Hierarchical Sparse Routing,Sparse Routing,related,2026-10-03,c-0039,llm,subtype
+Behavior-Guided Routing,Sparse Routing,different,2026-10-03,c-0039,llm,
+Hierarchical Dense Routing,Flat Sparse Routing,different,2026-10-03,c-0039,llm,
+Coarse-to-Fine Multi-Scope Routing,Factored Group and Within-Group Router,different,2026-10-03,c-0039,llm,
+Exploratory Consumption,Exploratory Regime,same,2026-10-03,c-0040,llm,Both terms refer to the exploratory consumption regime characterizing users whose subsequent interactions diverge semantically from their interaction history.
+Habitual Consumption,Habitual Regime,same,2026-10-03,c-0040,llm,Both terms denote the habitual consumption regime where users revisit familiar content neighborhoods consistent with their history.
+Exploratory Regime,Consumption Regime,related,2026-10-03,c-0040,llm,subtype
+Habitual Regime,Consumption Regime,related,2026-10-03,c-0040,llm,subtype
+Habitual User,Habitual Regime,related,2026-10-03,c-0040,llm,associated_regime
+Concreteness,Consumption Regime,different,2026-10-03,c-0040,llm,
+HR,Habitual Regime,different,2026-10-03,c-0040,llm,
+Exploratory Regime,Habitual Regime,different,2026-10-03,c-0040,llm,
+NDCG@100,Recall@100,same,2026-10-03,c-0041,llm,R@100 is a standard abbreviation for Recall@100.
+R@100,Recall@100,same,2026-10-03,c-0041,llm,R@100 is a standard abbreviation for Recall@100.
+R@1,Recall@K,related,2026-10-03,c-0041,llm,R@1 is an instance of the parameterized Recall@K metric with cutoff K=1
+Recall@100,Recall@K,related,2026-10-03,c-0041,llm,Recall@100 is an instance of the parameterized Recall@K metric with cutoff K=100
+Rsum,R@1,related,2026-10-03,c-0041,llm,Rsum is an aggregate metric defined as the sum of recall values including R@1
+NDCG@100,Recall@100,different,2026-10-03,c-0041,llm,
+NDCG@100,R@1,different,2026-10-03,c-0041,llm,
+NDCG@100,Recall@K,different,2026-10-03,c-0041,llm,
+NDCG@100,Rsum,different,2026-10-03,c-0041,llm,
+R@1,Recall@100,different,2026-10-03,c-0041,llm,
+Rsum,Recall@100,different,2026-10-03,c-0041,llm,
+Rsum,Recall@K,different,2026-10-03,c-0041,llm,
+Local Memory,Personalized Memory,related,2026-10-03,c-0042,llm,subtype
+Private Memory,Personalized Memory,related,2026-10-03,c-0042,llm,subtype
+User Persona,Personalized Memory,related,2026-10-03,c-0042,llm,component
+Personalized Memory,User Agent,related,2026-10-03,c-0042,llm,component
+Local Memory,User Agent,different,2026-10-03,c-0042,llm,
+Local Memory,User Persona,different,2026-10-03,c-0042,llm,
+Private Memory,User Agent,different,2026-10-03,c-0042,llm,
+Private Memory,User Persona,different,2026-10-03,c-0042,llm,
+User Agent,User Persona,different,2026-10-03,c-0042,llm,
+Short-History Heuristic,Short-History Routing,same,2026-10-03,c-0043,llm,They are synonymous designations in the same paper for a heuristic routing policy prioritizing users with shorter interaction histories.
+Niche-Based Routing,Heuristic Routing,related,2026-10-03,c-0043,llm,subtype
+Short-History Routing,Heuristic Routing,related,2026-10-03,c-0043,llm,subtype
+Heuristic Routing,Hidden-State Routing,different,2026-10-03,c-0043,llm,
+Hidden-State Routing,Niche-Based Routing,different,2026-10-03,c-0043,llm,
+Hidden-State Routing,Short-History Routing,different,2026-10-03,c-0043,llm,
+Niche-Based Routing,Short-History Routing,different,2026-10-03,c-0043,llm,
+Popularity Attractor,Popularity-Attractor Effect,same,2026-10-03,c-0044,llm,"They refer to the same phenomenon observed in recommender systems with LLM-generated user profiles, used interchangeably as a noun phrase and an effect name."
+Popularity-Attractor Effect,Popularity Bias,related,2026-10-03,c-0044,llm,subtype
+Popularity-Attractor Effect,Generative User Profile,related,2026-10-03,c-0044,llm,effect of
+Popularity Concentration,Popularity Bias,related,2026-10-03,c-0044,llm,manifestation
+Generative User Profile,Popularity Bias,different,2026-10-03,c-0044,llm,
+Generative User Profile,Popularity Concentration,different,2026-10-03,c-0044,llm,
+Popularity Bias,Popularity Concentration,different,2026-10-03,c-0044,llm,
+R@5,Recall@5,same,2026-10-03,c-0045,llm,"All three names refer to the same information retrieval metric evaluating recall among the top 5 retrieved results, differing only by abbreviation, formatting, and phrasing."
+Top-5 Recall,Recall@5,same,2026-10-03,c-0045,llm,"All three names refer to the same information retrieval metric evaluating recall among the top 5 retrieved results, differing only by abbreviation, formatting, and phrasing."
+Mean Reciprocal Rank,MRR,same,2026-10-03,c-0046,llm,Mean Reciprocal Rank is the full expansion of the acronym MRR.
+MRR@10,MRR,related,2026-10-03,c-0046,llm,MRR@10 is a cutoff-restricted variant of MRR evaluated at rank 10.
+Explorer,Exploratory User,related,2026-10-03,c-0047,llm,specific operationalization of exploratory user behavior
+Explorer,Non-Explorer,different,2026-10-03,c-0047,llm,
+Exploratory User,Non-Explorer,different,2026-10-03,c-0047,llm,
+Catalog Coverage,Coverage,related,2026-10-03,c-0048,llm,subtype
+Coverage@K,Coverage,related,2026-10-03,c-0048,llm,variant
+Coverage@K,Catalog Coverage,related,2026-10-03,c-0048,llm,variant
+Within-Group Routing,Router,related,2026-10-03,c-0049,llm,component
+Task-Specific Preference State,Preference State,related,2026-10-03,c-0050,llm,specialization of
+LLM-Generated User Profile,Representation Type,related,2026-10-03,c-0051,llm,subtype of
+Novelty@10,Novelty@K,related,2026-10-03,c-0052,llm,specific cutoff of general metric Novelty@K
+Flat Dense Routing,Mixture of Experts,different,2026-10-03,c-0053,llm,
+HitRate,NDCG@20,different,2026-10-03,c-0053,llm,
+Hierarchical Recommendation,Mixture of Experts,different,2026-10-03,c-0053,llm,
+Interaction Memory,LLM-Powered Agent,different,2026-10-03,c-0053,llm,
+Niche Heuristic,Flat Dense Routing,different,2026-10-03,c-0053,llm,
+Agent-Side Top-k,Stage-1 Depth,different,2026-10-03,c-0054,llm,
+AgentCF,AgentWebRec,different,2026-10-03,c-0055,llm,
+Agentic Web,Internet of Agents,different,2026-10-03,c-0056,llm,
+TemporalCentroid,Centroid,related,2026-10-03,c-0057,llm,TemporalCentroid is a temporal extension of the Centroid user profiling method.
+TemporalNarrative,Narrative,related,2026-10-03,c-0057,llm,TemporalNarrative is a temporal extension of the Narrative LLM-based user profiling method.
+Narrative,LLM-Generated Profile,related,2026-10-03,c-0057,llm,Narrative is a specific instance/strategy of LLM-Generated Profile.
+TemporalNarrative,LLM-Generated Profile,related,2026-10-03,c-0057,llm,TemporalNarrative is a specific temporal instance/strategy of LLM-Generated Profile.
+Centroid,LLM-Generated Profile,different,2026-10-03,c-0057,llm,
+Centroid,Narrative,different,2026-10-03,c-0057,llm,
+Centroid,TemporalNarrative,different,2026-10-03,c-0057,llm,
+TemporalCentroid,LLM-Generated Profile,different,2026-10-03,c-0057,llm,
+TemporalCentroid,Narrative,different,2026-10-03,c-0057,llm,
+TemporalCentroid,TemporalNarrative,different,2026-10-03,c-0057,llm,
+Aggregate Profile,Semantic User Profiling,related,2026-10-03,c-0058,llm,Aggregate Profile is a user representation strategy within Semantic User Profiling.
+LLM-Generated Context,Semantic User Profiling,related,2026-10-03,c-0058,llm,LLM-Generated Context is a contextual representation strategy within Semantic User Profiling.
+Narrative Profile,Semantic User Profiling,related,2026-10-03,c-0058,llm,Narrative Profile is a profile representation strategy evaluated in Semantic User Profiling.
+LLM-Generated Context,Narrative Profile,related,2026-10-03,c-0058,llm,LLM-Generated Context is closely related to natural-language narrative user profiles.
+Aggregate Profile,LLM-Generated Context,different,2026-10-03,c-0058,llm,
+Aggregate Profile,Narrative Profile,different,2026-10-03,c-0058,llm,
+All-Level Scoring,Compatibility Scoring,related,2026-10-03,c-0059,llm,subtype
+SBERT,Sentence-BERT,same,2026-10-03,c-0060,llm,"SBERT is the widely accepted acronym for Sentence-BERT, both referencing Reimers and Gurevych (2019)."
+Sentence-BERT,Sentence Encoder,related,2026-10-03,c-0060,llm,Sentence-BERT is a specific type of sentence encoder
+All-MiniLM-L6-v2,Sentence-BERT,related,2026-10-03,c-0060,llm,All-MiniLM-L6-v2 is a specific sentence embedding model trained within the Sentence-BERT/sentence-transformers framework
+All-MiniLM-L6-v2,Sentence Encoder,related,2026-10-03,c-0060,llm,All-MiniLM-L6-v2 is a specific instance of a sentence encoder
+B-Shop,Beauty,related,2026-10-03,c-0061,llm,variant
+B-Shop,Foursquare,different,2026-10-03,c-0061,llm,
+B-Shop,Goodreads,different,2026-10-03,c-0061,llm,
+B-Shop,KuaiRec,different,2026-10-03,c-0061,llm,
+B-Shop,ML-1M,different,2026-10-03,c-0061,llm,
+B-Shop,Retail Rocket,different,2026-10-03,c-0061,llm,
+B-Shop,Yelp,different,2026-10-03,c-0061,llm,
+Beauty,Foursquare,different,2026-10-03,c-0061,llm,
+Beauty,Goodreads,different,2026-10-03,c-0061,llm,
+Beauty,KuaiRec,different,2026-10-03,c-0061,llm,
+Beauty,ML-1M,different,2026-10-03,c-0061,llm,
+Beauty,Retail Rocket,different,2026-10-03,c-0061,llm,
+Beauty,Yelp,different,2026-10-03,c-0061,llm,
+Foursquare,Goodreads,different,2026-10-03,c-0061,llm,
+Foursquare,KuaiRec,different,2026-10-03,c-0061,llm,
+Foursquare,ML-1M,different,2026-10-03,c-0061,llm,
+Foursquare,Retail Rocket,different,2026-10-03,c-0061,llm,
+Foursquare,Yelp,different,2026-10-03,c-0061,llm,
+Goodreads,KuaiRec,different,2026-10-03,c-0061,llm,
+Goodreads,ML-1M,different,2026-10-03,c-0061,llm,
+Goodreads,Retail Rocket,different,2026-10-03,c-0061,llm,
+Goodreads,Yelp,different,2026-10-03,c-0061,llm,
+KuaiRec,ML-1M,different,2026-10-03,c-0061,llm,
+KuaiRec,Retail Rocket,different,2026-10-03,c-0061,llm,
+KuaiRec,Yelp,different,2026-10-03,c-0061,llm,
+ML-1M,Retail Rocket,different,2026-10-03,c-0061,llm,
+ML-1M,Yelp,different,2026-10-03,c-0061,llm,
+Retail Rocket,Yelp,different,2026-10-03,c-0061,llm,
+Movies and TV,Amazon Movies And TV,same,2026-10-03,c-0062,llm,Both refer to the Movies and TV product review domain from the Amazon Reviews benchmark in the same study.
+Video Games,Amazon Video Games,same,2026-10-03,c-0062,llm,Both refer to the Video Games domain from the Amazon Reviews benchmark in the same study.
+Amazon Reviews 2023,Amazon Reviews,related,2026-10-03,c-0062,llm,version_of
+Amazon Books,Amazon Reviews,related,2026-10-03,c-0062,llm,subset_of
+Amazon Movies And TV,Amazon Reviews,related,2026-10-03,c-0062,llm,subset_of
+Amazon Video Games,Amazon Reviews,related,2026-10-03,c-0062,llm,subset_of
+Amazon Books,Amazon Movies And TV,different,2026-10-03,c-0062,llm,
+Amazon Books,Amazon Video Games,different,2026-10-03,c-0062,llm,
+Amazon Movies And TV,Amazon Video Games,different,2026-10-03,c-0062,llm,
+I-Shop,Instruments,same,2026-10-03,c-0063,llm,I-Shop is an abbreviated table header name referring to the Instruments (Amazon Musical Instruments) benchmark dataset in the same study.
+Books,InstructRec,related,2026-10-03,c-0063,llm,Books is one of the benchmark domain datasets included in the InstructRec suite.
+MovieTV,InstructRec,related,2026-10-03,c-0063,llm,MovieTV is one of the benchmark domain datasets included in the InstructRec suite.
+Books,MovieTV,different,2026-10-03,c-0063,llm,
+Books,Instruments,different,2026-10-03,c-0063,llm,
+LastFM,InstructRec,different,2026-10-03,c-0063,llm,
+LastFM,Instruments,different,2026-10-03,c-0063,llm,
+MovieTV,Instruments,different,2026-10-03,c-0063,llm,
+Amazon ESCI,ESCI,same,2026-10-03,c-0064,llm,"Amazon Shopping Queries Dataset, Amazon ESCI, and ESCI refer to the same e-commerce product search benchmark dataset introduced by Reddy et al. (2022)."
+Amazon Shopping Queries Dataset,ESCI,same,2026-10-03,c-0064,llm,"Amazon Shopping Queries Dataset, Amazon ESCI, and ESCI refer to the same e-commerce product search benchmark dataset introduced by Reddy et al. (2022)."
+ESCI-ES,ESCI,related,2026-10-03,c-0064,llm,Spanish locale subset of ESCI
+ESCI-JP,ESCI,related,2026-10-03,c-0064,llm,Japanese locale subset of ESCI
+ESCI-US,ESCI,related,2026-10-03,c-0064,llm,United States locale subset of ESCI
+ESCI-ES,ESCI-JP,different,2026-10-03,c-0064,llm,
+ESCI-ES,ESCI-US,different,2026-10-03,c-0064,llm,
+ESCI-JP,ESCI-US,different,2026-10-03,c-0064,llm,
+Anchor Patch,Anchor Frame,related,2026-10-03,c-0065,llm,Anchor patches are fine-grained visual regions selected within selected anchor frames.
+Anchor Frame,"Sentence, Frame, and Patch Queries",different,2026-10-03,c-0065,llm,
+Anchor Patch,"Sentence, Frame, and Patch Queries",different,2026-10-03,c-0065,llm,
+Any-Level Flat Selection,Flat Selection,related,2026-10-03,c-0066,llm,variant
+Leaf-Level Flat Selection,Flat Selection,related,2026-10-03,c-0066,llm,variant
+Any-Level Flat Selection,Leaf-Level Flat Selection,different,2026-10-03,c-0066,llm,
+Asynchronous Checkpoint,Asynchronous Checkpointing,same,2026-10-03,c-0067,llm,They are grammatical variations (noun phrase vs. gerund form) of the same systems technique that offloads checkpoint saving to avoid blocking training.
+Asynchronous Checkpointing,Checkpoint Optimization,related,2026-10-03,c-0067,llm,subtype
+Checkpoint Optimization,Checkpoint Management,related,2026-10-03,c-0067,llm,subtype
+Checkpoint Management,Shutdown And Scheduling Optimization,different,2026-10-03,c-0067,llm,
+Checkpoint Optimization,Shutdown And Scheduling Optimization,different,2026-10-03,c-0067,llm,
+Asynchronous Checkpointing,Shutdown And Scheduling Optimization,different,2026-10-03,c-0067,llm,
+Attention-Fused Context,Attention,related,2026-10-03,c-0068,llm,uses
+Semantic Attribute Consolidation,Semantic Consolidation,same,2026-10-03,c-0069,llm,Both names refer to the same step in the iterative attribute discovery process that merges semantically equivalent or redundant attribute names.
+Incremental Consolidation,Semantic Consolidation,related,2026-10-03,c-0069,llm,Incremental Consolidation is a specific strategy/subtype of Semantic Consolidation.
+Semantic Consolidation,Iterative Attribute Discovery,related,2026-10-03,c-0069,llm,Semantic Consolidation is a component/step within the Iterative Attribute Discovery process.
+Semantic Merging,Semantic Consolidation,related,2026-10-03,c-0069,llm,Semantic Merging is the consolidation technique/mechanism utilized within Semantic Consolidation.
+Incremental Consolidation,Iterative Attribute Discovery,different,2026-10-03,c-0069,llm,
+Iterative Attribute Discovery,Semantic Merging,different,2026-10-03,c-0069,llm,
+Iterative Attribute Discovery and Extraction,Iterative Attribute Discovery Framework,same,2026-10-03,c-0070,llm,Both names refer to the exact same proposed framework for iterative attribute discovery and extraction presented in the paper.
+Iterative Framework,Iterative Attribute Discovery Framework,related,2026-10-03,c-0070,llm,variant
+Attribute Aggregation and Ranking,Iterative Attribute Discovery Framework,related,2026-10-03,c-0070,llm,component
+Bottom-Up Merging,Iterative Attribute Discovery Framework,related,2026-10-03,c-0070,llm,component
+Global Grouping,Iterative Attribute Discovery Framework,related,2026-10-03,c-0070,llm,component
+Pairwise Comparison,Iterative Attribute Discovery Framework,related,2026-10-03,c-0070,llm,component
+Bottom-Up Merging,Global Grouping,different,2026-10-03,c-0070,llm,
+Bottom-Up Merging,Pairwise Comparison,different,2026-10-03,c-0070,llm,
+Global Grouping,Pairwise Comparison,different,2026-10-03,c-0070,llm,
+Attribute Aggregation and Ranking,Bottom-Up Merging,different,2026-10-03,c-0070,llm,
+Schema Induction,Attribute Discovery,related,2026-10-03,c-0071,llm,Schema induction typically encompasses or is closely related to discovering attribute schemas from unstructured text.
+Value Extraction,Attribute Discovery,related,2026-10-03,c-0071,llm,Value extraction is the complementary task of extracting values corresponding to discovered attributes.
+Value Extraction,Schema Induction,related,2026-10-03,c-0071,llm,Value extraction populates data values based on schemas produced during schema induction.
+Autoregressive Generator,Generator,related,2026-10-03,c-0072,llm,subtype
+Token Generator,Generator,related,2026-10-03,c-0072,llm,subtype
+Full-SID Decoder,Autoregressive Decoder,related,2026-10-03,c-0072,llm,subtype
+Autoregressive Decoder,Generator,related,2026-10-03,c-0072,llm,variant
+Autoregressive Decoder,Autoregressive Generator,different,2026-10-03,c-0072,llm,
+Autoregressive Decoder,Token Generator,different,2026-10-03,c-0072,llm,
+Autoregressive Generator,Full-SID Decoder,different,2026-10-03,c-0072,llm,
+Autoregressive Generator,Token Generator,different,2026-10-03,c-0072,llm,
+Full-SID Decoder,Generator,different,2026-10-03,c-0072,llm,
+Full-SID Decoder,Token Generator,different,2026-10-03,c-0072,llm,
+Autoregressive Decoding,Autoregressive Retrieval,related,2026-10-03,c-0073,llm,component of
+Autoregressive Search,Autoregressive Retrieval,related,2026-10-03,c-0073,llm,component of
+Autoregressive Decoding,Autoregressive Search,different,2026-10-03,c-0073,llm,
+Recommendation Task,Recommendation,same,2026-10-03,c-0074,llm,Recommendation Task is the same general concept as Recommendation with a generic task suffix.
+Autoregressive Next-Item Prediction,Next-Item Prediction,related,2026-10-03,c-0074,llm,subtype
+Session-Aware Next-Item Prediction,Next-Item Prediction,related,2026-10-03,c-0074,llm,subtype
+Next-Item Prediction,Sequential Recommendation,related,2026-10-03,c-0074,llm,subtype
+Sequential Recommendation,Recommendation,related,2026-10-03,c-0074,llm,subtype
+Session-Based Recommendation,Sequential Recommendation,related,2026-10-03,c-0074,llm,subtype
+Cross-Domain Recommendation,Recommendation,related,2026-10-03,c-0074,llm,subtype
+Cross-Domain Recommendation,Next-Item Prediction,different,2026-10-03,c-0074,llm,
+Cross-Domain Recommendation,Sequential Recommendation,different,2026-10-03,c-0074,llm,
+Cross-Domain Recommendation,Session-Based Recommendation,different,2026-10-03,c-0074,llm,
+Conversational Music Recommendation,Conversational Recommender System,related,2026-10-03,c-0075,llm,Conversational Music Recommendation is a domain-specific application of Conversational Recommender Systems.
+Conversational Recommender System,Interactive Recommendation,related,2026-10-03,c-0075,llm,Conversational recommendation is a specific form of interactive recommendation using natural language dialogue.
+Context-Aware Recommendation,Conversational Recommender System,different,2026-10-03,c-0075,llm,
+Context-Aware Recommendation,Interactive Recommendation,different,2026-10-03,c-0075,llm,
+Context-Aware Recommendation,Reasoning Generative Recommendation,different,2026-10-03,c-0075,llm,
+Context-Aware Recommendation,Session-Aware Recommendation,different,2026-10-03,c-0075,llm,
+Conversational Music Recommendation,Interactive Recommendation,different,2026-10-03,c-0075,llm,
+Conversational Music Recommendation,Reasoning Generative Recommendation,different,2026-10-03,c-0075,llm,
+Conversational Music Recommendation,Session-Aware Recommendation,different,2026-10-03,c-0075,llm,
+Conversational Recommender System,Reasoning Generative Recommendation,different,2026-10-03,c-0075,llm,
+Conversational Recommender System,Session-Aware Recommendation,different,2026-10-03,c-0075,llm,
+Interactive Recommendation,Reasoning Generative Recommendation,different,2026-10-03,c-0075,llm,
+Interactive Recommendation,Session-Aware Recommendation,different,2026-10-03,c-0075,llm,
+Reasoning Generative Recommendation,Session-Aware Recommendation,different,2026-10-03,c-0075,llm,
+Collaborative Sequential Recommendation,Personalized Recommendation,related,2026-10-03,c-0076,llm,subtype
+Context-Aware Recommender System,Personalized Recommendation,related,2026-10-03,c-0076,llm,subtype
+Zero-Shot Recommendation Ranking,Personalized Recommendation,related,2026-10-03,c-0076,llm,subtype
+Collaborative Sequential Recommendation,Context-Aware Recommender System,different,2026-10-03,c-0076,llm,
+Collaborative Sequential Recommendation,Understanding Recommendation,different,2026-10-03,c-0076,llm,
+Collaborative Sequential Recommendation,Zero-Shot Recommendation Ranking,different,2026-10-03,c-0076,llm,
+Context-Aware Recommender System,Understanding Recommendation,different,2026-10-03,c-0076,llm,
+Context-Aware Recommender System,Zero-Shot Recommendation Ranking,different,2026-10-03,c-0076,llm,
+Personalized Recommendation,Understanding Recommendation,different,2026-10-03,c-0076,llm,
+Understanding Recommendation,Zero-Shot Recommendation Ranking,different,2026-10-03,c-0076,llm,
+Autotuning Pruning,Autotune Configuration Pruning,same,2026-10-03,c-0077,llm,Both terms refer to the same optimization technique for reducing PyTorch compilation autotuning overhead by pruning autotuning configurations.
+BB,FF,different,2026-10-03,c-0078,llm,
+BB,HK,different,2026-10-03,c-0078,llm,
+BB,OON,different,2026-10-03,c-0078,llm,
+BB,PF,different,2026-10-03,c-0078,llm,
+BB,Prefix Failure,different,2026-10-03,c-0078,llm,
+BB,Progressive Fusion,different,2026-10-03,c-0078,llm,
+BB,WCP,different,2026-10-03,c-0078,llm,
+FF,HK,different,2026-10-03,c-0078,llm,
+FF,OON,different,2026-10-03,c-0078,llm,
+FF,PF,different,2026-10-03,c-0078,llm,
+FF,Prefix Failure,different,2026-10-03,c-0078,llm,
+FF,Progressive Fusion,different,2026-10-03,c-0078,llm,
+FF,WCP,different,2026-10-03,c-0078,llm,
+HK,OON,different,2026-10-03,c-0078,llm,
+HK,PF,different,2026-10-03,c-0078,llm,
+HK,Prefix Failure,different,2026-10-03,c-0078,llm,
+HK,Progressive Fusion,different,2026-10-03,c-0078,llm,
+HK,WCP,different,2026-10-03,c-0078,llm,
+OON,PF,different,2026-10-03,c-0078,llm,
+OON,Prefix Failure,different,2026-10-03,c-0078,llm,
+OON,Progressive Fusion,different,2026-10-03,c-0078,llm,
+OON,WCP,different,2026-10-03,c-0078,llm,
+PF,Prefix Failure,different,2026-10-03,c-0078,llm,
+PF,Progressive Fusion,different,2026-10-03,c-0078,llm,
+PF,WCP,different,2026-10-03,c-0078,llm,
+Prefix Failure,Progressive Fusion,different,2026-10-03,c-0078,llm,
+Prefix Failure,WCP,different,2026-10-03,c-0078,llm,
+Progressive Fusion,WCP,different,2026-10-03,c-0078,llm,
+Beauty Bakerie,WB,different,2026-10-03,c-0079,llm,
+BGE-base,Bi-Encoder,related,2026-10-03,c-0080,llm,instance of architecture
+Bge-reranker-v2-m3,Cross-Encoder,related,2026-10-03,c-0080,llm,instance of architecture
+Qwen3-Reranker,Cross-Encoder,related,2026-10-03,c-0080,llm,instance of architecture
+Qwen3-Reranker-0.6B,Qwen3-Reranker,related,2026-10-03,c-0080,llm,model size variant
+Qwen3-Reranker-4B,Qwen3-Reranker,related,2026-10-03,c-0080,llm,model size variant
+Qwen3-Reranker-8B,Qwen3-Reranker,related,2026-10-03,c-0080,llm,model size variant
+BGE-base,Bge-reranker-v2-m3,different,2026-10-03,c-0080,llm,
+Bi-Encoder,Cross-Encoder,different,2026-10-03,c-0080,llm,
+Bge-reranker-v2-m3,Qwen3-Reranker,different,2026-10-03,c-0080,llm,
+Qwen3-Reranker-0.6B,Qwen3-Reranker-4B,different,2026-10-03,c-0080,llm,
+Qwen3-Reranker-0.6B,Qwen3-Reranker-8B,different,2026-10-03,c-0080,llm,
+Qwen3-Reranker-4B,Qwen3-Reranker-8B,different,2026-10-03,c-0080,llm,
+Base Similarity,Context-Priority Score,related,2026-10-03,c-0081,llm,component of
+Beam Search,KV-Cache,different,2026-10-03,c-0082,llm,
+CheckList,Behavioral Testing,related,2026-10-03,c-0083,llm,CheckList is a specific methodology and framework for behavioral testing of models
+BiLSTM-CRF,CRF,related,2026-10-03,c-0084,llm,BiLSTM-CRF incorporates CRF as a component layer for sequence decoding
+Local Biaffine Attention,Biaffine Attention,related,2026-10-03,c-0085,llm,variant
+Local Biaffine Attention,Local Attention,related,2026-10-03,c-0085,llm,variant
+Biaffine Attention,Global Attention,different,2026-10-03,c-0085,llm,
+Biaffine Attention,Local Attention,different,2026-10-03,c-0085,llm,
+Biaffine Attention,Sparse Attention,different,2026-10-03,c-0085,llm,
+Global Attention,Local Attention,different,2026-10-03,c-0085,llm,
+Global Attention,Sparse Attention,different,2026-10-03,c-0085,llm,
+Local Attention,Sparse Attention,different,2026-10-03,c-0085,llm,
+Local Biaffine Attention,Sparse Attention,different,2026-10-03,c-0085,llm,
+GTE-ModernBERT,Graph Transformer,different,2026-10-03,c-0086,llm,
+GTE-ModernBERT,PaECTER,different,2026-10-03,c-0086,llm,
+GTE-ModernBERT,Stella,different,2026-10-03,c-0086,llm,
+Graph Transformer,PaECTER,different,2026-10-03,c-0086,llm,
+Graph Transformer,Stella,different,2026-10-03,c-0086,llm,
+PaECTER,Stella,different,2026-10-03,c-0086,llm,
+Biaffine Model,Biaffine Dependency Parser,related,2026-10-03,c-0087,llm,extension
+Biaffine Model,Neural Parser,related,2026-10-03,c-0087,llm,subtype
+Biaffine Dependency Parser,Neural Parser,related,2026-10-03,c-0087,llm,subtype
+Biaffine Dependency Parser,Tree-LSTM,different,2026-10-03,c-0087,llm,
+Biaffine Model,Rule-Based Parser,different,2026-10-03,c-0087,llm,
+Biaffine Model,Tree-LSTM,different,2026-10-03,c-0087,llm,
+Neural Parser,Rule-Based Parser,different,2026-10-03,c-0087,llm,
+Neural Parser,Tree-LSTM,different,2026-10-03,c-0087,llm,
+Rule-Based Parser,Tree-LSTM,different,2026-10-03,c-0087,llm,
+Biaffine Structured Prediction,Rule-Based Patent Graph Extraction,different,2026-10-03,c-0088,llm,
+Dynamic Gating,Dynamic Gating Mechanism,same,2026-10-03,c-0089,llm,"Name variant with and without the generic term 'Mechanism', referring to the same gating technique."
+Multi-Grained Text-Video Interaction Module,Text-Video Interaction Module,same,2026-10-03,c-0089,llm,"Full name, acronym TVIM, and descriptive phrasing ('multi-grained text-video interaction module') referring to the same proposed module."
+TVIM,Text-Video Interaction Module,same,2026-10-03,c-0089,llm,"Full name, acronym TVIM, and descriptive phrasing ('multi-grained text-video interaction module') referring to the same proposed module."
+Dynamic Gating Mechanism,Text-Video Interaction Module,related,2026-10-03,c-0089,llm,component of
+Text Query Decomposition,Text-Video Interaction Module,related,2026-10-03,c-0089,llm,component of
+Text Query Decomposition,SFP,related,2026-10-03,c-0089,llm,"produces multi-grained sentence, frame, and patch queries (SFP)"
+SFP,Text-Video Interaction Module,related,2026-10-03,c-0089,llm,query representation used in
+Dynamic Gating Mechanism,SFP,different,2026-10-03,c-0089,llm,
+Dynamic Gating Mechanism,Text Query Decomposition,different,2026-10-03,c-0089,llm,
+Symmetric InfoNCE,InfoNCE Loss,related,2026-10-03,c-0090,llm,symmetric variant of InfoNCE
+Symmetric InfoNCE,Bidirectional Contrastive Learning,related,2026-10-03,c-0090,llm,loss function implementing bidirectional contrastive learning
+InfoNCE Loss,Bidirectional Contrastive Learning,related,2026-10-03,c-0090,llm,loss function used for bidirectional contrastive learning
+Multi-Grained Consistency Regularization,Consistency Regularization,related,2026-10-03,c-0090,llm,specialized variant for multi-grained alignment
+Consistency Loss,Consistency Regularization,related,2026-10-03,c-0090,llm,loss function implementing consistency regularization
+Consistency Loss,Multi-Grained Consistency Regularization,related,2026-10-03,c-0090,llm,loss term realizing multi-grained consistency regularization
+Bidirectional Contrastive Learning,Consistency Regularization,different,2026-10-03,c-0090,llm,
+Bidirectional Contrastive Learning,Consistency Loss,different,2026-10-03,c-0090,llm,
+Bidirectional Contrastive Learning,Multi-Grained Consistency Regularization,different,2026-10-03,c-0090,llm,
+InfoNCE Loss,Consistency Regularization,different,2026-10-03,c-0090,llm,
+InfoNCE Loss,Consistency Loss,different,2026-10-03,c-0090,llm,
+InfoNCE Loss,Multi-Grained Consistency Regularization,different,2026-10-03,c-0090,llm,
+Symmetric InfoNCE,Consistency Regularization,different,2026-10-03,c-0090,llm,
+Symmetric InfoNCE,Consistency Loss,different,2026-10-03,c-0090,llm,
+Symmetric InfoNCE,Multi-Grained Consistency Regularization,different,2026-10-03,c-0090,llm,
+Binary Cross-Entropy,Uniform Negative Sampling,different,2026-10-03,c-0091,llm,
+Binomial Logistic Regression,Binomial Regression,related,2026-10-03,c-0092,llm,subtype of
+CC-News,Common Crawl,related,2026-10-03,c-0093,llm,CC-News is a specialized news crawl dataset derived from the broader Common Crawl corpus.
+CCBot,Nutch,related,2026-10-03,c-0094,llm,built on
+Candidate Reranking,Reranking,related,2026-10-03,c-0095,llm,Candidate Reranking is a specific form of Reranking focused on a pre-selected candidate set.
+Recommendation Reranking,Reranking,related,2026-10-03,c-0095,llm,Recommendation Reranking is the application of Reranking in recommender systems.
+Controlled Candidate Reranking,Candidate Reranking,related,2026-10-03,c-0095,llm,Controlled Candidate Reranking is a constrained evaluation setting for Candidate Reranking.
+Hard-Candidate Reranking,Candidate Reranking,related,2026-10-03,c-0095,llm,Hard-Candidate Reranking is a specialized Candidate Reranking setting involving hard negative candidates.
+First-Stage Retrieval,Two-Stage Recommendation,related,2026-10-03,c-0095,llm,First-Stage Retrieval is the first phase in a Two-Stage Recommendation pipeline.
+Candidate Reranking,Two-Stage Recommendation,related,2026-10-03,c-0095,llm,Candidate Reranking serves as the second phase in a Two-Stage Recommendation pipeline.
+First-Stage Retrieval,Candidate Reranking,different,2026-10-03,c-0095,llm,
+First-Stage Retrieval,Recommendation Reranking,different,2026-10-03,c-0095,llm,
+Controlled Candidate Reranking,Hard-Candidate Reranking,different,2026-10-03,c-0095,llm,
+Candidate-Conditioned Retrieval,Private-Memory Retrieval,related,2026-10-03,c-0096,llm,subtype
+Candidate-Conditioned Retrieval,Item Semantic Enhancement,different,2026-10-03,c-0096,llm,
+Item Semantic Enhancement,Private-Memory Retrieval,different,2026-10-03,c-0096,llm,
+RPTune Reorganizer,Reorganizer,same,2026-10-03,c-0097,llm,RPTune Reorganizer refers directly to the Reorganizer component within the RPTune framework.
+Encoder,Catalog Curator,related,2026-10-03,c-0097,llm,component of
+Reorganizer,Catalog Curator,related,2026-10-03,c-0097,llm,component of
+Encoder-Reorganizer,Catalog Curator,related,2026-10-03,c-0097,llm,architecture of
+Encoder,Encoder-Reorganizer,related,2026-10-03,c-0097,llm,component of
+Reorganizer,Encoder-Reorganizer,related,2026-10-03,c-0097,llm,component of
+Encoder,Reorganizer,different,2026-10-03,c-0097,llm,
+In-context Catalog Search,In-Context Product Search,same,2026-10-03,c-0098,llm,Both terms are used synonymously in the same paper to describe the task of searching and selecting products from a catalog within an LLM's context window.
+In-Context Product Search,Catalog Search,related,2026-10-03,c-0098,llm,specialized variant operating within an LLM context
+In-Context Product Search,Product Search,related,2026-10-03,c-0098,llm,specialized variant operating within an LLM context
+Catalog Search,Product Search,related,2026-10-03,c-0098,llm,closely related task focused on merchant catalogs
+Product Retrieval,Product Search,related,2026-10-03,c-0098,llm,closely related information retrieval task
+Product Selection,In-Context Product Search,related,2026-10-03,c-0098,llm,downstream component task
+Catalog Search,Product Selection,different,2026-10-03,c-0098,llm,
+Product Retrieval,Product Selection,different,2026-10-03,c-0098,llm,
+Causal Masking,Causal Self-Attention,related,2026-10-03,c-0099,llm,component
+Causal Masking,Teacher Forcing,different,2026-10-03,c-0099,llm,
+Causal Self-Attention,Teacher Forcing,different,2026-10-03,c-0099,llm,
+Interaction Noise,Cell-Level Noise,related,2026-10-03,c-0100,llm,"Interaction noise is the persistent, non-sampling component of cell-level noise in the generator-selector matrix."
+Think Mode,Chain of Thought,related,2026-10-03,c-0101,llm,Think Mode is an operational mode that utilizes Chain of Thought reasoning
+Nothink Mode,Think Mode,different,2026-10-03,c-0101,llm,
+Chain of Thought,Nothink Mode,different,2026-10-03,c-0101,llm,
+Recall@3,Citation Recall,related,2026-10-03,c-0102,llm,specific cutoff instantiation of citation recall
+Claude Code,Codex CLI,different,2026-10-03,c-0103,llm,
+Claude Opus 4.6,Claude-opus-5,related,2026-10-03,c-0104,llm,version
+Claude-sonnet-5,Claude-opus-5,related,2026-10-03,c-0104,llm,variant
+Claude Opus 4.6,Claude-sonnet-5,different,2026-10-03,c-0104,llm,
+Claude Opus 4.6,GLM-5.2,different,2026-10-03,c-0104,llm,
+Claude Opus 4.6,Gemini-3.1-pro,different,2026-10-03,c-0104,llm,
+Claude-opus-5,GLM-5.2,different,2026-10-03,c-0104,llm,
+Claude-opus-5,Gemini-3.1-pro,different,2026-10-03,c-0104,llm,
+Claude-sonnet-5,GLM-5.2,different,2026-10-03,c-0104,llm,
+Claude-sonnet-5,Gemini-3.1-pro,different,2026-10-03,c-0104,llm,
+GLM-5.2,Gemini-3.1-pro,different,2026-10-03,c-0104,llm,
+Codebook,Residual Trajectory,different,2026-10-03,c-0105,llm,
+Effective First-Level Capacity,Effective Capacity,related,2026-10-03,c-0106,llm,Effective First-Level Capacity evaluates Effective Capacity specifically at the first quantization level (L1).
+Effective Capacity,Codebook Capacity,related,2026-10-03,c-0106,llm,Effective Capacity is an entropy-based metric measuring the capacity or utilization of a codebook.
+Codebook Capacity,Effective First-Level Capacity,different,2026-10-03,c-0106,llm,
+Codebook Collapse,Representation Collapse,related,2026-10-03,c-0107,llm,subtype
+Codebook Loss,Codebook-only Target,different,2026-10-03,c-0108,llm,
+Codebook Loss,Commitment Loss,different,2026-10-03,c-0108,llm,
+Codebook-only Target,Commitment Loss,different,2026-10-03,c-0108,llm,
+Collaboration Budget,Platform-Local Item-Support Budget,different,2026-10-03,c-0109,llm,
+Collaboration Budget,Target-User Memory Budget,different,2026-10-03,c-0109,llm,
+Platform-Local Item-Support Budget,Target-User Memory Budget,different,2026-10-03,c-0109,llm,
+Trainer Initialization Optimization,Trainer Initialization,related,2026-10-03,c-0110,llm,optimization applied to
+Communication Elimination,Trainer Initialization,related,2026-10-03,c-0110,llm,technique used during
+Parallel Component Initialization,Trainer Initialization,related,2026-10-03,c-0110,llm,technique used during
+Trainer Initialization,Level-2 Decomposition,related,2026-10-03,c-0110,llm,phase defined in
+PT2 Compilation,Level-2 Decomposition,related,2026-10-03,c-0110,llm,phase defined in
+Communication Elimination,Parallel Component Initialization,different,2026-10-03,c-0110,llm,
+Communication Elimination,Trainer Initialization Optimization,different,2026-10-03,c-0110,llm,
+PT2 Compilation,Trainer Initialization,different,2026-10-03,c-0110,llm,
+Level-2 Decomposition,Trainer Initialization,different,2026-10-03,c-0110,llm,
+Parallel Component Initialization,Trainer Initialization Optimization,different,2026-10-03,c-0110,llm,
+Evaluation Slice,Conflict Slice,same,2026-10-03,c-0111,llm,Both names refer to the same 43-case evaluation subset where user directives conflict with official benchmark labels.
+RPTune,Context Curation,related,2026-10-03,c-0112,llm,subtype
+Context-Conditioned Reranking Head,Reranking Head,related,2026-10-03,c-0113,llm,subtype
+Context-Conditioned Reranking Head,GEAR,related,2026-10-03,c-0113,llm,component
+Reranking Head,Generator-Reranker,related,2026-10-03,c-0113,llm,component
+Generator-Reranker,GEAR,related,2026-10-03,c-0113,llm,component
+Reranker,GEAR,related,2026-10-03,c-0113,llm,component
+GEAR,Generator-Reranker,different,2026-10-03,c-0113,llm,
+GEAR,Reranker,different,2026-10-03,c-0113,llm,
+Direct Preference Optimization,DPO,same,2026-10-03,c-0114,llm,DPO is the standard acronym for Direct Preference Optimization.
+Group Relative Policy Optimization,GRPO,same,2026-10-03,c-0114,llm,GRPO is the standard acronym for Group Relative Policy Optimization.
+IRPO,DPO,related,2026-10-03,c-0114,llm,extension
+Label-Smoothed Preference Loss,DPO,related,2026-10-03,c-0114,llm,component
+Context-Relative Reward,GRPO,different,2026-10-03,c-0114,llm,
+DPO,GRPO,different,2026-10-03,c-0114,llm,
+Context-Relative Reward,DPO,different,2026-10-03,c-0114,llm,
+Controlled Hard Candidate Construction,Controlled Hard Candidate Setting,related,2026-10-03,c-0115,llm,Controlled Hard Candidate Construction is the procedure used to implement the Controlled Hard Candidate Setting.
+LLM Critic,Critic,related,2026-10-03,c-0116,llm,subtype
+Critic-Guided Additional Retrieval,Iterative Retrieval,related,2026-10-03,c-0117,llm,subtype
+RECOMP,Post-Retrieval Evidence Compression,related,2026-10-03,c-0117,llm,subtype
+Critic-Guided Additional Retrieval,Post-Retrieval Evidence Compression,different,2026-10-03,c-0117,llm,
+Critic-Guided Additional Retrieval,RECOMP,different,2026-10-03,c-0117,llm,
+Iterative Retrieval,Post-Retrieval Evidence Compression,different,2026-10-03,c-0117,llm,
+Iterative Retrieval,RECOMP,different,2026-10-03,c-0117,llm,
+SID-Prefix Consistency,Prefix Consistency,same,2026-10-03,c-0118,llm,SID-Prefix Consistency is Prefix Consistency explicitly qualified with the domain acronym SID (Semantic ID).
+Cross-Lingual Prefix Agreement,Prefix Agreement,related,2026-10-03,c-0118,llm,subtype of
+Prefix Agreement,Prefix Consistency,related,2026-10-03,c-0118,llm,variant of
+Prefix Coverage,Prefix Agreement,different,2026-10-03,c-0118,llm,
+Prefix Coverage,Prefix Consistency,different,2026-10-03,c-0118,llm,
+Cue Family,Expert Group,related,2026-10-03,c-0119,llm,associated with
+Cue Only,Hidden Only,different,2026-10-03,c-0120,llm,
+Role Swap,Cue Perturbation,related,2026-10-03,c-0121,llm,subtype
+Shuffle Cues,Cue Perturbation,related,2026-10-03,c-0121,llm,subtype
+Zero Cues,Cue Perturbation,related,2026-10-03,c-0121,llm,subtype
+Train Shuffle,Shuffle Cues,related,2026-10-03,c-0121,llm,training-time counterpart of evaluation-time cue shuffling
+Train Zero,Zero Cues,related,2026-10-03,c-0121,llm,training-time counterpart of evaluation-time cue zeroing
+Cue Perturbation,Train Shuffle,different,2026-10-03,c-0121,llm,
+Cue Perturbation,Train Zero,different,2026-10-03,c-0121,llm,
+Role Swap,Shuffle Cues,different,2026-10-03,c-0121,llm,
+Role Swap,Train Shuffle,different,2026-10-03,c-0121,llm,
+Role Swap,Train Zero,different,2026-10-03,c-0121,llm,
+Role Swap,Zero Cues,different,2026-10-03,c-0121,llm,
+Shuffle Cues,Train Zero,different,2026-10-03,c-0121,llm,
+Shuffle Cues,Zero Cues,different,2026-10-03,c-0121,llm,
+Train Shuffle,Train Zero,different,2026-10-03,c-0121,llm,
+Train Shuffle,Zero Cues,different,2026-10-03,c-0121,llm,
+DPP Warm-Up,Data Preprocessing Warm-up,same,2026-10-03,c-0122,llm,"DPP Warm-Up refers to Data Preprocessing (Pipeline) warm-up, representing the same initialization phase prior to training."
+Temporal Leakage,Data Leakage,related,2026-10-03,c-0123,llm,subtype of
+Decoder Soft-Target,Full-SID Supervision,different,2026-10-03,c-0124,llm,
+Decoder Soft-Target,Sampled-Tree Supervision,different,2026-10-03,c-0124,llm,
+Full-SID Supervision,Sampled-Tree Supervision,different,2026-10-03,c-0124,llm,
+Dense Encoder,Dense Retrieval,related,2026-10-03,c-0125,llm,component used in
+Understanding Item,Item Understanding,same,2026-10-03,c-0126,llm,Syntactic phrasing variants of the item comprehension challenge task.
+Item Description Generation,Description Generation,related,2026-10-03,c-0126,llm,subtype
+Item Description Generation,Item Understanding,related,2026-10-03,c-0126,llm,subtask
+Reverse Retrieval,Item Understanding,related,2026-10-03,c-0126,llm,subtask
+Item Understanding,User Understanding,different,2026-10-03,c-0126,llm,
+Item Description Generation,Reverse Retrieval,different,2026-10-03,c-0126,llm,
+User Understanding,Item Description Generation,different,2026-10-03,c-0126,llm,
+User Understanding,Reverse Retrieval,different,2026-10-03,c-0126,llm,
+Description Generation,Reverse Retrieval,different,2026-10-03,c-0126,llm,
+Description Generation,User Understanding,different,2026-10-03,c-0126,llm,
+Interest-Evolution Chain Generation,Understanding User,related,2026-10-03,c-0127,llm,Interest-Evolution Chain Generation is a subtask of Understanding User
+Relevant-Behavior Selection,Understanding User,related,2026-10-03,c-0127,llm,Relevant-Behavior Selection is a subtask of Understanding User
+Interest-Evolution Chain Generation,Relevant-Behavior Selection,different,2026-10-03,c-0127,llm,
+Isotropic Control,Distance-Matched Control,related,2026-10-03,c-0128,llm,subtype of
+Product-Directed Control,Distance-Matched Control,related,2026-10-03,c-0128,llm,subtype of
+Isotropic Control,Product-Directed Control,different,2026-10-03,c-0128,llm,
+Diversity,Novelty,different,2026-10-03,c-0129,llm,
+Diversity@K,Within-History Content Diversity,different,2026-10-03,c-0130,llm,
+Domain Name Analysis,URL Analysis,related,2026-10-03,c-0131,llm,subtype
+Patent Prior Art Retrieval,Patent Prior Art Search,same,2026-10-03,c-0132,llm,"""Patent prior art retrieval"" and ""patent prior art search"" are synonymous names for the exact same information retrieval task."
+Patent Prior Art Search,Patent Retrieval,related,2026-10-03,c-0132,llm,subtype
+Downstream Search Task,Patent Prior Art Search,related,2026-10-03,c-0132,llm,subtype
+Invention Graph Induction,Open Relation Extraction,related,2026-10-03,c-0132,llm,variant
+Invention Graph Induction,Patent Retrieval,different,2026-10-03,c-0132,llm,
+Invention Graph Induction,Patent Prior Art Search,different,2026-10-03,c-0132,llm,
+Open Relation Extraction,Patent Retrieval,different,2026-10-03,c-0132,llm,
+Open Relation Extraction,Patent Prior Art Search,different,2026-10-03,c-0132,llm,
+Downstream Search Task,Invention Graph Induction,different,2026-10-03,c-0132,llm,
+Downstream Search Task,Open Relation Extraction,different,2026-10-03,c-0132,llm,
+E5-large,E5,related,2026-10-03,c-0133,llm,large-scale variant of E5
+Multilingual E5,E5,related,2026-10-03,c-0133,llm,multilingual variant of E5
+Multilingual-E5-Large,Multilingual E5,related,2026-10-03,c-0133,llm,large-scale variant of Multilingual E5
+Multilingual-E5-Large,E5-large,related,2026-10-03,c-0133,llm,multilingual variant of E5-large
+LaBSE,E5,different,2026-10-03,c-0133,llm,
+LaBSE,E5-large,different,2026-10-03,c-0133,llm,
+LaBSE,Multilingual E5,different,2026-10-03,c-0133,llm,
+LaBSE,Multilingual-E5-Large,different,2026-10-03,c-0133,llm,
+EM,Exact Match,same,2026-10-03,c-0134,llm,"EM is the standard acronym for Exact Match, and Exact-Match Accuracy is the same metric with a generic suffix."
+Exact-Match Accuracy,Exact Match,same,2026-10-03,c-0134,llm,"EM is the standard acronym for Exact Match, and Exact-Match Accuracy is the same metric with a generic suffix."
+EMA,Exponential Moving Average,same,2026-10-03,c-0134,llm,EMA is the standard acronym for Exponential Moving Average.
+ETT%,Effective Training Time,same,2026-10-03,c-0135,llm,ETT% is the explicit abbreviation/symbol used in the paper for Effective Training Time.
+TTS,Time to Start,same,2026-10-03,c-0135,llm,TTS is the acronym for Time to Start within the ETT% evaluation framework.
+Time to Start,Effective Training Time,related,2026-10-03,c-0135,llm,component
+Time to Recover,Effective Training Time,related,2026-10-03,c-0135,llm,component
+Wasted Training Time,Effective Training Time,related,2026-10-03,c-0135,llm,component
+Time to Recover,Time to Start,different,2026-10-03,c-0135,llm,
+Time to Recover,Wasted Training Time,different,2026-10-03,c-0135,llm,
+Time to Start,Wasted Training Time,different,2026-10-03,c-0135,llm,
+NoF,Number of Failures,same,2026-10-03,c-0136,llm,"NoF is the standard acronym for the Number of Failures metric, explicitly defined as such in the context."
+NoF,TTR,different,2026-10-03,c-0136,llm,
+Number of Failures,TTR,different,2026-10-03,c-0136,llm,
+Edge Label Head,Feature Head,different,2026-10-03,c-0137,llm,
+End-to-End Latency,Latency,related,2026-10-03,c-0138,llm,subtype
+Inference Latency,Latency,related,2026-10-03,c-0138,llm,subtype
+Serving Latency,Latency,related,2026-10-03,c-0138,llm,subtype
+End-to-End Latency,Inference Latency,different,2026-10-03,c-0138,llm,
+End-to-End Latency,Serving Latency,different,2026-10-03,c-0138,llm,
+Inference Latency,Serving Latency,different,2026-10-03,c-0138,llm,
+Monotonic Matching,Event Alignment,related,2026-10-03,c-0139,llm,algorithmic technique used to perform event alignment
+Evidence Fusion,Evidence Acquisition And Fusion,related,2026-10-03,c-0140,llm,component of
+Evidence-Augmented Prompt,Few-Shot Prompting,different,2026-10-03,c-0141,llm,
+Exact Permutation Test,Permutation Test,related,2026-10-03,c-0142,llm,subtype
+One-Sided Exact Test,Exact Permutation Test,related,2026-10-03,c-0142,llm,variant
+One-Sided Exact Test,Permutation Test,different,2026-10-03,c-0142,llm,
+Exact/Version Family,Exact/Version Request Family,same,2026-10-03,c-0143,llm,"Both terms refer to the same specific category of dialogue requests in the audit benchmark, with one being an abbreviated name of the other."
+Exact-Song Request,Exact-Item Intent,related,2026-10-03,c-0143,llm,A domain-specific music-retrieval subtype of the general exact-item intent concept.
+Exact-Song Request,Exact/Version Request Family,related,2026-10-03,c-0143,llm,A constituent type of request within the broader exact/version request family.
+Exact-Item Intent,Exact/Version Request Family,different,2026-10-03,c-0143,llm,
+F1,F1 Score,same,2026-10-03,c-0144,llm,"F1 and F1 Score refer to the same evaluation metric (harmonic mean of precision and recall), with or without the generic suffix 'Score'."
+FR,Feature Reward,same,2026-10-03,c-0145,llm,"FR is the direct acronym expansion of Feature Reward, defined in the same evaluation context."
+Fast Recovery,Feature Reward,different,2026-10-03,c-0145,llm,
+Fast Recovery,Functional Relation,different,2026-10-03,c-0145,llm,
+Feature Reward,Functional Relation,different,2026-10-03,c-0145,llm,
+RecSys Challenge 2026 TalkPlay Benchmark,RecSys Challenge 2026 TalkPlay,same,2026-10-03,c-0146,llm,"The names refer to the same conversational recommendation benchmark, differing only by the addition of the generic term 'Benchmark'."
+Fashion-AlterEval,RecSys Challenge 2026 TalkPlay,different,2026-10-03,c-0146,llm,
+Feature Coverage,Relation Coverage,different,2026-10-03,c-0147,llm,
+Feature Coverage,Word Coverage,different,2026-10-03,c-0147,llm,
+Relation Coverage,Word Coverage,different,2026-10-03,c-0147,llm,
+Films Matrix,Films,same,2026-10-03,c-0148,llm,"Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'."
+Papers Matrix,Papers,same,2026-10-03,c-0148,llm,"Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'."
+Products Matrix,Products,same,2026-10-03,c-0148,llm,"Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'."
+Films,Papers,different,2026-10-03,c-0148,llm,
+Films,Products,different,2026-10-03,c-0148,llm,
+Papers,Products,different,2026-10-03,c-0148,llm,
+Frozen Encoder,Node-Encoder Fine-Tuning,different,2026-10-03,c-0149,llm,
+Multi-Token Prediction,Future Supervision,related,2026-10-03,c-0150,llm,subtype
+GPR,GR4AD,different,2026-10-03,c-0151,llm,
+GPT-4,GPT-3.5,related,2026-10-03,c-0152,llm,successor version in the GPT model family
+GPT-3.5-turbo,GPT-4-1106-preview,different,2026-10-03,c-0153,llm,
+GPT-4o,Reference LLM,related,2026-10-03,c-0154,llm,instance of generic role
+NVIDIA H100,NVIDIA H100 GPU,same,2026-10-03,c-0155,llm,"They refer to the same GPU model, with and without the generic 'GPU' suffix."
+NVIDIA A100 GPU,GPU,related,2026-10-03,c-0155,llm,subtype
+NVIDIA A800-SXM4-80GB GPU,GPU,related,2026-10-03,c-0155,llm,subtype
+NVIDIA H100 GPU,GPU,related,2026-10-03,c-0155,llm,subtype
+NVIDIA L4,GPU,related,2026-10-03,c-0155,llm,subtype
+NVIDIA A100 GPU,NVIDIA A800-SXM4-80GB GPU,different,2026-10-03,c-0155,llm,
+NVIDIA A100 GPU,NVIDIA H100 GPU,different,2026-10-03,c-0155,llm,
+NVIDIA A100 GPU,NVIDIA L4,different,2026-10-03,c-0155,llm,
+NVIDIA A800-SXM4-80GB GPU,NVIDIA H100 GPU,different,2026-10-03,c-0155,llm,
+NVIDIA A800-SXM4-80GB GPU,NVIDIA L4,different,2026-10-03,c-0155,llm,
+NVIDIA H100 GPU,NVIDIA L4,different,2026-10-03,c-0155,llm,
+GPU-Held Shutdown Time,GPU Idle Time,related,2026-10-03,c-0156,llm,subtype of
+GPU-Held Shutdown Time,Shutdown Time,related,2026-10-03,c-0156,llm,variant
+GPU Idle Time,Shutdown Time,different,2026-10-03,c-0156,llm,
+SiLU,GatedFFN,related,2026-10-03,c-0157,llm,component of
+Knowledge Question Answering,Understanding World,related,2026-10-03,c-0158,llm,subtask of Understanding World
+General Knowledge,Knowledge Question Answering,related,2026-10-03,c-0158,llm,related concept
+General Knowledge,Understanding World,different,2026-10-03,c-0158,llm,
+Gold Item,Gold Span,different,2026-10-03,c-0159,llm,
+ML Productivity Goodput,Goodput,related,2026-10-03,c-0160,llm,specialization of general goodput to machine learning training productivity
+Gradient Boosting Gate,Gradient Boosting,related,2026-10-03,c-0161,llm,subtype
+Hard SID Targets,Hard SID Supervision,related,2026-10-03,c-0162,llm,objective implementing hard SID supervision
+RBD + Future Hard SID,Hard SID Targets,related,2026-10-03,c-0162,llm,variant combining RBD with future hard SID targets
+Hard SID Supervision,RBD + Future Hard SID,different,2026-10-03,c-0162,llm,
+Text-to-Video Retrieval,Text-Video Retrieval,same,2026-10-03,c-0163,llm,Different naming variants for the same multimodal retrieval task of searching and ranking video content using natural language text queries.
+Heterogeneous Multimodal RAG,Multimodal RAG,related,2026-10-03,c-0163,llm,subtype
+Multi-Grained Text-Video Alignment,Text-Video Retrieval,related,2026-10-03,c-0163,llm,component
+Image-Text Retrieval,Text-Video Retrieval,different,2026-10-03,c-0163,llm,
+Multilingual Retrieval,Multimodal RAG,different,2026-10-03,c-0163,llm,
+Image-Text Retrieval,Multimodal RAG,different,2026-10-03,c-0163,llm,
+Multi-Grained Text-Video Alignment,Multimodal RAG,different,2026-10-03,c-0163,llm,
+Prefix-Conditioned Predictor,Hierarchical Predictor,related,2026-10-03,c-0164,llm,variant
+PyTorch 2.0,PyTorch 2,same,2026-10-03,c-0165,llm,PyTorch 2 and PyTorch 2.0 refer to the same major release of the PyTorch deep learning framework.
+Inductor,PyTorch 2,related,2026-10-03,c-0165,llm,Inductor is the default compiler backend component of PyTorch 2.
+TorchDynamo,PyTorch 2,related,2026-10-03,c-0165,llm,TorchDynamo is the Python frame evaluation and graph capture component of PyTorch 2.
+Inductor,TorchDynamo,different,2026-10-03,c-0165,llm,
+Inter-Frame Redundancy,Visual Redundancy,related,2026-10-03,c-0166,llm,subtype of
+Intra-Frame Redundancy,Visual Redundancy,related,2026-10-03,c-0166,llm,subtype of
+Inter-Frame Redundancy,Intra-Frame Redundancy,different,2026-10-03,c-0166,llm,
+Interest-Evolution Chain,User Interest Chain,related,2026-10-03,c-0167,llm,Interest-Evolution Chain is a specific type of user interest chain that explicitly tracks the development and shifts of user interests over time
+InternVL3.5-8B,Qwen3-VL-8B-Instruct,different,2026-10-03,c-0168,llm,
+Within-List Diversity,Intra-List Diversity,same,2026-10-03,c-0169,llm,Within-list diversity and intra-list diversity are synonymous terms for the recommender systems evaluation metric measuring the diversity or pairwise dissimilarity of items within a single recommendation list.
+Whole Graph IoU,IoU,related,2026-10-03,c-0170,llm,subtype
+Item Tokenizer,Tokenizer,related,2026-10-03,c-0171,llm,subtype
+Item Tower,Item Tokenizer,related,2026-10-03,c-0171,llm,component
+Quantization Module,Item Tokenizer,related,2026-10-03,c-0171,llm,component
+Item Tower,Tokenizer,related,2026-10-03,c-0171,llm,component
+Quantization Module,Tokenizer,related,2026-10-03,c-0171,llm,component
+Item Tower,Quantization Module,different,2026-10-03,c-0171,llm,
+Key Feature Selection,KFS,same,2026-10-03,c-0172,llm,KFS is the standard acronym for Key Feature Selection in this context.
+Soft Assignment Mechanism,Soft Assignment Fusion,same,2026-10-03,c-0172,llm,Both terms refer to the same differentiable feature aggregation/fusion mechanism based on soft assignment within KFS.
+Multi-Dimensional Saliency,KFS,related,2026-10-03,c-0172,llm,component of
+Learnable Importance Score,KFS,related,2026-10-03,c-0172,llm,component of
+Soft Assignment Fusion,KFS,related,2026-10-03,c-0172,llm,component of
+Learnable Importance Score,Multi-Dimensional Saliency,different,2026-10-03,c-0172,llm,
+Learnable Importance Score,Soft Assignment Fusion,different,2026-10-03,c-0172,llm,
+Multi-Dimensional Saliency,Soft Assignment Fusion,different,2026-10-03,c-0172,llm,
+TAAC x KDD Cup 2026,TAAC 2025,related,2026-10-03,c-0173,llm,subsequent edition of the TAAC competition
+KUAISHOU Explorer LLM-Rec Challenge 2026,TAAC 2025,different,2026-10-03,c-0173,llm,
+KUAISHOU Explorer LLM-Rec Challenge 2026,TAAC x KDD Cup 2026,different,2026-10-03,c-0173,llm,
+SFT,Supervised Fine-Tuning,same,2026-10-03,c-0174,llm,"SFT is the standard acronym for Supervised Fine-Tuning, describing the same training adaptation technique."
+LLM Post-Training,Post-Training,related,2026-10-03,c-0174,llm,LLM Post-Training is a specific application of the general post-training stage to large language models.
+Supervised Fine-Tuning,Post-Training,related,2026-10-03,c-0174,llm,Supervised fine-tuning is a standard technique used during the post-training phase.
+LLM Post-Training,Supervised Fine-Tuning,different,2026-10-03,c-0174,llm,
+LLM-in-the-Loop RL,LLM-in-the-Loop Reinforcement Learning,same,2026-10-03,c-0175,llm,Full term and abbreviated acronym for the same reinforcement learning approach in RPTune.
+LLM-Mediated Loop,LLM-Mediated Retrieval Loop,same,2026-10-03,c-0175,llm,Variations in phrasing referring to the same agent-skill retrieval method mediated by an in-loop LLM.
+LLM-Mediated Retrieval,LLM-Mediated Retrieval Loop,same,2026-10-03,c-0175,llm,Variations in phrasing referring to the same agent-skill retrieval method mediated by an in-loop LLM.
+LLM-In-The-Loop Reorganizer Objective,LLM-in-the-Loop Reinforcement Learning,related,2026-10-03,c-0175,llm,The reorganizer objective is trained via LLM-in-the-loop reinforcement learning.
+Query-Specific Refinement,LLM-Mediated Retrieval Loop,related,2026-10-03,c-0175,llm,Query-specific refinement is an optional component within the LLM-mediated retrieval pipeline.
+LLM-In-The-Loop Reorganizer Objective,LLM-Mediated Retrieval Loop,different,2026-10-03,c-0175,llm,
+LLM-in-the-Loop Reinforcement Learning,SkillSeek,different,2026-10-03,c-0175,llm,
+Query-Specific Refinement,SkillSeek,different,2026-10-03,c-0175,llm,
+LLM-Mediated Retrieval Loop,SkillSeek,different,2026-10-03,c-0175,llm,
+Large-Scale Recommendation Training,Recommendation Model Training,related,2026-10-03,c-0176,llm,subtype
+Latent Intent Modeling,Latent Reasoning,different,2026-10-03,c-0177,llm,
+Serving-Time Routing Gate,Serving-Time Gate,same,2026-10-03,c-0178,llm,Both terms refer to the same learned routing mechanism evaluated at serving time to direct users between recommendation models.
+Serving-Time Gate,Selective Routing,related,2026-10-03,c-0178,llm,Serving-Time Gate is a mechanism used to implement selective routing.
+Serving-Time Gate,Learned Gate,related,2026-10-03,c-0178,llm,Serving-Time Gate is a specific realization of a learned gate using serving-time features.
+Learned Gate,Learned Gating,related,2026-10-03,c-0178,llm,A learned gate is a mechanism that instantiates the technique of learned gating.
+Learned Gating,Selective Routing,different,2026-10-03,c-0178,llm,
+List-Based Attribute,Number-Based Attribute,different,2026-10-03,c-0179,llm,
+ListMLE,ListNet,different,2026-10-03,c-0180,llm,
+Listener LLM,Recsys LLM,different,2026-10-03,c-0181,llm,
+Listwise Reranker,Listwise Reranking,same,2026-10-03,c-0182,llm,They are noun and gerund forms representing the same listwise reranking method.
+Pointwise Reranker,Pointwise Reranking,same,2026-10-03,c-0182,llm,They are noun and gerund forms representing the same pointwise reranking method.
+Listwise LLM Reranking,Listwise Reranking,related,2026-10-03,c-0182,llm,subtype
+Pointwise LLM Reranking,Pointwise Reranking,related,2026-10-03,c-0182,llm,subtype
+Listwise Reranking,Listwise Ranking,related,2026-10-03,c-0182,llm,subtype
+Pointwise Reranking,Pointwise Ranking,related,2026-10-03,c-0182,llm,subtype
+Listwise Ranking,Pointwise Ranking,different,2026-10-03,c-0182,llm,
+Listwise Reranking,Pointwise Reranking,different,2026-10-03,c-0182,llm,
+Listwise LLM Reranking,Pointwise LLM Reranking,different,2026-10-03,c-0182,llm,
+Pairwise Reranking,Pairwise Ranking,related,2026-10-03,c-0183,llm,subtype
+Listwise Qwen,Listwise Qwen Reranker,same,2026-10-03,c-0184,llm,Same model/method referred to with and without the generic task suffix 'Reranker'.
+Pointwise Qwen,Pointwise Qwen Reranker,same,2026-10-03,c-0184,llm,Same model/method referred to with and without the generic task suffix 'Reranker'.
+Pointwise Qwen2.5 7B Instruct,Pointwise Qwen Reranker,related,2026-10-03,c-0184,llm,subtype
+Pointwise Qwen2.5 7B Instruct,Qwen2.5 7B Instruct,related,2026-10-03,c-0184,llm,variant
+Listwise Qwen Reranker,Qwen2.5 7B Instruct,related,2026-10-03,c-0184,llm,variant
+Listwise Qwen Reranker,Pointwise Qwen Reranker,different,2026-10-03,c-0184,llm,
+Listwise Qwen Reranker,Pointwise Qwen2.5 7B Instruct,different,2026-10-03,c-0184,llm,
+Liu_refined,Liu_hybrid,related,2026-10-03,c-0185,llm,variant
+Live Streaming,Short Video,different,2026-10-03,c-0186,llm,
+Llama,Mistral,different,2026-10-03,c-0187,llm,
+Llama 2 13B,Llama 2 7B,related,2026-10-03,c-0188,llm,larger parameter variant of the same model family
+MiniMax-M2.7,MiniMax,related,2026-10-03,c-0189,llm,MiniMax-M2.7 is a specific model version of the MiniMax model family
+Qwen3.5-397B-A17B,Qwen3.5,related,2026-10-03,c-0189,llm,Qwen3.5-397B-A17B is a specific parameter/architecture variant of Qwen3.5
+Llama 3.1 70B,Mixtral 8x22B,different,2026-10-03,c-0189,llm,
+Llama 3.1 70B,Qwen2.5 72B,different,2026-10-03,c-0189,llm,
+Mixtral 8x22B,Qwen2.5 72B,different,2026-10-03,c-0189,llm,
+Qwen2.5 72B,Qwen3.5,different,2026-10-03,c-0189,llm,
+Qwen2.5 72B,Qwen3.5-397B-A17B,different,2026-10-03,c-0189,llm,
+MiniMax,Qwen3.5,different,2026-10-03,c-0189,llm,
+MiniMax-M2.7,Qwen3.5-397B-A17B,different,2026-10-03,c-0189,llm,
+Model FLOPs Utilization,MFU,same,2026-10-03,c-0190,llm,MFU is the standard acronym for Model FLOPs Utilization.
+Macro Routing,Mid Routing,different,2026-10-03,c-0191,llm,
+Macro Scope,Micro Scope,different,2026-10-03,c-0192,llm,
+Macro-Mid-Micro Stack,Routing Scope,related,2026-10-03,c-0193,llm,The Macro-Mid-Micro Stack is composed of routing scopes operating across different time scales.
+Matched-Control Reranker,Matched Control,same,2026-10-03,c-0194,llm,"They refer to the same baseline reranking model, differing only by the addition of the generic suffix 'Reranker'."
+Neural Collaborative Filtering,Matrix Factorization,related,2026-10-03,c-0195,llm,Neural Collaborative Filtering extends matrix factorization using deep neural networks to learn non-linear user-item interactions.
+Memory,Popularity,different,2026-10-03,c-0196,llm,
+Mixture B,Mixture C,different,2026-10-03,c-0197,llm,
+Model A,Model B,different,2026-10-03,c-0198,llm,
+Model A,Model C,different,2026-10-03,c-0198,llm,
+Model A,Model D,different,2026-10-03,c-0198,llm,
+Model A,Model E,different,2026-10-03,c-0198,llm,
+Model A,Model F,different,2026-10-03,c-0198,llm,
+Model B,Model C,different,2026-10-03,c-0198,llm,
+Model B,Model D,different,2026-10-03,c-0198,llm,
+Model B,Model E,different,2026-10-03,c-0198,llm,
+Model B,Model F,different,2026-10-03,c-0198,llm,
+Model C,Model D,different,2026-10-03,c-0198,llm,
+Model C,Model E,different,2026-10-03,c-0198,llm,
+Model C,Model F,different,2026-10-03,c-0198,llm,
+Model D,Model E,different,2026-10-03,c-0198,llm,
+Model D,Model F,different,2026-10-03,c-0198,llm,
+Model E,Model F,different,2026-10-03,c-0198,llm,
+Multi-Granularity Semantic Alignment Pretraining,Semantic Alignment Pretraining,related,2026-10-03,c-0199,llm,specialization
+Semantic Alignment Pretraining,Semantic Alignment,related,2026-10-03,c-0199,llm,subtype
+Multi-Granularity Semantic Alignment Pretraining,Semantic Alignment,different,2026-10-03,c-0199,llm,
+ReLU MLP,Multi-Layer Perceptron,related,2026-10-03,c-0200,llm,subtype
+SID,Semantic ID,same,2026-10-03,c-0201,llm,"SID stands for Semantic ID or Semantic Identifier; they represent the identical concept of discrete, learned hierarchical identifiers in generative retrieval."
+Semantic Identifier,Semantic ID,same,2026-10-03,c-0201,llm,"SID stands for Semantic ID or Semantic Identifier; they represent the identical concept of discrete, learned hierarchical identifiers in generative retrieval."
+SID Hierarchy,Semantic ID Hierarchy,same,2026-10-03,c-0201,llm,SID Hierarchy and Semantic ID Hierarchy are spelling and abbreviation variations denoting the tree structure of semantic identifiers.
+Semantic ID Hierarchy,Semantic ID,related,2026-10-03,c-0201,llm,hierarchical organization of semantic identifiers
+Multiresolution Relevance,Semantic ID Hierarchy,related,2026-10-03,c-0201,llm,formulation of relevance across the levels of a semantic identifier hierarchy
+Multiresolution Relevance,Semantic ID,different,2026-10-03,c-0201,llm,
+Multiresolution Relevance Supervision,Supervision–Resolution Mismatch,different,2026-10-03,c-0202,llm,
+Resolution-Aware Scoring,Multiresolution Scoring,related,2026-10-03,c-0203,llm,subtype
+Resolution-Aware Scoring,Resolution-Aligned Training,related,2026-10-03,c-0203,llm,complementary technique evaluated together
+Multiresolution Scoring,Resolution-Aligned Training,different,2026-10-03,c-0203,llm,
+NLLB-200-distilled-1.3B,NLLB,related,2026-10-03,c-0204,llm,subtype
+NQ320K,Wikipedia,related,2026-10-03,c-0205,llm,NQ320K uses Wikipedia documents as its retrieval corpus
+Pool Depletion,No-Repeat Constraint,related,2026-10-03,c-0206,llm,caused by
+Node Encoder,Query Encoder,different,2026-10-03,c-0207,llm,
+Non-Thinking Mode,Thinking Mode,different,2026-10-03,c-0208,llm,
+Nothink Format,Think Format,different,2026-10-03,c-0209,llm,
+OpenHands SDK,OpenHands,related,2026-10-03,c-0210,llm,software development kit / Python programmatic interface for OpenHands
+Paired Wilcoxon Test,Wilcoxon Signed-Rank Test,same,2026-10-03,c-0211,llm,The paired Wilcoxon test is the standard and widely used alternate name for the Wilcoxon signed-rank test applied to paired samples.
+Parent–Child Refinement Decision,Pruned Item Share,different,2026-10-03,c-0212,llm,
+Predefined Ontology,Predefined Schema,related,2026-10-03,c-0213,llm,variant
+Profile-Guided Optimization,Symbolic Hash Fix,different,2026-10-03,c-0214,llm,
+Pruning Rate,Pruning Budget,related,2026-10-03,c-0215,llm,complementary parameters defining discarded fraction versus retained capacity in context curation
+Retrieval-Augmented Generation,RAG,same,2026-10-03,c-0216,llm,RAG is the standard acronym for Retrieval-Augmented Generation.
+RAG-Fusion,TourRank,different,2026-10-03,c-0217,llm,
+ROUGE-L F1,Token F1,different,2026-10-03,c-0218,llm,
+Rank Distillation,Relevance Feedback,different,2026-10-03,c-0219,llm,
+Reciprocal-Rank Fusion,Rank Fusion,related,2026-10-03,c-0220,llm,subtype of
+Rank Regression,Regression Model,related,2026-10-03,c-0221,llm,subtype
+Ray Data,Ray,related,2026-10-03,c-0222,llm,component of
+Reinforcement Fine-Tuning,Reinforcement Learning,related,2026-10-03,c-0223,llm,subtype
+Reasoning Supervision,Reinforcement Fine-Tuning,different,2026-10-03,c-0223,llm,
+Reasoning Supervision,Reinforcement Learning,different,2026-10-03,c-0223,llm,
+Recommendation System,Recommender System,same,2026-10-03,c-0224,llm,Lexical variants denoting the same concept and class of information filtering systems.
+Reddit Health Communities,Reddit Corpus,related,2026-10-03,c-0225,llm,Reddit Health Communities is a specific subset/benchmark dataset derived from the broader Reddit Corpus
+Route Consistency,Route Consistency Loss,same,2026-10-03,c-0226,llm,"Both refer to the same auxiliary regularization loss, with or without the generic suffix 'Loss'."
+Semantic Item Encoder,Semantic Encoder,related,2026-10-03,c-0227,llm,subtype
+SkillRet,SkillsBench,different,2026-10-03,c-0228,llm,
+Specialist,Specialist Reranker,same,2026-10-03,c-0229,llm,"Both names refer to the same model within the same paper, with one including the generic model type suffix 'Reranker'."
+Structural Typing,Structural Type Assignment,same,2026-10-03,c-0230,llm,Both names refer to the same task of assigning structural data types to discovered domain attributes within the framework.
+Text-to-Table,Structured Extraction,related,2026-10-03,c-0231,llm,subtype
+Trie-Constrained Beam Search,Trie-Constrained Decoding,related,2026-10-03,c-0232,llm,subtype
+Trie-Constrained Beam Search,Trie-Constrained Autoregressive Search,related,2026-10-03,c-0232,llm,subtype
+Trie-Constrained Autoregressive Search,Trie-Constrained Decoding,related,2026-10-03,c-0232,llm,subtype
+Two-Tower Architecture,Two-Tower Model,same,2026-10-03,c-0233,llm,"Both terms refer to the same two-tower retrieval network architecture/model, differing only by generic suffix (Architecture vs. Model)."
+Voyage Rerank-2.5-Lite,Voyage Rerank-2.5,related,2026-10-03,c-0234,llm,lightweight variant of Voyage Rerank-2.5
+X Citation,Y Citation,different,2026-10-03,c-0235,llm,
+grok-4.1-fast-reasoning,grok-4.1-fast-non-reasoning,related,2026-10-03,c-0236,llm,reasoning variant of grok-4.1-fast
+r/AskDocs,r/Diabetes,different,2026-10-03,c-0237,llm,
+r/AskDocs,r/Hypertension,different,2026-10-03,c-0237,llm,
+r/AskDocs,r/Steroids,different,2026-10-03,c-0237,llm,
+r/Diabetes,r/Hypertension,different,2026-10-03,c-0237,llm,
+r/Diabetes,r/Steroids,different,2026-10-03,c-0237,llm,
+r/Hypertension,r/Steroids,different,2026-10-03,c-0237,llm,
+PCT,PT2 Compilation Time,different,2026-10-03,c-0238,llm,
+RBD,Residual Behavioral Distillation,same,2026-10-03,c-0239,llm,RBD is the explicit acronym for Residual Behavioral Distillation.

@@ -1,0 +1,1470 @@
+[
+ {
+  "canonical": "Agent Pass-Rate",
+  "aliases": [
+   "Agent Pass Rate"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentpassrate",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Agent Skills",
+  "aliases": [
+   "AgentSkills"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentskill",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Agent-Skill Retrieval",
+  "aliases": [
+   "Agent Skill Retrieval"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentskillretrieval",
+  "reason": "identical normalised key and type",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "BGE-Base",
+  "aliases": [
+   "BGE-base"
+  ],
+  "method": "code",
+  "cluster_id": "key:bgebase",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Bge-Reranker-V2-M3",
+  "aliases": [
+   "BGE-Reranker-V2-M3",
+   "BGE-Reranker-v2-m3",
+   "Bge-reranker-v2-m3",
+   "bge-reranker-v2-m3"
+  ],
+  "method": "code",
+  "cluster_id": "key:bgererankerv2m3",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Canopy",
+  "aliases": [
+   "CANOPY"
+  ],
+  "method": "code",
+  "cluster_id": "key:canopy",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "CAT-ID2",
+  "aliases": [
+   "CAT-ID 2"
+  ],
+  "method": "code",
+  "cluster_id": "key:catid2",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "CCBot",
+  "aliases": [
+   "CC-Bot"
+  ],
+  "method": "code",
+  "cluster_id": "key:ccbot",
+  "reason": "identical normalised key and type",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Chain-of-Thought",
+  "aliases": [
+   "Chain of Thought"
+  ],
+  "method": "code",
+  "cluster_id": "key:chainofthought",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "DSI Naive",
+  "aliases": [
+   "DSInaive"
+  ],
+  "method": "code",
+  "cluster_id": "key:dsinaive",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "DSI Semantic",
+  "aliases": [
+   "DSIsemantic"
+  ],
+  "method": "code",
+  "cluster_id": "key:dsisemantic",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Full-output KD",
+  "aliases": [
+   "Full-Output KD"
+  ],
+  "method": "code",
+  "cluster_id": "key:fulloutputkd",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Gemini-3.1-pro",
+  "aliases": [
+   "Gemini-3.1-Pro"
+  ],
+  "method": "code",
+  "cluster_id": "key:gemini31pro",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Gemma-4-E4B-it",
+  "aliases": [
+   "Gemma-4-E4B-It"
+  ],
+  "method": "code",
+  "cluster_id": "key:gemma4e4bit",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Grouped Soft Targets",
+  "aliases": [
+   "Grouped Soft-Target"
+  ],
+  "method": "code",
+  "cluster_id": "key:groupedsofttarget",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Hit Rate",
+  "aliases": [
+   "HitRate"
+  ],
+  "method": "code",
+  "cluster_id": "key:hitrate",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Liu_refined",
+  "aliases": [
+   "Liu_Refined"
+  ],
+  "method": "code",
+  "cluster_id": "key:liurefined",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "LLM Call",
+  "aliases": [
+   "LLM Calls"
+  ],
+  "method": "code",
+  "cluster_id": "key:llmcall",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Multi-Layer Perceptron",
+  "aliases": [
+   "Multilayer Perceptron"
+  ],
+  "method": "code",
+  "cluster_id": "key:multilayerperceptron",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "NDCG@20",
+  "aliases": [
+   "nDCG@20"
+  ],
+  "method": "code",
+  "cluster_id": "key:ndcg20",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Novelty-Relevance Trade-off",
+  "aliases": [
+   "Novelty-Relevance Trade-Off",
+   "Novelty\u2013Relevance Trade-Off"
+  ],
+  "method": "code",
+  "cluster_id": "key:noveltyrelevancetradeoff",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Prefix-aware BasisRQ",
+  "aliases": [
+   "Prefix-Aware BasisRQ"
+  ],
+  "method": "code",
+  "cluster_id": "key:prefixawarebasisrq",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "QINCO",
+  "aliases": [
+   "QINCo"
+  ],
+  "method": "code",
+  "cluster_id": "key:qinco",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Qwen2.5-7B-Instruct",
+  "aliases": [
+   "Qwen2.5 7B Instruct"
+  ],
+  "method": "code",
+  "cluster_id": "key:qwen257binstruct",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "r/AskDocs",
+  "aliases": [
+   "R/AskDocs"
+  ],
+  "method": "code",
+  "cluster_id": "key:raskdoc",
+  "reason": "identical normalised key and type",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "RBD + future hard SID",
+  "aliases": [
+   "RBD + Future Hard SID"
+  ],
+  "method": "code",
+  "cluster_id": "key:rbdplusfuturehardsid",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "r/Diabetes",
+  "aliases": [
+   "R/Diabetes"
+  ],
+  "method": "code",
+  "cluster_id": "key:rdiabete",
+  "reason": "identical normalised key and type",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Recall@K",
+  "aliases": [
+   "Recall@k"
+  ],
+  "method": "code",
+  "cluster_id": "key:recallk",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "r/Hypertension",
+  "aliases": [
+   "R/Hypertension"
+  ],
+  "method": "code",
+  "cluster_id": "key:rhypertension",
+  "reason": "identical normalised key and type",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "r/Steroids",
+  "aliases": [
+   "R/Steroids"
+  ],
+  "method": "code",
+  "cluster_id": "key:rsteroid",
+  "reason": "identical normalised key and type",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "r/TryingToConceive",
+  "aliases": [
+   "R/TryingToConceive"
+  ],
+  "method": "code",
+  "cluster_id": "key:rtryingtoconceive",
+  "reason": "identical normalised key and type",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Secpm Reweighting",
+  "aliases": [
+   "secpm Reweighting"
+  ],
+  "method": "code",
+  "cluster_id": "key:secpmreweighting",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "skill_lookup",
+  "aliases": [
+   "Skill_Lookup"
+  ],
+  "method": "code",
+  "cluster_id": "key:skilllookup",
+  "reason": "identical normalised key and type",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Time to Start",
+  "aliases": [
+   "Time To Start"
+  ],
+  "method": "code",
+  "cluster_id": "key:timetostart",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Tool-REX v3",
+  "aliases": [
+   "Tool-REX V3"
+  ],
+  "method": "code",
+  "cluster_id": "key:toolrexv3",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "HR@10",
+  "aliases": [
+   "Hit Rate@10"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0008",
+  "reason": "HR@10 is the standard abbreviation and symbol for Hit Rate (or Hit Ratio) at rank 10.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Recall@10",
+  "aliases": [
+   "R@10"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0008",
+  "reason": "R@10 is the standard abbreviation for Recall at rank 10.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "User\u2013Agent Web\u2013Platform Paradigm",
+  "aliases": [
+   "User\u2013Agent Web\u2013Platform",
+   "User\u2013Agent Web\u2013Platform Setting"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0009",
+  "reason": "Phrasing variants referring to the exact same recommendation interaction paradigm, with or without generic suffixes like 'Paradigm' and 'Setting'.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "NDCG@10",
+  "aliases": [
+   "N@10"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0011",
+  "reason": "N@10 is a direct abbreviation for NDCG@10 (Normalized Discounted Cumulative Gain at cutoff 10).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "NDCG@100",
+  "aliases": [
+   "N@100"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0011",
+  "reason": "N@100 is a direct abbreviation for NDCG@100 (Normalized Discounted Cumulative Gain at cutoff 100).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "LLM-Generated User Profile",
+  "aliases": [
+   "LLM-Generated Profile"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0012",
+  "reason": "Both terms refer to the exact same technique of using a large language model to summarize interaction history into a user profile representation.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Hit Rate",
+  "aliases": [
+   "HR"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0013",
+  "reason": "HR is the standard abbreviation for the Hit Rate evaluation metric.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Recall@100",
+  "aliases": [
+   "R@100"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0014",
+  "reason": "R@100 is a standard abbreviation for Recall at rank 100.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Recall@K",
+  "aliases": [
+   "Recall at K"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0017",
+  "reason": "They are typographic variations of the same ranked retrieval evaluation metric (Recall at cutoff K).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Habitual Consumption",
+  "aliases": [
+   "Habitual Regime"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0020",
+  "reason": "Both terms denote the same consumption regime where user interactions align closely with historical preferences.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Hit@1",
+  "aliases": [
+   "H@1"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0021",
+  "reason": "H@1 is an abbreviated notation for Hit@1 (Hit Rate/Hit Ratio at cutoff 1).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Recall@5",
+  "aliases": [
+   "R@5",
+   "Top-5 Recall"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0022",
+  "reason": "All refer to Recall evaluated at cutoff rank 5 (Recall@5 / R@5 / Top-5 Recall).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Exploratory Regime",
+  "aliases": [
+   "Exploratory Consumption"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0023",
+  "reason": "Both refer to the exploratory consumption regime where user interactions diverge semantically from past history.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Collaborative Sequential Recommendation Model",
+  "aliases": [
+   "Collaborative Sequential Model"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0024",
+  "reason": "Both terms refer to the same default baseline recommendation model in the routing system paper, with one omitting the generic term 'Recommendation'.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "First-Stage Recall",
+  "aliases": [
+   "Stage-1 Recall"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0026",
+  "reason": "Stage-1 Recall and First-Stage Recall are lexical variants referring to the same retrieval metric measuring the recall of the initial retrieval stage.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Conversational Recommender System",
+  "aliases": [
+   "Conversational Recommendation System"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0032",
+  "reason": "lexical variation between recommendation system and recommender system",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "LLM",
+  "aliases": [
+   "Large Language Model"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0038",
+  "reason": "LLM is the standard acronym for Large Language Model.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "All-Level Retrieval",
+  "aliases": [
+   "All Levels",
+   "All-Level Retrieval Rule"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0049",
+  "reason": "They denote the same retrieval rule operating across all levels of the Semantic ID hierarchy, with 'All Levels' appearing as the table label and 'Rule' as a generic suffix.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Amazon Video Games",
+  "aliases": [
+   "Video Games"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0050",
+  "reason": "'Video Games' in this context refers directly to the Amazon Video Games domain dataset from the Amazon Reviews benchmark.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Amazon Movies and TV",
+  "aliases": [
+   "Movies and TV"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0051",
+  "reason": "\"Movies and TV\" is a shortened mention of the \"Amazon Movies and TV\" domain dataset from the Amazon Reviews benchmark.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "ESCI",
+  "aliases": [
+   "Amazon ESCI"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0054",
+  "reason": "Amazon ESCI and ESCI refer to the same benchmark dataset (Shopping Queries Dataset) released by Amazon (Reddy et al., 2022).",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Steroids Corpus",
+  "aliases": [
+   "r/Steroids"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0059",
+  "reason": "Both refer to the same subreddit dataset (r/Steroids corpus) evaluated in the study, with one using the subreddit identifier prefix and the other using the generic 'Corpus' suffix.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "r/AskDocs",
+  "aliases": [
+   "AskDocs Corpus"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0061",
+  "reason": "Both refer to the dataset of medical posts collected from the r/AskDocs subreddit, differing only by generic suffix ('Corpus') and subreddit formatting ('r/').",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "R/LoseIt",
+  "aliases": [
+   "LoseIt Corpus"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0062",
+  "reason": "Both terms refer to the same held-out dataset collected from the r/LoseIt subreddit used for evaluating semantic consolidation strategies, with 'Corpus' acting as a generic suffix.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Attribute Type Assignment",
+  "aliases": [
+   "Structural Type Assignment"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0065",
+  "reason": "Both terms refer to the same pipeline step or task of assigning a structural data type to discovered attributes.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Autotune Configuration Pruning",
+  "aliases": [
+   "Autotuning Pruning"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0068",
+  "reason": "Both terms refer to the same compilation optimization technique of pruning the autotuning configuration search space to reduce compilation overhead.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Average Rank",
+  "aliases": [
+   "Avg. Rank"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0069",
+  "reason": "Avg. Rank is a standard abbreviation of Average Rank.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Beauty Bakerie",
+  "aliases": [
+   "BB"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0071",
+  "reason": "BB is the table column abbreviation for the Beauty Bakerie merchant catalog dataset.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Serving-Time Routing Gate",
+  "aliases": [
+   "Serving-Time Gate"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0078",
+  "reason": "Both terms refer to the identical learned routing gate mechanism proposed in the paper to direct users between recommendation models at serving time.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "InfoNCE",
+  "aliases": [
+   "InfoNCE Loss"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0085",
+  "reason": "'InfoNCE Loss' is the InfoNCE objective named with the generic suffix 'Loss'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "In-Context Product Search",
+  "aliases": [
+   "In-Context Catalog Search"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0102",
+  "reason": "Both terms are used interchangeably within the same work (RPTune) to denote the task of finding/ranking matching products from a catalog directly within an LLM's context window.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Centroid",
+  "aliases": [
+   "Centroid Profile"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0108",
+  "reason": "'Centroid Profile' is simply the method name 'Centroid' with the generic noun 'Profile' appended.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Codebook-Only Target",
+  "aliases": [
+   "Codebook-Only"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0113",
+  "reason": "Both refer to the same supervision objective/target variant in the ablation study, differing only by the addition of the generic noun 'Target'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "KL Divergence",
+  "aliases": [
+   "Kullback-Leibler Divergence"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0117",
+  "reason": "KL Divergence is the standard abbreviation for Kullback-Leibler Divergence.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Cross-Entropy",
+  "aliases": [
+   "Cross-Entropy Objective"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0119",
+  "reason": "Both refer to the cross-entropy loss function, with and without the generic suffix 'Objective'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Text-Video Interaction Module",
+  "aliases": [
+   "Multi-Grained Text-Video Interaction Module",
+   "TVIM"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0121",
+  "reason": "They are the exact same module in MMTI, referred to interchangeably as the (multi-grained) text-video interaction module and abbreviated as TVIM.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "SFP",
+  "aliases": [
+   "Sentence, Frame, and Patch Queries"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0123",
+  "reason": "SFP is the direct acronym for sentence, frame, and patch queries.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "DPO",
+  "aliases": [
+   "Direct Preference Optimization"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0127",
+  "reason": "Direct Preference Optimization is the full name of the DPO post-training method.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Decoder Soft-Target",
+  "aliases": [
+   "Decoder Soft-Target Supervision"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0132",
+  "reason": "Both names refer to the same baseline supervision strategy, with or without the generic suffix 'Supervision'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Grouped Soft Targets",
+  "aliases": [
+   "Grouped Soft-Target Supervision"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0132",
+  "reason": "Both names refer to the same supervision method, differing only by punctuation, pluralization, and the generic suffix 'Supervision'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Mixture of Experts",
+  "aliases": [
+   "MoE"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0136",
+  "reason": "MoE is the standard acronym for Mixture of Experts.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "SBERT",
+  "aliases": [
+   "Sentence-BERT"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0142",
+  "reason": "SBERT is the widely accepted acronym for Sentence-BERT.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Exact Match",
+  "aliases": [
+   "EM",
+   "Exact-Match Accuracy"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0144",
+  "reason": "Exact Match and EM represent the same metric, with Exact-Match Accuracy differing only by the addition of a generic metric suffix.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Exponential Moving Average",
+  "aliases": [
+   "EMA"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0144",
+  "reason": "EMA is the direct acronym expansion for Exponential Moving Average used as a heuristic update method.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Effective Training Time",
+  "aliases": [
+   "ETT",
+   "ETT%"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0145",
+  "reason": "ETT and ETT% are abbreviations and representations for the Effective Training Time metric and framework introduced in the same paper.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "TTR",
+  "aliases": [
+   "Time To Recovery",
+   "Time to Recover"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0145",
+  "reason": "TTR is the acronym for Time to Recovery (or Time to Recover), representing the same failure recovery overhead metric.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Time to Start",
+  "aliases": [
+   "TTS"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0145",
+  "reason": "TTS is the acronym for Time to Start, representing the startup and initialization duration metric.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "LLM-in-the-Loop Reinforcement Learning",
+  "aliases": [
+   "LLM-in-the-Loop RL"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0148",
+  "reason": "exact abbreviation variant ('RL' vs 'Reinforcement Learning') describing the same training procedure",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Node Encoder",
+  "aliases": [
+   "Encoder $f_{\\theta}$"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0149",
+  "reason": "Both names refer to the same component in Canopy, where the node encoder is explicitly denoted as $f_\\theta$ and fine-tuned to score hierarchical evidence regions.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Exact/Version Request Family",
+  "aliases": [
+   "Exact/Version Family"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0155",
+  "reason": "Both terms refer to the same category of user dialogue turns requesting an exact song title or version.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "F1 Score",
+  "aliases": [
+   "F1"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0157",
+  "reason": "Both names refer to the same evaluation metric (the harmonic mean of precision and recall), with 'F1' simply omitting the generic suffix 'Score'.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Feature Reward",
+  "aliases": [
+   "FR"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0160",
+  "reason": "FR is the standard acronym for the Feature Reward metric evaluated alongside Exact Match (EM) in catalog search.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Same-Vendor Effect",
+  "aliases": [
+   "Same-Vendor Premium"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0162",
+  "reason": "Both refer to the same phenomenon and metric where an evaluation model favors outputs from models originating from the same vendor.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Self-Preference",
+  "aliases": [
+   "Self Effect"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0162",
+  "reason": "Self effect is a direct synonym/shorthand for self-preference bias, representing the diagonal preference for own-model outputs.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "NVIDIA H100",
+  "aliases": [
+   "NVIDIA H100 GPU"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0171",
+  "reason": "The two names refer to the same GPU model, with one including the generic hardware suffix 'GPU'.",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Vector Quantization",
+  "aliases": [
+   "VQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0173",
+  "reason": "VQ is the standard acronym for Vector Quantization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "GRPO",
+  "aliases": [
+   "Group Relative Policy Optimization"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0174",
+  "reason": "GRPO is the standard acronym for Group Relative Policy Optimization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "General Knowledge",
+  "aliases": [
+   "General-Knowledge Task"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0176",
+  "reason": "They refer to the same evaluation/training task category, with one using the generic suffix 'Task'.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Patent Prior Art Search",
+  "aliases": [
+   "Patent Prior Art Retrieval"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0180",
+  "reason": "'Patent Prior Art Retrieval' and 'Patent Prior Art Search' refer to the same information retrieval task of finding relevant prior art documents for patent applications.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Natural Questions",
+  "aliases": [
+   "NQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0187",
+  "reason": "NQ is the standard abbreviation and acronym for the Natural Questions dataset.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Text-to-Video Retrieval",
+  "aliases": [
+   "Text-Video Retrieval"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0188",
+  "reason": "Both terms refer to the same cross-modal retrieval task of matching and retrieving video content using text queries.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Semantic Consolidation",
+  "aliases": [
+   "Semantic Attribute Consolidation"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0189",
+  "reason": "Both names denote the same stage in iterative attribute discovery where discovered attribute names are merged and resolved based on semantic equivalence.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "User Understanding",
+  "aliases": [
+   "User Understanding Task"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0193",
+  "reason": "Both refer to the same user-understanding evaluation task/track, with one variant adding the generic suffix 'Task'.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Item Understanding",
+  "aliases": [
+   "Item Understanding Task"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0196",
+  "reason": "They refer to the same task concept with and without the generic suffix 'Task'.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Two-Tower Model",
+  "aliases": [
+   "Two-Tower Architecture"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0197",
+  "reason": "Two-Tower Architecture and Two-Tower Model refer interchangeably to the same dual-encoder model design with separate representations for queries/users and items.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Jensen-Shannon Divergence",
+  "aliases": [
+   "JS Divergence",
+   "Jensen\u2013Shannon Divergence"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0199",
+  "reason": "Acronym/abbreviation and punctuation variants (hyphen vs en-dash) representing the exact same mathematical divergence measure.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Key Feature Selection",
+  "aliases": [
+   "KFS"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0201",
+  "reason": "KFS is the direct acronym for Key Feature Selection in the same paper/context.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "List Attribute",
+  "aliases": [
+   "List"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0207",
+  "reason": "Both terms refer to the same document attribute type representing multiple discrete values/sets of values, with or without the generic suffix 'Attribute'.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Model FLOPs Utilization",
+  "aliases": [
+   "MFU"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0212",
+  "reason": "MFU is the standard abbreviation for Model FLOPs Utilization, both referring to the same training efficiency metric.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "MLP",
+  "aliases": [
+   "Multi-Layer Perceptron"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0213",
+  "reason": "acronym vs expansion",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Matched-Control Reranker",
+  "aliases": [
+   "Matched Control Model",
+   "Matched Official-Label Control"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0217",
+  "reason": "They are different phrasings for the same experimental baseline reranking model trained on official labels to evaluate against the specialist reranker.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "RAG",
+  "aliases": [
+   "Retrieval-Augmented Generation"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0220",
+  "reason": "RAG is the standard acronym for Retrieval-Augmented Generation.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Niche-Based Routing",
+  "aliases": [
+   "Niche Heuristic"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0223",
+  "reason": "Both terms refer to the same heuristic baseline routing policy prioritizing users with higher niche ratios.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Short-History Routing",
+  "aliases": [
+   "Short-History Heuristic"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0223",
+  "reason": "Both terms refer to the same heuristic baseline routing policy prioritizing users with shorter interaction histories.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Number of Failures",
+  "aliases": [
+   "NoF"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0224",
+  "reason": "NoF is the direct acronym for Number of Failures in the Effective Training Time framework.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "OpenHands",
+  "aliases": [
+   "OpenHands SDK"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0229",
+  "reason": "OpenHands SDK is the software development kit of OpenHands, referring to the same agent harness named with a generic suffix.",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Wilcoxon Signed-Rank Test",
+  "aliases": [
+   "Paired Wilcoxon Signed-Rank Test",
+   "Paired Wilcoxon Test"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0233",
+  "reason": "All three refer to the same statistical hypothesis test introduced by Wilcoxon (1945), which is intrinsically a paired/signed-rank test.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Popularity-Attractor Effect",
+  "aliases": [
+   "Popularity Attractor",
+   "Popularity-Attractor Pattern"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0237",
+  "reason": "These refer to the same phenomenon observed in LLM-generated profiles, alternating between noun, effect, and pattern phrasing in the same context.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Pretrained Query Encoder",
+  "aliases": [
+   "Query Encoder $f_{0}$"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0239",
+  "reason": "Both denote the exact same frozen query encoder component $f_0$ in the model formulation.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "PyTorch 2.0",
+  "aliases": [
+   "PyTorch 2"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0241",
+  "reason": "PyTorch 2 and PyTorch 2.0 are alternate names for the same major version release of the PyTorch framework.",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Residual Behavioral Distillation",
+  "aliases": [
+   "RBD"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0243",
+  "reason": "RBD is the standard acronym for Residual Behavioral Distillation.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Residual Quantization",
+  "aliases": [
+   "RQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0245",
+  "reason": "RQ is the standard acronym for Residual Quantization, referring to the same vector quantization method.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Random Routing",
+  "aliases": [
+   "Uniform Random Routing"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0248",
+  "reason": "Both terms refer to the same baseline policy from the same work that routes users to recommendation models uniformly at random.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Route Consistency Loss",
+  "aliases": [
+   "Route Consistency"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0256",
+  "reason": "Both terms refer to the same auxiliary objective/regularization term in RouteRec, differing only by the generic suffix 'Loss'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Semantic ID",
+  "aliases": [
+   "SID",
+   "Semantic Identifier"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0257",
+  "reason": "They are synonymous terms (abbreviation, full expansion, and spelling variant) for discrete, structured item/document identifiers used in generative retrieval and recommendation systems.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Specialist Reranker",
+  "aliases": [
+   "Specialist Model"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0261",
+  "reason": "Both names refer to the same reranking model trained with request-satisfying target supplementation/supervision to resolve exact request conflicts.",
+  "types": [
+   "model"
+  ]
+ }
+]

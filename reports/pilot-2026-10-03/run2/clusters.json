@@ -1,0 +1,1380 @@
+[
+[
+"A/B Testing",
+"Online A/B Testing"
+],
+[
+"ADSS",
+"ADVV"
+],
+[
+"AFL",
+"MemRec"
+],
+[
+"AMD-Net",
+"NarVid"
+],
+[
+"Accuracy",
+"Answer Accuracy"
+],
+[
+"Action-Alignment Score",
+"Action\u2013Logic Score",
+"Chain Score",
+"Logic-Alignment Score"
+],
+[
+"Agent Pass-Rate",
+"Pass Rate"
+],
+[
+"Agent Skills",
+"SKILL.md"
+],
+[
+"HR@10",
+"Hit Rate@10",
+"MRR@10",
+"R@1",
+"R@10",
+"Recall@10",
+"Recall@100",
+"Recall@K"
+],
+[
+"Agent Web",
+"Agent-Based Recommendation",
+"LLM-Based Personal Agent",
+"LLM-based User Agent",
+"Platform-Centric Recommendation",
+"User\u2013Agent Web\u2013Platform",
+"User\u2013Agent Web\u2013Platform Paradigm",
+"User\u2013Agent Web\u2013Platform Setting"
+],
+[
+"Conversational Recommendation System",
+"Generative Recommendation",
+"Generative Recommendation Model",
+"Generative User Profile",
+"Interactive Recommendation",
+"LLM-Based Recommendation",
+"Reasoning Generative Recommendation",
+"Recommendation Foundation Model"
+],
+[
+"HR@10",
+"N@10",
+"N@100",
+"NDCG",
+"NDCG@10",
+"NDCG@100",
+"NDCG@K",
+"R@10"
+],
+[
+"Aggregate Profile",
+"Exploratory User",
+"Generative User Profile",
+"LLM",
+"LLM-Generated Profile",
+"LLM-Generated User Profile",
+"LLM-based User Agent",
+"Semantic User Profiling"
+],
+[
+"HR",
+"HR@10",
+"Habitual Regime",
+"Heuristic Routing",
+"Hierarchical Recommendation",
+"Hit Rate",
+"Hit Rate@10",
+"Hybrid Retrieval"
+],
+[
+"N@100",
+"NDCG@100",
+"R@1",
+"R@10",
+"R@100",
+"Recall@10",
+"Recall@100"
+],
+[
+"HR@10",
+"Hit Rate@10",
+"MRR@10",
+"Novelty",
+"Novelty@10",
+"Novelty@K",
+"Recall@10"
+],
+[
+"Agent Web",
+"LLM-based User Agent",
+"User Agent",
+"User Persona",
+"User\u2013Agent Web\u2013Platform",
+"User\u2013Agent Web\u2013Platform Paradigm"
+],
+[
+"Citation Recall",
+"NDCG@K",
+"Recall",
+"Recall at K",
+"Recall@3",
+"Recall@K"
+],
+[
+"Agent-Based Recommendation",
+"LLM-Based Personal Agent",
+"LLM-Powered Agent",
+"LLM-based User Agent",
+"Memory-Oriented Agent System",
+"User\u2013Agent Web\u2013Platform"
+],
+[
+"Context-Aware Recommendation",
+"Sequential Recommendation",
+"Session-Aware Next-Item Prediction",
+"Session-Aware Recommendation",
+"Session-Based Recommendation"
+],
+[
+"Consumption Regime",
+"Exploratory Consumption",
+"Habitual Consumption",
+"Habitual Regime",
+"Habitual User"
+],
+[
+"H@1",
+"H@3",
+"H@5",
+"HR@10",
+"Hit@1"
+],
+[
+"R@5",
+"Recall at K",
+"Recall@5",
+"Top-5 Recall"
+],
+[
+"Exploratory Consumption",
+"Exploratory Regime",
+"Exploratory User",
+"Habitual User"
+],
+[
+"Collaborative Sequential Model",
+"Collaborative Sequential Recommendation Model",
+"Sequence Model",
+"Sequential Recommendation"
+],
+[
+"Platform-Centric Recommendation",
+"User\u2013Agent Web\u2013Platform Paradigm",
+"User\u2013Platform Paradigm"
+],
+[
+"First-Stage Recall",
+"Stage-1 Recall",
+"Top-5 Recall"
+],
+[
+"Cross-Domain Recommendation",
+"Generative Recommendation",
+"Recommendation Task"
+],
+[
+"Cross-Domain Recommendation",
+"Personalized Recommendation",
+"Recommendation"
+],
+[
+"Autoregressive Next-Item Prediction",
+"Next-Item Prediction",
+"Session-Aware Next-Item Prediction"
+],
+[
+"Content-Based Recommendation",
+"LLM",
+"LLM-Based Recommendation"
+],
+[
+"Generative Recommendation",
+"Generative Retrieval",
+"Generative Retriever"
+],
+[
+"Conversational Music Recommendation",
+"Conversational Recommendation System",
+"Conversational Recommender System"
+],
+[
+"Recall@10",
+"Recall@3"
+],
+[
+"Recall",
+"Recall@100"
+],
+[
+"Explainable Recommendation",
+"Reasoning Generative Recommendation"
+],
+[
+"Hit Rate@10",
+"N@10"
+],
+[
+"MRR",
+"MRR@10"
+],
+[
+"LLM",
+"Large Language Model"
+],
+[
+"Agent-Based Recommendation",
+"Interactive Recommendation"
+],
+[
+"Agentic-Hybrid Retrieval",
+"Hybrid Retrieval"
+],
+[
+"Hit Rate",
+"HitRate@K"
+],
+[
+"Consumption Regime",
+"Exploratory Regime"
+],
+[
+"Content-Based Recommendation",
+"Context-Aware Recommendation"
+],
+[
+"Collaborative Model",
+"Collaborative Sequential Model"
+],
+[
+"Agent-Native Community",
+"Agentic Web",
+"Internet of Agents"
+],
+[
+"Agent-Skill Retrieval",
+"LLM-Mediated Retrieval",
+"LLM-Mediated Retrieval Loop",
+"Skill Retrieval"
+],
+[
+"AgentCF",
+"AgentCF++"
+],
+[
+"Agreement",
+"Inter-Annotator Agreement"
+],
+[
+"All Levels",
+"All-Level Retrieval",
+"All-Level Retrieval Rule",
+"All-Level Scoring",
+"Compatibility Scoring",
+"Multiresolution Scoring"
+],
+[
+"Amazon Books",
+"Amazon Movies and TV",
+"Amazon Reviews",
+"Amazon Reviews 2023",
+"Amazon Video Games",
+"Video Games"
+],
+[
+"Amazon Movies and TV",
+"Movies and TV",
+"Video Games"
+],
+[
+"Books",
+"Goodreads",
+"InstructRec"
+],
+[
+"Amazon Books",
+"Books"
+],
+[
+"Amazon ESCI",
+"ESCI",
+"ESCI-ES",
+"ESCI-US",
+"Multilingual ESCI",
+"Multilingual Retrieval"
+],
+[
+"ESCI",
+"ESCI-ES",
+"ESCI-JP",
+"ESCI-US"
+],
+[
+"Multilingual E-Commerce Retrieval",
+"Multilingual Recommendation",
+"Multilingual Retrieval"
+],
+[
+"Anchor Frame",
+"Anchor Patch",
+"Key Frame Feature",
+"Key Patch Feature",
+"Patch-level Selection"
+],
+[
+"Any-Level Flat Selection",
+"Leaf-Level Flat Selection"
+],
+[
+"AskDocs Corpus",
+"Diabetes Corpus",
+"Hypertension Corpus",
+"LoseIt Corpus",
+"Steroids Corpus",
+"TTC Corpus",
+"r/Steroids"
+],
+[
+"Hypertension Corpus",
+"r/Hypertension"
+],
+[
+"AskDocs Corpus",
+"r/AskDocs"
+],
+[
+"LoseIt Corpus",
+"R/LoseIt"
+],
+[
+"Attention",
+"Self-Attention"
+],
+[
+"Attribute Discovery",
+"Iterative Attribute Discovery"
+],
+[
+"Attribute Type Assignment",
+"Structural Type",
+"Structural Type Assignment"
+],
+[
+"Autoregressive Decoder",
+"Full-SID Decoder"
+],
+[
+"Autoregressive Decoding",
+"Autoregressive Retrieval",
+"Prefix-Aware Decoding",
+"Trie-Constrained Autoregressive Search",
+"Trie-Constrained Beam Search",
+"Trie-Constrained Decoding"
+],
+[
+"Autotune Configuration Pruning",
+"Autotuning Pruning"
+],
+[
+"Average Rank",
+"Avg. Rank"
+],
+[
+"B-Shop",
+"I-Shop"
+],
+[
+"BB",
+"Beauty Bakerie"
+],
+[
+"BGE-Base",
+"Bge-Reranker-V2-M3",
+"Qwen3-Reranker",
+"Qwen3-Reranker-0.6B",
+"Qwen3-Reranker-4B",
+"Qwen3-Reranker-8B"
+],
+[
+"BGE-M3",
+"LaSER",
+"MPNet",
+"Sentence-T5",
+"Sentence-mT5",
+"T5-base",
+"mT5-base"
+],
+[
+"BSARec",
+"FEARec",
+"TiSASRec"
+],
+[
+"BasisRQ",
+"Prefix-aware BasisRQ"
+],
+[
+"Beam Search",
+"KV-Cached Beam Search"
+],
+[
+"Behavior-Guided Routing",
+"Routing Profile"
+],
+[
+"Behavior-Guided Sparse Routing",
+"Learned Gate",
+"Learned Gating",
+"Routing Threshold",
+"Selective Routing",
+"Serving-Time Gate",
+"Serving-Time Routing Gate"
+],
+[
+"Behavior-Selection F1",
+"User-Understanding Reinforcement Learning"
+],
+[
+"Bfloat16 Mixed Precision",
+"bfloat16"
+],
+[
+"Bi-Encoder",
+"Cross-Encoder"
+],
+[
+"BiLSTM-CRF",
+"CRF"
+],
+[
+"Biaffine Attention",
+"Global Attention",
+"Local Attention",
+"Local Biaffine Attention"
+],
+[
+"Biaffine Dependency Parser",
+"Biaffine Structured Prediction"
+],
+[
+"Bidirectional Contrastive Learning",
+"Bidirectional Contrastive Loss",
+"InfoNCE",
+"InfoNCE Loss"
+],
+[
+"Binomial Logistic Regression",
+"Binomial Regression"
+],
+[
+"Bottom-Up Merging",
+"Global Grouping",
+"Pairwise Comparison"
+],
+[
+"Bridge",
+"Bridge-GRPO"
+],
+[
+"CAT-ID2",
+"Hi-Gen",
+"MERGE"
+],
+[
+"CLIP",
+"CLIP Visual Encoder"
+],
+[
+"CLIP4Clip",
+"X-CLIP",
+"X-Pool"
+],
+[
+"COBRA",
+"LIGER"
+],
+[
+"Listwise LLM Reranking",
+"Listwise Qwen Reranking",
+"Listwise Reranking",
+"Pointwise LLM Reranking",
+"Pointwise Qwen Reranking",
+"Pointwise Qwen2.5 7B Instruct",
+"Pointwise Ranking",
+"Pointwise Reranking"
+],
+[
+"Decision-Oriented Reranking",
+"Listwise LLM Reranking",
+"Listwise Qwen Reranking",
+"Listwise Reranking",
+"Pairwise Ranking",
+"Pairwise Reranking"
+],
+[
+"Listwise LLM Reranking",
+"Listwise Qwen Reranking",
+"Listwise Ranking",
+"Listwise Reranking",
+"Pairwise Ranking",
+"Pointwise Ranking"
+],
+[
+"Candidate Reranking",
+"Decision-Oriented Model",
+"Decision-Oriented Reranking",
+"Recommendation Reranking",
+"Reranking"
+],
+[
+"Listwise Qwen",
+"Listwise Qwen Reranking",
+"Pointwise Qwen Reranking"
+],
+[
+"Pointwise Qwen2.5 7B Instruct",
+"Qwen2.5-7B-Instruct"
+],
+[
+"Candidate Retrieval",
+"Multi-Stage Retrieval"
+],
+[
+"Candidate-Conditioned Retrieval",
+"Private Memory",
+"Private-Memory Retrieval"
+],
+[
+"Catalog Coverage",
+"Catalog Footprint",
+"Coverage@K"
+],
+[
+"Catalog Search",
+"Context Curation",
+"In-Context Catalog Search",
+"In-Context Product Search",
+"Product Search",
+"Product Selection"
+],
+[
+"Context Ordering",
+"Context Pruning",
+"Context Reordering"
+],
+[
+"Catalog Search",
+"Catalog-Grounded Supervision",
+"Catalog-Wide Relevance Scoring"
+],
+[
+"Full-Catalog Prompting",
+"In-Context Catalog Search"
+],
+[
+"Context Curation",
+"Context Ordering"
+],
+[
+"Cell-Level Noise",
+"Interaction Noise"
+],
+[
+"Centroid",
+"Centroid Profile",
+"Narrative",
+"TemporalCentroid",
+"TemporalNarrative"
+],
+[
+"Claude-Opus-5",
+"Claude-Sonnet-5"
+],
+[
+"Code-Conditioned Residual Distribution",
+"Residual-Distance Distribution"
+],
+[
+"Codebook Capacity",
+"Effective Capacity"
+],
+[
+"Codebook Loss",
+"Commitment Loss"
+],
+[
+"Codebook-Only",
+"Codebook-Only Target"
+],
+[
+"Collision-Aware Teacher",
+"Collision-Aware Teacher Construction"
+],
+[
+"Compilation Cache",
+"Warm Compilation Cache"
+],
+[
+"Conflict Slice",
+"Label-Request Conflict"
+],
+[
+"Consistency Loss",
+"Consistency Regularization",
+"KL Consistency Loss",
+"KL Divergence",
+"Kullback-Leibler Divergence",
+"Multi-Grained Consistency Regularization"
+],
+[
+"Critic",
+"Critic-Guided Additional Retrieval",
+"Iterative Retrieval",
+"LLM Critic"
+],
+[
+"Cross-Entropy",
+"Cross-Entropy Objective",
+"Listwise Cross-Entropy",
+"Next-Item Prediction Loss"
+],
+[
+"Cross-Lingual Prefix Agreement",
+"Prefix Consistency",
+"Prefix Coverage",
+"Prefix@1"
+],
+[
+"Multi-Grained Text-Video Interaction Module",
+"Multi-grained Cross-modal Interaction",
+"TVIM",
+"Text Query Decomposition",
+"Text-Video Interaction Module"
+],
+[
+"Cross-Modal Alignment",
+"Multi-Grained Alignment",
+"Multi-Grained Text-Video Interaction Module",
+"Multi-grained Cross-modal Interaction"
+],
+[
+"SFP",
+"Sentence, Frame, and Patch Queries",
+"Text Query Decomposition"
+],
+[
+"Cross-Modal Alignment",
+"Cross-Modal Misalignment"
+],
+[
+"Cue Only",
+"Hidden MoE",
+"Hidden Only"
+],
+[
+"DIF-SR",
+"FDSA"
+],
+[
+"DPO",
+"Direct Preference Optimization",
+"IRPO"
+],
+[
+"DSI",
+"DSI Naive",
+"DSI Semantic"
+],
+[
+"Data Leakage",
+"Temporal Leakage"
+],
+[
+"Dataset-Aware MoE",
+"Language-Aware MoE"
+],
+[
+"Decision Transformer",
+"Structured Decision Making"
+],
+[
+"Decoder Soft-Target",
+"Decoder Soft-Target Supervision",
+"Grouped Soft Targets",
+"Grouped Soft-Target Supervision",
+"Hierarchical Supervision",
+"Sampled-Tree Supervision"
+],
+[
+"Hierarchical Supervision",
+"Multiresolution Relevance",
+"Multiresolution Relevance Supervision",
+"Supervision\u2013Resolution Mismatch"
+],
+[
+"Dense Encoder",
+"Dense Retrieval"
+],
+[
+"Flat Dense Routing",
+"Flat Sparse Routing",
+"Hierarchical Dense Routing",
+"Hierarchical Sparse Expert Allocation",
+"Hierarchical Sparse Router",
+"Sparse Mixture-of-Experts",
+"Sparse Routing"
+],
+[
+"Mixture of Experts",
+"MoE",
+"Sparse Mixture-of-Experts"
+],
+[
+"Dense Feed-Forward Baseline",
+"Flat Dense Routing"
+],
+[
+"Distance-Matched Control",
+"Isotropic Control",
+"Product-Directed Control"
+],
+[
+"Diversity",
+"Diversity@K",
+"Within-List Diversity"
+],
+[
+"Domain Name Analysis",
+"URL Analysis"
+],
+[
+"Dynamic Tensor Shape",
+"Dynamic-Shape Handling",
+"Dynamic-Shape Marking"
+],
+[
+"E5",
+"E5-large",
+"Multilingual E5",
+"Multilingual Encoder",
+"Multilingual-E5-Large",
+"SBERT",
+"Sentence Encoder",
+"Sentence-BERT"
+],
+[
+"EERCF",
+"TeachCLIP"
+],
+[
+"EM",
+"EMA",
+"Exact Match",
+"Exact Variant Match",
+"Exact-Match Accuracy",
+"Exponential Moving Average"
+],
+[
+"ETT",
+"ETT%",
+"Effective Training Time",
+"TTR",
+"TTS",
+"Time To Recovery",
+"Time to Recover",
+"Time to Start"
+],
+[
+"Embedding Similarity",
+"Parent\u2013Child Embedding Similarity Rule"
+],
+[
+"EmbeddingGemma 300M",
+"Gemini Embedding 2",
+"Gemini-3.7-Flash"
+],
+[
+"Encoder",
+"Encoder\u2013Reorganizer",
+"LLM-in-the-Loop RL",
+"LLM-in-the-Loop Reinforcement Learning",
+"LLM-in-the-Loop Reorganizer",
+"Reorganizer"
+],
+[
+"Encoder $f_{\\theta}$",
+"Node Encoder"
+],
+[
+"Engineered Label-Dialogue Consistency",
+"Round-Trip Consistency Filtering"
+],
+[
+"Evidence Compression",
+"Post-Retrieval Evidence Compression"
+],
+[
+"Evidence Hierarchy",
+"Hierarchy Construction"
+],
+[
+"Exact Test",
+"Permutation Test"
+],
+[
+"Exact-Prefix Lookup",
+"Prefix Lookup"
+],
+[
+"Exact-Song Request",
+"Exact/Version Conflict Slice",
+"Exact/Version Family",
+"Exact/Version Request Family"
+],
+[
+"Explorer",
+"Non-Explorer"
+],
+[
+"F1",
+"F1 Score"
+],
+[
+"FF",
+"PF",
+"Prefix Failure"
+],
+[
+"FORGE",
+"HGRec"
+],
+[
+"FR",
+"Fast Recovery",
+"Feature Reward",
+"Functional Relation",
+"Recovery Cost Reduction"
+],
+[
+"Factored Group and Within-Group Router",
+"Router"
+],
+[
+"Family Effect",
+"Same-Vendor Effect",
+"Same-Vendor Premium",
+"Self Effect",
+"Self-Preference",
+"Self-Recognition",
+"Shared Effect",
+"Shared Taste"
+],
+[
+"Feature Coverage",
+"Relation Coverage",
+"Word Coverage"
+],
+[
+"Feature Head",
+"Relation Head"
+],
+[
+"Full-SID Supervision",
+"Hard SID Supervision",
+"Latent-Reasoning Objective",
+"SID-Generation Objective"
+],
+[
+"Future Hard SID",
+"Hard SID targets",
+"RBD + future hard SID"
+],
+[
+"GEAR",
+"GEAR Generator",
+"GEAR Reranker",
+"Generator-Reranker",
+"Joint Reranking Head",
+"Reranker",
+"Reranking Head"
+],
+[
+"GPR",
+"GR4AD"
+],
+[
+"GPT-3.5",
+"GPT-4"
+],
+[
+"GPT-3.5-Turbo-0125",
+"GPT-3.5-Turbo-1106"
+],
+[
+"GPU",
+"NVIDIA A100",
+"NVIDIA A800-SXM4-80GB GPU",
+"NVIDIA H100",
+"NVIDIA H100 GPU",
+"NVIDIA L4"
+],
+[
+"GPU-Held Shutdown Time",
+"Shutdown",
+"Shutdown Time"
+],
+[
+"GRIT-VQ",
+"VQ",
+"Vector Quantization"
+],
+[
+"GRPO",
+"Group Relative Policy Optimization"
+],
+[
+"Gemma",
+"Gemma-4-E4B-it"
+],
+[
+"General Knowledge",
+"General Knowledge Question Answering",
+"General-Knowledge Task",
+"Knowledge Question Answering"
+],
+[
+"Global Event Prediction",
+"Social Unrest Prediction"
+],
+[
+"Goodput",
+"ML Productivity Goodput"
+],
+[
+"Graph Transformer",
+"Graph Transformer Retrieval System",
+"Invention Graph",
+"Invention Graph Induction",
+"Open Relation Extraction",
+"Patent Graph Extraction",
+"Relation Extraction"
+],
+[
+"Nearest Neighbor Search",
+"Patent Prior Art Retrieval",
+"Patent Prior Art Search",
+"Patent Search"
+],
+[
+"Graph Transformer Retrieval System",
+"Patent Prior Art Retrieval"
+],
+[
+"Grok-4.1-Fast-Non-Reasoning",
+"Grok-4.1-Fast-Reasoning"
+],
+[
+"HM2Rec",
+"HM4SR",
+"M3SRec"
+],
+[
+"Hierarchical Classification",
+"Selective Hierarchical Classification"
+],
+[
+"Hierarchical Predictor",
+"Prefix-Conditioned Predictor"
+],
+[
+"History Size",
+"Within-History Content Diversity"
+],
+[
+"HotpotQA",
+"MMQA",
+"NQ",
+"Natural Questions",
+"OTT-QA"
+],
+[
+"Image-Text Retrieval",
+"Text-Video Retrieval",
+"Text-to-Video Retrieval"
+],
+[
+"Incremental Consolidation",
+"Semantic Attribute Consolidation",
+"Semantic Consolidation",
+"Semantic Merging"
+],
+[
+"Information Extraction",
+"Value Extraction"
+],
+[
+"Information and Attribute Extraction",
+"Iterative Attribute Discovery and Extraction",
+"Large-Scale Extraction"
+],
+[
+"Inter-Frame Redundancy",
+"Intra-Frame Redundancy"
+],
+[
+"Interest-Evolution Chain",
+"Interest-Evolution Chain Generation",
+"Relevant-Behavior Selection",
+"User Interest Chain",
+"User Understanding",
+"User Understanding Task"
+],
+[
+"InternVL3.5-8B",
+"Qwen3-VL-8B-Instruct"
+],
+[
+"IoU",
+"Whole Graph IoU"
+],
+[
+"Item Description Generation",
+"Item Semantics Alignment Data",
+"Item Understanding",
+"Item Understanding Task"
+],
+[
+"Item Tokenizer",
+"Item Tower",
+"Tokenizer",
+"Two-Stage Recommendation",
+"Two-Stage Retriever",
+"Two-Tower Architecture",
+"Two-Tower Model"
+],
+[
+"Item-Level Pretraining",
+"Multi-Granularity Semantic Alignment Pretraining",
+"Relation-Level Pretraining",
+"Semantic Alignment",
+"Semantic Alignment Pretraining",
+"Token-Level Pretraining",
+"User-Level Pretraining"
+],
+[
+"JS Divergence",
+"Jensen-Shannon Divergence",
+"Jensen\u2013Shannon Divergence"
+],
+[
+"Jaccard Similarity",
+"Jaccard@10"
+],
+[
+"KFS",
+"Key Feature Selection",
+"Soft Assignment Fusion"
+],
+[
+"Kimi-K2-Thinking",
+"Kimi-K2.5"
+],
+[
+"Known-Item Search",
+"Music Search"
+],
+[
+"Language Probe",
+"Language-Probe Accuracy"
+],
+[
+"Latency",
+"Observed Serving Latency",
+"Serving Latency"
+],
+[
+"Lifecycle Efficiency Gap",
+"Lifecycle Overhead"
+],
+[
+"List",
+"List Attribute"
+],
+[
+"Listener LLM",
+"Recsys LLM"
+],
+[
+"Liu_hybrid",
+"Liu_refined"
+],
+[
+"Live Streaming Domain",
+"Short Video Domain"
+],
+[
+"Llama 2 13B",
+"Llama 2 7B",
+"Llama 3.1 70B"
+],
+[
+"MFU",
+"Model FLOPs Utilization"
+],
+[
+"MLP",
+"Multi-Layer Perceptron",
+"ReLU MLP"
+],
+[
+"Macro Routing",
+"Macro Scope",
+"Micro Scope",
+"Mid Scope",
+"Routing Scope"
+],
+[
+"Macro Cue",
+"Macro Routing",
+"Micro Cue",
+"Mid Cue"
+],
+[
+"Macro Routing",
+"Micro Cue",
+"Micro Routing"
+],
+[
+"Matched Control Model",
+"Matched Official-Label Control",
+"Matched-Control Reranker"
+],
+[
+"MiniMax",
+"MiniMax-M2.7"
+],
+[
+"MuRAG",
+"VisRAG"
+],
+[
+"Multimodal RAG",
+"RAG",
+"RAG-Fusion",
+"Retrieval-Augmented Generation",
+"Vanilla RAG"
+],
+[
+"N@3",
+"N@5"
+],
+[
+"Neural Parser",
+"Rule-Based Parser"
+],
+[
+"Niche Heuristic",
+"Niche-Based Routing",
+"Short-History Heuristic",
+"Short-History Routing"
+],
+[
+"NoF",
+"Number of Failures"
+],
+[
+"Nothink Mode",
+"Think Mode"
+],
+[
+"Official nDCG@20",
+"Request-Satisfying nDCG@20"
+],
+[
+"OneReason-0.8B-pretrain",
+"OneReason-8B-pretrain"
+],
+[
+"OneRec",
+"OneRec-Think",
+"OneRec-V2",
+"OpenOneRec"
+],
+[
+"OpenHands",
+"OpenHands SDK"
+],
+[
+"P5-CID",
+"P5-SID"
+],
+[
+"PCT",
+"PT2 Compilation Time"
+],
+[
+"PT2",
+"PT2 Compilation"
+],
+[
+"Paired Wilcoxon Signed-Rank Test",
+"Paired Wilcoxon Test",
+"Wilcoxon Signed-Rank Test"
+],
+[
+"Parallel Component Initialization",
+"Trainer Initialization Optimization"
+],
+[
+"Parent-Child Refinement",
+"Parent-Relative Refinement"
+],
+[
+"Persona Embedding",
+"Persona-similarity"
+],
+[
+"Popularity Attractor",
+"Popularity Bias",
+"Popularity-Attractor Effect",
+"Popularity-Attractor Pattern"
+],
+[
+"Preference State",
+"Task-Specific Preference State",
+"Temporal Preference State"
+],
+[
+"Pretrained Query Encoder",
+"Query Encoder $f_{0}$"
+],
+[
+"Pruning Budget",
+"Pruning Rate"
+],
+[
+"PyTorch 2",
+"PyTorch 2.0",
+"PyTorch 2.0 Compilation Time Reduction"
+],
+[
+"Qwen3-Embedding-4B",
+"Qwen3.5",
+"Qwen3.5-397B-A17B"
+],
+[
+"RBD",
+"Residual Behavioral Distillation"
+],
+[
+"ROUGE-L F1",
+"Token F1"
+],
+[
+"RQ",
+"RQ Tokenizer",
+"RQ-KMeans",
+"RQ-Transformer",
+"RQ-VAE",
+"Recommendation Quality",
+"Residual Quantization"
+],
+[
+"RQ Tokenizer",
+"Vanilla RQ"
+],
+[
+"Residual Quantization",
+"Residual Trajectory"
+],
+[
+"Random Routing",
+"Uniform Random Routing"
+],
+[
+"Rank Fusion",
+"Reciprocal-Rank Fusion"
+],
+[
+"Rank Regression",
+"Regression Model"
+],
+[
+"Ray",
+"Ray Data"
+],
+[
+"RecFormer",
+"UniSRec"
+],
+[
+"Recommendation Model Training",
+"Recommendation System"
+],
+[
+"Reddit",
+"Reddit Corpus"
+],
+[
+"Refinement Ambiguity",
+"Refinement-Entropy Profile"
+],
+[
+"Route Consistency",
+"Route Consistency Loss"
+],
+[
+"SID",
+"Semantic ID",
+"Semantic Identifier"
+],
+[
+"Semantic Edge",
+"Syntactic Edge"
+],
+[
+"Shuffle Cues",
+"Train Shuffle",
+"Train Zero"
+],
+[
+"Soft Assignment Matrix",
+"Soft Assignment Mechanism"
+],
+[
+"Specialist Model",
+"Specialist Reranker"
+],
+[
+"TAAC 2025",
+"TAAC x KDD Cup 2026"
+],
+[
+"Unsaved Training Time",
+"Wasted Training Time"
+],
+[
+"Voyage Rerank-2.5",
+"Voyage Rerank-2.5-Lite"
+],
+[
+"X Citation",
+"Y Citation"
+]
+]

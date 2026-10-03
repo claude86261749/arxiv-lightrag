@@ -1,0 +1,1348 @@
+[
+ {
+  "canonical": "AgentCF",
+  "aliases": [
+   "AgentCF++"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentcf",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Agent Skills",
+  "aliases": [
+   "AgentSkills"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentskill",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Agent Skill Retrieval",
+  "aliases": [
+   "Agent-Skill Retrieval"
+  ],
+  "method": "code",
+  "cluster_id": "key:agentskillretrieval",
+  "reason": "identical normalised key and type",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "AI\u2013AI Bias",
+  "aliases": [
+   "AI-AI Bias"
+  ],
+  "method": "code",
+  "cluster_id": "key:aiaibia",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "BGE-base",
+  "aliases": [
+   "BGE-Base"
+  ],
+  "method": "code",
+  "cluster_id": "key:bgebase",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Bge-reranker-v2-m3",
+  "aliases": [
+   "BGE-Reranker-v2-m3",
+   "Bge-Reranker-V2-M3",
+   "Bge-Reranker-v2-m3",
+   "bge-reranker-v2-m3"
+  ],
+  "method": "code",
+  "cluster_id": "key:bgererankerv2m3",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Canopy",
+  "aliases": [
+   "CANOPY"
+  ],
+  "method": "code",
+  "cluster_id": "key:canopy",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "CAT-ID2",
+  "aliases": [
+   "CAT-ID 2"
+  ],
+  "method": "code",
+  "cluster_id": "key:catid2",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "CCBot",
+  "aliases": [
+   "CC-Bot"
+  ],
+  "method": "code",
+  "cluster_id": "key:ccbot",
+  "reason": "identical normalised key and type",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Chain of Thought",
+  "aliases": [
+   "Chain-of-Thought"
+  ],
+  "method": "code",
+  "cluster_id": "key:chainofthought",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "DSI Naive",
+  "aliases": [
+   "DSInaive"
+  ],
+  "method": "code",
+  "cluster_id": "key:dsinaive",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "DSI Semantic",
+  "aliases": [
+   "DSIsemantic"
+  ],
+  "method": "code",
+  "cluster_id": "key:dsisemantic",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "ETT%",
+  "aliases": [
+   "ETT"
+  ],
+  "method": "code",
+  "cluster_id": "key:ett",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Full-Output KD",
+  "aliases": [
+   "Full-output KD"
+  ],
+  "method": "code",
+  "cluster_id": "key:fulloutputkd",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Gemini-3.1-pro",
+  "aliases": [
+   "Gemini 3.1 Pro",
+   "Gemini-3.1-Pro"
+  ],
+  "method": "code",
+  "cluster_id": "key:gemini31pro",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Gemini-3.7-Flash",
+  "aliases": [
+   "Gemini 3.7 Flash"
+  ],
+  "method": "code",
+  "cluster_id": "key:gemini37flash",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Gemma-4-E4B-it",
+  "aliases": [
+   "Gemma-4-E4B-It",
+   "gemma-4-E4B-it"
+  ],
+  "method": "code",
+  "cluster_id": "key:gemma4e4bit",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "grok-4.1-fast-non-reasoning",
+  "aliases": [
+   "Grok-4.1-Fast-Non-Reasoning"
+  ],
+  "method": "code",
+  "cluster_id": "key:grok41fastnonreasoning",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "grok-4.1-fast-reasoning",
+  "aliases": [
+   "Grok-4.1-Fast-Reasoning"
+  ],
+  "method": "code",
+  "cluster_id": "key:grok41fastreasoning",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Grouped Soft Target",
+  "aliases": [
+   "Grouped Soft-Target"
+  ],
+  "method": "code",
+  "cluster_id": "key:groupedsofttarget",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "HitRate",
+  "aliases": [
+   "Hit Rate"
+  ],
+  "method": "code",
+  "cluster_id": "key:hitrate",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "In-context Catalog Search",
+  "aliases": [
+   "In-Context Catalog Search"
+  ],
+  "method": "code",
+  "cluster_id": "key:incontextcatalogsearch",
+  "reason": "identical normalised key and type",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Mixture of Experts",
+  "aliases": [
+   "Mixture Of Experts",
+   "Mixture-of-Experts"
+  ],
+  "method": "code",
+  "cluster_id": "key:mixtureofexpert",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Multi-Layer Perceptron",
+  "aliases": [
+   "Multilayer Perceptron"
+  ],
+  "method": "code",
+  "cluster_id": "key:multilayerperceptron",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Non-Target Permutation",
+  "aliases": [
+   "Non-target Permutation"
+  ],
+  "method": "code",
+  "cluster_id": "key:nontargetpermutation",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Novelty\u2013Relevance Trade-Off",
+  "aliases": [
+   "Novelty-Relevance Trade-Off"
+  ],
+  "method": "code",
+  "cluster_id": "key:noveltyrelevancetradeoff",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "NVIDIA H100 GPU",
+  "aliases": [
+   "Nvidia H100 GPU"
+  ],
+  "method": "code",
+  "cluster_id": "key:nvidiah100gpu",
+  "reason": "identical normalised key and type",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "OneReason-0.8B-pretrain",
+  "aliases": [
+   "OneReason-0.8B-Pretrain"
+  ],
+  "method": "code",
+  "cluster_id": "key:onereason08bpretrain",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "OneReason-8B-pretrain",
+  "aliases": [
+   "OneReason-8B-Pretrain"
+  ],
+  "method": "code",
+  "cluster_id": "key:onereason8bpretrain",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Pass Rate",
+  "aliases": [
+   "Pass-Rate"
+  ],
+  "method": "code",
+  "cluster_id": "key:passrate",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Prefix-Aware BasisRQ",
+  "aliases": [
+   "Prefix-aware BasisRQ"
+  ],
+  "method": "code",
+  "cluster_id": "key:prefixawarebasisrq",
+  "reason": "identical normalised key and type",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Qwen2.5 7B Instruct",
+  "aliases": [
+   "Qwen2.5-7B-Instruct"
+  ],
+  "method": "code",
+  "cluster_id": "key:qwen257binstruct",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Recall@K",
+  "aliases": [
+   "Recall@k"
+  ],
+  "method": "code",
+  "cluster_id": "key:recallk",
+  "reason": "identical normalised key and type",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Sentence, Frame, and Patch Queries",
+  "aliases": [
+   "Sentence, Frame, And Patch Queries"
+  ],
+  "method": "code",
+  "cluster_id": "key:sentenceframeandpatchquery",
+  "reason": "identical normalised key and type",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Voyage Rerank-2.5",
+  "aliases": [
+   "Voyage rerank-2.5"
+  ],
+  "method": "code",
+  "cluster_id": "key:voyagererank25",
+  "reason": "identical normalised key and type",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "QINCo",
+  "aliases": [
+   "QINCO"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0000",
+  "reason": "Case variants referring to the residual quantization method proposed by Huijben et al. (2024).",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Vector Quantization",
+  "aliases": [
+   "VQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0001",
+  "reason": "VQ is the standard acronym for Vector Quantization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Residual Quantization",
+  "aliases": [
+   "RQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0002",
+  "reason": "RQ is the standard abbreviation for Residual Quantization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "34K Marketplace Pool",
+  "aliases": [
+   "34K Pool"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0004",
+  "reason": "34K Pool is a shortened reference to the 34K Marketplace Pool dataset used for skill retrieval evaluation.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "AR-Only Scoring",
+  "aliases": [
+   "AR Only"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0028",
+  "reason": "Both terms refer to the same autoregressive-only scoring/retrieval rule, with 'Scoring' acting as a generic suffix.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Natural Questions",
+  "aliases": [
+   "NQ"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0032",
+  "reason": "NQ is the standard abbreviation and acronym for Natural Questions.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "NDCG@10",
+  "aliases": [
+   "N@10"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0036",
+  "reason": "N@10 is an abbreviated notation for Normalized Discounted Cumulative Gain at rank 10 (NDCG@10).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "HR@10",
+  "aliases": [
+   "Hit Rate@10"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0037",
+  "reason": "Hit Rate@10 is the fully written form of the abbreviated metric HR@10.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "User\u2013Agent Web\u2013Platform Paradigm",
+  "aliases": [
+   "User\u2013Agent Web\u2013Platform",
+   "User\u2013Agent Web\u2013Platform Setting"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0038",
+  "reason": "They are naming variations with or without generic head words (paradigm, setting) referring to the same interaction paradigm introduced in the paper.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Hierarchical Sparse Routing",
+  "aliases": [
+   "Hierarchical Sparse Expert Allocation"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0039",
+  "reason": "Hierarchical Sparse Expert Allocation is the section heading and descriptive term for RouteRec's hierarchical sparse routing mechanism.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Exploratory Regime",
+  "aliases": [
+   "Exploratory Consumption"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0040",
+  "reason": "Both terms refer to the exploratory consumption regime characterizing users whose subsequent interactions diverge semantically from their interaction history.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Habitual Regime",
+  "aliases": [
+   "Habitual Consumption"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0040",
+  "reason": "Both terms denote the habitual consumption regime where users revisit familiar content neighborhoods consistent with their history.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Recall@100",
+  "aliases": [
+   "NDCG@100",
+   "R@100"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0041",
+  "reason": "R@100 is a standard abbreviation for Recall@100.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Short-History Routing",
+  "aliases": [
+   "Short-History Heuristic"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0043",
+  "reason": "They are synonymous designations in the same paper for a heuristic routing policy prioritizing users with shorter interaction histories.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Popularity-Attractor Effect",
+  "aliases": [
+   "Popularity Attractor"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0044",
+  "reason": "They refer to the same phenomenon observed in recommender systems with LLM-generated user profiles, used interchangeably as a noun phrase and an effect name.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Recall@5",
+  "aliases": [
+   "R@5",
+   "Top-5 Recall"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0045",
+  "reason": "All three names refer to the same information retrieval metric evaluating recall among the top 5 retrieved results, differing only by abbreviation, formatting, and phrasing.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "MRR",
+  "aliases": [
+   "Mean Reciprocal Rank"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0046",
+  "reason": "Mean Reciprocal Rank is the full expansion of the acronym MRR.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Sentence-BERT",
+  "aliases": [
+   "SBERT"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0060",
+  "reason": "SBERT is the widely accepted acronym for Sentence-BERT, both referencing Reimers and Gurevych (2019).",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Amazon Movies And TV",
+  "aliases": [
+   "Movies and TV"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0062",
+  "reason": "Both refer to the Movies and TV product review domain from the Amazon Reviews benchmark in the same study.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Amazon Video Games",
+  "aliases": [
+   "Video Games"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0062",
+  "reason": "Both refer to the Video Games domain from the Amazon Reviews benchmark in the same study.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Instruments",
+  "aliases": [
+   "I-Shop"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0063",
+  "reason": "I-Shop is an abbreviated table header name referring to the Instruments (Amazon Musical Instruments) benchmark dataset in the same study.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "ESCI",
+  "aliases": [
+   "Amazon ESCI",
+   "Amazon Shopping Queries Dataset"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0064",
+  "reason": "Amazon Shopping Queries Dataset, Amazon ESCI, and ESCI refer to the same e-commerce product search benchmark dataset introduced by Reddy et al. (2022).",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Asynchronous Checkpointing",
+  "aliases": [
+   "Asynchronous Checkpoint"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0067",
+  "reason": "They are grammatical variations (noun phrase vs. gerund form) of the same systems technique that offloads checkpoint saving to avoid blocking training.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Semantic Consolidation",
+  "aliases": [
+   "Semantic Attribute Consolidation"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0069",
+  "reason": "Both names refer to the same step in the iterative attribute discovery process that merges semantically equivalent or redundant attribute names.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Iterative Attribute Discovery Framework",
+  "aliases": [
+   "Iterative Attribute Discovery and Extraction"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0070",
+  "reason": "Both names refer to the exact same proposed framework for iterative attribute discovery and extraction presented in the paper.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Recommendation",
+  "aliases": [
+   "Recommendation Task"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0074",
+  "reason": "Recommendation Task is the same general concept as Recommendation with a generic task suffix.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Autotune Configuration Pruning",
+  "aliases": [
+   "Autotuning Pruning"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0077",
+  "reason": "Both terms refer to the same optimization technique for reducing PyTorch compilation autotuning overhead by pruning autotuning configurations.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Dynamic Gating Mechanism",
+  "aliases": [
+   "Dynamic Gating"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0089",
+  "reason": "Name variant with and without the generic term 'Mechanism', referring to the same gating technique.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Text-Video Interaction Module",
+  "aliases": [
+   "Multi-Grained Text-Video Interaction Module",
+   "TVIM"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0089",
+  "reason": "Full name, acronym TVIM, and descriptive phrasing ('multi-grained text-video interaction module') referring to the same proposed module.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Reorganizer",
+  "aliases": [
+   "RPTune Reorganizer"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0097",
+  "reason": "RPTune Reorganizer refers directly to the Reorganizer component within the RPTune framework.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "In-Context Product Search",
+  "aliases": [
+   "In-context Catalog Search"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0098",
+  "reason": "Both terms are used synonymously in the same paper to describe the task of searching and selecting products from a catalog within an LLM's context window.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Conflict Slice",
+  "aliases": [
+   "Evaluation Slice"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0111",
+  "reason": "Both names refer to the same 43-case evaluation subset where user directives conflict with official benchmark labels.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "DPO",
+  "aliases": [
+   "Direct Preference Optimization"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0114",
+  "reason": "DPO is the standard acronym for Direct Preference Optimization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "GRPO",
+  "aliases": [
+   "Group Relative Policy Optimization"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0114",
+  "reason": "GRPO is the standard acronym for Group Relative Policy Optimization.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Prefix Consistency",
+  "aliases": [
+   "SID-Prefix Consistency"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0118",
+  "reason": "SID-Prefix Consistency is Prefix Consistency explicitly qualified with the domain acronym SID (Semantic ID).",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Data Preprocessing Warm-up",
+  "aliases": [
+   "DPP Warm-Up"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0122",
+  "reason": "DPP Warm-Up refers to Data Preprocessing (Pipeline) warm-up, representing the same initialization phase prior to training.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Item Understanding",
+  "aliases": [
+   "Understanding Item"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0126",
+  "reason": "Syntactic phrasing variants of the item comprehension challenge task.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Patent Prior Art Search",
+  "aliases": [
+   "Patent Prior Art Retrieval"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0132",
+  "reason": "\"Patent prior art retrieval\" and \"patent prior art search\" are synonymous names for the exact same information retrieval task.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Exact Match",
+  "aliases": [
+   "EM",
+   "Exact-Match Accuracy"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0134",
+  "reason": "EM is the standard acronym for Exact Match, and Exact-Match Accuracy is the same metric with a generic suffix.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Exponential Moving Average",
+  "aliases": [
+   "EMA"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0134",
+  "reason": "EMA is the standard acronym for Exponential Moving Average.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Effective Training Time",
+  "aliases": [
+   "ETT%"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0135",
+  "reason": "ETT% is the explicit abbreviation/symbol used in the paper for Effective Training Time.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Time to Start",
+  "aliases": [
+   "TTS"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0135",
+  "reason": "TTS is the acronym for Time to Start within the ETT% evaluation framework.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Number of Failures",
+  "aliases": [
+   "NoF"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0136",
+  "reason": "NoF is the standard acronym for the Number of Failures metric, explicitly defined as such in the context.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Exact/Version Request Family",
+  "aliases": [
+   "Exact/Version Family"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0143",
+  "reason": "Both terms refer to the same specific category of dialogue requests in the audit benchmark, with one being an abbreviated name of the other.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "F1 Score",
+  "aliases": [
+   "F1"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0144",
+  "reason": "F1 and F1 Score refer to the same evaluation metric (harmonic mean of precision and recall), with or without the generic suffix 'Score'.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Feature Reward",
+  "aliases": [
+   "FR"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0145",
+  "reason": "FR is the direct acronym expansion of Feature Reward, defined in the same evaluation context.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "RecSys Challenge 2026 TalkPlay",
+  "aliases": [
+   "RecSys Challenge 2026 TalkPlay Benchmark"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0146",
+  "reason": "The names refer to the same conversational recommendation benchmark, differing only by the addition of the generic term 'Benchmark'.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Films",
+  "aliases": [
+   "Films Matrix"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0148",
+  "reason": "Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Papers",
+  "aliases": [
+   "Papers Matrix"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0148",
+  "reason": "Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "Products",
+  "aliases": [
+   "Products Matrix"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0148",
+  "reason": "Both refer to the same evaluation dataset/matrix used in the study, named with or without the generic suffix 'Matrix'.",
+  "types": [
+   "dataset"
+  ]
+ },
+ {
+  "canonical": "NVIDIA H100 GPU",
+  "aliases": [
+   "NVIDIA H100"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0155",
+  "reason": "They refer to the same GPU model, with and without the generic 'GPU' suffix.",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Text-Video Retrieval",
+  "aliases": [
+   "Text-to-Video Retrieval"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0163",
+  "reason": "Different naming variants for the same multimodal retrieval task of searching and ranking video content using natural language text queries.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "PyTorch 2",
+  "aliases": [
+   "PyTorch 2.0"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0165",
+  "reason": "PyTorch 2 and PyTorch 2.0 refer to the same major release of the PyTorch deep learning framework.",
+  "types": [
+   "tool"
+  ]
+ },
+ {
+  "canonical": "Intra-List Diversity",
+  "aliases": [
+   "Within-List Diversity"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0169",
+  "reason": "Within-list diversity and intra-list diversity are synonymous terms for the recommender systems evaluation metric measuring the diversity or pairwise dissimilarity of items within a single recommendation list.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "KFS",
+  "aliases": [
+   "Key Feature Selection"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0172",
+  "reason": "KFS is the standard acronym for Key Feature Selection in this context.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Soft Assignment Fusion",
+  "aliases": [
+   "Soft Assignment Mechanism"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0172",
+  "reason": "Both terms refer to the same differentiable feature aggregation/fusion mechanism based on soft assignment within KFS.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Supervised Fine-Tuning",
+  "aliases": [
+   "SFT"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0174",
+  "reason": "SFT is the standard acronym for Supervised Fine-Tuning, describing the same training adaptation technique.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "LLM-in-the-Loop Reinforcement Learning",
+  "aliases": [
+   "LLM-in-the-Loop RL"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0175",
+  "reason": "Full term and abbreviated acronym for the same reinforcement learning approach in RPTune.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "LLM-Mediated Retrieval Loop",
+  "aliases": [
+   "LLM-Mediated Loop",
+   "LLM-Mediated Retrieval"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0175",
+  "reason": "Variations in phrasing referring to the same agent-skill retrieval method mediated by an in-loop LLM.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Serving-Time Gate",
+  "aliases": [
+   "Serving-Time Routing Gate"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0178",
+  "reason": "Both terms refer to the same learned routing mechanism evaluated at serving time to direct users between recommendation models.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Listwise Reranking",
+  "aliases": [
+   "Listwise Reranker"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0182",
+  "reason": "They are noun and gerund forms representing the same listwise reranking method.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Pointwise Reranking",
+  "aliases": [
+   "Pointwise Reranker"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0182",
+  "reason": "They are noun and gerund forms representing the same pointwise reranking method.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Listwise Qwen Reranker",
+  "aliases": [
+   "Listwise Qwen"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0184",
+  "reason": "Same model/method referred to with and without the generic task suffix 'Reranker'.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Pointwise Qwen Reranker",
+  "aliases": [
+   "Pointwise Qwen"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0184",
+  "reason": "Same model/method referred to with and without the generic task suffix 'Reranker'.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "MFU",
+  "aliases": [
+   "Model FLOPs Utilization"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0190",
+  "reason": "MFU is the standard acronym for Model FLOPs Utilization.",
+  "types": [
+   "metric"
+  ]
+ },
+ {
+  "canonical": "Matched Control",
+  "aliases": [
+   "Matched-Control Reranker"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0194",
+  "reason": "They refer to the same baseline reranking model, differing only by the addition of the generic suffix 'Reranker'.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Semantic ID",
+  "aliases": [
+   "SID",
+   "Semantic Identifier"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0201",
+  "reason": "SID stands for Semantic ID or Semantic Identifier; they represent the identical concept of discrete, learned hierarchical identifiers in generative retrieval.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Semantic ID Hierarchy",
+  "aliases": [
+   "SID Hierarchy"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0201",
+  "reason": "SID Hierarchy and Semantic ID Hierarchy are spelling and abbreviation variations denoting the tree structure of semantic identifiers.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Wilcoxon Signed-Rank Test",
+  "aliases": [
+   "Paired Wilcoxon Test"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0211",
+  "reason": "The paired Wilcoxon test is the standard and widely used alternate name for the Wilcoxon signed-rank test applied to paired samples.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "RAG",
+  "aliases": [
+   "Retrieval-Augmented Generation"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0216",
+  "reason": "RAG is the standard acronym for Retrieval-Augmented Generation.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Recommender System",
+  "aliases": [
+   "Recommendation System"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0224",
+  "reason": "Lexical variants denoting the same concept and class of information filtering systems.",
+  "types": [
+   "concept"
+  ]
+ },
+ {
+  "canonical": "Route Consistency Loss",
+  "aliases": [
+   "Route Consistency"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0226",
+  "reason": "Both refer to the same auxiliary regularization loss, with or without the generic suffix 'Loss'.",
+  "types": [
+   "method"
+  ]
+ },
+ {
+  "canonical": "Specialist Reranker",
+  "aliases": [
+   "Specialist"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0229",
+  "reason": "Both names refer to the same model within the same paper, with one including the generic model type suffix 'Reranker'.",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Structural Type Assignment",
+  "aliases": [
+   "Structural Typing"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0230",
+  "reason": "Both names refer to the same task of assigning structural data types to discovered domain attributes within the framework.",
+  "types": [
+   "task"
+  ]
+ },
+ {
+  "canonical": "Two-Tower Model",
+  "aliases": [
+   "Two-Tower Architecture"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0233",
+  "reason": "Both terms refer to the same two-tower retrieval network architecture/model, differing only by generic suffix (Architecture vs. Model).",
+  "types": [
+   "model"
+  ]
+ },
+ {
+  "canonical": "Residual Behavioral Distillation",
+  "aliases": [
+   "RBD"
+  ],
+  "method": "llm",
+  "cluster_id": "c-0239",
+  "reason": "RBD is the explicit acronym for Residual Behavioral Distillation.",
+  "types": [
+   "method"
+  ]
+ }
+]

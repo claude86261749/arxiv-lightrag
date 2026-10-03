@@ -1,0 +1,655 @@
+{
+ "stoplist_removed": [],
+ "self_loops_removed": [],
+ "paper_local_renamed": [],
+ "condensed": [
+  {
+   "name": "BGE-Base",
+   "fragments": 12
+  },
+  {
+   "name": "Bge-Reranker-V2-M3",
+   "fragments": 11
+  },
+  {
+   "name": "CAT-ID2",
+   "fragments": 8
+  },
+  {
+   "name": "ESCI",
+   "fragments": 9
+  },
+  {
+   "name": "Effective Training Time",
+   "fragments": 18
+  },
+  {
+   "name": "Exact Match",
+   "fragments": 13
+  },
+  {
+   "name": "F1 Score",
+   "fragments": 13
+  },
+  {
+   "name": "GRPO",
+   "fragments": 9
+  },
+  {
+   "name": "HR@10",
+   "fragments": 13
+  },
+  {
+   "name": "Item Understanding",
+   "fragments": 9
+  },
+  {
+   "name": "Key Feature Selection",
+   "fragments": 12
+  },
+  {
+   "name": "LLM",
+   "fragments": 13
+  },
+  {
+   "name": "Liu_refined",
+   "fragments": 11
+  },
+  {
+   "name": "NDCG@100",
+   "fragments": 8
+  },
+  {
+   "name": "Natural Questions",
+   "fragments": 8
+  },
+  {
+   "name": "Node Encoder",
+   "fragments": 11
+  },
+  {
+   "name": "Number of Failures",
+   "fragments": 9
+  },
+  {
+   "name": "OpenHands",
+   "fragments": 12
+  },
+  {
+   "name": "RAG",
+   "fragments": 10
+  },
+  {
+   "name": "Recall@10",
+   "fragments": 14
+  },
+  {
+   "name": "Recall@100",
+   "fragments": 14
+  },
+  {
+   "name": "Recall@5",
+   "fragments": 8
+  },
+  {
+   "name": "Recall@K",
+   "fragments": 15
+  },
+  {
+   "name": "Residual Behavioral Distillation",
+   "fragments": 8
+  },
+  {
+   "name": "SBERT",
+   "fragments": 9
+  },
+  {
+   "name": "Semantic Consolidation",
+   "fragments": 11
+  },
+  {
+   "name": "TTR",
+   "fragments": 12
+  },
+  {
+   "name": "Text-Video Interaction Module",
+   "fragments": 12
+  },
+  {
+   "name": "Time to Start",
+   "fragments": 17
+  },
+  {
+   "name": "User Understanding",
+   "fragments": 9
+  },
+  {
+   "name": "r/AskDocs",
+   "fragments": 11
+  }
+ ],
+ "low_evidence": [
+  "34K Marketplace Pool",
+  "Cap4Video",
+  "Confidence Calibration",
+  "DITS",
+  "Denoising Method",
+  "Gemini CLI",
+  "GitHub",
+  "Guidance-Injection Attack",
+  "Joint Training",
+  "LongEmbed",
+  "Loss Tuning",
+  "MD5",
+  "MPT",
+  "Model Cascade",
+  "MultiWOZ",
+  "Paired Cosine Distance",
+  "Parametric Belief",
+  "Query Expansion",
+  "Terminus-2",
+  "Tournament-Based Ranking"
+ ],
+ "hubs": [
+  {
+   "name": "Semantic ID",
+   "type": "concept",
+   "degree": 76,
+   "verdict": "one",
+   "senses": [
+    "Hierarchical discrete identifiers (typically generated via residual vector quantization such as RQ-VAE) used to represent items or documents for generative retrieval and recommendation."
+   ],
+   "reason": "All fragments describe the same concept of Semantic IDs (discrete codes generated via quantization, structured hierarchically/prefix-wise in tries, and used in generative retrieval architectures)."
+  },
+  {
+   "name": "ResTD",
+   "type": "method",
+   "degree": 72,
+   "verdict": "one",
+   "senses": [
+    "A residual trajectory distillation framework and model designed to enhance generative retrieval tasks"
+   ],
+   "reason": "All fragments describe the same method, ResTD (Residual Trajectory Distillation), including its training framework, baseline comparisons, backbone architectures (T5-base, mT5-base), and evaluations on ESCI datasets for generative retrieval."
+  },
+  {
+   "name": "RPTune",
+   "type": "method",
+   "degree": 54,
+   "verdict": "one",
+   "senses": [
+    "An in-context catalog/product search framework featuring learned context curation, catalog-wide relevance scoring, and pruning for LLM-based product search."
+   ],
+   "reason": "All fragments describe the same method (RPTune), an in-context catalog search framework designed for product selection and context curation evaluated across various LLMs."
+  },
+  {
+   "name": "Canopy",
+   "type": "method",
+   "degree": 52,
+   "verdict": "one",
+   "senses": [
+    "A post-retrieval evidence compression framework that represents retrieved items hierarchically to reduce evidence token count in retrieval-augmented generation"
+   ],
+   "reason": "All fragments describe the same method, Canopy, which performs post-retrieval hierarchical evidence compression across heterogeneous results to save tokens while maintaining accuracy."
+  },
+  {
+   "name": "RouteRec",
+   "type": "model",
+   "degree": 50,
+   "verdict": "one",
+   "senses": [
+    "A session-aware next-item sequential recommendation model utilizing behavior-guided sparse routing and Mixture of Experts principles."
+   ],
+   "reason": "All fragments describe the same sequential recommendation model, RouteRec, detailing its architecture (behavior-guided sparse routing, Mixture of Experts, coarse-to-fine routing scopes), training objectives, and benchmark evaluations on datasets like LastFM and Retail Rocket."
+  },
+  {
+   "name": "RARS",
+   "type": "method",
+   "degree": 47,
+   "verdict": "one",
+   "senses": [
+    "Resolution-Aligned Relevance Supervision (RARS), a hierarchical generative retrieval framework and training method that operationalizes multiresolution relevance supervision across hierarchical semantic identifier refinements."
+   ],
+   "reason": "All fragments describe the same concept, Resolution-Aligned Relevance Supervision (RARS), an autoregressive generative retrieval method evaluated on datasets such as ESCI using semantic identifier hierarchies."
+  },
+  {
+   "name": "Generative Retrieval",
+   "type": "task",
+   "degree": 42,
+   "verdict": "one",
+   "senses": [
+    "A retrieval and recommendation paradigm where an autoregressive model directly generates item identifiers for target items instead of using separate indexing and search pipelines."
+   ],
+   "reason": "All fragments describe the same information retrieval paradigm/task where models autoregressively generate token sequences representing target item identifiers."
+  },
+  {
+   "name": "AgentWebRec",
+   "type": "model",
+   "degree": 39,
+   "verdict": "one",
+   "senses": [
+    "A user-agent-oriented personalized recommendation framework designed for the Agent Web within the User\u2013Agent Web\u2013Platform setting, which formulates recommendation as task-oriented distributed evidence acquisition and progressive fusion."
+   ],
+   "reason": "All fragments describe the same recommendation method/framework (AgentWebRec), evaluated on datasets like Books and Yelp against baselines like LLMRank and AgentCF."
+  },
+  {
+   "name": "Effective Training Time",
+   "type": "metric",
+   "degree": 38,
+   "verdict": "one",
+   "senses": [
+    "A metric and operational framework (often denoted ETT or ETT%) that measures the proportion of cluster/GPU time actively spent on productive model training versus lifecycle overheads like failures, compilation, and shutdown."
+   ],
+   "reason": "All fragments describe the same metric and operational framework (Effective Training Time / ETT%) used to track, decompose, and optimize productive GPU time in large-scale machine learning training fleets."
+  },
+  {
+   "name": "LLM",
+   "type": "model",
+   "degree": 38,
+   "verdict": "one",
+   "senses": [
+    "A general class of large pretrained neural language models used across various natural language processing and recommendation tasks"
+   ],
+   "reason": "All fragments describe applications and roles of Large Language Models (LLMs), such as extraction, recommendation reranking, and annotation, referring to the same underlying concept."
+  },
+  {
+   "name": "Narrative",
+   "type": "method",
+   "degree": 35,
+   "verdict": "one",
+   "senses": [
+    "A recommender system method that uses LLMs to generate natural-language narrative user preference profiles, which are then encoded into vectors for scoring or routing items."
+   ],
+   "reason": "All fragments describe the same concept: an LLM-generated natural language user profiling strategy ('Narrative') used in recommender systems, including its vectorization, performance characteristics, and routing evaluation."
+  },
+  {
+   "name": "NDCG@10",
+   "type": "metric",
+   "degree": 33,
+   "verdict": "one",
+   "senses": [
+    "Normalized Discounted Cumulative Gain at rank 10 (NDCG@10), a standard information retrieval and recommendation evaluation metric that measures ranking quality within the top 10 positions."
+   ],
+   "reason": "All fragments describe the same standard evaluation metric: Normalized Discounted Cumulative Gain at rank 10 (NDCG@10), used to measure recommendation and retrieval ranking performance."
+  },
+  {
+   "name": "ESCI",
+   "type": "dataset",
+   "degree": 32,
+   "verdict": "one",
+   "senses": [
+    "Amazon's ESCI (Exact, Substitute, Complement, Irrelevant) benchmark and dataset suite for e-commerce search and product retrieval"
+   ],
+   "reason": "All fragments describe the same e-commerce benchmark/dataset suite (Amazon ESCI), including its product listings, regional variants (ESCI-US, ESCI-JP), and evaluations of retrieval models on it."
+  },
+  {
+   "name": "MMTI",
+   "type": "model",
+   "degree": 32,
+   "verdict": "one",
+   "senses": [
+    "A model/method designed for text-to-video retrieval featuring key feature selection and text-video interaction modules."
+   ],
+   "reason": "All fragments describe the same deep learning model for text-to-video retrieval, including its specific components (Key Feature Selection, Text-Video Interaction Module) and benchmark evaluations (MSVD, MSR-VTT)."
+  },
+  {
+   "name": "TemporalNarrative",
+   "type": "method",
+   "degree": 32,
+   "verdict": "one",
+   "senses": [
+    "A profile-based recommendation method that partitions user history into short-term and long-term windows to generate and fuse narrative summaries using LLMs, SBERT, and an attention mechanism."
+   ],
+   "reason": "All fragments describe the same recommendation method, its components (LLM summaries, short/long-term partitioning, SBERT encoding, attention fusion), and its empirical evaluation across user segments and metrics."
+  },
+  {
+   "name": "ESCI-US",
+   "type": "dataset",
+   "degree": 29,
+   "verdict": "one",
+   "senses": [
+    "The ESCI-US dataset, a benchmark for e-commerce product search and retrieval based on Amazon's ESCI dataset (US marketplace)."
+   ],
+   "reason": "All fragments uniformly refer to the ESCI-US dataset used as a benchmark to evaluate retrieval and search models."
+  },
+  {
+   "name": "SkillSeek",
+   "type": "method",
+   "degree": 29,
+   "verdict": "one",
+   "senses": [
+    "A skill retrieval system and tool for AI agents featuring a two-stage retrieval pipeline (bi-encoder retrieval with BGE-base and cross-encoder reranking) exposed via the MCP protocol."
+   ],
+   "reason": "All fragments describe the same retrieval system/method for AI agents, detailing its architecture (BGE-base retriever, cross-encoder reranker), interface (MCP tool skill_lookup), and benchmark evaluation (SkillsBench, OpenHands)."
+  },
+  {
+   "name": "SASRec",
+   "type": "model",
+   "degree": 28,
+   "verdict": "one",
+   "senses": [
+    "A self-attentive sequential recommendation model (Kang & McAuley, 2018) that uses Transformer-style self-attention blocks and feed-forward layers to model user sequence behavior for next-item prediction and candidate generation."
+   ],
+   "reason": "All fragments refer to the same well-known sequential recommendation model (SASRec), describing its architecture (self-attention blocks and feed-forward layers) and its usage as a baseline, backbone, or retrieval model in recommendation systems."
+  },
+  {
+   "name": "GEAR",
+   "type": "model",
+   "degree": 26,
+   "verdict": "one",
+   "senses": [
+    "An end-to-end generative retrieval framework featuring a training-serving co-design, BasisRQ tokenizer, and generator-reranker for ad retrieval."
+   ],
+   "reason": "All fragments describe the same generative retrieval framework (GEAR) designed for ad retrieval, incorporating a BasisRQ tokenizer, generator-reranker, and an online/nearline serving pipeline."
+  },
+  {
+   "name": "Jev",
+   "type": "model",
+   "degree": 25,
+   "verdict": "one",
+   "senses": [
+    "A model/system accessed via the TypeSafe hosted API evaluated on candidate reranking across domains (Books, Movies and TV, Video Games) and compared to baselines like SASRec and Qwen2.5 7B Instruct."
+   ],
+   "reason": "All fragments describe the same recommendation/candidate reranking model (Jev), including its performance evaluations (Books, Movies and TV, Video Games), latency characteristics, API access method, and baseline comparisons."
+  },
+  {
+   "name": "Neural Parser",
+   "type": "model",
+   "degree": 25,
+   "verdict": "one",
+   "senses": [
+    "A neural network-based parser distilled from a rule-based parser, using local biaffine attention to parse queries and documents into invention graphs."
+   ],
+   "reason": "All fragments describe the same neural parsing system, detailing its architecture (biaffine attention with sliding window), training method (distillation from rule-based parsers), evaluation metrics (IoU, Precision, Recall), and application to patent/invention graph parsing."
+  },
+  {
+   "name": "Residual Quantization",
+   "type": "method",
+   "degree": 25,
+   "verdict": "one",
+   "senses": [
+    "A multi-stage vector quantization technique that iteratively quantizes residual vectors using a sequence of codebooks to map continuous embeddings into discrete code sequences"
+   ],
+   "reason": "All fragments describe the same vector quantization method, Residual Quantization (RQ), where vectors are successively quantized by encoding residual errors into sequences of discrete tokens or semantic identifiers."
+  },
+  {
+   "name": "Text-to-Video Retrieval",
+   "type": "task",
+   "degree": 25,
+   "verdict": "one",
+   "senses": [
+    "A cross-modal retrieval task focused on searching, matching, and retrieving relevant video content given natural language queries."
+   ],
+   "reason": "All fragments describe the same computer vision and multimodal intelligence task of text-to-video retrieval, including its benchmarks, models, and definitions."
+  },
+  {
+   "name": "Recall",
+   "type": "metric",
+   "degree": 24,
+   "verdict": "one",
+   "senses": [
+    "A standard evaluation metric in information retrieval and machine learning measuring the proportion of relevant instances successfully retrieved or identified."
+   ],
+   "reason": "All fragments refer to the standard evaluation metric Recall (and its cutoff variations such as R@k) across different tasks and model evaluations."
+  },
+  {
+   "name": "BM25",
+   "type": "method",
+   "degree": 23,
+   "verdict": "one",
+   "senses": [
+    "A standard lexical/sparse information retrieval algorithm (Okapi BM25) commonly used for text search and retrieval baselines."
+   ],
+   "reason": "All fragments refer to the classic BM25 lexical ranking function used for sparse retrieval and hybrid retrieval pipelines."
+  },
+  {
+   "name": "ESCI-JP",
+   "type": "dataset",
+   "degree": 23,
+   "verdict": "one",
+   "senses": [
+    "The Japanese subset of the ESCI benchmark dataset used for evaluating e-commerce search and information retrieval models."
+   ],
+   "reason": "All fragments describe the same dataset, ESCI-JP, which is the Japanese portion of the ESCI e-commerce retrieval benchmark."
+  },
+  {
+   "name": "Qwen",
+   "type": "model",
+   "degree": 23,
+   "verdict": "one",
+   "senses": [
+    "Qwen, a family of large language models and LLM-based agent systems developed by Alibaba, evaluated and applied across various tasks including reranking, machine translation, and user intention inference."
+   ],
+   "reason": "All fragments describe Qwen, the foundational LLM family and associated agent developed by Alibaba, used in different evaluation settings and applications such as ranking, extraction, and personal assistance."
+  },
+  {
+   "name": "ESCI-ES",
+   "type": "dataset",
+   "degree": 22,
+   "verdict": "one",
+   "senses": [
+    "The Spanish-language/Spain locale partition of the Amazon ESCI benchmark dataset used for evaluating retrieval models."
+   ],
+   "reason": "All fragments describe the same dataset: the Spanish split/locale (ES) of the ESCI benchmark used for evaluating retrieval algorithms."
+  },
+  {
+   "name": "Centroid",
+   "type": "method",
+   "degree": 20,
+   "verdict": "one",
+   "senses": [
+    "A content-based user profiling method and baseline in recommender systems that represents a user profile as the arithmetic mean (centroid) of the embeddings of items in their interaction history."
+   ],
+   "reason": "All fragments describe the same user-profiling baseline method in recommendation systems, which computes profile vectors as the arithmetic mean of item embeddings."
+  },
+  {
+   "name": "OneReason",
+   "type": "model",
+   "degree": 20,
+   "verdict": "one",
+   "senses": [
+    "A foundation model family designed to align item Semantic IDs with natural language for reasoning, item understanding, and recommendation tasks."
+   ],
+   "reason": "All fragments describe the same foundation model family (OneReason), including its architecture, variants (0.8B, 8B), training methods (reinforcement learning, semantic ID alignment), and applications in recommendation tasks."
+  },
+  {
+   "name": "Information Extraction",
+   "type": "task",
+   "degree": 19,
+   "verdict": "one",
+   "senses": [
+    "The natural language processing task and field focused on extracting structured information, attributes, entities, or relations from unstructured text."
+   ],
+   "reason": "All fragments describe Information Extraction (IE) as the standard NLP task of converting unstructured natural language text into structured formats and representations."
+  },
+  {
+   "name": "Time to Start",
+   "type": "metric",
+   "degree": 19,
+   "verdict": "one",
+   "senses": [
+    "A training metric (TTS) measuring cold-start initialization overhead before the first productive training step, encompassing hardware setup, process group creation, data preprocessing, and compilation."
+   ],
+   "reason": "All fragments describe the same performance metric measuring initialization time prior to training/recovery steps in distributed machine learning systems."
+  },
+  {
+   "name": "Dense Retrieval",
+   "type": "method",
+   "degree": 18,
+   "verdict": "one",
+   "senses": [
+    "An information retrieval paradigm that maps queries and documents into continuous dense embedding spaces for semantic matching."
+   ],
+   "reason": "All fragments describe the same information retrieval technique (dense retrieval) based on neural representations/embeddings, along with various benchmark implementations and applications."
+  },
+  {
+   "name": "NDCG",
+   "type": "metric",
+   "degree": 18,
+   "verdict": "one",
+   "senses": [
+    "Normalized Discounted Cumulative Gain (NDCG), a standard ranking evaluation metric measuring retrieval and recommendation quality."
+   ],
+   "reason": "All fragments describe Normalized Discounted Cumulative Gain (NDCG), a standard evaluation metric for ranking quality in information retrieval and recommendation systems, including its cutoff variants like NDCG@10 and NDCG@100."
+  },
+  {
+   "name": "Agent Web",
+   "type": "concept",
+   "degree": 17,
+   "verdict": "one",
+   "senses": [
+    "A decentralized network and collaborative information environment composed of interacting autonomous agents (user agents and platform agents) structured as a graph topology for task-time collaboration and information retrieval"
+   ],
+   "reason": "All fragments describe the same concept of an Agent Web, a decentralized network of interacting LLM-based autonomous agents structured as a graph topology for collaboration and recommendation."
+  },
+  {
+   "name": "GDELT",
+   "type": "dataset",
+   "degree": 17,
+   "verdict": "one",
+   "senses": [
+    "The Global Database of Events, Language, and Tone (GDELT), an open-source global news and automated event data repository"
+   ],
+   "reason": "All fragments describe the same open-source global news and event monitoring dataset/project known as GDELT."
+  },
+  {
+   "name": "Recommendation",
+   "type": "task",
+   "degree": 17,
+   "verdict": "one",
+   "senses": [
+    "The task or field of predicting user preferences and suggesting relevant items to users based on interaction histories, profiles, or contextual data."
+   ],
+   "reason": "All fragments describe the standard machine learning and information retrieval task of recommendation (recommender systems), including its formulation, subtasks, agent-based frameworks, and evaluation modes across domains."
+  },
+  {
+   "name": "TemporalCentroid",
+   "type": "method",
+   "degree": 17,
+   "verdict": "one",
+   "senses": [
+    "A recommendation strategy that constructs short- and long-term user profile centroids from item embeddings and fuses them using an attention mechanism."
+   ],
+   "reason": "All fragments describe the same recommendation method (TemporalCentroid), detailing its mechanism of splitting history into short- and long-term segments fused with attention, and its evaluation against a baseline Centroid model across user segments and metrics."
+  },
+  {
+   "name": "Key Feature Selection",
+   "type": "method",
+   "degree": 16,
+   "verdict": "one",
+   "senses": [
+    "A method (KFS) within multimodal architectures like MMTI that identifies and aggregates informative frames and patches by evaluating multi-dimensional saliency and learnable importance scores to reduce visual redundancy."
+   ],
+   "reason": "All fragments describe the same Key Feature Selection (KFS) module used in the MMTI architecture to select informative frames/patches based on saliency and learnable importance scores."
+  },
+  {
+   "name": "Pass Rate",
+   "type": "metric",
+   "degree": 16,
+   "verdict": "one",
+   "senses": [
+    "An evaluation metric that measures the proportion or percentage of benchmark tasks successfully solved or completed by an AI agent or system."
+   ],
+   "reason": "All fragments describe the same evaluation metric (often called pass rate or agent pass rate) measuring task completion success across benchmarks."
+  },
+  {
+   "name": "Sequential Recommendation",
+   "type": "task",
+   "degree": 16,
+   "verdict": "one",
+   "senses": [
+    "A recommendation task and paradigm that models ordered sequences of past user interactions to predict subsequent items or behaviors."
+   ],
+   "reason": "All fragments describe the same well-known recommendation task where user interaction history is modeled chronologically to forecast future interactions."
+  },
+  {
+   "name": "SkillsBench",
+   "type": "dataset",
+   "degree": 16,
+   "verdict": "one",
+   "senses": [
+    "SkillsBench is an evaluation benchmark dataset containing tasks of varying difficulty levels used to assess agent and skill retrieval performance."
+   ],
+   "reason": "All fragments consistently refer to the same benchmark dataset (SkillsBench), noting its task-based evaluation, difficulty stratification, and use in testing agent harnesses and skill retrieval methods."
+  },
+  {
+   "name": "TTR",
+   "type": "metric",
+   "degree": 16,
+   "verdict": "one",
+   "senses": [
+    "Time to Recovery (TTR) is a metric measuring the duration required to restore and resume a machine learning training job following an interruption, failure, or preemption."
+   ],
+   "reason": "All fragments consistently refer to Time to Recovery (TTR) as an operational overhead metric quantifying the duration needed to recover and resume machine learning training jobs."
+  },
+  {
+   "name": "Attribute Discovery",
+   "type": "task",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "The information extraction and NLP task of automatically identifying, extracting, and consolidating candidate domain-specific attributes that characterize a text corpus."
+   ],
+   "reason": "All fragments describe the same natural language processing task of discovering structured attributes from unstructured text datasets using iterative frameworks, representation learning, or LLMs."
+  },
+  {
+   "name": "Generative Recommendation",
+   "type": "task",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "A recommender system paradigm that formulates item recommendation as a sequence generation problem using generative models or large language models."
+   ],
+   "reason": "All fragments describe the same concept: Generative Recommendation, an advanced recommendation paradigm where next-item prediction is performed via generative modeling instead of traditional retrieval-ranking pipelines."
+  },
+  {
+   "name": "Own-Model Premium",
+   "type": "concept",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "A statistical measure quantifying an evaluator model's self-preference bias towards its own generated text in model evaluation frameworks."
+   ],
+   "reason": "All fragments consistently describe the own-model premium as the preference or bias an evaluator language model shows toward text it generated itself, measured via diagonal terms in generator-selector matrices after controlling for main effects."
+  },
+  {
+   "name": "Recommendation Reranking",
+   "type": "task",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "The task in recommender systems of re-ordering a retrieved set of candidate items to generate an optimized final recommendation list."
+   ],
+   "reason": "All fragments describe the same concept, namely the recommendation reranking task, including its formulations (listwise, pairwise), methods, baselines, and evaluation metrics."
+  },
+  {
+   "name": "Rule-Based Parser",
+   "type": "model",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "A hand-crafted rule-based parsing system used as a baseline and teacher model for generating graph structures and training labels via distillation in patent prior art search."
+   ],
+   "reason": "All fragments describe the same rule-based parsing system acting as a ground truth/teacher baseline for graph extraction and distillation against a neural parser."
+  },
+  {
+   "name": "Yelp",
+   "type": "dataset",
+   "degree": 15,
+   "verdict": "one",
+   "senses": [
+    "A widely used benchmark dataset derived from Yelp business reviews, commonly utilized for evaluating recommender systems and collaborative filtering methods."
+   ],
+   "reason": "All fragments describe the same standard Yelp benchmark dataset used in recommender system evaluations."
+  },
+  {
+   "name": "Books",
+   "type": "dataset",
+   "degree": 14,
+   "verdict": "one",
+   "senses": [
+    "A standard benchmark dataset in recommender systems research, typically derived from Amazon review data in the Books domain, used to evaluate recommendation and reranking algorithms."
+   ],
+   "reason": "All fragments describe the 'Books' dataset/domain, typically from the Amazon Reviews dataset series (including 2023 and InstructRec subsets), used for evaluating recommendation and reranking models."
+  }
+ ]
+}

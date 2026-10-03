@@ -1,0 +1,76 @@
+{
+ "by_similarity_band": {
+  "0.84": {
+   "same": 14,
+   "kept separate, no explicit verdict": 118,
+   "different": 82,
+   "related": 45
+  },
+  "0.86": {
+   "kept separate, no explicit verdict": 188,
+   "different": 134,
+   "same": 18,
+   "related": 99
+  },
+  "0.88": {
+   "different": 80,
+   "related": 67,
+   "kept separate, no explicit verdict": 72,
+   "same": 20
+  },
+  "0.90": {
+   "different": 37,
+   "related": 36,
+   "same": 16,
+   "kept separate, no explicit verdict": 26
+  },
+  "0.92": {
+   "related": 9,
+   "same": 10,
+   "different": 16,
+   "kept separate, no explicit verdict": 11,
+   "unsure": 1
+  },
+  "0.94": {
+   "related": 5,
+   "kept separate, no explicit verdict": 4,
+   "different": 5,
+   "same": 4
+  },
+  "0.96": {
+   "kept separate, no explicit verdict": 2
+  },
+  "0.98": {
+   "different": 1
+  }
+ },
+ "by_reason": {
+  "key": {
+   "same": 1,
+   "kept separate, no explicit verdict": 1
+  },
+  "vector": {
+   "same": 69,
+   "different": 355,
+   "kept separate, no explicit verdict": 419,
+   "related": 261,
+   "unsure": 1
+  },
+  "acronym+vector": {
+   "same": 11,
+   "kept separate, no explicit verdict": 1
+  },
+  "acronym+acronym-def+vector": {
+   "same": 2,
+   "kept separate, no explicit verdict": 1
+  },
+  "acronym": {
+   "kept separate, no explicit verdict": 7,
+   "different": 4,
+   "same": 2
+  },
+  "acronym+acronym-def": {
+   "same": 1
+  }
+ }
+}

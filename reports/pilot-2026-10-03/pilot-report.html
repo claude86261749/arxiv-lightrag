@@ -1,0 +1,255 @@
+<title>Paper graph pilot report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet">
+<style>
+/* Layout: one reading column, same visual system as the pipeline design draft; tables scroll inside their own frames. */
+:root {
+  --paper: #F5F7FA;
+  --surface: #FFFFFF;
+  --ink: #16212C;
+  --muted: #566372;
+  --rule: #D3DAE2;
+  --llm: #4F3FB8;
+  --llm-bg: #ECEAFB;
+  --good: #0A6F5A;
+  --good-bg: #DCF2EB;
+  --warn: #9A4507;
+  --warn-bg: #FBEAD6;
+  --bad: #A3263A;
+  --bad-bg: #FBE3E7;
+  --code-bg: #E6EBF0;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Atkinson Hyperlegible", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #11161C; --surface: #18202A; --ink: #E6ECF2; --muted: #9BA9B7; --rule: #2C3743;
+    --llm: #B7AEF6; --llm-bg: #2A2457; --good: #74D8BF; --good-bg: #0F3A30;
+    --warn: #F3B56F; --warn-bg: #4A2B08; --bad: #F4A3B0; --bad-bg: #4A1620; --code-bg: #26303B;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #11161C; --surface: #18202A; --ink: #E6ECF2; --muted: #9BA9B7; --rule: #2C3743;
+  --llm: #B7AEF6; --llm-bg: #2A2457; --good: #74D8BF; --good-bg: #0F3A30;
+  --warn: #F3B56F; --warn-bg: #4A2B08; --bad: #F4A3B0; --bad-bg: #4A1620; --code-bg: #26303B;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); font-size: 1.0625rem; line-height: 1.6; }
+.page { max-width: 54rem; margin: 0 auto; padding-inline: 1.25rem; padding-block: 3rem 5rem; }
+.prose { max-width: 42rem; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.12; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(2.1rem, 6vw, 3.2rem); font-weight: 700; letter-spacing: -0.02em; max-width: 18ch; }
+h2 { font-size: clamp(1.45rem, 3.4vw, 1.9rem); font-weight: 700; letter-spacing: -0.01em; margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); }
+h3 { font-size: 1.15rem; font-weight: 500; margin-top: 2rem; }
+p { margin: 0.9rem 0 0; }
+ul, ol { margin: 0.9rem 0 0; padding-left: 1.3rem; }
+li + li { margin-top: 0.45rem; }
+a { color: var(--llm); text-underline-offset: 0.18em; }
+a:focus-visible { outline: 2px solid var(--llm); outline-offset: 3px; border-radius: 2px; }
+code { font-family: var(--mono); font-size: 0.88em; background: var(--code-bg); padding: 0.08em 0.32em; border-radius: 4px; overflow-wrap: anywhere; }
+.lede { font-size: 1.2rem; line-height: 1.5; margin-top: 1.5rem; max-width: 40rem; }
+.status-line { margin-top: 1.25rem; color: var(--muted); font-size: 0.98rem; max-width: 40rem; }
+
+.verdict { margin-top: 2rem; padding: 1.1rem 1.25rem; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; display: grid; gap: 0.6rem; }
+.verdict p { margin: 0; }
+.verdict .label { font-family: var(--display); font-weight: 700; font-size: 0.85rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+
+.figures { margin-top: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: 0.75rem; }
+.fig { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.85rem 1rem; min-width: 0; }
+.fig .n { font-family: var(--display); font-weight: 700; font-size: 1.6rem; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.fig .t { color: var(--muted); font-size: 0.92rem; margin-top: 0.25rem; }
+
+.scroll { overflow-x: auto; margin-top: 1.25rem; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 38rem; font-size: 0.97rem; line-height: 1.45; }
+th, td { text-align: left; vertical-align: top; padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--rule); }
+th { font-family: var(--display); font-weight: 500; font-size: 0.95rem; color: var(--muted); }
+tbody tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 700; }
+table.num td.r, table.num th.r { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { border-top: 1.5px solid var(--ink); font-weight: 700; }
+caption { text-align: left; padding: 0.7rem 0.9rem 0.2rem; font-family: var(--display); font-weight: 700; font-size: 1.02rem; }
+
+.pill { display: inline-block; font-size: 0.8rem; line-height: 1; font-weight: 700; padding: 0.3rem 0.55rem; border-radius: 999px; white-space: nowrap; }
+.pass { background: var(--good-bg); color: var(--good); }
+.pend { background: var(--warn-bg); color: var(--warn); }
+.fail { background: var(--bad-bg); color: var(--bad); }
+.off { color: var(--warn); font-weight: 700; }
+
+.note { margin-top: 1.25rem; padding: 0.9rem 1.1rem; border-left: 3px solid var(--warn); background: var(--warn-bg); max-width: 42rem; }
+.note p:first-child { margin-top: 0; }
+.decisions { list-style: none; padding: 0; margin-top: 1.25rem; display: grid; gap: 0.75rem; max-width: 44rem; }
+.decisions li { margin: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem 1.1rem; }
+.decisions strong { font-family: var(--display); font-weight: 700; }
+footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.95rem; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+
+<div class="page">
+<header>
+  <h1>Paper graph pilot: 20 papers, cs.IR</h1>
+  <p class="lede">The nine-stage pipeline from the design draft ran end to end on 20 recent cs.IR papers. The first run exposed four bugs in entity resolution. After fixing them, a second run passed every automatic gate. Merge precision was 117 or more out of 121 on my review; a person still has to check it.</p>
+  <p class="status-line">3 October 2026. LightRAG 1.5.7, <code>gemini-3.8-flash</code>, <code>gemini-embedding-2</code> at 768 dimensions. Code and outputs are on branch <code>claude/epic-goodall-dglc5e</code> of <code>claude86261749/arxiv-lightrag</code>, with outputs under <code>reports/pilot-2026-10-03/</code>.</p>
+</header>
+
+<section class="verdict" aria-label="Summary">
+  <span class="label">Where it stands</span>
+  <p><strong>Ready for the 200-paper phase once three things are settled.</strong> A person needs to check the merge review sheet. You need to confirm the corpus source, since the pilot converted arXiv's HTML pages itself. And the design calls for Postgres storage from 200 papers, which isn't built yet.</p>
+  <p><strong>Cost and time:</strong> $0.24 and 46 seconds per paper at the pilot's settings. For 1,000 papers that is about $240 at prices valid to 31 December 2026 (about $480 after) and about 13 hours with no parallelism changes.</p>
+</section>
+
+<div class="figures" aria-label="Pilot figures">
+  <div class="fig"><div class="n">20 / 20</div><div class="t">papers indexed, no failures</div></div>
+  <div class="fig"><div class="n">1,345</div><div class="t">entities after resolution (1,482 before)</div></div>
+  <div class="fig"><div class="n">121</div><div class="t">merges applied: 35 in code, 86 by the LLM</div></div>
+  <div class="fig"><div class="n">$4.82</div><div class="t">total API cost of the second run</div></div>
+</div>
+
+<section id="ran">
+  <h2>What ran</h2>
+  <div class="prose">
+    <ul>
+      <li><strong>Corpus.</strong> The 20 newest cs.IR papers (primary category) that have an arXiv HTML version, submitted late September to early October 2026: 2.9K to 17.5K words each, mostly recommendation, generative retrieval and RAG. The Markdown comes from a converter written for the pilot (<code>kgpipe/fetch.py</code>). It keeps heading levels, in-text citations as links and one line per reference entry.</li>
+      <li><strong>Run 1.</strong> All nine stages, gleaning on, appendices cut. It found the problems listed under entity resolution.</li>
+      <li><strong>Run 2.</strong> The same 20 papers from scratch, after the fixes. Every figure on this page is from run 2 unless it says otherwise.</li>
+      <li><strong>Appendix comparison.</strong> The 7 papers with large appendices, ingested again with appendices kept.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="params">
+  <h2>Measured parameters against the design's envelope</h2>
+  <p class="prose">The draft's section 7 left these as assumptions. Values outside its low-to-high range are marked.</p>
+  <div class="scroll">
+    <table class="num">
+      <thead><tr><th>Symbol</th><th>Meaning</th><th class="r">Design expected</th><th class="r">Design range</th><th class="r">Measured</th></tr></thead>
+      <tbody>
+        <tr><td>c</td><td>Chunks per paper after cleanup</td><td class="r">12</td><td class="r">8–18</td><td class="r">11.1</td></tr>
+        <tr><td>e</td><td>Entity rows per chunk (extract + glean)</td><td class="r">10</td><td class="r">6–16</td><td class="r">12.5</td></tr>
+        <tr><td>r</td><td>Relation rows per chunk</td><td class="r">8</td><td class="r">5–12</td><td class="r"><span class="off">14.6</span></td></tr>
+        <tr><td>u</td><td>Distinct names per entity row</td><td class="r">0.3</td><td class="r">0.2–0.5</td><td class="r"><span class="off">0.53</span></td></tr>
+        <tr><td>p</td><td>Share of names reaching the merge decision call</td><td class="r">0.2</td><td class="r">0.1–0.4</td><td class="r"><span class="off">0.57</span></td></tr>
+        <tr><td>k</td><td>Names per decision cluster</td><td class="r">3</td><td class="r">2.5–4</td><td class="r">3.2</td></tr>
+        <tr><td>q</td><td>Clusters needing a second look</td><td class="r">0.1</td><td class="r">0.05–0.2</td><td class="r"><span class="off">0</span></td></tr>
+        <tr><td>m</td><td>Texts re-embedded per merged name</td><td class="r">5</td><td class="r">3–8</td><td class="r"><span class="off">10.2</span></td></tr>
+        <tr><td>h</td><td>Implied by summary calls</td><td class="r">0.4</td><td class="r">0.2–0.7</td><td class="r"><span class="off">0.09</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>Total calls per paper land near the design's expected case, but the mix is different:</p>
+    <ul>
+      <li><strong>Merge decisions are 13.3 per paper, not 2.4.</strong> Most duplicates are within one paper, such as an acronym and its expansion in the same text: 104 of the 121 merges joined names first seen in the same paper. Raising p.</li>
+      <li><strong>Description summaries are 3.9 per paper, not 12.3.</strong> With 20 papers, few nodes collect 8 fragments yet. Expect this to rise with the corpus, as the draft predicted.</li>
+      <li><strong>u is high because the batch is small.</strong> 20 papers across several subtopics share little vocabulary. It should fall as the corpus grows.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="cost">
+  <h2>Calls, cost and time</h2>
+  <div class="scroll">
+    <table class="num">
+      <caption>Run 2, 20 papers. Prices: $0.75 in / $3.75 out per 1M tokens for gemini-3.8-flash, $0.20 per 1M for embeddings.</caption>
+      <thead><tr><th>Call</th><th class="r">Calls</th><th class="r">Per paper</th><th class="r">Input tokens</th><th class="r">Output + thinking</th><th class="r">Cost</th></tr></thead>
+      <tbody>
+        <tr><td>Extract</td><td class="r">222</td><td class="r">11.1</td><td class="r">656K</td><td class="r">368K</td><td class="r">$1.87</td></tr>
+        <tr><td>Glean</td><td class="r">222</td><td class="r">11.1</td><td class="r">946K</td><td class="r">236K</td><td class="r">$1.59</td></tr>
+        <tr><td>Description summary</td><td class="r">78</td><td class="r">3.9</td><td class="r">58K</td><td class="r">77K</td><td class="r">$0.33</td></tr>
+        <tr><td>Merge decision</td><td class="r">266</td><td class="r">13.3</td><td class="r">232K</td><td class="r">184K</td><td class="r">$0.86</td></tr>
+        <tr><td>Hub check</td><td class="r">50</td><td class="r">per phase</td><td class="r">19K</td><td class="r">11K</td><td class="r">$0.06</td></tr>
+        <tr><td>Embeddings</td><td class="r">720 requests</td><td class="r">299 texts</td><td class="r">~0.5M</td><td class="r">—</td><td class="r">$0.10</td></tr>
+        <tr class="total"><td>Total</td><td class="r">838 LLM calls</td><td class="r">41.9</td><td class="r">1.91M</td><td class="r">0.88M</td><td class="r">$4.82</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>Thinking tokens are about half of all output and are billed as output. LightRAG's own token counter leaves them out; the pipeline now records them separately. Setting a lower thinking level for extraction is the largest cost lever not yet tested.</p>
+    <p>Wall time was 15 minutes: 6 for ingestion, 7 for resolution, 2.5 for graph cleanup. Throughput was capped by concurrency settings (8 LLM calls at once), not by rate limits; nothing was throttled. Resolution applies merges one at a time, and each merge re-embeds the node's relations, which accounts for most of its time.</p>
+  </div>
+</section>
+
+<section id="decisions">
+  <h2>The pilot's three measured choices</h2>
+  <h3>Gleaning: keep it on</h3>
+  <p class="prose">The gleaning pass added 501 new entity names to the 2,270 from the first pass (22%), and 47% more relation rows. That is above the draft's 10% bar. A sample of the added names is mostly useful (TREC, Cross-Encoder, Latency, Named Entity Recognition), not noise. It costs a third of ingestion spend.</p>
+  <h3>Appendices: keep cutting them</h3>
+  <p class="prose">On the 7 papers with large appendices, keeping them added 95 chunks (+86%) and 430 entity names (+66%). The added names are mostly setup detail: optimizers, GPUs, hyperparameters and table header tokens such as <code>#tok</code> and <code>Acc.</code>. Across all 20 papers, appendices are 82K tokens on top of the 172K kept, so including them would add about 48% to extraction cost.</p>
+  <h3>Neighbour threshold: 0.90, or 0.85 with lexical support</h3>
+  <div class="prose">
+    <p>At the draft's 0.85, only 4–8% of vector-only pairs between 0.84 and 0.90 were duplicates, against 14–22% above 0.90. The loose pairs also chained into connected groups of 78 and 95 names. Splitting those into clusters of 8 silently dropped pairs, including <code>LLM</code> / <code>Large Language Model</code>.</p>
+    <p>The new rule keeps a vector pair only at 0.90 or above. A pair between 0.85 and 0.90 is kept only when the names share a word or one looks like the other's acronym. On run 1's decisions, it keeps 82 of the 86 confirmed duplicates with 47% fewer pairs. Lexical pairs may now cross types, because the same name gets different types in different chunks.</p>
+  </div>
+</section>
+
+<section id="resolution">
+  <h2>Entity resolution: run 1 problems, fixes, run 2</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Run 1 finding</th><th>Cause</th><th>Fix</th><th>Run 2</th></tr></thead>
+      <tbody>
+        <tr><td><code>AgentCF</code> merged with <code>AgentCF++</code></td><td>The normalised key stripped "+"</td><td>Key keeps <code>+</code>, <code>%</code> and <code>#</code></td><td><span class="pill pass">Separate</span></td></tr>
+        <tr><td><code>LLM</code> / <code>Large Language Model</code>, <code>R@10</code> / <code>Recall@10</code> never decided</td><td>Large candidate groups split into clusters lost the pairs between them</td><td>Clusters now cover every candidate pair; "same" answers are unioned across clusters; any "different" answer vetoes a merge</td><td><span class="pill pass">Merged</span></td></tr>
+        <tr><td><code>TTR</code> / <code>Time to Recover</code> not a candidate</td><td>Initials dropped "to"</td><td>Initials tried with and without stopwords</td><td><span class="pill pass">Merged</span></td></tr>
+        <tr><td><code>NDCG@100</code> merged into <code>Recall@100</code>; three result matrices merged into their domains</td><td>LLM judgement</td><td>Two explicit rules in the merge prompt</td><td><span class="pill pass">Separate</span></td></tr>
+        <tr><td>Paper-local labels such as <code>Model A</code>–<code>Model F</code></td><td>Would collide by exact name across papers</td><td>Extraction guidance, plus a cleanup step that adds the arXiv ID to any that remain</td><td><span class="pill pass">None extracted</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="prose">
+    <p>Run 2 applied 121 merges. I checked every one, and the doubtful ones against the source text. None are clearly wrong. Four are arguable: <code>Habitual Regime</code> / <code>Habitual Consumption</code>, the matching exploratory pair, <code>ETT%</code> into <code>Effective Training Time</code>, and <code>OpenHands SDK</code> into <code>OpenHands</code>. Of the 100 most similar pairs left unmerged, 2 to 4 look like duplicates (for example <code>A/B Testing</code> / <code>Online A/B Testing</code>). The rest are siblings that should stay apart, such as model sizes, metric cutoffs, and listwise versus pointwise variants.</p>
+    <p>The LLM also added 355 "related" edges between candidates that are variants of each other, such as <code>Qwen3-Reranker-8B</code> as a size variant of <code>Qwen3-Reranker</code>.</p>
+  </div>
+</section>
+
+<section id="gates">
+  <h2>Quality gates</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Measure</th><th>Gate</th><th>Result</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Merge precision</td><td>At least 95 of 100 correct</td><td>121 of 121 on my review, 117 if the four arguable merges count as wrong. Sheet: <code>run2/review_merges.csv</code></td><td><span class="pill pend">Needs a person</span></td></tr>
+        <tr><td>Missed duplicates</td><td>Reported</td><td>2–4 of the top 100 unmerged pairs. Sheet: <code>run2/review_missed_duplicates.csv</code></td><td><span class="pill pass">Reported</span></td></tr>
+        <tr><td>Type coverage</td><td>Other under 15%</td><td>0.9% Other or unknown. 473 Method, 270 Model, 221 Concept, 146 Metric, 86 Task, 84 Dataset, 52 Tool</td><td><span class="pill pass">Pass</span></td></tr>
+        <tr><td>Hubs</td><td>Top 50 reviewed or on the stoplist</td><td>LLM check: all 50 describe one concept. Semantic ID is the largest; most others are a single paper's own method (ResTD, RPTune, Canopy). Stoplist review pending</td><td><span class="pill pend">Needs a person</span></td></tr>
+        <tr><td>Cleanup effect</td><td>No unreviewed flags</td><td>No flags. I checked the dropped headings of all 20 papers</td><td><span class="pill pass">Pass</span></td></tr>
+        <tr><td>Call parameters</td><td>Measured</td><td>The table above replaces the draft's assumptions</td><td><span class="pill pass">Done</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="prose">Connectivity: the 20 papers form one connected group. Each shares at least one concept with 4 or more others, and 61% of paper pairs share at least one. 107 concepts appear in two or more papers and 36 in three or more. The most shared are LLM, Recall, NDCG@10, Dense Retrieval, Semantic ID and SASRec. Merging made 12 concepts shared that otherwise would not be.</p>
+</section>
+
+<section id="corrections">
+  <h2>Corrections to the design draft</h2>
+  <div class="prose">
+    <ul>
+      <li><strong>LightRAG runs in-process.</strong> Ingestion uses the same enqueue path as <code>/documents/upload</code>, so parsing and chunking are identical. The server has no route that returns entity vectors, and merging joins descriptions without summarising them. Both stages 6 and 7 need the Python API. The server can still serve the same storage afterwards.</li>
+      <li><strong>LightRAG's Gemini embedding binding fails with <code>gemini-embedding-2</code>.</strong> A batch of texts comes back as one vector, so every vector-store write fails. The pipeline calls <code>batchEmbedContents</code> directly.</li>
+      <li><strong>The paragraph chunker's size setting is <code>CHUNK_P_SIZE</code>, default 2,000.</strong> It does not inherit the 1,200 default; the pipeline sets it.</li>
+      <li><strong>Type guidance can't be set through an environment variable on the server.</strong> It needs a YAML prompt file that also contains extraction examples. In-process it is a plain <code>addon_params</code> value.</li>
+      <li><strong><code>MAX_GLEANING</code> above 1 has no effect.</strong> LightRAG runs at most one gleaning pass.</li>
+      <li><strong>Open question answered: the per-document entity lists keep extracted names after merges.</strong> 152 rows still hold alias names. The paper-to-concept export maps them through the alias table, as the draft planned.</li>
+      <li><strong>Cleanup rules.</strong> With arXiv HTML as the source, the running-header and hyphenation rules have nothing to do. The repeated-line rule had to be tightened, because table cells repeat too. The "removed over 50%" flag now leaves appendices out, since long appendices tripped it on 4 of 20 papers.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="next">
+  <h2>Before the full run</h2>
+  <ul class="decisions">
+    <li><strong>Review two sheets.</strong> Mark <code>review_merges.csv</code> (121 rows) and the stoplist against the hub list. This is the one gate I can't close.</li>
+    <li><strong>Confirm the corpus.</strong> Which category, and where the Markdown comes from. If it comes from a PDF converter, the cleanup rules need a 20-file check on that output, as the draft says.</li>
+    <li><strong>Build Postgres storage for the 200-paper phase.</strong> The draft moves vectors and key-value stores to Postgres with pgvector at 200 papers. It isn't built; the pilot used LightRAG's file storage.</li>
+    <li><strong>Raise parallelism.</strong> At 8 concurrent calls, 1,000 papers take about 13 hours. LightRAG's concurrency can go higher within the rate limits, and resolution could batch its merges.</li>
+    <li><strong>Optional: test a lower thinking level for extraction.</strong> Thinking is half the output cost.</li>
+  </ul>
+</section>
+
+<footer>
+  <p>Run the pipeline with <code>python -m kgpipe.pipeline --corpus &lt;dir&gt; --run &lt;dir&gt;</code>. Each run writes <code>report.json</code>, <code>quality.json</code>, review sheets and exports.</p>
+</footer>
+</div>
