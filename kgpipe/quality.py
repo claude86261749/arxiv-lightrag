@@ -115,7 +115,7 @@ async def measure(rag, run_dir: Path, manifest, counters_by_stage: dict, resolve
         "summary_calls_per_paper": round(llm_calls.get("summary", 0) / n_papers, 2) if n_papers else None,
         "h_implied": round(7 * llm_calls.get("summary", 0) / (ent_rows + rel_rows), 3) if ent_rows + rel_rows else None,
     }
-    other_share = types.get("other", 0) / max(1, len(ents))
+    other_share = (types.get("other", 0) + types.get("unknown", 0)) / max(1, len(ents))
     flags = {k: v["cleanup_flags"] for k, v in manifest.papers.items() if v.get("cleanup_flags")}
     hubs = graph_report.get("hubs", [])
     return {
@@ -130,6 +130,5 @@ async def measure(rag, run_dir: Path, manifest, counters_by_stage: dict, resolve
             "type_coverage_pass": other_share < 0.15,
             "cleanup_unreviewed_flags": flags,
             "hubs_flagged_several": [h["name"] for h in hubs if h.get("verdict") == "several"],
-            "hubs_flagged_generic": [h["name"] for h in hubs if h.get("generic")],
         },
     }

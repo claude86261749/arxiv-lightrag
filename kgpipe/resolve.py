@@ -40,6 +40,8 @@ def singular(word: str) -> str:
 
 
 def norm_key(name: str) -> str:
+    # "+", "%" and "#" carry meaning in names (AgentCF vs AgentCF++, ETT vs ETT%).
+    name = name.replace("+", " plus ").replace("%", " pct ").replace("#", " num ")
     words = re.findall(r"[a-z0-9]+", name.lower())
     if not words:
         return name.lower()
@@ -47,9 +49,24 @@ def norm_key(name: str) -> str:
     return "".join(words)
 
 
-def initials(name: str) -> str:
-    words = [w for w in re.findall(r"[A-Za-z0-9]+", name) if w.lower() not in STOP_INITIALS]
+def initials(name: str, drop_stopwords: bool = True) -> str:
+    words = [w for w in re.findall(r"[A-Za-z0-9]+", name)
+             if not (drop_stopwords and w.lower() in STOP_INITIALS)]
     return "".join(w[0] for w in words).lower()
+
+
+def word_set(name: str) -> set[str]:
+    return {singular(w) for w in re.findall(r"[a-z0-9]+", name.lower()) if len(w) > 1}
+
+
+def acronym_like(a: str, b: str) -> bool:
+    """One name is all caps and its letters open the other's initials (LLM / Large Language Model)."""
+    for x, y in ((a, b), (b, a)):
+        cx = re.sub(r"[^A-Za-z0-9]", "", x)
+        if 2 <= len(cx) <= 10 and cx.upper() == cx and any(
+                initials(y, d).startswith(cx.lower()[:2]) for d in (True, False)):
+            return True
+    return False
 
 
 ACRO_DEF = re.compile(r"([A-Z][\w-]*(?:\s+[\w-]+){1,7})\s+\(([A-Z][A-Za-z0-9-]{1,11})\)")
@@ -175,7 +192,7 @@ async def entity_vectors(rag, names: list[str]) -> np.ndarray:
 
 
 def find_candidates(ents: dict[str, Entity], vecs: np.ndarray, names: list[str], focus: set[str],
-                    threshold: float, top_k: int) -> dict[frozenset, set]:
+                    threshold: float, top_k: int, strong: float = 0.90) -> dict[frozenset, set]:
     """pair -> set of reasons. Only pairs touching a `focus` (new/changed) name."""
     pairs: dict[frozenset, set] = defaultdict(set)
     idx = {n: i for i, n in enumerate(names)}
@@ -198,8 +215,12 @@ def find_candidates(ents: dict[str, Entity], vecs: np.ndarray, names: list[str],
                 if sims[r, j] < threshold:
                     break
                 a, b = names[i], names[j]
-                ta, tb = ents[a].type, ents[b].type
-                if ta == tb or "other" in (ta, tb):
+                # Pilot: below `strong`, only 4-8% of vector pairs were duplicates unless the
+                # names share a word or look like an acronym pair. Lexical support also lifts
+                # the same-type restriction (types are assigned per chunk and drift).
+                lexical = bool(word_set(a) & word_set(b)) or acronym_like(a, b)
+                same_type = ents[a].type == ents[b].type or {"other", "unknown"} & {ents[a].type, ents[b].type}
+                if (sims[r, j] >= strong and same_type) or lexical:
                     pairs[frozenset((a, b))].add(f"vector:{sims[r, j]:.3f}")
     # Acronyms: initials, or "Full Name (ACR)" in a description.
     lower = {n.lower(): n for n in names}
@@ -208,9 +229,12 @@ def find_candidates(ents: dict[str, Entity], vecs: np.ndarray, names: list[str],
         if len(n.split()) >= 2:
             by_init[initials(n)].append(n)
     for n in names:
+        if len(n.split()) >= 2:
+            by_init[initials(n, False)].append(n)
+    for n in names:
         compact = re.sub(r"[^A-Za-z0-9]", "", n)
         if 2 <= len(compact) <= 8 and compact.upper() == compact and compact.isalpha():
-            for full in by_init.get(compact.lower(), []):
+            for full in set(by_init.get(compact.lower(), [])):
                 if n in focus or full in focus:
                     pairs[frozenset((n, full))].add("acronym")
     for n in names:
@@ -235,12 +259,18 @@ def pick_canonical(group: list[str], ents: dict[str, Entity]) -> str:
 
 
 def clusters_from_pairs(pairs: list[frozenset], max_size: int, weights: dict[frozenset, float]) -> list[list[str]]:
+    """Clusters of <= max_size names such that every candidate pair shares at least one cluster.
+
+    Small connected components are one cluster. Larger ones are covered by ego clusters:
+    a name plus up to max_size-1 of its not-yet-covered neighbours, strongest first.
+    (The pilot's greedy split of large components dropped pairs between sub-clusters.)
+    """
     adj: dict[str, dict[str, float]] = defaultdict(dict)
     for p in pairs:
         a, b = tuple(p)
         adj[a][b] = adj[b][a] = weights.get(p, 0.0)
     seen, comps = set(), []
-    for n in adj:
+    for n in sorted(adj):
         if n in seen:
             continue
         stack, comp = [n], []
@@ -255,17 +285,23 @@ def clusters_from_pairs(pairs: list[frozenset], max_size: int, weights: dict[fro
         comps.append(comp)
     out = []
     for comp in comps:
-        remaining = set(comp)
-        while remaining:
-            if len(remaining) <= max_size:
-                out.append(sorted(remaining))
-                break
-            # seed = name with most remaining links; take its strongest neighbours
-            seed = max(remaining, key=lambda x: (sum(1 for y in adj[x] if y in remaining), x))
-            nb = sorted((y for y in adj[seed] if y in remaining), key=lambda y: -adj[seed][y])
-            cl = [seed] + nb[:max_size - 1]
+        if len(comp) <= max_size:
+            out.append(sorted(comp))
+            continue
+        uncovered = {frozenset((a, b)) for a in comp for b in adj[a]}
+        while uncovered:
+            deg = defaultdict(int)
+            for p in uncovered:
+                for x in p:
+                    deg[x] += 1
+            seed = max(deg, key=lambda x: (deg[x], x))
+            nb = sorted((y for y in adj[seed] if frozenset((seed, y)) in uncovered),
+                        key=lambda y: (-adj[seed][y], y))[:max_size - 1]
+            cl = [seed] + nb
             out.append(sorted(cl))
-            remaining -= set(cl)
+            for i, a in enumerate(cl):
+                for b in cl[i + 1:]:
+                    uncovered.discard(frozenset((a, b)))
     return [c for c in out if len(c) > 1]
 
 
@@ -292,7 +328,8 @@ Definitions, applied to each pair of names:
 - unsure: you cannot tell from the information given.
 
 Rule above all others: when in doubt, keep names separate. A missed duplicate can be merged later; a wrong merge mixes two concepts and is hard to undo.
-Two different named models, datasets or metrics are never "same" just because they serve the same purpose. Different metric cutoffs (e.g. NDCG@10 vs NDCG@5) are different.
+Two different named models, datasets or metrics are never "same" just because they serve the same purpose. Different metrics are different (NDCG@100 vs Recall@100), and so are different cutoffs of one metric (NDCG@10 vs NDCG@5).
+An artifact about a thing (a results matrix, table, split or run) is not the same as the thing (the dataset or domain it reports on).
 Only use names exactly as given. Every name may appear in at most one "same" group. Choose as canonical the clearest common short name among the members."""
 
 MERGE_SCHEMA = {
@@ -345,7 +382,8 @@ def validate_decision(dec: dict, names: list[str]) -> tuple[list[dict], list[dic
 
 
 async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, threshold: float = 0.85,
-                  top_k: int = 10, cluster_max: int = 8, workers: int = 8) -> tuple[ResolveStats, list[dict], dict]:
+                  strong: float = 0.90,
+                  top_k: int = 10, cluster_max: int = 8, workers: int = 8, log_dir: Path | None = None) -> tuple[ResolveStats, list[dict], dict]:
     st = ResolveStats()
     state = json.loads(state_path.read_text()) if state_path.exists() else {"seen": {}}
     ents = await load_entities(rag)
@@ -383,7 +421,7 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
     focus = {n for n, e in ents.items() if state["seen"].get(n) != len(e.fragments)}
     names = sorted(ents)
     vecs = await entity_vectors(rag, names)
-    pairs = find_candidates(ents, vecs, names, focus, threshold, top_k)
+    pairs = find_candidates(ents, vecs, names, focus, threshold, top_k, strong)
     decided = alias.decided_pairs()
     pairs = {p: r for p, r in pairs.items() if p not in decided}
     reasons_count = defaultdict(int)
@@ -408,6 +446,8 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
     weights = {p: max([float(x.split(":")[1]) for x in r if x.startswith("vector:")] or [1.0]) for p, r in pairs.items()}
     clusters = clusters_from_pairs(list(pairs), cluster_max, weights)
     st.clusters = len(clusters)
+    if log_dir:
+        (log_dir / "clusters.json").write_text(json.dumps(clusters, indent=0))
     st.names_in_clusters = sum(len(c) for c in clusters)
 
     def decide(item):
@@ -428,17 +468,45 @@ async def resolve(rag, llm, alias: AliasTable, state_path: Path, counters, thres
     with ThreadPoolExecutor(workers) as ex:
         results = list(ex.map(decide, enumerate(clusters)))
 
+    # Union "same" groups across clusters (a pair can now appear in several clusters),
+    # then apply each resulting group once.
+    parent: dict[str, str] = {}
+
+    def find(x):
+        while parent.get(x, x) != x:
+            x = parent[x]
+        return x
+
+    group_info: dict[str, dict] = {}
+    # When clusters disagree, keep separate: a pair any cluster called different is never unioned.
+    vetoed = {frozenset(p) for r in results for p in r[4]}
     for cid, names_, same, related, different, unsure, rej, second in results:
         st.second_looks += int(second)
         st.rejected_groups += rej
         for g in same:
             members = [m for m in g["members"] if m in ents]
-            if len(members) < 2:
-                continue
-            target = g["canonical"] if g["canonical"] in members else pick_canonical(members, ents)
-            await do_merge(members, target, "llm", cid, g["reason"])
-            st.llm_same_groups += 1
-            st.llm_merged_names += len(members) - 1
+            members = [members[0]] + [m for m in members[1:]
+                                      if not any(frozenset((m, o)) in vetoed for o in members if o != m)]
+            for m in members[1:]:
+                ra, rb = find(members[0]), find(m)
+                if ra != rb:
+                    parent[rb] = ra
+            for m in members:
+                group_info.setdefault(m, {"cid": cid, "reason": g["reason"], "canonical": g["canonical"]})
+    groups: dict[str, list[str]] = defaultdict(list)
+    for m in group_info:
+        groups[find(m)].append(m)
+    for members in groups.values():
+        members = sorted(set(members))
+        if len(members) < 2:
+            continue
+        votes = [group_info[m]["canonical"] for m in members if group_info[m]["canonical"] in members]
+        target = max(set(votes), key=votes.count) if votes else pick_canonical(members, ents)
+        info = group_info[members[0]]
+        await do_merge(members, target, "llm", info["cid"], info["reason"])
+        st.llm_same_groups += 1
+        st.llm_merged_names += len(members) - 1
+    for cid, names_, same, related, different, unsure, rej, second in results:
         for r in related:
             a, b = r["from"], r["to"]
             if a in ents and b in ents and not await rag.chunk_entity_relation_graph.has_edge(a, b):

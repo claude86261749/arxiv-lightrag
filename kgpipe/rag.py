@@ -27,6 +27,7 @@ DEFAULT_TYPES_GUIDANCE = """Classify each entity using one of the following type
 
 Do not extract people, institutions, companies acting as authors, conferences, or venues.
 Do not extract generic placeholders such as "Model", "Method", "Baseline", "Results", "Experiment", "This Paper" or "Proposed Approach"; name the specific thing instead.
+Do not extract anonymous labels that only mean something inside one paper (e.g. "Model A", "Mixture B", "Setting 2", "Variant (iii)"); describe what they stand for in the description of a named entity instead.
 Entity names: use the singular form and the common short name (write "Transformer", not "Transformers" or "Transformer Architecture"). For acronyms, use the acronym as the name when the paper mainly uses it, and put the expansion in the description."""
 
 

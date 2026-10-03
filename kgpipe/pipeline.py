@@ -85,7 +85,7 @@ async def run(args) -> dict:
         use_counters(c_res)
         alias = AliasTable(run_dir / "alias_table.csv")
         rs, merges, pairs = await resolve(rag, llm, alias, run_dir / "resolve_state.json", c_res,
-                                          threshold=args.nn_threshold)
+                                          threshold=args.nn_threshold, strong=args.nn_strong, log_dir=run_dir)
         (run_dir / "merges.json").write_text(json.dumps(merges, indent=1))
         (run_dir / "candidate_pairs.json").write_text(json.dumps(
             [{"pair": sorted(p), "reasons": sorted(r)} for p, r in pairs.items()], indent=1))
@@ -103,7 +103,7 @@ async def run(args) -> dict:
                                             "direct_llm_tokens": dict(llm7.tokens)}
         stage("graph_clean", stoplist_removed=len(gr["stoplist_removed"]),
               self_loops=len(gr["self_loops_removed"]), condensed=len(gr["condensed"]),
-              low_evidence=len(gr["low_evidence"]), hubs_several=sum(h["verdict"] == "several" for h in gr["hubs"]),
+              low_evidence=len(gr["low_evidence"]), paper_local_renamed=len(gr["paper_local_renamed"]), hubs_several=sum(h["verdict"] == "several" for h in gr["hubs"]),
               llm_calls=llm7.calls)
 
         # 8. Quality report and review sheets.
@@ -135,6 +135,8 @@ def main():
     ap.add_argument("--embed-dim", type=int, default=768)
     ap.add_argument("--llm-model", default="gemini-3.8-flash")
     ap.add_argument("--nn-threshold", type=float, default=0.85)
+    ap.add_argument("--nn-strong", type=float, default=0.90,
+                    help="vector-only candidates need this similarity; lexical ones need --nn-threshold")
     ap.add_argument("--hubs", type=int, default=50)
     ap.add_argument("--stoplist", default="config/stoplist.txt")
     ap.add_argument("--stop-after", choices=["ingest"], default=None)

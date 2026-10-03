@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import random
+import re
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
@@ -18,10 +19,9 @@ HUB_SCHEMA = {
     "properties": {
         "verdict": {"type": "STRING", "enum": ["one", "several"]},
         "senses": {"type": "ARRAY", "items": {"type": "STRING"}},
-        "generic": {"type": "BOOLEAN"},
         "reason": {"type": "STRING"},
     },
-    "required": ["verdict", "senses", "generic", "reason"],
+    "required": ["verdict", "senses", "reason"],
 }
 
 
@@ -54,6 +54,21 @@ async def clean_graph(rag, llm, stoplist_path: Path, hubs: int = 50, summary_min
             await rag.adelete_by_relation(n, n)
             loops.append(n)
     report["self_loops_removed"] = loops
+
+    # Paper-local labels ("Model A", "Mixture B") collide by exact name across papers.
+    # Rename those found in exactly one paper to carry the arXiv ID.
+    local = re.compile(r"^(model|mixture|setting|variant|config(uration)?|system|method|baseline|"
+                       r"dataset|split|run|group|case|condition|arm)\s+([a-z]|\d{1,2}|[ivx]{1,4})$", re.I)
+    renamed = []
+    for n, e in list(ents.items()):
+        papers = {Path(f).stem for f in e.file_paths}
+        if local.match(n) and len(papers) == 1:
+            new = f"{n} ({papers.pop()})"
+            if not await g.has_node(new):
+                await rag.aedit_entity(n, {"entity_name": new}, allow_rename=True)
+                renamed.append({"from": n, "to": new})
+                ents[new] = ents.pop(n)
+    report["paper_local_renamed"] = renamed
 
     # Condense merged nodes with many description fragments.
     from lightrag.operate import _handle_entity_relation_summary
